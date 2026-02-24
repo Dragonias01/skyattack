@@ -1,11 +1,11 @@
 {
-  "ambient_light": 0,
-  "bed_works": true,
+  "ambient_light": 1,
   "coordinate_scale": 1,
-  "effects": "minecraft:overworld",
-  "has_ceiling": true,
-  "has_raids": true,
+  "has_ceiling": false,
   "has_skylight": true,
+  "has_fixed_time": false,
+  "skybox": "overworld",
+  "cardinal_light": "default",
   "height": 384,
   "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 384,
@@ -15,7 +15,5 @@
     "type": "minecraft:uniform",
     "max_inclusive": 7,
     "min_inclusive": 0
-  },
-  "piglin_safe": false,
-  "respawn_anchor_works": false
+  }
 }
