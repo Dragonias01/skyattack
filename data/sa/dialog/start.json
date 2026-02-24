@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "player": {
+      "name": "Dragonias01"
+    },
+    "extra": [
+      {
+        "text": " [Guide]",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Tutorial Text"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "möchtest du eine insel haben?"
+      },
+      "width": 70
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "wait_for_response",
+  "action": {
+    "label": {
+      "text": "Los Gehts",
+      "type": "text",
+      "color": "dark_green"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:island/island_decide"
+    }
+  }
+}

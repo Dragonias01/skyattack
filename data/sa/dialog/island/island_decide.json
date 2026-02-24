@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Start"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Wohin Soll es Gehen?"
+    }
+  },
+  "inputs": [],
+  "button_width": 100,
+  "dialogs": [
+    "sa:island/create"
+  ]
+}

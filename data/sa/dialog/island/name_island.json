@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Erstellen"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Es sind noch: ",
+        "extra": [
+          {
+            "score": {
+              "objective": "setup1",
+              "name": "server"
+            },
+            "extra": [
+              {
+                "text": "/9",
+                "extra": [
+                  {
+                    "text": " Slots da.",
+                    "color": "white"
+                  }
+                ],
+                "color": "green"
+              }
+            ],
+            "color": "green"
+          }
+        ]
+      }
+    }
+  ],
+  "inputs": [],
+  "after_action": "close",
+  "yes": {
+    "label": {
+      "text": "Start",
+      "color": "green"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger island set 1"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "Cancel",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "function sa:tick"
+    }
+  }
+}
