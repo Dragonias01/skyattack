@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "yx",
+    "xy"
+  ],
+  "key": {
+    "x": [
+      "minecraft:wheat_seeds"
+    ],
+    "y": [
+      "minecraft:moss_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:grass_block",
+    "components": {},
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": [
+      "minecraft:vine"
+    ],
+    "y": [
+      "minecraft:bamboo_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:moss_block",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Water Bottle",
+        "italic": false
+      }
+    }
+  }
+}

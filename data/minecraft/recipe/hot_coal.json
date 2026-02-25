@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "minecraft:blackstone",
+  "result": {
+    "id": "minecraft:magma_block",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Magma",
+        "color": "gray",
+        "italic": false
+      }
+    }
+  },
+  "cookingtime": 10
+}

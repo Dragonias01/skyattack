@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "minecraft:basalt",
+  "result": {
+    "id": "minecraft:blackstone",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "HarteKohle",
+        "color": "gray",
+        "italic": false
+      }
+    }
+  },
+  "cookingtime": 10
+}

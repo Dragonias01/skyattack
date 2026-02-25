@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:magma_cube_spawn_egg",
+    "minecraft:bucket"
+  ],
+  "result": {
+    "id": "minecraft:lava_bucket",
+    "components": {
+      "minecraft:item_name": "compressed_stone"
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:dirt"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": "minecraft:water"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "yxy",
+    "xyx"
+  ],
+  "key": {
+    "x": "minecraft:cobblestone",
+    "y": "minecraft:gravel"
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "components": {},
+    "count": 1
+  }
+}

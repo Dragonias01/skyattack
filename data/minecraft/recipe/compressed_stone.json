@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": [
+      "minecraft:cobblestone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Compressed Stone",
+        "color": "green",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Komprimierter Stein",
+          "color": "gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Uncommon",
+          "color": "green",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:item_name": "compressed_stone"
+    },
+    "count": 1
+  }
+}

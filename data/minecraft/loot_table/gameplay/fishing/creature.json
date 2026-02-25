@@ -7,13 +7,29 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:guardian_spawn_egg",
-          "weight": 100,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
                 "text": "guardian"
+              },
+              "target": "item_name",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_spawn_egg",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "spawn_slime"
               },
               "target": "item_name",
               "conditions": []
