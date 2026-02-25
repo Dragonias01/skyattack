@@ -34,3 +34,4 @@ scoreboard players set server i8 0
 
 #haupt insel
 place template sa:main_island -25 67 -14
+fill -13 66 7 0 66 -5 minecraft:light[level=0] replace air

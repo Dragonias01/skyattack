@@ -92,17 +92,17 @@ Verzauberte Bücher  | Einfach   | Einfach   | villager                         
 BLÖCKE & BAUMATERIALIEN
 ================================================================================
 
-Erde                    | Unmöglich     | Einfach   | -                            | Rezept hinzufügen              | ☐
+Erde                    | Unmöglich     | Einfach   | -                            | Rezept hinzufügen              | X
 Rasen-Block             | Unmöglich     | Einfach   | -                            | Rezept hinzufügen              | ☐
 Schleimblock            | Unmöglich     | Mittel    | Wandering Trader             | Angeln?                        | ☐
 Dripstone-Block         | Unmöglich     | Mittel    | Dripstone x3 (STARTER)       | Für Lava-Farm notwendig        | ☐
 Moosblock               | Unmöglich     | Schwierig | Moosblöcke farmen            | In Höhlen                      | ☐
-Amethyst-Block          | Unmöglich    | Mittel     | Amethyst-Kristalle sammeln   | In Höhlen                      | ☐
-Obsidian                | Schwierig    | Schwierig  | Lava (STARTER) + Wasser      | Nach Regen erreichbar          | ☐
-Purpur-Block            | Schwierig    | Mittel     | The End-Skyblock erkunden    | -                              | ☐
-Endstein                | Unmöglich    | Mittel     | The End-Skyblock erkunden    | -                              | ☐
-Blackstone              | Schwierig    | Mittel     | -                            | Kreativ Werden                 | ☐
-Gilded-Blackstone       | Schwierig    | Schwierig  | -                            | Kreativ Werden                 | ☐
+Amethyst-Block          | Unmöglich     | Mittel    | Amethyst-Kristalle sammeln   | In Höhlen                      | ☐
+Obsidian                | Schwierig     | Schwierig | Lava (STARTER) + Wasser      | Nach Regen erreichbar          | ☐
+Purpur-Block            | Schwierig     | Mittel    | The End-Skyblock erkunden    | -                              | ☐
+Endstein                | Unmöglich     | Mittel    | The End-Skyblock erkunden    | -                              | ☐
+Blackstone              | Schwierig     | Mittel    | -                            | Kreativ Werden                 | ☐
+Gilded-Blackstone       | Schwierig     | Schwierig | -                            | Kreativ Werden                 | ☐
 
 
 SPEZIAL-ITEMS & EDELSTEINE
