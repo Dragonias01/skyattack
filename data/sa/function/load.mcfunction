@@ -1,20 +1,29 @@
-#Check up ob Start Variable da ist
+# ============================================================================
+# LOAD FUNCTION - Initialisierung des Datapacks
+# Wird einmalig beim Laden des Servers ausgeführt
+# Version: 1.21.11
+# ============================================================================
+
+# Basis-Variablen
 scoreboard objectives add one dummy
 scoreboard players set server one 1
 
+# Setup-Tracking
 scoreboard objectives add setup1 dummy
 execute unless score server setup1 = server one run function sa:setup/main
 
-#timer
+# Timer für Actionbar (basierend auf Play-Time)
 scoreboard objectives add timer minecraft.custom:minecraft.play_time
 
-
-#Dungeon Setup
+# Dungeon-Setup-Status
 scoreboard objectives add setup2 dummy
 
+# Temporäre Berechnungen
 scoreboard objectives add temp dummy
 
-#Island Slots
+# ============================================================================
+# ISLAND SYSTEM SCOREBOARDS
+# ============================================================================
 scoreboard objectives add slots dummy
 scoreboard objectives add i1 dummy
 scoreboard objectives add i2 dummy
@@ -25,23 +34,33 @@ scoreboard objectives add i6 dummy
 scoreboard objectives add i7 dummy
 scoreboard objectives add i8 dummy
 
-#trigger
+# Trigger für Island-Erstellung
 scoreboard objectives add island trigger
 scoreboard objectives add current dummy
 
-#NPC
+# ============================================================================
+# NPC SYSTEM
+# ============================================================================
 function sa:setup/npc
 
-# ==========================================
-#              FISHING SYSTEM
-# ==========================================
+# ============================================================================
+# FISHING SYSTEM - Scoreboards
+# ============================================================================
 
-scoreboard objectives add fishing_xp dummy "Mining XP"
-scoreboard objectives add fishing_lvl dummy "Mining Level"
-scoreboard objectives add fishing_goal dummy "Mining Goal"
-scoreboard objectives add fishing_drop dummy "Stein Ertrag"
-scoreboard objectives add fishing_rng_numm dummy "Random number"
-scoreboard objectives add f_Drops dummy "Dropchance"
-scoreboard objectives add f_drop_menge dummy "drop menge"
-scoreboard objectives add monster_chance dummy "drop menge"
-scoreboard objectives add fished_total dummy "gesammt gefischt"
+# Fishing XP und Level Tracking (Pro Spieler)
+scoreboard objectives add fishing_xp dummy "Fishing XP"
+scoreboard objectives add fishing_lvl dummy "Fishing Level"
+scoreboard objectives add fishing_goal dummy "Fishing Goal"
+
+# Server-Config-Werte (Global, einmalig gesetzt)
+scoreboard objectives add max_level dummy "Max Fishing Level"
+scoreboard objectives add fishing_drop dummy "Fishing Drop Multiplier"
+scoreboard objectives add fishing_drop_base dummy "Fishing Drop Base"
+scoreboard objectives add fishing_multiplier_num dummy "Fishing Goal Multiplier (Numerator)"
+scoreboard objectives add fishing_multiplier_den dummy "Fishing Goal Multiplier (Denominator)"
+scoreboard objectives add fishing_goal_start dummy
+# Setup-Tracking für Fishing System
+scoreboard objectives add fishing_initialized dummy "Fishing Setup Initialized"
+
+# Initialisiere Config-Werte (falls noch nicht gesetzt)
+execute unless score server fishing_initialized = server one run function sa:setup/fishing
