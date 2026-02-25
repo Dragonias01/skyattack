@@ -31,3 +31,6 @@ scoreboard players set server i7 0
 #insel8
 setblock 250 99 250 minecraft:bedrock
 scoreboard players set server i8 0
+
+#haupt insel
+place template sa:main_island -25 67 -14
