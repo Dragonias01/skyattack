@@ -1,0 +1,3 @@
+#custom mob #1 placeholder 5%
+execute as @e[type=item,nbt={Item:{id:"minecraft:guardian_spawn_egg",components:{"minecraft:item_name":"guardian"}}}] at @s run summon guardian ~ ~ ~
+execute as @e[type=item,nbt={Item:{id:"minecraft:guardian_spawn_egg",components:{"minecraft:item_name":"guardian"}}}] run kill @e[type=item,nbt={Item:{id:"minecraft:guardian_spawn_egg",components:{"minecraft:item_name":"guardian"}}}]

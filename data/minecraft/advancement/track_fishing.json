@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "sa:skill/fishing/fish"
+  }
+}
