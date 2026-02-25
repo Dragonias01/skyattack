@@ -1,0 +1,1 @@
+give @a command_block[custom_name=[{"text":"Menue","bold":true,"italic":false,"color":"gold"}],item_name="menue",food={nutrition:0,saturation:0,can_always_eat:1b},consumable={consume_seconds:99999,animation:none,has_consume_particles:0b},item_model="minecraft:clock"]

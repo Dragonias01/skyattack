@@ -13,20 +13,7 @@
             "score": {
               "objective": "setup1",
               "name": "server"
-            },
-            "extra": [
-              {
-                "text": "/9",
-                "extra": [
-                  {
-                    "text": " Slots da.",
-                    "color": "white"
-                  }
-                ],
-                "color": "green"
-              }
-            ],
-            "color": "green"
+            }
           }
         ]
       }
@@ -51,7 +38,7 @@
     },
     "action": {
       "type": "minecraft:run_command",
-      "command": "function sa:tick"
+      "command": "say hi"
     }
   }
 }

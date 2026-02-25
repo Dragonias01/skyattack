@@ -1,0 +1,43 @@
+# Prüfe ob die Uhr im richtigen Slot ist
+execute as @a unless data entity @s Inventory[{Slot:8b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:0b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:1b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:2b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:3b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:4b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:5b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:6b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:7b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:9b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:10b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:11b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:12b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:13b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:14b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:15b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:16b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:17b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:18b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:19b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:20b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:21b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:22b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:23b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:24b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:25b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:26b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:27b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:28b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:29b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:30b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:31b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:32b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:33b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:34b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:35b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:100b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:101b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:102b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if data entity @s Inventory[{Slot:103b,components:{"minecraft:item_name":"menue"}}] run function sa:item/reset/menue
+execute as @a if items entity @s hotbar.8 command_block[count~{min:2}] run function sa:item/reset/menue
+kill @e[type=item,nbt={Item:{components:{"minecraft:item_name":"menue"}}}]
