@@ -1,6 +1,16 @@
+#============================================================================
+# MINING SYSTEM - XP VERGABE
+# Wird aufgerufen von: sa:skill/mining/mine.mcfunction
+# Version: 1.21.11
+# ============================================================================
+
 
 # timer Für die Action bar 
 scoreboard players set @s timer 0
+
+# 1. Fallback: Wenn Goal nicht initialisiert, setze auf 100
+execute unless score @s mining_goal matches 1.. run scoreboard players set @s mining_goal 100
+
 
 
 scoreboard players set @s m_xp_gain 100

@@ -15,7 +15,7 @@ execute as @a[scores={fishing_xp=0..}] unless score @s fishing_lvl >= server max
 # Wird aufgerufen von: sa:tick
 # ============================================================================
 
-function sa:skill/mining/mine
 
 #Lvl check
-execute unless score @s mining_lvl >= server max_level run execute if score @s mining_xp >= @s mining_goal run function sa:skill/mining/lvl/lvlup
+execute as @a[scores={mining_xp=0..}] unless score @s mining_lvl >= server max_level run execute if score @s mining_xp >= @s mining_goal run function sa:skill/mining/lvl/lvlup
+function sa:skill/mining/mine

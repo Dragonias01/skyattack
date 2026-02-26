@@ -3,7 +3,7 @@
 #steuerung der actionbar
 #execute as @a[scores={timer=1000..}] run function spass:actionbar/a_stats
 
-#execute as @a[scores={timer=0..80}] run function spass:actionbar/a_mining
+execute as @a[scores={timer=0..80}] run function sa:actionbar/mining
 execute as @a[scores={timer=81..89}] run scoreboard players set @s timer 1000
 
 

@@ -64,3 +64,10 @@ scoreboard objectives add fishing_initialized dummy "Fishing Setup Initialized"
 
 # Initialisiere Config-Werte (falls noch nicht gesetzt)
 execute unless score server fishing_initialized = server one run function sa:setup/fishing
+
+# ============================================================================
+# MINING SYSTEM - Setup
+# ============================================================================
+
+scoreboard objectives add mining_initialized dummy "Mining Setup Initialized"
+execute unless score server mining_initialized = server one run function sa:setup/mining
