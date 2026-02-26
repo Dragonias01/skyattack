@@ -421,3 +421,15 @@ ZIEL:
 → Sollte für Spieler erreichbar sein
 
 
+Known bug:
+- Wenn Spieler menü öffnen und andere item in der hand haben öffnet sich dass menü bei denen [Fixed]
+
+- inselvergabe Spielorientier und nicht serverorientiert [Fixed]
+
+- Action bar bug [Fixed]
+
+- Player initializing by first join []
+
+- Player spawn bei insel erstellung [Fixed]
+
+- Angel system funktioniert auch bei nicht angeln []
