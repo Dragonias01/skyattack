@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/book",
+    "extra": [
+      {
+        "text": " Wiki",
+        "color": "aqua"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Hier Steht viel Nützliches Wissen! ",
+        "extra": [
+          {
+            "atlas": "minecraft:items",
+            "sprite": "minecraft:item/knowledge_book"
+          }
+        ]
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "dialogs": [
+    "sa:menue/wiki/inseln",
+    "sa:menue/wiki/dirt",
+    "sa:menue/wiki/fishing",
+    "sa:menue/wiki/dirty_water",
+    "sa:menue/wiki/lava",
+    "sa:menue/wiki/smithing_table",
+    "sa:menue/wiki/moss"
+  ]
+}

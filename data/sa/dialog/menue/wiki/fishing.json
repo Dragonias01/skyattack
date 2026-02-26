@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/fishing_rod",
+    "extra": [
+      {
+        "text": " Fishing",
+        "color": "dark_aqua"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Angelsystem hat ein umfangreiches Update erhalten! Angeln ist eine der wichtigsten Mechaniken in diesem Skyblock – viele Items, Ressourcen und Überraschungen lassen sich nur durch geduldiges Angeln erhalten. Alle Lootpools wurden deutlich erweitert, es lohnt sich also, die Angel öfter auszuwerfen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Creature Spawning:",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Neu hinzugekommen ist ein spezieller Creature-Lootpool. Beim Angeln besteht nun eine Chance, dass anstelle eines normalen Items eine Kreatur gespawnt wird. Welche Mobs dabei auftauchen können, hängt vom Biom ab, in dem du angelst – es lohnt sich also, verschiedene Gebiete zu erkunden. Manche seltenen Mobs lassen sich ausschließlich über diesen Weg erhalten."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Chance:"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:guardian_spawn_egg"
+      },
+      "description": {
+        "text": " Closed Water: ??% | Open Water:??% |Biome:?"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:slime_spawn_egg"
+      },
+      "description": {
+        "text": "Closed Water: ??% | Open Water:??% |Biome:?"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Schließen",
+      "click_event": {
+        "action": "show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
+    }
+  }
+}

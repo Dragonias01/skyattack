@@ -11,3 +11,9 @@ function sa:actionbar/actionbar
 
 function sa:skill/fishing/events/summon_creature
 function sa:skill/update_xp
+
+#Menue check
+execute as @a unless predicate sa:menue if score @s menue_open matches 1 run scoreboard players set @s menue_open 0
+
+
+execute as @a[scores={menue=1..}] run function sa:menue/compiler

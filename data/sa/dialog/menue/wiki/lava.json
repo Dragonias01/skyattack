@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/lava_bucket",
+    "extra": [
+      {
+        "text": " Lava",
+        "color": "gold"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:lava_bucket",
+        "count": 1
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Lava ist eine der seltensten und wertvollsten Ressourcen in diesem Skyblock. Sie wird zum Schmelzen, als Falle oder zur Cobblestone-Generator-Erweiterung benötigt. Geh äußerst vorsichtig damit um – einmal verschüttet, ist sie schwer zurückzubekommen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Lava erhalten:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Rezept für einen Lava-Eimer ist... ungewöhnlich. Du benötigst einen leeren Eimer – und eine weitere Zutat, die du vielleicht nicht sofort erwartest. Irgendetwas... Feuriges. Etwas das aus der Tiefe stammt. Wer genau hinsieht und die richtigen Kreaturen kennt, wird früher oder später den richtigen Weg finden."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept: ",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "gold"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bucket",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bucket"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/magma_cube_spawn_egg",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:magma_cube_spawn_egg",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Magma Cube Spawn Egg"
+            }
+          }
+        }
+      },
+      "width": 20
+    }
+  ]
+}

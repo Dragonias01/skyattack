@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Dirty Water ",
+    "extra": [
+      {
+        "player": {
+          "name": "dirt"
+        }
+      }
+    ],
+    "color": "dark_green"
+  },
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Schließen"
+    }
+  }
+}

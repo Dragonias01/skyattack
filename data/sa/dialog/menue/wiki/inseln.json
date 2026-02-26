@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Inseln ",
+    "extra": [
+      {
+        "player": {
+          "name": "cake"
+        }
+      }
+    ],
+    "color": "dark_green"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Du befindest dich auf deiner persönlichen Insel - einem isolierten Himmelreich, das ganz allein dir gehört. Hier kannst du bauen, farmen und dein eigenes Abenteuer erschaffen!"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Skyblock Grundkonzept:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Du startest mit minimalen Ressourcen auf einer kleinen Insel in der Leere. Durch geschicktes Sammeln, Farmen und Handeln musst du deine Insel erweitern und verbessern. Nutze verfügbare Rohstoffe, züchte Tiere und Pflanzen, um immer stärkere Werkzeuge und Strukturen zu bauen. Der Himmel ist die Grenze - werde so mächtig wie möglich!"
+      },
+      "width": 200
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Zurück"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  }
+}

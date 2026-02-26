@@ -3,36 +3,9 @@
   "title": {
     "text": "Erstellen"
   },
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "Es sind noch: ",
-        "extra": [
-          {
-            "score": {
-              "objective": "slots",
-              "name": "server"
-            },
-            "extra": [
-              {
-                "text": "/8",
-                "extra": [
-                  {
-                    "text": " Slots da.",
-                    "color": "white"
-                  }
-                ],
-                "color": "green"
-              }
-            ],
-            "color": "green"
-          }
-        ]
-      }
-    }
-  ],
+  "body": [],
   "inputs": [],
+  "can_close_with_escape": true,
   "after_action": "close",
   "yes": {
     "label": {
@@ -50,8 +23,8 @@
       "color": "red"
     },
     "action": {
-      "type": "minecraft:run_command",
-      "command": "function sa:tick"
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:island/island_decide"
     }
   }
 }

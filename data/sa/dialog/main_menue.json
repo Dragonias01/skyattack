@@ -1,14 +1,37 @@
 {
-  "type": "minecraft:notice",
+  "type": "minecraft:multi_action",
   "title": {
-    "text": "Hauptmenue"
+    "text": "[Player menue] ",
+    "color": "yellow"
   },
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
-  "action": {
-    "label": {
-      "text": "Schließen"
+  "actions": [
+    {
+      "label": {
+        "text": "Skills"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 2"
+      }
+    },
+    {
+      "label": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/book",
+    "extra": [
+      {
+        "text": " Wiki",
+        "color": "aqua"
+      }
+    ]
+  },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
     }
-  }
+  ]
 }
