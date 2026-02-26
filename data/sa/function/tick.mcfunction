@@ -16,4 +16,6 @@ function sa:skill/update_xp
 execute as @a unless predicate sa:menue if score @s menue_open matches 1 run scoreboard players set @s menue_open 0
 scoreboard players enable @a menue
 
+execute as @a[scores={player_initialized=..0}] run function sa:setup/player_init
+
 execute as @a[scores={menue=1..}] run function sa:menue/compiler

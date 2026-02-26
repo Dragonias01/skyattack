@@ -1,0 +1,35 @@
+# ============================================================================
+# PLAYER INIT - Wird beim ersten Join eines Spielers ausgeführt
+# Setzt alle Skill-Werte auf Startwerte (0 oder Standardwert)
+# ============================================================================
+
+# --- FISHING ---
+scoreboard players set @s fishing_xp 0
+scoreboard players set @s fishing_lvl 0
+scoreboard players set @s fishing_goal 100
+
+# --- MINING ---
+scoreboard players set @s mining_xp 0
+scoreboard players set @s mining_lvl 0
+scoreboard players set @s mining_goal 100
+scoreboard players set @s m_Drops 0
+scoreboard players set @s m_drop_menge 0
+scoreboard players set @s m_xp_gain 0
+scoreboard players set @s m_pickaxe_gain 0
+
+# --- ISLAND ---
+scoreboard players set @s slots 0
+scoreboard players set @s i1 0
+scoreboard players set @s i2 0
+scoreboard players set @s i3 0
+scoreboard players set @s i4 0
+scoreboard players set @s i5 0
+scoreboard players set @s i6 0
+scoreboard players set @s i7 0
+scoreboard players set @s i8 0
+
+# --- MENU ---
+scoreboard players set @s menue_open 0
+
+# --- INIT-FLAG setzen (damit diese Funktion nicht nochmal läuft) ---
+scoreboard players set @s player_initialized 1

@@ -428,7 +428,7 @@ Known bug:
 
 - Action bar bug [Fixed]
 
-- Player initializing by first join []
+- Player initializing by first join [Fixed]
 
 - Player spawn bei insel erstellung [Fixed]
 

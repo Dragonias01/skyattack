@@ -21,6 +21,7 @@ scoreboard objectives add setup2 dummy
 # Temporäre Berechnungen
 scoreboard objectives add temp dummy
 
+scoreboard objectives add player_initialized dummy
 # ============================================================================
 # ISLAND SYSTEM SCOREBOARDS
 # ============================================================================
@@ -71,6 +72,7 @@ execute unless score server fishing_initialized = server one run function sa:set
 
 scoreboard objectives add mining_initialized dummy "Mining Setup Initialized"
 execute unless score server mining_initialized = server one run function sa:setup/skills/mining
+
 
 
 #Menue

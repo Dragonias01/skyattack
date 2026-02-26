@@ -2,7 +2,13 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {}
+      "conditions": {
+        "item": {
+          "count": {
+            "min": 1
+          }
+        }
+      }
     }
   },
   "rewards": {
