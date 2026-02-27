@@ -1,4 +1,4 @@
-scoreboard players set @s island 0
+scoreboard players set @s itrigger 0
 scoreboard players set server current 1
 
 #insel8 250 99 250
