@@ -1,6 +1,7 @@
 
 #InselWahl
-execute as @a[scores={island=1}] run function sa:island/create
+execute as @a[scores={itrigger=100}] run function sa:island/create
+execute as @a[scores={itrigger=21..28}] run function sa:island/join
 
 function sa:item/reset/check
 function sa:actionbar/actionbar

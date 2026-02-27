@@ -36,8 +36,10 @@ scoreboard objectives add i7 dummy
 scoreboard objectives add i8 dummy
 
 # Trigger für Island-Erstellung
-scoreboard objectives add island trigger
+scoreboard objectives add itrigger trigger
+scoreboard objectives add island dummy
 scoreboard objectives add current dummy
+
 
 # ============================================================================
 # NPC SYSTEM

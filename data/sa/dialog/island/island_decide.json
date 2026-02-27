@@ -12,6 +12,7 @@
   "inputs": [],
   "button_width": 100,
   "dialogs": [
-    "sa:island/create"
+    "sa:island/create",
+    "sa:island/join_island"
   ]
 }

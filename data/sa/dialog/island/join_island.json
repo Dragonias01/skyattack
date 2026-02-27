@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/ender_eye",
+    "extra": [
+      {
+        "text": " Beitreten",
+        "color": "white"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wähle eine Insel um ihr zu joinen."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": {"text": "1"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 21"},
+      "width": 20
+    },
+    {
+      "label": {"text": "2"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 22"},
+      "width": 20
+    },
+    {
+      "label": {"text": "3"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 23"},
+      "width": 20
+    },
+    {
+      "label": {"text": "4"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 24"},
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/grass_block_side"
+      },
+      "width": 20
+    },
+    {
+      "label": {"text": "5"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 25"},
+      "width": 20
+    },
+    {
+      "label": {"text": "6"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 26"},
+      "width": 20
+    },
+    {
+      "label": {"text": "7"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 27"},
+      "width": 20
+    },
+    {
+      "label": {"text": "8"},
+      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 28"},
+      "width": 20
+    }
+  ]
+}

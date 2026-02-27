@@ -14,7 +14,7 @@
     },
     "action": {
       "type": "minecraft:run_command",
-      "command": "trigger island set 1"
+      "command": "trigger itrigger set 100"
     }
   },
   "no": {
