@@ -74,8 +74,8 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 #insel1 0 99 -500
 execute if score server current matches 1 run scoreboard players set server current 0
+execute if score server current matches 0 unless score server i1 matches 1 run tp @s 0 115 -500
 execute if score server current matches 0 unless score server i1 matches 1 run place template sa:island -2 99 -502
-execute if score server current matches 0 unless score server i1 matches 1 run tp @s 0 108 -500
 execute if score server current matches 0 unless score server i1 matches 1 run spawnpoint @s 0 108 -500
 execute if score server current matches 0 unless score server i1 matches 1 run say Insel 1
 execute if score server current matches 0 unless score server i1 matches 1 run scoreboard players set server slots 7

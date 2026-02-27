@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:guardian_spawn_egg",
-          "weight": 1,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -23,7 +23,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_spawn_egg",
-          "weight": 100,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_name",

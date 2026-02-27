@@ -10,7 +10,7 @@ scoreboard players set server one 1
 
 # Setup-Tracking
 scoreboard objectives add setup1 dummy
-execute unless score server setup1 = server one run function sa:setup/main
+execute unless score server setup1 matches 1 run function sa:setup/main
 
 # Timer für Actionbar (basierend auf Play-Time)
 scoreboard objectives add timer minecraft.custom:minecraft.play_time

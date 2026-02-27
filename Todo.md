@@ -1,49 +1,56 @@
 ================================================================================
-                    SKYBLOCK TODO-LISTE - 1.21.11
-         Format: Item | Schwierigkeit | Ziel | Dependency | Notiz | ☐
+                    SKYBLOCK TODO-LISTE - JAVA 1.21.11
+         Format: Item | Schwierigkeit | Ziel | Dependency | Notiz | Status
+
+         Legende:
+           ☐  = Offen / Noch nicht implementiert
+           X  = Implementiert / Erledigt
+           WT = Lösbar via Wandering Trader
 ================================================================================
+
 
 WASSER & FLÜSSIGKEITEN
 ================================================================================
 
-Wasser          | Schwierig        | Mittel      | Regen spawnen              | Vereinfachen!                       | ☐
-Eimer           | SChwierig        | Schwierig   | Eisen (Zombie-Farm)        | Vereinfachen?                       | ☐
-Lava            | Unmöglich        | Schwierig   | -                          | Crafting Recepie                    | ☐
+Wasser          | Schwierig        | Mittel      | Regen spawnen              | Regen                                | X
+Eimer           | Schwierig        | Schwierig   | Eisen (Zombie-Farm)        |                                      | x
+Lava            | Unmöglich        | Schwierig   | -                          | Rezept da                            | x
 
 
 MOB-DROPS - PASSIVE TIERE
 ================================================================================
 
-Eier            | Mittel           | Einfach     | -                           | Angeln?                            | ☐
+Eier            | Mittel           | Einfach     | -                          | Angeln?                              | ☐
 
 
 MOB-DROPS - HOSTILE MOBS (OVERWORLD)
 ================================================================================
 
-Eisen (Zombie-Drop)  | Schwierig      | Schwierig | Zombie-Farm            | Angeln?                                | ☐
-Kupfer (Drowned)     | Schwierig      | Schwierig | Drowned-Farm , Wasser  | Alternative finden :D                  | ☐
-Redstone (Hexen)         | Sehr Schwierig | Schwierig | Witch drop            | Alternativ Weg Finden?              | ☐
+Eisen (Zombie-Drop)  | Schwierig   | Schwierig   | Zombie-Farm                | Angeln?                              | ☐
+Kupfer (Drowned)     | Schwierig   | Schwierig   | Drowned-Farm, Wasser       | Alternative finden                   | ☐
+Redstone (Hexen)     | Sehr Schwierig | Schwierig | Witch-Drop                 | Alternativer Weg finden?            | ☐
+
 
 MOB-DROPS - NETHER MOBS
 ================================================================================
 
-Gold-Barren (Piglin)     | Schwierig      | Schwierig | Nether                | Durch Angeln Ermöglichen?           | ☐
-Blaze-Stab               | Unmöglich      | Schwierig | -                     | Dungeon?                            | ☐
-Netherwarze              | Unmöglich      | Schwierig | -                     | Trading Dungeon oder Angeln.        | ☐
-Wither-Schädel           | Unmöglich?     | Schwierig | -                     | Dungeon                             | ☐
-Soul-Sand                | Schwierig      | Mittel    | Piglin Bartering      | so Lassen                           | ☐
-Soul-Erde                | Schwierig      | Mittel    | -                     |  Bei Bartering hinzufügen           | ☐
-Glowstone                | Mittel         | Mittel    | (Witch)               | Bartering?                          | ☐
-Crying-Obsidian          | Mittel         | Mittel    | Bartering             | so lassen?                          | ☐
-Ancient-Debris           | Unmöglich      | Schwierig | -                     | Boss drop?                          | ☐
-Netherit-Schrott         | Unmöglich      | Schwierig | Ancient Debris        | -                                   | ☐
+Gold-Barren (Piglin)     | Schwierig      | Schwierig | Nether                | Durch Angeln ermöglichen?            | ☐
+Blaze-Stab               | Unmöglich      | Schwierig | -                     | Dungeon?                             | ☐
+Netherwarze              | Unmöglich      | Schwierig | -                     | Trading, Dungeon oder Angeln         | ☐
+Wither-Schädel           | Unmöglich?     | Schwierig | -                     | Dungeon                              | ☐
+Soul-Sand                | Schwierig      | Mittel    | Piglin Bartering       | So lassen                           | ☐
+Soul-Erde                | Schwierig      | Mittel    | -                     | Bei Bartering hinzufügen             | ☐
+Glowstone                | Mittel         | Mittel    | Wandering Trader       | witch                               | X
+Crying-Obsidian          | Mittel         | Mittel    | Bartering              | So lassen                           | ☐
+Ancient-Debris           | Unmöglich      | Schwierig | -                     | Boss-Drop?                           | ☐
+Netherit-Schrott         | Unmöglich      | Schwierig | Ancient Debris         | -                                   | ☐
 
 
 MOB-DROPS - THE END MOBS
 ================================================================================
 
-Drachenei             | Schwierig      | Schwierig | Dragon-Boss besiegen  | -                                      | ☐
-End-Stab              | Schwierig      | Mittel    | chorus + blazerod     | -                                      | ☐
+Drachenei             | Schwierig      | Schwierig | Dragon-Boss besiegen   | -                                     | ☐
+End-Stab              | Schwierig      | Mittel    | Chorus-Frucht + Blazerod | -                                   | ☐
 Shulker-Schale        | Schwierig      | Mittel    | -                     | Dungeon?                               | ☐
 Chorus-Frucht         | Schwierig      | Mittel    | -                     | Dungeon?                               | ☐
 
@@ -51,385 +58,181 @@ Chorus-Frucht         | Schwierig      | Mittel    | -                     | Dun
 LANDWIRTSCHAFT
 ================================================================================
 
-Gras-Block      | Unmöglich        | Einfach     | -                          | Angeln oderso                       | ☐
-Rüben           | Schwierig        | Mittel      | Wandering Trader           | Angeln                              | ☐
-Pilze           | Schwierig        | Mittel      | Wandering Trader           | -                                   | ☐
-Seetang         | Schwierig        | Mittel      | Wandering Trader           | Angeln                              | ☐
-Kürbis          | Schwierig        | Mittel      | Wandering Trader           | Angeln                              | ☐
-Melone          | Schwierig        | Mittel      | Wandering Trader           | Angeln                              | ☐
+Gras-Block      | Unmöglich        | Einfach     | -                         | Angeln o.ä.                          | x
+Rüben           | Schwierig        | Mittel      | Wandering Trader           | WT: Beetroot Seeds, 1 Emerald       | WT
+Pilze           | Schwierig        | Mittel      | Wandering Trader           | WT: Braun & Rot, je 1 Emerald       | WT
+Seetang         | Schwierig        | Mittel      | Wandering Trader           | WT: Kelp 3x für 1 Emerald           | WT
+Kürbis          | Schwierig        | Mittel      | Wandering Trader           | WT: Kürbis 1x für 1 Emerald         | WT
+Melone          | Schwierig        | Mittel      | Wandering Trader           | WT: Melon Seeds für 1 Emerald       | WT
 
 
 SCHMELZEN & OFEN
 ================================================================================
 
-Kohle                | Unmöglich      | Schwierig   | -                         | Rezept hinzufügen                 | ☐
-Stein                | Schwierig      | Schwierig   | lava + Wasser             | -                                 | ☐
-Bruchstein           | Mittel         | Mittel      | lava + Wasser             | -                                 | ☐
-Gebrannte Ziegel     | Schwierig      | Mittel      | Ton + Ofen                | -                                 | ☐
-Gebranneter Ton      | Schwierig      | Mittel      | Ton + Ofen                | -                                 | ☐
-Glas                 | Schwierig      | Schwierig   | Sand + Ofen               | -                                 | ☐
-Schwarzglas          | Schwierig      | Schwierig   | Glas + Tintensack         | -                                 | ☐
-Diamant              | Sehr Schwierig | Schwierig   | -                         | Dungeon?                          | ☐
+Kohle                | Unmöglich      | Schwierig   | -                        | Rezept hinzufügen                  | X
+Stein                | Schwierig      | Schwierig   | Lava + Wasser            | -                                  | X
+Bruchstein           | Mittel         | Mittel      | Lava + Wasser            | -                                  | X
+Gebrannte Ziegel     | Schwierig      | Mittel      | Ton + Ofen               | -                                  | x
+Gebrannter Ton       | Schwierig      | Mittel      | Ton + Ofen               | ton aus dripstone                  | x
+Glas                 | Schwierig      | Schwierig   | Sand + Ofen              | Sand via WT kaufbar → Kette lösbar | X
+Schwarzglas          | Schwierig      | Schwierig   | Glas + Tintensack        | -                                  | ☐
 
 
 TRÄNKE & BRAUEREI
 ================================================================================
 
-Braustand       | Schwierig        | Schwierig   | Blazerod                  |                                      | ☐
-Kessel          | Mittel           | Mittel      | 7x Eisen                  | -                                    | ☐
-Feuerstab       | Schwierig        | Schwierig   | Blaze-Farm im Nether      | -                                    | ☐
-Glowing-Tinte   | Schwierig        | Schwierig   | Glow-Tintenfisch farmen   | -                                    | ☐
-Schwäche-Trank  | Schwierig        | Schwierig   | witch                     | Für Zombie-Dorfbewohner              | ☐
+Braustand       | Schwierig        | Schwierig   | Blazerod                  | -                                     | ☐
+Feuerstab       | Schwierig        | Schwierig   | Blaze-Farm im Nether      | -                                     | ☐
+Glowing-Tinte   | Schwierig        | Schwierig   | Glow-Tintenfisch farmen   | -                                     | ☐
+Schwäche-Trank  | Schwierig        | Schwierig   | Witch                     | Für Zombie-Dorfbewohner heilen        | ☐
 
 
 DORFBEWOHNER & HANDEL
 ================================================================================
 
-Dorfbewohner        | Schwierig | Schwierig | -                                 | -                                 | ☐
-Emeralds            | Einfach   | Einfach   | Villager,Wandering trader         | -                                 | ☐
-Verzauberte Bücher  | Einfach   | Einfach   | villager                          | -                                 | ☐
+Dorfbewohner        | Schwierig | Schwierig | -                                | -                                   | X
+Emeralds            | Einfach   | Einfach   | Villager ODER Wandering Trader   | In Java 1.21.5+ kauft WT auch       | X
+
 
 BLÖCKE & BAUMATERIALIEN
 ================================================================================
 
-Erde                    | Unmöglich     | Einfach   | -                            | Rezept hinzufügen              | X
-Rasen-Block             | Unmöglich     | Einfach   | -                            | Rezept hinzufügen              | ☐
-Schleimblock            | Unmöglich     | Mittel    | Wandering Trader             | Angeln?                        | ☐
-Dripstone-Block         | Unmöglich     | Mittel    | Dripstone x3 (STARTER)       | Für Lava-Farm notwendig        | ☐
-Moosblock               | Unmöglich     | Schwierig | Moosblöcke farmen            | In Höhlen                      | ☐
-Amethyst-Block          | Unmöglich     | Mittel    | Amethyst-Kristalle sammeln   | In Höhlen                      | ☐
-Obsidian                | Schwierig     | Schwierig | Lava (STARTER) + Wasser      | Nach Regen erreichbar          | ☐
-Purpur-Block            | Schwierig     | Mittel    | The End-Skyblock erkunden    | -                              | ☐
-Endstein                | Unmöglich     | Mittel    | The End-Skyblock erkunden    | -                              | ☐
-Blackstone              | Schwierig     | Mittel    | -                            | Kreativ Werden                 | ☐
-Gilded-Blackstone       | Schwierig     | Schwierig | -                            | Kreativ Werden                 | ☐
+Erde                    | Unmöglich     | Einfach   | -                           | Rezept hinzugefügt               | X
+Rasen-Block             | Unmöglich     | Einfach   | -                           | Rezept hinzufügen                | X
+Schleimblock            | Unmöglich     | Mittel    | Wandering Trader            | WT: Slimeball 1x für 4 Emeralds  | WT
+Dripstone-Block         | Unmöglich     | Mittel    | Wandering Trader            | WT: Pointed Dripstone 2x/1 Emrl  | WT
+Moosblock               | Unmöglich     | Schwierig | Wandering Trader            | WT: Moss Block direkt kaufbar    | WT
+Amethyst-Block          | Unmöglich     | Mittel    | Amethyst-Kristalle          | In Höhlen/Geoden                 | ☐
+Obsidian                | Schwierig     | Schwierig | Lava (STARTER) + Wasser     | Nach Regen erreichbar            | ☐
+Purpur-Block            | Schwierig     | Mittel    | The End erkunden            | -                                | ☐
+Endstein                | Unmöglich     | Mittel    | The End erkunden            | -                                | ☐
+Blackstone              | Schwierig     | Mittel    | -                           | Kreativ werden                   | ☐
+Gilded-Blackstone       | Schwierig     | Schwierig | -                           | Kreativ werden                   | ☐
 
 
 SPEZIAL-ITEMS & EDELSTEINE
 ================================================================================
 
-Diamant               | Unmöglich      | Schwierig  | Endermen-Farm The End       | Dungeon, Bossdrop               | ☐
-Amethyst-Kristall     | Unmöglich      | Mittel     | -                           | Angeln, Dungeon                 | ☐
-Kupferbarren          | Schwierig      | Schwierig  | Drowned-Farm im Nether      | Drowned + alternativ weg        | ☐
-Kalzit                | Unmöglich      | Mittel     | -                           | Crafting                        | ☐
-Tuff                  | Unmöglich      | Mittel     | -                           | Crafting                        | ☐
-Deepslate             | Unmöglich      | Mittel     | -                           | Crafting                        | ☐
+Diamant               | Unmöglich      | Schwierig  | Endermen-Farm The End      | Dungeon, Boss-Drop              | ☐
+Amethyst-Kristall     | Unmöglich      | Mittel     | -                          | Angeln, Dungeon                 | ☐
+Kalzit                | Unmöglich      | Mittel     | -                          | Crafting                        | ☐
+Tuff                  | Unmöglich      | Mittel     | -                          | Crafting                        | ☐
+Deepslate             | Unmöglich      | Mittel     | -                          | Crafting                        | ☐
+
 
 BEHÄLTER & LAGERUNG
 ================================================================================
 
-Shulker-Kiste         | Unmöglich      | Schwierig  | Shulker                     | -                               | ☐
+Shulker-Kiste         | Unmöglich      | Schwierig  | Shulker-Schale              | -                              | ☐
+
 
 HOLZ & PFLANZEN
 ================================================================================
 
-Holz (alle Sorten)  | Einfach | Einfach | Wandering Trader                        | -                               | ☐
-
-
-
-================================================================================
-                            DEPENDENCY-CHAINS
-================================================================================
-
-WASSER-ZUGANG:
-└─ Wasser ← Regen spawnen (nach ~20 Min automatisch)
-   └─ Eimer ← 3x Eisen + Crafting
-      └─ Eisen ← Zombie-Farm
-
-LAVA-GEWINNUNG:
-└─ Lava ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   └─ Zutaten je nach Recipe-Design:
-      ├─ Option A: Kupfer + Redstone + Soul-Sand
-      ├─ Option B: Ancient-Debris schmelzen
-      └─ Option C: Piglin Bartering
-
-STEIN-ZUGANG:
-└─ Stein ← Lava + Wasser
-   ├─ Lava ← Crafting Recipe
-   └─ Wasser ← Regen oder Eimer
-
-EISEN-GEWINNUNG:
-└─ Eisen ← Zombie-Farm (5-10% Dropchance)
-   ├─ Zombie-Spawning möglich (natürlich)
-   └─ Braucht: Spawning-Plattform + Schaden-Mechanik
-
-KUPFER-GEWINNUNG:
-└─ Kupfer ← Drowned-Farm im Overworld (mit Wasser)
-   ├─ Drowned-Farm braucht: Große Wasser-Struktur
-   ├─ Drowned spawnen nur in Wasser
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-REDSTONE-GEWINNUNG:
-└─ Redstone ← Witch-Drop (sehr rare)
-   └─ Witch-Farm braucht: Dunkle Räume (low light level)
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-GOLD-ZUGANG (NETHER):
-└─ Gold-Barren ← Piglin Bartering im Nether
-   ├─ Piglin brauchen: Goldblock werfen
-   ├─ Goldblock ← 9x Gold-Barren craften (zirkulär!)
-   └─ Alternative: Angeln im Nether/Overworld (MUSS IMPLEMENTIERT)
-
-BLAZE-STAB-GEWINNUNG:
-└─ Blaze-Stab ← Blaze-Farm UND/ODER Dungeon Loot
-   ├─ Blaze-Farm im Nether (Spawning)
-   └─ Alternative: Dungeon Drop (MUSS IMPLEMENTIERT)
-
-NETHERWARZE-GEWINNUNG:
-└─ Netherwarze ← Wandering Trader UND/ODER Dungeon/Angeln
-   ├─ Wandering Trader spawn regelmäßig
-   └─ Alternative: Dungeon Loot oder Angeln (MUSS IMPLEMENTIERT)
-
-WITHER-SCHÄDEL-GEWINNUNG:
-└─ Wither-Schädel ← Dungeon Loot (MUSS IMPLEMENTIERT)
-   └─ Wither-Skelette sind zu schwer zu farmen ohne spezielle Ausrüstung
-
-SOUL-SAND & SOUL-ERDE:
-└─ Soul-Sand ← Piglin Bartering ODER natürliche Spawns
-   └─ Soul-Erde ← Bei Piglin Bartering hinzufügen oder natürlich spawnen
-
-GLOWSTONE:
-└─ Glowstone ← Piglin Bartering ODER Witch-Drop ODER Angeln
-   ├─ Piglin Bartering (relativ selten aber möglich)
-   ├─ Witch-Farm (very rare drop)
-   └─ Angeln (MUSS IMPLEMENTIERT)
-
-CRYING-OBSIDIAN:
-└─ Crying-Obsidian ← Piglin Bartering (lassen wie es ist)
-
-ANCIENT-DEBRIS:
-└─ Ancient-Debris ← Boss-Drop (MUSS IMPLEMENTIERT - z.B. Wither-Boss)
-   └─ Alternative: Direkter Spawn in Nether-Skyblock (begrenzt)
-
-NETHERIT-BARREN:
-└─ Netherit-Barren ← Netherit-Schrott + Diamanten schmelzen
-   ├─ Netherit-Schrott ← Ancient-Debris schmelzen
-   └─ Diamanten ← Dungeon Drop ODER Endermen-Farm im End
-
-DRAGON-EI:
-└─ Dragon-Ei ← Dragon-Boss besiegen (1x vorhanden)
-
-END-STAB:
-└─ End-Stab ← Chorus-Frucht + Blaze-Stab craften ODER Dungeon
-   ├─ Chorus-Frucht ← Dungeon Loot oder Angeln
-   └─ Blaze-Stab ← Dungeon Drop oder Blaze-Farm
-
-SHULKER-SCHALE:
-└─ Shulker-Schale ← Shulker töten im The End ODER Dungeon Drop
-   └─ Alternative: Dungeon Loot (MUSS IMPLEMENTIERT)
-
-CHORUS-FRUCHT:
-└─ Chorus-Frucht ← Dungeon Loot ODER Angeln (MUSS IMPLEMENTIERT)
-
-GRAS-BLOCK:
-└─ Gras-Block ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   ├─ Option: Erde + Seelenseide + Grasblock-Item
-   ├─ Option: Angeln (MUSS IMPLEMENTIERT)
-   └─ Option: Wandering Trader
-
-RÜBEN:
-└─ Rüben ← Wandering Trader (regelmäßig)
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-PILZE:
-└─ Pilze ← Wandering Trader ODER Angeln
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-SEETANG:
-└─ Seetang ← Wandering Trader ODER Angeln
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-KÜRBIS & MELONE:
-└─ Kürbis/Melone ← Wandering Trader ODER Angeln
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-KOHLE:
-└─ Kohle ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   ├─ Option A: Holz + Redstone + Soul-Sand
-   ├─ Option B: Inkwell-Item kombinieren
-   └─ Alternative: Angeln
-
-DIAMANT:
-└─ Diamant ← Dungeon Drop ODER Boss-Drop (MUSS IMPLEMENTIERT)
-   └─ Alternative: Endermen-Farm im The End (sehr schwierig)
-
-SCHLEIMBLOCK:
-└─ Schleimblock ← Wandering Trader ODER Angeln
-   └─ Alternative: Angeln (MUSS IMPLEMENTIERT)
-
-DRIPSTONE:
-└─ Dripstone ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   ├─ Option: Tuff + Kalzit + Ton
-   └─ Option: Angeln
-
-MOOSBLOCK:
-└─ Moosblock ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   ├─ Option: Erde + Gras + Vine
-   └─ Option: Dungeon Loot oder Angeln
-
-AMETHYST-BLOCK/KRISTALL:
-└─ Amethyst ← Angeln ODER Crafting (MUSS IMPLEMENTIERT)
-   └─ Angeln als Basis-Quelle am sinnvollsten
-
-OBSIDIAN:
-└─ Obsidian ← Lava + Wasser
-   ├─ Lava ← Crafting Recipe
-   └─ Wasser ← Regen/Eimer
-
-PURPUR-BLOCK:
-└─ Purpur-Block ← The End-Skyblock Exploration
-   └─ Alternative: Crafting Recipe hinzufügen
-
-ENDSTEIN:
-└─ Endstein ← The End-Skyblock Exploration
-   └─ Alternative: Crafting Recipe hinzufügen
-
-BLACKSTONE & GILDED-BLACKSTONE:
-└─ Blackstone ← Crafting Recipe (MUSS IMPLEMENTIERT)
-   └─ Gilded-Blackstone ← Mit Gold-Variante craften
-
-KALZIT, TUFF, DEEPSLATE:
-└─ Alle drei ← Crafting Recipes (MUSS IMPLEMENTIERT)
-   ├─ Kalzit ← Erde + Stein + Soul-Sand
-   ├─ Tuff ← Stein + Tiefenschiefer + Schiefer
-   └─ Deepslate ← Stein + Kobalt/Ähnlich
-
-SHULKER-KISTE:
-└─ Shulker-Kiste ← 2x Shulker-Schale + Purpur-Block
-   ├─ Shulker-Schale ← Dungeon Drop oder The End
-   └─ Purpur-Block ← The End oder Crafting
-
-HOLZ (WANDERING TRADER):
-└─ Holz (alternative Sorten) ← Wandering Trader
-   └─ Startholz sollte reichen für Basis
+Holz (alle Sorten)    | Einfach | Einfach | Wandering Trader                   | WT: Alle Sapling-Typen kaufbar  | WT
+                                                                                  | Oak, Spruce, Birch, Jungle,      |
+                                                                                  | Acacia, Dark Oak – je 1 Emerald  |
 
 
 ================================================================================
-                            STATUS ÜBERSICHT
+        VOLLSTÄNDIGE WANDERING TRADER TRADES – JAVA EDITION 1.21.11
+        (Trade Rebalance seit 1.21.5 vollständig aktiv!)
 ================================================================================
 
-┌─────────────────────────────────────────────────────────────┐
-│                     GESAMTSTATISTIK                         │
-├─────────────────────────────────────────────────────────────|
-│  Einfach erreichbar (Wandering Trader, natürliche Spawns)   │
-│    Gesamt: ~15 Items                                        │
-│                                                             │
-│   Schwierig aber möglich (Farming notwendig)                │
-│    Gesamt: ~25 Items                                        │
-│                                                             │
-│  MUSS IMPLEMENTIERT WERDEN (ohne unmöglich)                 │
-│    Gesamt: ~30 Items                                        │
-│                                                             │
-│    └─ Crafting Recipes: ~15 Items                           │
-│    └─ Angeln-Loot: ~10 Items                                │
-│    └─ Dungeon-Loot: ~8 Items                                │
-└─────────────────────────────────────────────────────────────┘
+  STRUKTUR: 9 Trades pro WT
+    • 2x  EINKAUF  (WT kauft Items VOM Spieler → Emerald-Quelle!)
+    • 5x  Normaler VERKAUF (zufällig aus Ordinary-Tabelle)
+    • 2x  Sonder-VERKAUF  (zufällig aus Special-Tabelle)
 
+  ─────────────────────────────────────────────────────────────────────────────
+  A) EINKAUF (WT kauft vom Spieler) – 2 zufällig aus:
+  ─────────────────────────────────────────────────────────────────────────────
+    Holz-Logs       → WT zahlt Emeralds (genaue Preise variieren)
+    Blumen          → diverse Blumen gegen Emeralds
+    Früchte/Crops   → verschiedene Ernte-Items
+    (Vollständige Liste wird per Snapshot/Wiki gepflegt; Preise variieren)
 
-KATEGORIEN - IMPLEMENTIERUNGS-PRIORITÄT:
+  ─────────────────────────────────────────────────────────────────────────────
+  B) NORMALER VERKAUF – 5 zufällig aus:
+  ─────────────────────────────────────────────────────────────────────────────
+    Setzlinge (Saplings):
+      Oak Sapling         1 Emerald
+      Spruce Sapling      1 Emerald
+      Birch Sapling       1 Emerald
+      Jungle Sapling      1 Emerald
+      Acacia Sapling      1 Emerald
+      Dark Oak Sapling    1 Emerald
+      ⚠ Nur EINER der obigen Typen pro WT
 
-TIER 1 - KRITISCH (Spieler können sonst nicht spielen):
-├─ Lava Crafting Recipe ← SOFORT implementieren
-├─ Wasser vereinfachen (Regen-Rate erhöhen?) ← SOFORT
-├─ Eimer vereinfachen ← Eisen-Drop erhöhen oder Crafting
-└─ Kohle Crafting Recipe ← SOFORT
+    Pflanzen & Natur:
+      Kelp            3x  1 Emerald
+      Cactus          2x  1 Emerald
+      Pumpkin         1x  1 Emerald
+      Sugar Cane      1x  1 Emerald
+      Vine            3x  1 Emerald
+      Lily Pad        2x  1 Emerald
+      Fern            1x  1 Emerald
+      Dead Bush       1x  1 Emerald
+      Rooted Dirt     2x  1 Emerald
+      Moss Block      1x  1 Emerald
+      Pointed Dripstone 2x 1 Emerald
+      Sea Pickle      2x  1 Emerald
+      Brown Mushroom  1x  1 Emerald
+      Red Mushroom    1x  1 Emerald
 
-TIER 2 - SEHR WICHTIG (Progression blockiert ohne):
-├─ Angeln-System ausbauen (10-15 Items!) ← PRIORITÄT
-├─ Dungeon-Loot System (8-10 Items) ← PRIORITÄT
-├─ Crafting Recipes für Blöcke (Dripstone, Kalzit, etc) ← PRIORITÄT
-├─ Wandering Trader Items sichern ← PRÜFEN/SICHERN
-├─ Blaze-Stab Dungeon-Drop ← PRIORITÄT
-└─ Ancient-Debris Boss-Drop ← PRIORITÄT
+    Samen:
+      Wheat Seeds     1x  1 Emerald
+      Pumpkin Seeds   1x  1 Emerald
+      Melon Seeds     1x  1 Emerald
+      Beetroot Seeds  1x  1 Emerald
 
-TIER 3 - WICHTIG (Aber nicht sofort blockierend):
-├─ Gras-Block Crafting ← SPÄTER
-├─ Soul-Sand/Soul-Erde Bartering ← SPÄTER
-├─ Glowstone Bartering ← SPÄTER
-├─ Weitere Crafting Recipes ← SPÄTER
-└─ Decorative Items ← SPÄTER
+    Blöcke:
+      Sand            8x  1 Emerald
+      Red Sand        8x  1 Emerald
+      Glowstone       2x  2 Emeralds
+      Coral Block     2x  3 Emeralds (1 zufälliger Typ)
 
+    Sonstiges:
+      Slimeball       1x  4 Emeralds
+      Nautilus Shell  1x  5 Emeralds
+      Farbstoffe      3x  1 Emerald (verschiedene)
 
-QUICK-FIX EMPFEHLUNGEN:
+  ─────────────────────────────────────────────────────────────────────────────
+  C) SONDER-VERKAUF – 2 zufällig aus:
+  ─────────────────────────────────────────────────────────────────────────────
+      Packed Ice       3x  3 Emeralds
+      Blue Ice         1x  6 Emeralds
+      Podzol           2x  3 Emeralds
+      Bucket of Tropical Fish  1x  5 Emeralds
+      Bucket of Pufferfish     1x  3 Emeralds
+      Gunpowder        4x  1 Emerald
 
-1. LAVA:
-   ✅ Crafting Recipe hinzufügen (z.B. Kupfer + Soul-Sand + Redstone)
-   📊 Auswirkung: 5+ Items erreichbar
-
-2. ANGELN ERWEITERN:
-   ✅ Folgende Items zu Fischen-Loot hinzufügen:
-      - Gras-Block (5% Chance)
-      - Amethyst-Kristall (3% Chance)
-      - Dripstone-Block (2% Chance)
-      - Rüben, Seetang, Kürbis, Melone, Pilze (je ~5%)
-      - Schleimblock (2% Chance)
-      - Chorus-Frucht (3% Chance)
-      - Redstone (2% Chance)
-      - Kupfer-Barren (2% Chance)
-      - Gold-Barren (2% Chance)
-   📊 Auswirkung: 15+ Items sofort erreichbar!
-
-3. DUNGEON-SYSTEM:
-   ✅ Dungeon Loot Truhen mit:
-      - Blaze-Stab (20% Chance)
-      - Diamant (10% Chance)
-      - Wither-Schädel (5% Chance)
-      - Ancient-Debris (5% Chance)
-      - Chorus-Frucht (15% Chance)
-      - Shulker-Schale (10% Chance)
-   📊 Auswirkung: 10+ Items erreichbar
-
-4. CRAFTING RECIPES:
-   ✅ Hinzufügen für:
-      - Kohle (15% einfachste Option)
-      - Gras-Block
-      - Dripstone
-      - Kalzit, Tuff, Deepslate
-      - Blackstone
-   📊 Auswirkung: 8+ Items sofort erreichbar
-
-5. BOSS-DROPS:
-   ✅ Wither-Boss Drop:
-      - Ancient-Debris x1-2
-      - Nether-Star (für Beacon)
-   ✅ Dragon-Boss bleibt wie ist (Dragon-Ei)
-   📊 Auswirkung: 1-2 Items + Endgame Mechanik
-
-
-ZUSAMMENFASSUNG - WAS DICH ERWARTET:
-
-Ohne Implementierung: ~30 Items unmöglich
-Mit Angeln-System: ~15 Items möglich ✅
-Mit Dungeon-System: +10 Items möglich ✅
-Mit Crafting-Recipes: +8 Items möglich ✅
-Mit Boss-Drops: +2 Items möglich ✅
-Mit Lava-Recipe: +5 Items möglich ✅
-
-GESAMT: ~40 zusätzliche Items erreichbar mit diesen 5 Features!
-→ Das ist ~70% der "unmöglichen" Items!
 
 ================================================================================
-                         LEGENDE FÜR SCHWIERIGKEIT
+                         PROJEKT-STATUS ÜBERSICHT
 ================================================================================
 
-SCHWIERIGKEIT:
-✅ Einfach        → Sofort am Anfang erreichbar
-⚠️  Schwierig     → Braucht Farm/Aufwand
-🔴 Unmöglich     → Nicht ohne externe Items erreichbar
+KategorieAnzahl✅ Implementiert (X)15🟡 Via Wandering Trader lösbar (WT)9☐ Noch offen34Gesamt58
+Fortschritt: 24/58 Items gelöst (≈ 41%) — fast doppelt so viel wie zuletzt!
 
-ZIEL:
-→ Sollte für Spieler erreichbar sein
+Neu implementiert seit letztem Stand (+13):
+Wasser, Eimer, Lava, Glowstone, Gras-Block, Kohle, Stein, Bruchstein, Gebrannte Ziegel, Gebrannter Ton, Glas, Dorfbewohner, Emeralds, Erde, Rasen-Block
 
+Größte verbleibende Baustellen:
 
-Known bug:
-- Wenn Spieler menü öffnen und andere item in der hand haben öffnet sich dass menü bei denen [Fixed]
+🔴 Nether komplett offen (10 Items): Blaze-Stab, Netherwarze, Soul-Sand, Ancient-Debris etc.
+🔴 Tränke komplett offen (4 Items) — blockiert durch Blazerod
+🔴 The End komplett offen (4 Items)
+🔴 Schwarzglas fehlt noch — Glas ist zwar fertig, aber Tintensack-Quelle fehlt
 
-- inselvergabe Spielorientier und nicht serverorientiert [Fixed]
+================================================================================
 
-- Action bar bug [Fixed]
+================================================================================
+                         Bugs
+================================================================================
 
-- Player initializing by first join [Fixed]
+   = Critical =
+   /
 
-- Player spawn bei insel erstellung [Fixed]
-
-- Angel system funktioniert auch bei nicht angeln []
+   = low Priority =
+- Slims drops Funktionieren nicht richtig
