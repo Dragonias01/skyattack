@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/writable_book",
+    "extra": [
+      {
+        "text": " General Infos",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was ist Sky Attack?",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sky Attack ist ein Skyblock-Datapack für Minecraft 1.21. Du startest auf einer kleinen Insel hoch oben im Void und musst mit begrenzten Ressourcen überleben, farmen und wachsen. Durch eigene Skill-Systeme, angepasste Loot-Tables und Custom-Rezepte unterscheidet sich Sky Attack deutlich vom klassischen Skyblock."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Gamerules",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "keepInventory: AN \n \n Difficulty: Hard\n \n Random tickspeed : 15 statt 3 \n \n Do mob griefing: false - "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Generelle Änderungen:",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Mining Skill – Baue Stein ab um XP zu sammeln. Mit steigendem Level erhältst du mehr Drops pro Block.\n \n • Fishing Skill – Angeln gibt XP und Die Funktion also der Reward vom angeln ist noch in arbeit. Außerdem können Kreaturen erscheinen.\n \n• Angepasste Loot-Tables – Fischen, Junk und Treasure wurden überarbeitet um fehlende Ressourcen zugänglich zu machen. Manche Monster Wurde Auch überarbeitet und droppen deswegen manche ressourcen öfter.\n \n• Custom Rezepte – Einige Ressourcen die in Skyblock normalerweise unerreichbar wären, können nun hergestellt werden, für mehr infos im WIki schauen.\n \n• Komprimierter Stein – Ein besonderes Item das im Spielverlauf eine zentrale Rolle einnehmen wird."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Die Welt:",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Overworld und Nether sind vollständig leer – kein Terrain, keine Strukturen, nur Void. Biome existieren jedoch weiterhin in beiden Dimensionen, sie beeinflussen Wetter, Lichtverhalten und welche Mobs spawnen können. Erkunde den Nether auf eigene Gefahr – ohne Boden gibt es keinen Halt."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": "zurück",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
+    }
+  ]
+}

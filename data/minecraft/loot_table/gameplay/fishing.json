@@ -25,7 +25,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:gameplay/fishing/creature",
-          "weight": 10,
+          "weight": 1000,
           "quality": 1,
           "conditions": [
             {
