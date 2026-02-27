@@ -19,14 +19,8 @@ scoreboard players set @s m_pickaxe_gain 0
 
 # --- ISLAND ---
 scoreboard players set @s slots 0
-scoreboard players set @s i1 0
-scoreboard players set @s i2 0
-scoreboard players set @s i3 0
-scoreboard players set @s i4 0
-scoreboard players set @s i5 0
-scoreboard players set @s i6 0
-scoreboard players set @s i7 0
-scoreboard players set @s i8 0
+scoreboard players set @s island 0
+
 
 # --- MENU ---
 scoreboard players set @s menue_open 0

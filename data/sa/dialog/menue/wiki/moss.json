@@ -74,7 +74,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -83,7 +84,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -92,7 +93,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -101,7 +103,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -119,7 +122,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -128,7 +132,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -137,7 +142,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     },
@@ -146,7 +152,8 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "color": "dark_green"
       },
       "width": 20
     }
