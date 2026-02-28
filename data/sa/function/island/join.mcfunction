@@ -23,7 +23,7 @@ execute as @a[scores={itrigger=23}] unless score @s island matches 0 run tellraw
 execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 0 run tellraw @s [{"text":"[Server] ","color":"yellow"},{"text":"Insel wurde noch nicht erstellt!","color":"red"}]
 execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 1 run tp @s -500 108 0
 execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 1 run spawnpoint @s -500 108 0
-execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i2 matches 1 run function sa:island/starting_kit
+execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 1 run function sa:island/starting_kit
 execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 1 run effect give @s slow_falling 2 1
 execute as @a[scores={itrigger=23}] if score @s island matches 0 if score server i3 matches 1 run scoreboard players set @s island 3
 execute as @a[scores={itrigger=23,island=3}] run tellraw @s [{"text":"[Server] ","color":"yellow"},{"text":"Insel 3 beigetreten!","color":"green"}]

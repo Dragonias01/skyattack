@@ -1,16 +1,27 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/ender_eye",
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/dirt",
     "extra": [
       {
-        "text": " Beitreten",
-        "color": "white"
+        "text": " Dirt",
+        "color": "dark_green"
       }
     ]
   },
   "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "dirt",
+        "count": 1
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 14,
+      "height": 14
+    },
     {
       "type": "minecraft:plain_message",
       "contents": {
@@ -21,7 +32,35 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wähle Eine Insel um ihr zu joinen"
+        "text": "Du startest mit nur einem einzigen Erde-Block. Geh damit sorgsam um! Erde kann nicht abgebaut und einfach wieder platziert werden – sie ist deine wertvollste Ressource zu Beginn."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Erde erhalten:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Um mehr Erde herzustellen, gibt es ein neues Crafting-Rezept. Benötigt wird Knochenmehl (Bonemeal). Bonemeal erhältst du auf zwei Wegen: Töte Mobs – sie droppen Knochen, die du zu Knochenmehl verarbeiten kannst. Oder baue einen Composter und wirf pflanzliche Items hinein, bis er voll ist."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept: ",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "dark_green"
       }
     }
   ],
@@ -32,32 +71,8 @@
   "actions": [
     {
       "label": {
-        "text": "1"
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "text": "2"
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "text": "3"
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "text": "4"
-      },
-      "width": 20
-    },
-    {
-      "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/grass_block_side",
+        "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
         "type": "object"
       },
@@ -65,25 +80,73 @@
     },
     {
       "label": {
-        "text": "5"
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bone_meal",
+        "object": "atlas",
+        "type": "object"
       },
       "width": 20
     },
     {
       "label": {
-        "text": "6"
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_sapling",
+        "object": "atlas",
+        "type": "object"
       },
       "width": 20
     },
     {
       "label": {
-        "text": "7"
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bone_meal",
+        "object": "atlas",
+        "type": "object"
       },
       "width": 20
     },
     {
       "label": {
-        "text": "8"
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/dirt",
+        "object": "atlas",
+        "type": "object"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bone_meal",
+        "object": "atlas",
+        "type": "object"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_sapling",
+        "object": "atlas",
+        "type": "object"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bone_meal",
+        "object": "atlas",
+        "type": "object"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_sapling",
+        "object": "atlas",
+        "type": "object"
       },
       "width": 20
     }

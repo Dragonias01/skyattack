@@ -97,3 +97,4 @@ execute if score server current matches 0 unless score server i1 matches 1 run c
 execute if score server current matches 0 unless score server i1 matches 1 run scoreboard players set server slots 7
 execute if score server current matches 0 run scoreboard players set server i1 1
 execute if score server current matches 0 run scoreboard players set server current 1
+function sa:island/starting_kit

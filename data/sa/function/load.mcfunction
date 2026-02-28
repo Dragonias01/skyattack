@@ -87,3 +87,5 @@ execute unless score server farming_initialized = server one run function sa:set
 #Menue
 scoreboard objectives add menue_open dummy
 scoreboard objectives add menue trigger
+
+gamerule player
