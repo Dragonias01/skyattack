@@ -4,7 +4,7 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"oak_drop"}
 scoreboard players operation @s logging_drop_menge = @s logging_lvl
 scoreboard players set @s l_axe_gain 0
 #pickaxe bonus 100% pro pickaxe stufe
-#execute as @a[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",components:{"minecraft:item_name":{"text":"element_pickaxe_uncommon"}}}}] run scoreboard players set @s l_axe_gain 20
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_axe_common"}}}}] run scoreboard players set @s l_axe_gain 20
 #execute as @a[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",components:{"minecraft:item_name":{"text":"element_pickaxe_rare"}}}}] run scoreboard players set @s l_axe_gain 40
 #execute as @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",components:{"minecraft:item_name":{"text":"element_pickaxe_epic"}}}}] run scoreboard players set @s l_axe_gain 60
 #execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",components:{"minecraft:item_name":{"text":"element_pickaxe_legendary"}}}}] run scoreboard players set @s l_axe_gain 80
