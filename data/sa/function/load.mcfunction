@@ -81,6 +81,11 @@ execute unless score server mining_initialized = server one run function sa:setu
 scoreboard objectives add farming_initialized dummy "Farming Setup Initialized"
 execute unless score server farming_initialized = server one run function sa:setup/skills/farming
 
+# ============================================================================
+# logging SYSTEM - Setup
+# ============================================================================
+scoreboard objectives add logging_initialized dummy "Foraging Setup Initialized"
+execute unless score server logging_initialized = server one run function sa:setup/skills/logging
 
 
 
@@ -88,4 +93,3 @@ execute unless score server farming_initialized = server one run function sa:set
 scoreboard objectives add menue_open dummy
 scoreboard objectives add menue trigger
 
-gamerule player

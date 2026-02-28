@@ -12,5 +12,9 @@ execute as @a[scores={timer=171..179}] run scoreboard players set @s timer 1000
 
 execute as @a[scores={timer=190..270}] run function sa:actionbar/farming
 execute as @a[scores={timer=271..279}] run scoreboard players set @s timer 1000
+
+execute as @a[scores={timer=280..360}] run function sa:actionbar/logging
+execute as @a[scores={timer=361..369}] run scoreboard players set @s timer 1000
+
 #wird noch für alle collecitons benötigt
 execute as @a[scores={timer=1100..}] run scoreboard players set @s timer 1000

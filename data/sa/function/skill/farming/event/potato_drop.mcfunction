@@ -1,4 +1,4 @@
-#execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+#execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 #Level bonus 5% pro level
 scoreboard players operation @s farming_drop_menge = @s farming_lvl
@@ -15,42 +15,42 @@ scoreboard players set @s f_hoe_gain 0
 scoreboard players operation @s farming_drop_menge += @s f_hoe_gain
 # Level 1-20: Anstieg um 5%
 execute store result score @s farming_drops run random value 1..20
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 21-40: Anstieg um 5%
 execute store result score @s farming_drops run random value 21..40
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 41-60: Anstieg um 5%
 execute store result score @s farming_drops run random value 41..60
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 61-80: Anstieg um 5%
 execute store result score @s farming_drops run random value 61..80
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 81-100: Anstieg um 5%
 execute store result score @s farming_drops run random value 81..100
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 101-120: Anstieg um 5%
 execute store result score @s farming_drops run random value 101..120
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 121-140: Anstieg um 5%
 execute store result score @s farming_drops run random value 121..140
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 141-160: Anstieg um 5%
 execute store result score @s farming_drops run random value 141..160
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 161-180: Anstieg um 5%
 execute store result score @s farming_drops run random value 161..180
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 # Level 181-200: Anstieg um 5%
 execute store result score @s farming_drops run random value 181..200
-execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/bonus_stone
+execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
 
 kill @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}]

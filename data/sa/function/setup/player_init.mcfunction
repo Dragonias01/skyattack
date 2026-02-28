@@ -30,6 +30,14 @@ scoreboard players set @a m_drop_menge 0
 scoreboard players set @a m_xp_gain 0
 scoreboard players set @a m_pickaxe_gain 0
 
+# --- logging ---
+scoreboard players set @a logging_xp 0
+scoreboard players set @a logging_lvl 0
+scoreboard players set @a logging_goal 100
+scoreboard players set @a logging_drops 0
+scoreboard players set @a logging_drop_menge 0
+scoreboard players set @a logging_xp_gain 0
+scoreboard players set @a l_axe_gain 0
 
 # --- MENU ---
 scoreboard players set @s menue_open 0
