@@ -21,6 +21,15 @@ scoreboard players set @s m_pickaxe_gain 0
 scoreboard players set @s slots 0
 scoreboard players set @s island 0
 
+# --- farming ---
+scoreboard players set @a farming_xp 0
+scoreboard players set @a farming_lvl 0
+scoreboard players set @a farming_goal 100
+scoreboard players set @a m_Drops 0
+scoreboard players set @a m_drop_menge 0
+scoreboard players set @a m_xp_gain 0
+scoreboard players set @a m_pickaxe_gain 0
+
 
 # --- MENU ---
 scoreboard players set @s menue_open 0

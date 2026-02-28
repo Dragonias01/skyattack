@@ -75,6 +75,13 @@ execute unless score server fishing_initialized = server one run function sa:set
 scoreboard objectives add mining_initialized dummy "Mining Setup Initialized"
 execute unless score server mining_initialized = server one run function sa:setup/skills/mining
 
+# ============================================================================
+# Farming SYSTEM - Setup
+# ============================================================================
+scoreboard objectives add farming_initialized dummy "Farming Setup Initialized"
+execute unless score server farming_initialized = server one run function sa:setup/skills/farming
+
+
 
 
 #Menue

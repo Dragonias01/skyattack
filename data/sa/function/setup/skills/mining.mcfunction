@@ -96,8 +96,8 @@ scoreboard players set server mining_initialized 1
 #
 # ============================================================================
 
-scoreboard objectives add mining_multiplier_num dummy "Fishing Goal Multiplier (Numerator)"
-scoreboard objectives add mining_multiplier_den dummy "Fishing Goal Multiplier (Denominator)"
+scoreboard objectives add mining_multiplier_num dummy "Mining Goal Multiplier (Numerator)"
+scoreboard objectives add mining_multiplier_den dummy "Mining Goal Multiplier (Denominator)"
 
 scoreboard players set server mining_multiplier_num 11
 scoreboard players set server mining_multiplier_den 10

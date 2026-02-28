@@ -7,8 +7,8 @@ scoreboard players set @s mining_xp 0
 # Wir nutzen Score-Arithmetik für Festkomma-Berechnung
 #
 # Berechnung: goal = goal * 11 / 10 (entspricht *1.1)
-scoreboard players operation @s mining_goal *= server fishing_multiplier_num
-scoreboard players operation @s mining_goal /= server fishing_multiplier_den
+scoreboard players operation @s mining_goal *= server mining_multiplier_num
+scoreboard players operation @s mining_goal /= server mining_multiplier_den
 
 # 4. Custom Level-Up Nachricht mit Komponenten
 # Zeigt Level und neues Goal an
