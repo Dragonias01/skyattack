@@ -26,8 +26,8 @@
           }
         }
       },
-      "show_decorations": false,
-      "show_tooltip": false,
+      "show_decorations": true,
+      "show_tooltip": true,
       "width": 14,
       "height": 14
     },
@@ -131,7 +131,7 @@
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/bone_block",
+        "sprite": "minecraft:block/bone_block_top",
         "object": "atlas",
         "type": "object"
       },
