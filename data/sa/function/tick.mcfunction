@@ -21,3 +21,5 @@ scoreboard players enable @a menue
 execute as @a unless score @s player_initialized matches 1 run function sa:setup/player_init
 
 execute as @a[scores={menue=1..}] run function sa:menue/compiler
+
+

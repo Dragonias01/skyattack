@@ -181,7 +181,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "zombie_drop"
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:killed_by_player",
+                  "inverse": true
+                }
+              ]
             }
           ]
         }
