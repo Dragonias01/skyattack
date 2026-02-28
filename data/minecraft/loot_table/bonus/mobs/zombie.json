@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "quality": 85
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "quality": 5
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

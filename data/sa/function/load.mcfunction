@@ -29,6 +29,7 @@ scoreboard objectives add player_initialized dummy
 scoreboard objectives add Mining_Dropchance_Percent dummy
 scoreboard objectives add Farming_Dropchance_Percent dummy
 scoreboard objectives add Logging_Dropchance_Percent dummy
+scoreboard objectives add Combat_Dropchance_Percent dummy
 
 
 # ============================================================================
@@ -96,9 +97,19 @@ execute unless score server farming_initialized = server one run function sa:set
 scoreboard objectives add logging_initialized dummy "Foraging Setup Initialized"
 execute unless score server logging_initialized = server one run function sa:setup/skills/logging
 
+# ============================================================================
+# Combat SYSTEM - Setup
+# ============================================================================
+scoreboard objectives add Combat_initialized dummy "Combat Setup Initialized"
+execute unless score server Combat_initialized = server one run function sa:setup/skills/combat
+
 
 
 #Menue
 scoreboard objectives add menue_open dummy
 scoreboard objectives add menue trigger
 
+# Gamerules:
+gamerule send_command_feedback false
+gamerule players_sleeping_percentage 10
+gamerule locator_bar false
