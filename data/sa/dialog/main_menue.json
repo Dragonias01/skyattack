@@ -10,8 +10,15 @@
   "actions": [
     {
       "label": {
-        "text": "Skills"
-      },
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/diamond_sword",
+    "extra": [
+      {
+        "text": " Stats",
+        "color": "green"
+      }
+    ]
+  },
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger menue set 2"

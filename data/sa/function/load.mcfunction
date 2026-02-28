@@ -8,6 +8,9 @@
 scoreboard objectives add one dummy
 scoreboard players set server one 1
 
+scoreboard objectives add five dummy
+scoreboard players set server five 5
+
 # Setup-Tracking
 scoreboard objectives add setup1 dummy
 execute unless score server setup1 matches 1 run function sa:setup/main
@@ -22,6 +25,12 @@ scoreboard objectives add setup2 dummy
 scoreboard objectives add temp dummy
 
 scoreboard objectives add player_initialized dummy
+
+scoreboard objectives add Mining_Dropchance_Percent dummy
+scoreboard objectives add Farming_Dropchance_Percent dummy
+scoreboard objectives add Logging_Dropchance_Percent dummy
+
+
 # ============================================================================
 # ISLAND SYSTEM SCOREBOARDS
 # ============================================================================
