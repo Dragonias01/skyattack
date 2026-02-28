@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "yza",
+    "b c"
+  ],
+  "key": {
+    "x": [
+      "minecraft:cobweb"
+    ],
+    "y": [
+      "minecraft:gray_concrete_powder"
+    ],
+    "z": [
+      "minecraft:frogspawn"
+    ],
+    "a": [
+      "minecraft:nether_wart_block"
+    ],
+    "b": [
+      "minecraft:copper_nautilus_armor"
+    ],
+    "c": [
+      "minecraft:bone_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:zombie_head",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Compressed Mob Mesh",
+        "color": "blue",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Dieses Material Sieht irgendwie Stabil Aus",
+          "color": "gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Rare",
+          "color": "blue",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:item_name": "compressed_mob_mesh"
+    },
+    "count": 1
+  }
+}

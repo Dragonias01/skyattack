@@ -4,7 +4,7 @@
 -
 
 = Schwere bugs =
--
+- items geben fishing xp
 -
 -
 
@@ -15,5 +15,5 @@
 
 = Einfache bugs =
 - biome zu groß
--
+- 
 -

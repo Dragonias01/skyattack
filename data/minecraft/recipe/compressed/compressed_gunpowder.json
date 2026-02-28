@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "show_notification": true,
-  "category": "misc",
   "pattern": [
     "xxx",
     "xxx",
     "xxx"
   ],
   "key": {
-    "x": "#minecraft:logs"
+    "x": [
+      "minecraft:gunpowder"
+    ]
   },
   "result": {
-    "id": "minecraft:basalt",
+    "id": "minecraft:gray_concrete_powder",
     "components": {
       "minecraft:custom_name": {
-        "text": "Compressed Log",
+        "text": "Compressed Gunpowder",
         "color": "green",
         "bold": true,
         "italic": false,
@@ -24,7 +24,7 @@
       },
       "minecraft:lore": [
         {
-          "text": "Komprimiertes Holz",
+          "text": "Kaboom?",
           "color": "gray",
           "bold": false,
           "italic": false,
@@ -45,7 +45,7 @@
           "obfuscated": false
         }
       ],
-      "minecraft:item_name": "compressed_stone"
+      "minecraft:item_name": "compressed_gunpowder"
     },
     "count": 1
   }

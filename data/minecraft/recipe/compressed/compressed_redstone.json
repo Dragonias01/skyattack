@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": [
+      "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:nether_wart_block",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Compressed redstone",
+        "color": "green",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Kann ich damit was brauen?",
+          "color": "gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Uncommon",
+          "color": "green",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:item_name": "compressed_redstone"
+    },
+    "count": 1
+  }
+}

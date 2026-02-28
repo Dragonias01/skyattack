@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key": {
+    "x": "minecraft:basalt",
+    "y": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:wooden_axe",
+    "components": {
+      "minecraft:item_name": {
+        "text": "element_axe_common",
+        "italic": false
+      },
+      "minecraft:custom_name": {
+        "text": "Element Axe",
+        "color": "white",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "+",
+          "extra": [
+            {
+              "text": "100",
+              "extra": [
+                {
+                  "text": "% Log Ertrag ",
+                  "color": "gray"
+                }
+              ],
+              "color": "green"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "common",
+          "color": "white",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:unbreakable": {}
+    },
+    "count": 1
+  }
+}

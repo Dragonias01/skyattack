@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "show_notification": true,
-  "category": "misc",
   "pattern": [
-    "xx",
-    "xy",
-    " y"
+    "z",
+    "z",
+    "x"
   ],
   "key": {
-    "x": "minecraft:basalt",
-    "y": [
+    "x": [
       "minecraft:stick"
+    ],
+    "z": [
+      "minecraft:zombie_head"
     ]
   },
   "result": {
-    "id": "minecraft:wooden_axe",
+    "id": "minecraft:wooden_sword",
     "components": {
       "minecraft:item_name": {
-        "text": "element_axe_common",
+        "text": "element_sword_common",
         "italic": false
       },
       "minecraft:custom_name": {
@@ -37,7 +37,7 @@
               "text": "100",
               "extra": [
                 {
-                  "text": "% Log Ertrag ",
+                  "text": "% Mob Drop Chance",
                   "color": "gray"
                 }
               ],
@@ -48,7 +48,7 @@
           "italic": false
         },
         {
-          "text": "Uncommon",
+          "text": "common",
           "color": "white",
           "bold": true,
           "italic": false,
