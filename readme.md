@@ -21,9 +21,10 @@ Diese Punkte sind bekannt und werden noch weiterentwickelt – kein Bug-Report n
 | System | Status |
 |---|---|
 | Iron Balance | ⚙️ Feedback erwünscht |
-| Island Join System | 🔧 Nicht implementiert |
+| Island Join System | 🔧 Feedback erwünscht |
 | Wiki | ⚙️ Feedback zum aktuellen Stand |
 | Farming Skill | 🔧 Feedback erwünscht |
+| Combat Skill | 🔧 Feedback erwünscht |
 | Fishing System (Ausbau) | ⚙️ Feedback erwünscht |
 | Mining System & Skill | ⚙️ Feedback erwünscht |
 | Multiplayer und Join System| Feedback Erwünscht (Experimentell)|
