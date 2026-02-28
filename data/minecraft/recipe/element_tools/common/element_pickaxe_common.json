@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "key": {
+    "x": "minecraft:tuff",
+    "y": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "minecraft:item_name": {
+        "text": "element_pickaxe_common",
+        "italic": false
+      },
+      "minecraft:custom_name": {
+        "text": "Element Axe",
+        "color": "white",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "+",
+          "extra": [
+            {
+              "text": "100",
+              "extra": [
+                {
+                  "text": "% Block Ertrag ",
+                  "color": "gray"
+                }
+              ],
+              "color": "green"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "common",
+          "color": "white",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:unbreakable": {}
+    },
+    "count": 1
+  }
+}

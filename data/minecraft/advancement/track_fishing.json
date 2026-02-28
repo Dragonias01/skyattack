@@ -3,6 +3,13 @@
     "requirement": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        },
         "item": {
           "count": {
             "min": 1
