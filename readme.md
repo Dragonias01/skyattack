@@ -23,7 +23,7 @@ Diese Punkte sind bekannt und werden noch weiterentwickelt – kein Bug-Report n
 | Iron Balance | ⚙️ Feedback erwünscht |
 | Island Join System | 🔧 Nicht implementiert |
 | Wiki | ⚙️ Feedback zum aktuellen Stand |
-| Farming Skill | 🔧 Nicht implementiert |
+| Farming Skill | 🔧 Feedback erwünscht |
 | Fishing System (Ausbau) | ⚙️ Feedback erwünscht |
 | Mining System & Skill | ⚙️ Feedback erwünscht |
 | Multiplayer und Join System| Feedback Erwünscht (Experimentell)|
@@ -48,6 +48,12 @@ Diese Punkte sind bekannt und werden noch weiterentwickelt – kein Bug-Report n
 - Funktioniert das Scaling des Mining Skills korrekt (mehr Stone-Drops pro Level)?
 - Wie fühlt sich der Anstieg der Level-Goals beim Mining Skill an?
 - Gibt es Fehler im Multiplayer?
+
+**Farming**
+- Gibt es Bugs?
+- Schaut euhc vorallem an ob die Berechnung auch im Multiplayer Funktioniert und keine Probleme hervor ruft.
+
+
 
 ---
 

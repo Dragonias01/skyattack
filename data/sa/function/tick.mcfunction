@@ -5,6 +5,7 @@ execute as @a[scores={itrigger=21..28}] run function sa:island/join
 
 function sa:item/reset/check
 function sa:actionbar/actionbar
+function sa:spawnprotection
 
 # ============================================================================
 # SKILL UPDATES
