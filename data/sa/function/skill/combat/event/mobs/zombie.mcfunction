@@ -1,7 +1,7 @@
 scoreboard players operation @s combat_drop_menge = @s combat_lvl
 scoreboard players set @s c_sword_gain 0
 #pickaxe bonus 100% pro pickaxe stufe
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_common"}}}}] run scoreboard players set @s l_axe_gain 20
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_common"}}}}] run scoreboard players set @s c_sword_gain 20
 
 #execute as @a[nbt={SelectedItem:{id:"minecraft:iron_sword",components:{"minecraft:item_name":{"text":"element_pickaxe_rare"}}}}] run scoreboard players set @s c_sword_gain 40
 #execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",components:{"minecraft:item_name":{"text":"element_pickaxe_epic"}}}}] run scoreboard players set @s c_sword_gain 60

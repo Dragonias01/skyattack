@@ -7,22 +7,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot",
-          "quality": 5
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
-          "quality": 5
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "quality": 85
+          "weight": 85
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "quality": 5
+          "weight": 5
         }
       ],
       "rolls": 1
