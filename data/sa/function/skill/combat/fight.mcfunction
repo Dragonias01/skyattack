@@ -2,6 +2,7 @@
 execute as @a[scores={zombie_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={creeper_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={skeleton_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={spider_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 
