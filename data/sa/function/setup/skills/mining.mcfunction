@@ -64,7 +64,7 @@ scoreboard players set server mining_goal_start 100
 # Initialisiere alle neuen Spieler mit Standardwerten
 execute as @a unless score @s mining_xp = @s mining_xp run scoreboard players set @s mining_xp 0
 execute as @a unless score @s mining_lvl = @s mining_lvl run scoreboard players set @s mining_lvl 0
-execute as @a unless score @s mining_goal = @s mining_goal run scoreboard players set @s mining_goal 100
+execute as @a unless score @s mining_goal = @s mining_goal run scoreboard players set @s mining_goal 10
 execute as @a unless score @s m_drop_menge = @s m_drop_menge run scoreboard players set @s m_drop_menge 0
 execute as @a unless score @s m_Drops = @s m_Drops run scoreboard players set @s m_Drops 0
 execute as @a unless score @s m_pickaxe_gain = @s m_pickaxe_gain run scoreboard players set @s m_pickaxe_gain 0
@@ -78,27 +78,3 @@ execute as @a unless score @s m_pickaxe_gain = @s m_pickaxe_gain run scoreboard 
 scoreboard objectives add mining_initialized dummy "Mining Setup Initialized"
 scoreboard players set server mining_initialized 1
 
-# ============================================================================
-# HINWEISE FÜR WEITERENTWICKLUNG
-# ============================================================================
-#
-# VERZÖGERTE INITIALISIERUNG (empfohlen für stabilere Performance):
-# Falls nicht alle Spieler gleichzeitig geladen werden können:
-#
-# execute as @a[scores={mining_xp=..0}] run function sa:init_mining_player
-#
-# Und erstelle dann: sa:init_mining_player.mcfunction
-# ---
-# scoreboard players set @s mining_xp 0
-# scoreboard players set @s mining_lvl 0
-# scoreboard players set @s mining_goal 100
-# ---
-#
-# ============================================================================
-
-scoreboard objectives add mining_multiplier_num dummy "Mining Goal Multiplier (Numerator)"
-scoreboard objectives add mining_multiplier_den dummy "Mining Goal Multiplier (Denominator)"
-
-scoreboard players set server mining_multiplier_num 11
-scoreboard players set server mining_multiplier_den 10
- 

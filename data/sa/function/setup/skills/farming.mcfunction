@@ -20,7 +20,7 @@ scoreboard players set server farming_multiplier_den 10
 # --- farming ---
 scoreboard players set @a farming_xp 0
 scoreboard players set @a farming_lvl 0
-scoreboard players set @a farming_goal 100
+scoreboard players set @a farming_goal 10
 scoreboard players set @a f_hoe_gain 0
 scoreboard players set @a farming_drop_menge 0
 scoreboard players set @a farming_xp_gain 0

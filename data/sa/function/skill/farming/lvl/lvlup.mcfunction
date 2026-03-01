@@ -2,14 +2,29 @@
 scoreboard players add @s farming_lvl 1 
 scoreboard players set @s farming_xp 0
 
-# 3. Goal für nächstes Level berechnen
-# Formel: fishing_goal * 1.1 (Multiplikator aus Config)
-# Wir nutzen Score-Arithmetik für Festkomma-Berechnung
-#
-# Berechnung: goal = goal * 11 / 10 (entspricht *1.1)
-scoreboard players operation @s farming_goal *= server farming_multiplier_num
-scoreboard players operation @s farming_goal /= server farming_multiplier_den
+#    (nach dem Increment = neues Level → Goal für nächsten Schritt)
+execute if score @s farming_lvl matches 1 run scoreboard players set @s farming_goal 20
+execute if score @s farming_lvl matches 2 run scoreboard players set @s farming_goal 45
+execute if score @s farming_lvl matches 3 run scoreboard players set @s farming_goal 60
+execute if score @s farming_lvl matches 4 run scoreboard players set @s farming_goal 75
+execute if score @s farming_lvl matches 5 run scoreboard players set @s farming_goal 100
+execute if score @s farming_lvl matches 6 run scoreboard players set @s farming_goal 115
+execute if score @s farming_lvl matches 7 run scoreboard players set @s farming_goal 150
+execute if score @s farming_lvl matches 8 run scoreboard players set @s farming_goal 175
+execute if score @s farming_lvl matches 9 run scoreboard players set @s farming_goal 200
 
+# 3. Multiplikator-Phasen für Level 10+
+#    Phase 1 (Lvl 10–19): *1.5
+execute if score @s farming_lvl matches 10..19 run scoreboard players operation @s farming_goal *= server scale_fast_num
+execute if score @s farming_lvl matches 10..19 run scoreboard players operation @s farming_goal /= server scale_fast_den
+
+#    Phase 2 (Lvl 20–49): *1.1
+execute if score @s farming_lvl matches 20..49 run scoreboard players operation @s farming_goal *= server scale_mid_num
+execute if score @s farming_lvl matches 20..49 run scoreboard players operation @s farming_goal /= server scale_mid_den
+
+#    Phase 3 (Lvl 50+): *1.01
+execute if score @s farming_lvl matches 50.. run scoreboard players operation @s farming_goal *= server scale_slow_num
+execute if score @s farming_lvl matches 50.. run scoreboard players operation @s farming_goal /= server scale_slow_den
 # 4. Custom Level-Up Nachricht mit Komponenten
 # Zeigt Level und neues Goal an
 title @s title [{"text":"LEVEL UP! ","color":"green"},{"score":{"name":"@s","objective":"farming_lvl"},"color":"gold"}]

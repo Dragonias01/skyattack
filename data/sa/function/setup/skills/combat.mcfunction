@@ -25,7 +25,7 @@ scoreboard players set server combat_multiplier_den 10
 # --- combat ---
 scoreboard players set @a combat_xp 0
 scoreboard players set @a combat_lvl 0
-scoreboard players set @a combat_goal 100
+scoreboard players set @a combat_goal 10
 scoreboard players set @a combat_drops 0
 scoreboard players set @a combat_drop_menge 0
 scoreboard players set @a combat_xp_gain 0

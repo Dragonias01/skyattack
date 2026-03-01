@@ -2,13 +2,30 @@
 scoreboard players add @s combat_lvl 1 
 scoreboard players set @s combat_xp 0
 
-# 3. Goal für nächstes Level berechnen
-# Formel: fishing_goal * 1.1 (Multiplikator aus Config)
-# Wir nutzen Score-Arithmetik für Festkomma-Berechnung
-#
-# Berechnung: goal = goal * 11 / 10 (entspricht *1.1)
-scoreboard players operation @s combat_goal *= server combat_multiplier_num
-scoreboard players operation @s combat_goal /= server combat_multiplier_den
+# 2. Feste Goals für Level 1–9
+execute if score @s combat_lvl matches 1 run scoreboard players set @s combat_goal 30
+execute if score @s combat_lvl matches 2 run scoreboard players set @s combat_goal 60
+execute if score @s combat_lvl matches 3 run scoreboard players set @s combat_goal 80
+execute if score @s combat_lvl matches 4 run scoreboard players set @s combat_goal 100
+execute if score @s combat_lvl matches 5 run scoreboard players set @s combat_goal 125
+execute if score @s combat_lvl matches 6 run scoreboard players set @s combat_goal 150
+execute if score @s combat_lvl matches 7 run scoreboard players set @s combat_goal 175
+execute if score @s combat_lvl matches 8 run scoreboard players set @s combat_goal 200
+execute if score @s combat_lvl matches 9 run scoreboard players set @s combat_goal 250
+
+# 3. Multiplikator-Phasen für Level 10+
+#    Phase 1 (Lvl 10–19): *1.5
+execute if score @s combat_lvl matches 10..19 run scoreboard players operation @s combat_goal *= server scale_fast_num
+execute if score @s combat_lvl matches 10..19 run scoreboard players operation @s combat_goal /= server scale_fast_den
+
+#    Phase 2 (Lvl 20–49): *1.1
+execute if score @s combat_lvl matches 20..49 run scoreboard players operation @s combat_goal *= server scale_mid_num
+execute if score @s combat_lvl matches 20..49 run scoreboard players operation @s combat_goal /= server scale_mid_den
+
+#    Phase 3 (Lvl 50+): *1.01
+execute if score @s combat_lvl matches 50.. run scoreboard players operation @s combat_goal *= server scale_slow_num
+execute if score @s combat_lvl matches 50.. run scoreboard players operation @s combat_goal /= server scale_slow_den
+
 
 # 4. Custom Level-Up Nachricht mit Komponenten
 # Zeigt Level und neues Goal an

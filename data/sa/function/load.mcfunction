@@ -113,3 +113,23 @@ scoreboard objectives add menue trigger
 gamerule send_command_feedback false
 gamerule players_sleeping_percentage 10
 gamerule locator_bar false
+
+#Math values
+scoreboard objectives add scale_fast_num dummy
+scoreboard objectives add scale_fast_den dummy
+scoreboard objectives add scale_mid_num dummy
+scoreboard objectives add scale_mid_den dummy
+scoreboard objectives add scale_slow_num dummy
+scoreboard objectives add scale_slow_den dummy
+
+# *1.5  = 15/10
+scoreboard players set server scale_fast_num 15
+scoreboard players set server scale_fast_den 10
+
+# *1.1  = 11/10
+scoreboard players set server scale_mid_num 11
+scoreboard players set server scale_mid_den 10
+
+# *1.01 = 101/100
+scoreboard players set server scale_slow_num 101
+scoreboard players set server scale_slow_den 100

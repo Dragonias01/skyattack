@@ -19,7 +19,7 @@ scoreboard players set server max_level 1000
 
 # Start-XP-Goal für Level 1→2
 # Bedeutung: Spieler muss 100 Fische fangen für Level 2
-scoreboard players set server fishing_goal_start 100
+scoreboard players set server fishing_goal_start 5
 
 # XP-Multiplikator für Level-Steigerung
 # Formel: neues_goal = altes_goal * (num/den)
@@ -70,7 +70,7 @@ scoreboard players set server fishing_drop 100
 # Initalisiere alle neu beigetretenen Spieler
 execute as @a unless score @s fishing_xp = @s fishing_xp run scoreboard players set @s fishing_xp 0
 execute as @a unless score @s fishing_lvl = @s fishing_lvl run scoreboard players set @s fishing_lvl 0
-execute as @a unless score @s fishing_goal = @s fishing_goal run scoreboard players set @s fishing_goal 100
+execute as @a unless score @s fishing_goal = @s fishing_goal run scoreboard players set @s fishing_goal 5
 
 # Markiere dass Setup abgeschlossen ist (damit diese Funktion nur 1x läuft)
 scoreboard players set server fishing_initialized 1

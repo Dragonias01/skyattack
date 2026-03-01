@@ -10,13 +10,30 @@ scoreboard players add @s fishing_lvl 1
 # 2. XP zurücksetzen für nächstes Level
 scoreboard players set @s fishing_xp 0
 
-# 3. Goal für nächstes Level berechnen
-# Formel: fishing_goal * 1.1 (Multiplikator aus Config)
-# Wir nutzen Score-Arithmetik für Festkomma-Berechnung
-#
-# Berechnung: goal = goal * 11 / 10 (entspricht *1.1)
-scoreboard players operation @s fishing_goal *= server fishing_multiplier_num
-scoreboard players operation @s fishing_goal /= server fishing_multiplier_den
+# 2. Feste Goals für Level 1–9
+execute if score @s fishing_lvl matches 1 run scoreboard players set @s fishing_goal 10
+execute if score @s fishing_lvl matches 2 run scoreboard players set @s fishing_goal 20
+execute if score @s fishing_lvl matches 3 run scoreboard players set @s fishing_goal 45
+execute if score @s fishing_lvl matches 4 run scoreboard players set @s fishing_goal 50
+execute if score @s fishing_lvl matches 5 run scoreboard players set @s fishing_goal 75
+execute if score @s fishing_lvl matches 6 run scoreboard players set @s fishing_goal 90
+execute if score @s fishing_lvl matches 7 run scoreboard players set @s fishing_goal 110
+execute if score @s fishing_lvl matches 8 run scoreboard players set @s fishing_goal 125
+execute if score @s fishing_lvl matches 9 run scoreboard players set @s fishing_goal 150
+
+# 3. Multiplikator-Phasen für Level 10+
+#    Phase 1 (Lvl 10–19): *1.5
+execute if score @s fishing_lvl matches 10..19 run scoreboard players operation @s fishing_goal *= server scale_fast_num
+execute if score @s fishing_lvl matches 10..19 run scoreboard players operation @s fishing_goal /= server scale_fast_den
+
+#    Phase 2 (Lvl 20–49): *1.1
+execute if score @s fishing_lvl matches 20..49 run scoreboard players operation @s fishing_goal *= server scale_mid_num
+execute if score @s fishing_lvl matches 20..49 run scoreboard players operation @s fishing_goal /= server scale_mid_den
+
+#    Phase 3 (Lvl 50+): *1.01
+execute if score @s fishing_lvl matches 50.. run scoreboard players operation @s fishing_goal *= server scale_slow_num
+execute if score @s fishing_lvl matches 50.. run scoreboard players operation @s fishing_goal /= server scale_slow_den
+
 
 # 4. Custom Level-Up Nachricht mit Komponenten
 # Zeigt Level und neues Goal an

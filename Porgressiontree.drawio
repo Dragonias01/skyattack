@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Seite-1" id="USOOalHUpVGL80WiqSUi">
-        <mxGraphModel dx="2924" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2756" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -248,7 +248,7 @@
                 <mxCell id="S2gkkoHigNGnwCPD279P-57" value="Bamboo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="170" y="900" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="S2gkkoHigNGnwCPD279P-59" value="Vines" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="S2gkkoHigNGnwCPD279P-59" value="Vines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="290" y="970" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="S2gkkoHigNGnwCPD279P-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S2gkkoHigNGnwCPD279P-62" target="S2gkkoHigNGnwCPD279P-68" edge="1">
@@ -344,7 +344,7 @@
                 <mxCell id="S2gkkoHigNGnwCPD279P-86" value="Sand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="780" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="S2gkkoHigNGnwCPD279P-89" value="Glass" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="S2gkkoHigNGnwCPD279P-89" value="Glass" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="1590" y="880" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="S2gkkoHigNGnwCPD279P-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="S2gkkoHigNGnwCPD279P-94" target="S2gkkoHigNGnwCPD279P-105" edge="1">
@@ -380,7 +380,7 @@
                 <mxCell id="S2gkkoHigNGnwCPD279P-105" value="Villager Trader 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="1241" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="S2gkkoHigNGnwCPD279P-107" value="Mining Skill" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="S2gkkoHigNGnwCPD279P-107" value="Mining Skill" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="1090" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="S2gkkoHigNGnwCPD279P-108" value="?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
