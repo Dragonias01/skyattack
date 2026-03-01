@@ -118,7 +118,11 @@
       "width": 20
     },
     {
-      "label": "Zurück",
+      "label": {
+        "text": "X",
+        "color": "red"
+      },
+      "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:menue/wiki/compressed_items"

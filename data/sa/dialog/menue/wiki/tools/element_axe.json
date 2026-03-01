@@ -84,11 +84,19 @@
           "action": "show_item",
           "id": "minecraft:basalt",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+            "minecraft:custom_name": {
+              "text": "Compressed Log",
+              "italic": false,
+              "color": "green"
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/compressed_log"
+      }
     },
     {
       "label": {
@@ -100,11 +108,19 @@
           "action": "show_item",
           "id": "minecraft:basalt",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+            "minecraft:custom_name": {
+              "text": "Compressed Log",
+              "italic": false,
+              "color": "green"
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/compressed_log"
+      }
     },
     {
       "label": {
@@ -122,11 +138,19 @@
           "action": "show_item",
           "id": "minecraft:basalt",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+            "minecraft:custom_name": {
+              "text": "Compressed Log",
+              "italic": false,
+              "color": "green"
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/compressed_log"
+      }
     },
     {
       "label": {
@@ -173,7 +197,10 @@
       "width": 20
     },
     {
-      "label": "Z",
+      "label": {
+        "text": "X",
+        "color": "red"
+      },
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",

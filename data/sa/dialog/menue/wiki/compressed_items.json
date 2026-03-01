@@ -27,6 +27,17 @@
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "Zurück"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  },
+  "columns": 2,
+  "button_width": 200,
   "dialogs": [
     "sa:menue/wiki/compressed_items/compressed_stone",
     "sa:menue/wiki/compressed_items/biomass",

@@ -65,126 +65,49 @@
   "after_action": "close",
   "columns": 3,
   "actions": [
+    {"label": {"text": " "}, "width": 20},
     {
-      "label": {
-        "text": " "
-      },
-      "width": 20
+      "label": {"atlas": "minecraft:blocks", "sprite": "minecraft:block/cobweb", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:cobweb", "components": {"minecraft:custom_name": {"text": "Compressed String", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_string"}
+    },
+    {"label": {"text": " "}, "width": 20},
+    {
+      "label": {"atlas": "minecraft:blocks", "sprite": "minecraft:block/gray_concrete_powder", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:gray_concrete_powder", "components": {"minecraft:custom_name": {"text": "Compressed Gunpowder", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_gunpowder"}
     },
     {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/cobweb",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:cobweb",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed String", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
+      "label": {"atlas": "minecraft:items", "sprite": "minecraft:item/popped_chorus_fruit", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:popped_chorus_fruit", "components": {"minecraft:custom_name": {"text": "Compressed Ender Pearl", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_enderpearl"}
     },
     {
-      "label": {
-        "text": " "
-      },
-      "width": 20
+      "label": {"atlas": "minecraft:blocks", "sprite": "minecraft:block/nether_wart_block", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:nether_wart_block", "components": {"minecraft:custom_name": {"text": "Compressed Redstone", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_redstone"}
     },
     {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/gray_concrete_powder",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:gray_concrete_powder",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed Gunpowder", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
+      "label": {"atlas": "minecraft:items", "sprite": "minecraft:item/copper_nautilus_armor", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:copper_nautilus_armor", "components": {"minecraft:custom_name": {"text": "Compressed Rotten Flesh", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_rotten_flesh"}
+    },
+    {"label": {"text": " "}, "width": 20},
+    {
+      "label": {"atlas": "minecraft:blocks", "sprite": "minecraft:block/bone_block_top", "object": "atlas", "type": "object",
+        "hover_event": {"action": "show_item", "id": "minecraft:bone_block", "components": {"minecraft:custom_name": {"text": "Compressed Bone", "italic": false, "color": "green"}}}},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items/compressed_bone"}
     },
     {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/popped_chorus_fruit",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:popped_chorus_fruit",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed Ender Pearl", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/nether_wart_block",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:nether_wart_block",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed Redstone", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/copper_nautilus_armor",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:copper_nautilus_armor",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed Rotten Flesh", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "text": " "
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/bone_block_top",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:bone_block",
-          "components": {
-            "minecraft:custom_name": { "text": "Compressed Bone", "italic": false, "color": "green" }
-          }
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": "Zurück",
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items"
-      }
+      "label": {"text": "X", "color": "red"},
+      "width": 20,
+      "action": {"type": "minecraft:show_dialog", "dialog": "sa:menue/wiki/compressed_items"}
     }
   ]
 }

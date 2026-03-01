@@ -77,34 +77,50 @@
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/dried_kelp_top",
+        "sprite": "minecraft:block/dried_kelp_block_top",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
           "id": "minecraft:dried_kelp_block",
           "components": {
-            "minecraft:custom_name": { "text": "Block of Biomass", "italic": false, "color": "blue" }
+            "minecraft:custom_name": {
+              "text": "Block of Biomass",
+              "italic": false,
+              "color": "blue"
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/block_of_biomass"
+      }
     },
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/dried_kelp_top",
+        "sprite": "minecraft:block/dried_kelp_block_top",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
           "id": "minecraft:dried_kelp_block",
           "components": {
-            "minecraft:custom_name": { "text": "Block of Biomass", "italic": false, "color": "blue" }
+            "minecraft:custom_name": {
+              "text": "Block of Biomass",
+              "italic": false,
+              "color": "blue"
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/block_of_biomass"
+      }
     },
     {
       "label": {
@@ -163,7 +179,10 @@
       "width": 20
     },
     {
-      "label": "Z",
+      "label": {
+        "text": "X",
+        "color": "red"
+      },
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",

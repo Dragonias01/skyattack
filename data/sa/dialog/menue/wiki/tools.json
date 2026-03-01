@@ -27,6 +27,14 @@
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
+  "exit_action": {
+    "label": "Zurück",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  },
+  "button_width": 150,
   "dialogs": [
     "sa:menue/wiki/tools/element_pickaxe",
     "sa:menue/wiki/tools/element_axe",

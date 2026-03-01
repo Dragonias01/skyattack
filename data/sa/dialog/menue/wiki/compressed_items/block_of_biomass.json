@@ -75,11 +75,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -91,11 +98,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -107,11 +121,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -123,11 +144,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -139,11 +167,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -155,11 +190,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -171,11 +213,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -187,11 +236,18 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
       "label": {
@@ -203,14 +259,25 @@
           "action": "show_item",
           "id": "minecraft:green_dye",
           "components": {
-            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+            "minecraft:custom_name": {
+              "text": "Compressed Biomass",
+              "italic": false
+            }
           }
         }
       },
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/biomass"
+      }
     },
     {
-      "label": "Zurück",
+      "label": {
+        "text": "X",
+        "color": "red"
+      },
+      "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:menue/wiki/compressed_items"
