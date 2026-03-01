@@ -1,6 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
-  "ingredient": "minecraft:basalt",
+  "ingredient": "minecraft:polished_basalt",
   "result": {
     "id": "minecraft:blackstone",
     "components": {

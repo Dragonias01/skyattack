@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:tuff",
+    "x": [
+      "minecraft:black_dye"
+    ]
+  },
+  "pattern": [
+    "###",
+    "#x#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:cobbled_deepslate"
+  }
+}
