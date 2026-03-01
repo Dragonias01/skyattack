@@ -6,12 +6,10 @@
     "xxx"
   ],
   "key": {
-    "x": [
-      "minecraft:ender_pearl"
-    ]
+    "x": "#minecraft:fishes"
   },
   "result": {
-    "id": "minecraft:popped_chorus_fruit",
+    "id": "minecraft:frogspawn",
     "components": {
       "minecraft:custom_name": {
         "text": "Compressed Ender pearl",

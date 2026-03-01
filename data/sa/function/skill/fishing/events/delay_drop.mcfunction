@@ -1,0 +1,1 @@
+execute as @a[scores={fishing_drop_pending=1}] run function sa:skill/fishing/events/drops

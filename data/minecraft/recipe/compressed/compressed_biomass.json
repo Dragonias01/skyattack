@@ -7,14 +7,15 @@
   ],
   "key": {
     "x": [
-      "minecraft:ender_pearl"
+      "minecraft:potato",
+      "minecraft:carrot"
     ]
   },
   "result": {
-    "id": "minecraft:popped_chorus_fruit",
+    "id": "minecraft:green_dye",
     "components": {
       "minecraft:custom_name": {
-        "text": "Compressed Ender pearl",
+        "text": "Compressed biomass",
         "color": "green",
         "bold": true,
         "italic": false,
@@ -24,7 +25,7 @@
       },
       "minecraft:lore": [
         {
-          "text": "viel zu viele...",
+          "text": "Komprimierte Biomasse",
           "color": "gray",
           "bold": false,
           "italic": false,
@@ -45,7 +46,7 @@
           "obfuscated": false
         }
       ],
-      "minecraft:item_name": "compressed_ender pearl"
+      "minecraft:item_name": "compressed_mob_mesh"
     },
     "count": 1
   }

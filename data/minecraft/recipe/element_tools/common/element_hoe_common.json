@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "xx",
+    " y",
+    " y"
+  ],
+  "key": {
+    "x": "minecraft:dried_kelp_block",
+    "y": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:wooden_hoe",
+    "components": {
+      "minecraft:item_name": {
+        "text": "element_hoe_common",
+        "italic": false
+      },
+      "minecraft:custom_name": {
+        "text": "Element Hoe",
+        "color": "white",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "+",
+          "extra": [
+            {
+              "text": "100",
+              "extra": [
+                {
+                  "text": "% Crop Ertrag ",
+                  "color": "gray"
+                }
+              ],
+              "color": "green"
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Common",
+          "color": "white",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:unbreakable": {}
+    },
+    "count": 1
+  }
+}

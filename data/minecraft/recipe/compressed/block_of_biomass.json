@@ -7,15 +7,15 @@
   ],
   "key": {
     "x": [
-      "minecraft:ender_pearl"
+      "minecraft:green_dye"
     ]
   },
   "result": {
-    "id": "minecraft:popped_chorus_fruit",
+    "id": "minecraft:dried_kelp_block",
     "components": {
       "minecraft:custom_name": {
-        "text": "Compressed Ender pearl",
-        "color": "green",
+        "text": "Block of Biomass",
+        "color": "blue",
         "bold": true,
         "italic": false,
         "underlined": false,
@@ -24,7 +24,7 @@
       },
       "minecraft:lore": [
         {
-          "text": "viel zu viele...",
+          "text": "Ein Ganzer Block von Biomasse",
           "color": "gray",
           "bold": false,
           "italic": false,
@@ -36,8 +36,8 @@
           "text": ""
         },
         {
-          "text": "Uncommon",
-          "color": "green",
+          "text": "Rare",
+          "color": "blue",
           "bold": true,
           "italic": false,
           "underlined": false,
@@ -45,7 +45,7 @@
           "obfuscated": false
         }
       ],
-      "minecraft:item_name": "compressed_ender pearl"
+      "minecraft:item_name": "compressed_mob_mesh"
     },
     "count": 1
   }

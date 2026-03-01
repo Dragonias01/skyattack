@@ -91,7 +91,25 @@
           "conditions": []
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": []
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_dye"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "fish_drop"
+          }
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing"

@@ -17,3 +17,5 @@ scoreboard players set @s timer 90
 # 4. Minecraft-Experience-Points hinzufügen (für natürliches Feeling)
 experience add @s 1 points
 
+scoreboard players set @s fishing_drop_pending 1
+execute as @s run schedule function sa:skill/fishing/events/delay_drop 1t

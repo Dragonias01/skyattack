@@ -69,9 +69,8 @@ scoreboard objectives add fishing_goal dummy "Fishing Goal"
 scoreboard objectives add max_level dummy "Max Fishing Level"
 scoreboard objectives add fishing_drop dummy "Fishing Drop Multiplier"
 scoreboard objectives add fishing_drop_base dummy "Fishing Drop Base"
-scoreboard objectives add fishing_multiplier_num dummy "Fishing Goal Multiplier (Numerator)"
-scoreboard objectives add fishing_multiplier_den dummy "Fishing Goal Multiplier (Denominator)"
 scoreboard objectives add fishing_goal_start dummy
+scoreboard objectives add fishing_drop_pending dummy
 # Setup-Tracking für Fishing System
 scoreboard objectives add fishing_initialized dummy "Fishing Setup Initialized"
 
