@@ -30,6 +30,15 @@
   "dialogs": [
     "sa:menue/wiki/compressed_items/compressed_stone",
     "sa:menue/wiki/compressed_items/biomass",
+    "sa:menue/wiki/compressed_items/block_of_biomass",
+    "sa:menue/wiki/compressed_items/compressed_log",
+    "sa:menue/wiki/compressed_items/compressed_string",
+    "sa:menue/wiki/compressed_items/compressed_gunpowder",
+    "sa:menue/wiki/compressed_items/compressed_enderpearl",
+    "sa:menue/wiki/compressed_items/compressed_redstone",
+    "sa:menue/wiki/compressed_items/compressed_rotten_flesh",
+    "sa:menue/wiki/compressed_items/compressed_bone",
+    "sa:menue/wiki/compressed_items/compressed_fish",
     "sa:menue/wiki/compressed_items/mob_mesh"
   ]
 }

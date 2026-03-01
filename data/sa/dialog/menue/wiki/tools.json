@@ -2,10 +2,10 @@
   "type": "minecraft:dialog_list",
   "title": {
     "atlas": "minecraft:items",
-    "sprite": "minecraft:item/book",
+    "sprite": "minecraft:item/wooden_pickaxe",
     "extra": [
       {
-        "text": " Wiki",
+        "text": " Tools",
         "color": "aqua"
       }
     ]
@@ -14,7 +14,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Hier Steht viel Nützliches Wissen! ",
+        "text": "Element Tools sind spezielle Werkzeuge die aus komprimierten Materialien hergestellt werden. Jedes Tool bringt einen einzigartigen Vorteil mit sich und ist unzerstörbar.",
         "extra": [
           {
             "atlas": "minecraft:items",
@@ -28,16 +28,10 @@
   "pause": false,
   "after_action": "close",
   "dialogs": [
-    "sa:menue/wiki/general__infos",
-    "sa:menue/wiki/compressed_items",
-    "sa:menue/wiki/tools",
-    "sa:menue/wiki/inseln",
-    "sa:menue/wiki/dirt",
-    "sa:menue/wiki/fishing",
-    "sa:menue/wiki/dirty_water",
-    "sa:menue/wiki/lava",
-    "sa:menue/wiki/moss",
-    "sa:menue/wiki/deepslate"
-
+    "sa:menue/wiki/tools/element_pickaxe",
+    "sa:menue/wiki/tools/element_axe",
+    "sa:menue/wiki/tools/element_hoe",
+    "sa:menue/wiki/tools/element_sword",
+    "sa:menue/wiki/tools/element_rod"
   ]
 }

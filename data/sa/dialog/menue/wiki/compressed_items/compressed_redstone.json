@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/redstone",
+    "extra": [
+      {
+        "text": " Compressed Redstone",
+        "color": "green",
+        "bold": true
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:nether_wart_block",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": {
+            "text": "Compressed Redstone",
+            "color": "green",
+            "bold": true,
+            "italic": false
+          }
+        }
+      },
+      "show_decorations": true,
+      "show_tooltip": true,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung:",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept: (2x2)",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "green"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/redstone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:redstone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/redstone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:redstone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/redstone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:redstone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/redstone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:redstone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": "Zurück",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items"
+      }
+    }
+  ]
+}

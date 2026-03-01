@@ -1,27 +1,62 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/writable_book",
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/tuff",
     "extra": [
       {
-        "text": "WIP",
-        "color": "yellow"
+        "text": " Compressed Stone",
+        "color": "green",
+        "bold": true
       }
     ]
   },
   "body": [
     {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:tuff",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": {
+            "text": "Compressed Stone",
+            "color": "green",
+            "bold": true,
+            "italic": false
+          }
+        }
+      },
+      "show_decorations": true,
+      "show_tooltip": true,
+      "width": 14,
+      "height": 14
+    },
+    {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP",
-        "color": "yellow"
+        "text": "Beschreibung:",
+        "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP"
+        "text": "Aus neun Stücken Kopfsteinpflaster zu einem einzigen Block gepresst. Compressed Stone ist eine zentrale Ressource im Spielverlauf – wertvoll genug, um damit Handel zu treiben. Wer viel abbaut, sammelt viel. Wer viel sammelt, kann mehr erreichen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept: ",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "green"
       }
     }
   ],
@@ -31,7 +66,124 @@
   "columns": 3,
   "actions": [
     {
-      "label": "zurück",
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/cobblestone",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobblestone"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": "Zurück",
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:menue/wiki/compressed_items"

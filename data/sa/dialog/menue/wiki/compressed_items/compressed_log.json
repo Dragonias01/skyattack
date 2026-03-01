@@ -1,11 +1,11 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/green_dye",
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/oak_log",
     "extra": [
       {
-        "text": " Compressed Biomass",
+        "text": " Compressed Log",
         "color": "green",
         "bold": true
       }
@@ -15,11 +15,11 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:green_dye",
+        "id": "minecraft:basalt",
         "count": 1,
         "components": {
           "minecraft:custom_name": {
-            "text": "Compressed Biomass",
+            "text": "Compressed Log",
             "color": "green",
             "bold": true,
             "italic": false
@@ -41,7 +41,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Organische Ressourcen auf engstem Raum zusammengepresst. Compressed Biomass ist ein vielseitiges Material das im späteren Spielverlauf sowohl als Handelsgut als auch als Grundlage für verschiedene Crafting-Rezepte dient. Wer eine Farm betreibt, sollte dieses Item nicht unterschätzen. Kann mit Kartoffeln oder Karotten hergestellt werden."
+        "text": "Neun Holzstämme zu einem einzigen komprimierten Block gepresst. Jede Holzart kann dafür verwendet werden. Compressed Log wird im späteren Spielverlauf noch eine wichtige Rolle spielen."
       }
     },
     {
@@ -67,117 +67,117 @@
   "actions": [
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/oak_log",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:oak_log"
         }
       },
       "width": 20

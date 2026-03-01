@@ -2,10 +2,10 @@
   "type": "minecraft:multi_action",
   "title": {
     "atlas": "minecraft:items",
-    "sprite": "minecraft:item/green_dye",
+    "sprite": "minecraft:item/cod",
     "extra": [
       {
-        "text": " Compressed Biomass",
+        "text": " Compressed Fish",
         "color": "green",
         "bold": true
       }
@@ -15,11 +15,11 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:green_dye",
+        "id": "minecraft:frogspawn",
         "count": 1,
         "components": {
           "minecraft:custom_name": {
-            "text": "Compressed Biomass",
+            "text": "Compressed Fish",
             "color": "green",
             "bold": true,
             "italic": false
@@ -41,7 +41,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Organische Ressourcen auf engstem Raum zusammengepresst. Compressed Biomass ist ein vielseitiges Material das im späteren Spielverlauf sowohl als Handelsgut als auch als Grundlage für verschiedene Crafting-Rezepte dient. Wer eine Farm betreibt, sollte dieses Item nicht unterschätzen. Kann mit Kartoffeln oder Karotten hergestellt werden."
+        "text": "WIP – viel zu viele Fische. Jede Fischart kann verwendet werden. Wird als Crafting-Material benötigt."
       }
     },
     {
@@ -68,12 +68,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -81,12 +81,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -94,12 +94,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -107,12 +107,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -120,12 +120,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -133,12 +133,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -146,12 +146,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -159,12 +159,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20
@@ -172,12 +172,12 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/cod",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:cod"
         }
       },
       "width": 20

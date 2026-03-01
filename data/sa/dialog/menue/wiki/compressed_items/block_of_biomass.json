@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/green_dye",
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/dried_kelp_block",
     "extra": [
       {
-        "text": " Compressed Biomass",
-        "color": "green",
+        "text": " Block of Biomass",
+        "color": "blue",
         "bold": true
       }
     ]
@@ -15,12 +15,12 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:green_dye",
+        "id": "minecraft:dried_kelp_block",
         "count": 1,
         "components": {
           "minecraft:custom_name": {
-            "text": "Compressed Biomass",
-            "color": "green",
+            "text": "Block of Biomass",
+            "color": "blue",
             "bold": true,
             "italic": false
           }
@@ -35,13 +35,13 @@
       "type": "minecraft:plain_message",
       "contents": {
         "text": "Beschreibung:",
-        "color": "green"
+        "color": "blue"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Organische Ressourcen auf engstem Raum zusammengepresst. Compressed Biomass ist ein vielseitiges Material das im späteren Spielverlauf sowohl als Handelsgut als auch als Grundlage für verschiedene Crafting-Rezepte dient. Wer eine Farm betreibt, sollte dieses Item nicht unterschätzen. Kann mit Kartoffeln oder Karotten hergestellt werden."
+        "text": "Eine vollständig verdichtete Masse aus Compressed Biomass. Gerüchte besagen, dass sich damit Werkzeuge herstellen lassen, die die Kräfte der Natur selbst in sich tragen. Was genau damit möglich ist, muss jeder selbst herausfinden..."
       }
     },
     {
@@ -56,7 +56,7 @@
             "italic": false
           }
         ],
-        "color": "green"
+        "color": "blue"
       }
     }
   ],
@@ -68,12 +68,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -81,12 +84,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -94,12 +100,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -107,12 +116,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -120,12 +132,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -133,12 +148,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -146,12 +164,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -159,12 +180,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20
@@ -172,12 +196,15 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/green_dye",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:green_dye",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Biomass", "italic": false }
+          }
         }
       },
       "width": 20

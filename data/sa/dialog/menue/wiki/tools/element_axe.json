@@ -2,11 +2,11 @@
   "type": "minecraft:multi_action",
   "title": {
     "atlas": "minecraft:items",
-    "sprite": "minecraft:item/green_dye",
+    "sprite": "minecraft:item/wooden_axe",
     "extra": [
       {
-        "text": " Compressed Biomass",
-        "color": "green",
+        "text": " Element Axe",
+        "color": "white",
         "bold": true
       }
     ]
@@ -15,15 +15,16 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:green_dye",
+        "id": "minecraft:wooden_axe",
         "count": 1,
         "components": {
           "minecraft:custom_name": {
-            "text": "Compressed Biomass",
-            "color": "green",
+            "text": "Element Axe",
+            "color": "white",
             "bold": true,
             "italic": false
-          }
+          },
+          "minecraft:unbreakable": {}
         }
       },
       "show_decorations": true,
@@ -35,19 +36,27 @@
       "type": "minecraft:plain_message",
       "contents": {
         "text": "Beschreibung:",
-        "color": "green"
+        "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Organische Ressourcen auf engstem Raum zusammengepresst. Compressed Biomass ist ein vielseitiges Material das im späteren Spielverlauf sowohl als Handelsgut als auch als Grundlage für verschiedene Crafting-Rezepte dient. Wer eine Farm betreibt, sollte dieses Item nicht unterschätzen. Kann mit Kartoffeln oder Karotten hergestellt werden."
+        "text": "Eine Axt aus komprimiertem Holz gefertigt. Unzerstörbar und effektiv: Beim Fällen von Bäumen erhält man doppelt so viele Logs. Für jeden der eine Holzfarm betreibt ein unverzichtbares Werkzeug. Benötigt Compressed Log zum Herstellen."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Bonus: +100% Log Ertrag",
+        "color": "green",
+        "italic": false
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept:",
         "extra": [
           {
             "atlas": "minecraft:blocks",
@@ -56,7 +65,7 @@
             "italic": false
           }
         ],
-        "color": "green"
+        "color": "white"
       }
     }
   ],
@@ -67,13 +76,54 @@
   "actions": [
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/basalt_top",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:basalt",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/basalt_top",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:basalt",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/basalt_top",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:basalt",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Log", "italic": false, "color": "green" }
+          }
         }
       },
       "width": 20
@@ -81,112 +131,53 @@
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/stick",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:stick"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
       },
       "width": 20
     },
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
+        "sprite": "minecraft:item/stick",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:potato"
+          "id": "minecraft:stick"
         }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
+        "text": " "
       },
       "width": 20
     },
     {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:items",
-        "sprite": "minecraft:item/potato",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:potato"
-        }
-      },
-      "width": 20
-    },
-    {
-      "label": "Zurück",
+      "label": "Z",
+      "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items"
+        "dialog": "sa:menue/wiki/tools"
       }
     }
   ]

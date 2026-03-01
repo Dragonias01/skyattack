@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/wooden_sword",
+    "extra": [
+      {
+        "text": " Element Sword",
+        "color": "white",
+        "bold": true
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:wooden_sword",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": {
+            "text": "Element Sword",
+            "color": "white",
+            "bold": true,
+            "italic": false
+          },
+          "minecraft:unbreakable": {}
+        }
+      },
+      "show_decorations": true,
+      "show_tooltip": true,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung:",
+        "color": "white"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Ein Schwert aus Compressed Mob Mesh – einem Material das aus verdichteten Mob-Drops besteht. Unzerstörbar und mit einer besonderen Wirkung auf Feinde: Jeder getötete Mob hat eine doppelt so hohe Chance seinen normalen Drop zu hinterlassen. Unentbehrlich für jeden Mob-Farmer."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Bonus: +100% Mob Drop Chance",
+        "color": "green",
+        "italic": false
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept:",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "white"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": {
+        "atlas": "minecraft:entities",
+        "sprite": "minecraft:entity/zombie/zombie",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:zombie_head",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Mob Mesh",
+              "italic": false,
+              "color": "blue"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:entities",
+        "sprite": "minecraft:entity/zombie/zombie",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:zombie_head",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Mob Mesh",
+              "italic": false,
+              "color": "blue"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/stick",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:stick"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": " "
+      },
+      "width": 20
+    },
+    {
+      "label": "Z",
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/tools"
+      }
+    }
+  ]
+}

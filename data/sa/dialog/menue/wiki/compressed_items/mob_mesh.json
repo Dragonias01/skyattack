@@ -41,7 +41,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Dieses Material sieht irgendwie stabil aus. Ein seltenes Crafting-Material, das aus verschiedenen organischen und anorganischen Substanzen zusammengepresst wurde."
+        "text": "Dieses Material sieht irgendwie stabil aus. Ein seltenes Crafting-Material, das aus verschiedenen komprimierten Mob-Drops zusammengepresst wurde. Alle Zutaten müssen selbst erst hergestellt werden."
       }
     },
     {
@@ -76,7 +76,14 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/cobweb",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:cobweb",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed String", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
     },
@@ -91,16 +98,30 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/gray_concrete_powder",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:gray_concrete_powder",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Gunpowder", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
     },
     {
       "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/frogspawn",
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Ender Pearl", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
     },
@@ -109,7 +130,14 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/nether_wart_block",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:nether_wart_block",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Redstone", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
     },
@@ -118,7 +146,14 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/copper_nautilus_armor",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:copper_nautilus_armor",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Rotten Flesh", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
     },
@@ -133,9 +168,23 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/bone_block_top",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bone_block",
+          "components": {
+            "minecraft:custom_name": { "text": "Compressed Bone", "italic": false, "color": "green" }
+          }
+        }
       },
       "width": 20
+    },
+    {
+      "label": "Zurück",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items"
+      }
     }
   ]
 }
