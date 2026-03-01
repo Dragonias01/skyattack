@@ -87,6 +87,7 @@ Ideen und Anregungen sind ausdrücklich erwünscht! Zum Beispiel:
 
 ## **Skill Progression**
 |Skill	| Level 1 | Level 2| Level 3| Level 4| Level 5| Level 6 | Level 7| Level 8| Level 9| Level 10| Level 15| Level 20| Level 50|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |Combat | 10      |30      |60      |80      |100     |125      |150     |175     |200     |250      |*1,5     | *1,1    |*1,01    |
 |Logging| 10      |20      |45      |60      |75      |100      |115     |150     |175     |200      |*1,5     | *1,1    |*1,01    |
 |Farming| 10      |20      |45      |60      |75      |100      |115     |150     |175     |200      |*1,5     | *1,1    |*1,01    |
