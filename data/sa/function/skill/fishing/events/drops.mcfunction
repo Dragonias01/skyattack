@@ -1,5 +1,3 @@
-
-say hi
 scoreboard players set @s fishing_drop_pending 0
 #Level bonus 5% pro level
 scoreboard players operation @s fishing_drop_menge = @s fishing_lvl
@@ -23,7 +21,6 @@ scoreboard players operation @s fishing_drop_menge += @s f_rod_gain
 # Level 1-20: Anstieg um 5%
 execute store result score @s fishing_drops run random value 1..20
 execute at @s if score @s fishing_drop_menge >= @s fishing_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"fish_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/fishing
-execute at @s if score @s fishing_drop_menge >= @s fishing_drops run say extra_drop!
 # Level 21-40
 execute store result score @s fishing_drops run random value 21..40
 execute at @s if score @s fishing_drop_menge >= @s fishing_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"fish_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/fishing
