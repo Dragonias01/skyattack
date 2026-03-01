@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/cobbled_deepslate",
+    "extra": [
+      {
+        "text": "Deepslate",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": "zurück",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
+    }
+  ]
+}
