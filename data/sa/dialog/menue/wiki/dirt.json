@@ -108,7 +108,7 @@
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/dirt",
+        "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
         "type": "object"
       },

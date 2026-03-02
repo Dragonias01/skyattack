@@ -72,12 +72,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "conditions": [
-            {
-              "condition": "minecraft:killed_by_player",
-              "inverse": true
-            }
-          ],
+          "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -86,6 +81,20 @@
               }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:killed_by_player",
+          "inverse": true
         }
       ]
     }

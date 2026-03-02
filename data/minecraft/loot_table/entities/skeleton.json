@@ -74,14 +74,23 @@
               "components": {
                 "minecraft:item_name": "skeleton_drop"
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:killed_by_player",
-                  "inverse": true
-                }
-              ]
+              "conditions": []
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:killed_by_player",
+          "inverse": true
         }
       ]
     }

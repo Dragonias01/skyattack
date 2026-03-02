@@ -2,7 +2,7 @@
   "type": "minecraft:multi_action",
   "title": {
     "atlas": "minecraft:blocks",
-    "sprite": "minecraft:block/dried_kelp_block",
+    "sprite": "minecraft:block/dried_kelp_top",
     "extra": [
       {
         "text": " Block of Biomass",

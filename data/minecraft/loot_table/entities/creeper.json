@@ -63,15 +63,23 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "creeper_drop"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:killed_by_player",
-                  "inverse": true
-                }
-              ]
+              }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:killed_by_player",
+          "inverse": true
         }
       ]
     }
