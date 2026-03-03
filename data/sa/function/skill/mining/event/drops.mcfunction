@@ -5,17 +5,17 @@ scoreboard players operation @s m_drop_menge = @s mining_lvl
 scoreboard players set @s m_pickaxe_gain 0
 #pickaxe bonus 100% pro pickaxe stufe
 #holz
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_common"}}}}] run scoreboard players set @s m_pickaxe_gain 20
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_common"}}}}] run scoreboard players set @s m_pickaxe_gain 10
 #stone
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_uncommon"}}}}] run scoreboard players set @s m_pickaxe_gain 40
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_uncommon"}}}}] run scoreboard players set @s m_pickaxe_gain 20
 #iron
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_rare"}}}}] run scoreboard players set @s m_pickaxe_gain 60
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_rare"}}}}] run scoreboard players set @s m_pickaxe_gain 40
 #gold
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_epic"}}}}] run scoreboard players set @s m_pickaxe_gain 80
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_epic"}}}}] run scoreboard players set @s m_pickaxe_gain 60
 #diamond
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_legendary"}}}}] run scoreboard players set @s m_pickaxe_gain 100
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_legendary"}}}}] run scoreboard players set @s m_pickaxe_gain 80
 #Netherite
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_mythic"}}}}] run scoreboard players set @s m_pickaxe_gain 120
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_pickaxe_mythic"}}}}] run scoreboard players set @s m_pickaxe_gain 100
 
 
 scoreboard players operation @s m_drop_menge += @s m_pickaxe_gain

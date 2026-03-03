@@ -45,5 +45,5 @@ scoreboard players set @s farming_xp_gain 100
     #execute as @s[scores={farming_xp_gain=1000}] run experience add @s 10 points
 
 
-execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run function sa:skill/farming/event/potato_drop
+execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run function sa:skill/farming/event/drops
 

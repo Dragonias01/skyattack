@@ -1,6 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
-  "ingredient": "minecraft:blackstone",
+  "ingredient": "minecraft:coal_block",
   "result": {
     "id": "minecraft:magma_block",
     "components": {
@@ -11,5 +11,5 @@
       }
     }
   },
-  "cookingtime": 12000
+  "cookingtime": 36000
 }

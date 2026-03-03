@@ -1,19 +1,4 @@
 scoreboard players operation @s combat_drop_menge = @s combat_lvl
-scoreboard players set @s c_sword_gain 0
-#pickaxe bonus 100% pro pickaxe stufe
-#holz
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_common"}}}}] run scoreboard players set @s c_sword_gain 20
-#stone
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_uncommon"}}}}] run scoreboard players set @s c_sword_gain 40
-#iron
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_rare"}}}}] run scoreboard players set @s c_sword_gain 60
-#gold
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_epic"}}}}] run scoreboard players set @s c_sword_gain 80
-#diamond
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_legendary"}}}}] run scoreboard players set @s c_sword_gain 100
-#Netherite
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_sword_mythic"}}}}] run scoreboard players set @s c_sword_gain 120
-
 
 scoreboard players operation @s combat_drop_menge += @s c_sword_gain
 # Level 1-20: Anstieg um 5%

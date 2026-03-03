@@ -4,17 +4,17 @@ scoreboard players operation @s fishing_drop_menge = @s fishing_lvl
 scoreboard players set @s f_rod_gain 0
 #rod bonus 100% pro rod stufe
 #holz
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_common"}}}}] run scoreboard players set @s f_rod_gain 20
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_common"}}}}] run scoreboard players set @s f_rod_gain 10
 #stone
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_uncommon"}}}}] run scoreboard players set @s f_rod_gain 40
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_uncommon"}}}}] run scoreboard players set @s f_rod_gain 20
 #iron
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_rare"}}}}] run scoreboard players set @s f_rod_gain 60
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_rare"}}}}] run scoreboard players set @s f_rod_gain 40
 #gold
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_epic"}}}}] run scoreboard players set @s f_rod_gain 80
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_epic"}}}}] run scoreboard players set @s f_rod_gain 60
 #diamond
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_legendary"}}}}] run scoreboard players set @s f_rod_gain 100
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_legendary"}}}}] run scoreboard players set @s f_rod_gain 80
 #Netherite
-execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_mythic"}}}}] run scoreboard players set @s f_rod_gain 120
+execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"element_rod_mythic"}}}}] run scoreboard players set @s f_rod_gain 100
 
 
 scoreboard players operation @s fishing_drop_menge += @s f_rod_gain
