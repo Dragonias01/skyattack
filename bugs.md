@@ -15,5 +15,4 @@
 
 = Einfache bugs =
 - biome zu groß
-- Skeletons droppen farbe
 -

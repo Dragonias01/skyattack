@@ -140,6 +140,11 @@
           "name": "minecraft:coal",
           "weight": 20,
           "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 10
         }
       ],
       "rolls": 1
