@@ -61,3 +61,11 @@ execute in sa:dungeon_editor run fill 26 60 7 18 60 62 packed_mud
 execute in sa:dungeon_editor run place template sa:main_island 32 61 9
 execute in sa:dungeon_editor run setblock 31 60 8 minecraft:structure_block{mode:"SAVE",name:"sa:main_island",posX:1,posY:1,posZ:1,sizeX:37,sizeY:48,sizeZ:35,showboundingbox:1b}
 
+
+
+execute in sa:dungeon_editor run setblock 35 70 64 minecraft:structure_block{mode:"SAVE",name:"sa:ship_1",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:48,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:ship_1 36 71 65
+execute in sa:dungeon_editor run setblock 35 70 112 minecraft:structure_block{mode:"SAVE",name:"sa:ship_2",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:40,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:ship_2 36 71 113
+
+

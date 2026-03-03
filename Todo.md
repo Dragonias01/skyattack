@@ -228,35 +228,6 @@ Größte verbleibende Baustellen:
 ================================================================================
 
 
-# SkyAttack – Alle Crafting Rezepte
-
----
-
-## 🔨 Crafting Table Rezepte
-
-### Compressed Items (3×3 voll)
-
-| Rezept-Name         | Zutaten                                                                                      | Ergebnis                          | Rarität  |
-|---------------------|----------------------------------------------------------------------------------------------|-----------------------------------|----------|
-| Compressed Stone    | 9× Cobblestone                                                                               | Tuff (custom)                     | Uncommon |ja
-| Compressed Biomass  | 9× Kartoffel oder Karotte                                                                    | Green Dye (custom)                | Uncommon |ja
-| Block of Biomass    | 9× Green Dye (= Compressed Biomass)                                                          | Dried Kelp Block (custom)         | Rare     |ja
-| Compressed Mob Mesh | 9x Mob Essence                                                                               | Zombie Head (custom)              | Rare     |
-
-### Basis-Ressourcen
-
-| Rezept-Name | Zutaten                                       | Ergebnis |
-|-------------|-----------------------------------------------|----------|
-| Dirt        | Setzling + Bone Meal im Schachbrettmuster 3×3 | Dirt     | ja
-| Gravel      | 4× Cobblestone (2×2)                          | Gravel   |ja
-| Sand        | 4× Gravel (2×2)                               | Sand     |ja
-
-### Sonstiges (Shapeless)
-
-| Rezept-Name | Zutaten                       | Ergebnis      |
-|-------------|-------------------------------|---------------|
-| Dirty Water | Glass Bottle + Dirt           | Wasser-Potion | ja
-| Lava Bucket | Magma Cube Spawn Egg + Bucket | Lava Bucket   | ja
 
 ### Element Tools (Common)
 
@@ -267,13 +238,5 @@ Größte verbleibende Baustellen:
 | Element Sword (Common)   | 2× Zombie Head + 1× Stick      | Wooden Sword (custom)   | +100% Mob Drop Chance |
 | Element Hoe (Common)     | 2× Dried Kelp Block + 2× Stick | Wooden Hoe (custom)     | +100% Crop Ertrag     |
 
----
 
-## 🔥 Campfire Cooking Rezepte (je 12.000 Ticks ≈ 10 Minuten)
-
-| Rezept-Name      | Zutat           | Ergebnis                 | implemented |
-|------------------|-----------------|--------------------------|-------------|
-| Magma            | Blackstone      | Magma Block (custom)     |  ja         |
-
----
 

@@ -132,3 +132,9 @@ scoreboard players set server scale_mid_den 10
 # *1.01 = 101/100
 scoreboard players set server scale_slow_num 101
 scoreboard players set server scale_slow_den 100
+
+scoreboard objectives add goal1 dummy
+
+
+scoreboard objectives add goals_initialized dummy "Foraging Setup Initialized"
+execute unless score server goals_initialized = server one run function sa:setup/goals

@@ -5,7 +5,7 @@ execute as @a[scores={itrigger=21..28}] run function sa:island/join
 
 function sa:item/reset/check
 function sa:actionbar/actionbar
-function sa:spawnprotection
+function sa:protection/compiler
 
 # ============================================================================
 # SKILL UPDATES
@@ -21,5 +21,6 @@ scoreboard players enable @a menue
 execute as @a unless score @s player_initialized matches 1 run function sa:setup/player_init
 
 execute as @a[scores={menue=1..}] run function sa:menue/compiler
+
 
 
