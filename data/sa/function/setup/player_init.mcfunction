@@ -59,6 +59,7 @@ scoreboard players set @s menue_open 0
 # --- INIT-FLAG setzen (damit diese Funktion nicht nochmal läuft) ---
 scoreboard players set @s player_initialized 1
 
-
+execute as @s run scoreboard players add server goal1_cost 25
+data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goal_ship","name":"server"},"color":"green"},{"text":"/","color":"white"},{"score":{"objective":"goal1_cost","name":"server"},"color":"white"}]
 #Recepie
 recipe give @s dirt
