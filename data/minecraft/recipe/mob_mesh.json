@@ -1,28 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " x ",
-    "yza",
-    "b c"
+    "xxx",
+    "xxx",
+    "xxx"
   ],
   "key": {
     "x": [
-      "minecraft:cobweb"
-    ],
-    "y": [
-      "minecraft:gray_concrete_powder"
-    ],
-    "z": [
       "minecraft:popped_chorus_fruit"
-    ],
-    "a": [
-      "minecraft:nether_wart_block"
-    ],
-    "b": [
-      "minecraft:copper_nautilus_armor"
-    ],
-    "c": [
-      "minecraft:bone_block"
     ]
   },
   "result": {

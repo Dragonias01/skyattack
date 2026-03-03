@@ -7,12 +7,46 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 90
+          "weight": 89
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 1,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "monster_essence",
+                "minecraft:custom_name": {
+                  "text": "Monster Essence",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Pure monster Essenz",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         }
       ],
       "rolls": 1

@@ -6,6 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 99,
           "functions": [
             {
               "add": false,
@@ -27,6 +28,40 @@
             }
           ],
           "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 1,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "monster_essence",
+                "minecraft:custom_name": {
+                  "text": "Monster Essence",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Pure monster Essenz",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         }
       ],
       "rolls": 1
@@ -86,7 +121,7 @@
             "per_level_above_first": 0.01
           },
           "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.15
+          "unenchanted_chance": 0.1
         }
       ],
       "entries": [

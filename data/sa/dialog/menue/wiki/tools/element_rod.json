@@ -48,7 +48,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +100% Fishing Ertrag",
+        "text": "Bonus: +50% Fishing Ertrag",
         "color": "green",
         "italic": false
       }

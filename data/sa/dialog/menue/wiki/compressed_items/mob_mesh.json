@@ -67,22 +67,16 @@
   "actions": [
     {
       "label": {
-        "text": " "
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/cobweb",
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:cobweb",
+          "id": "minecraft:popped_chorus_fruit",
           "components": {
             "minecraft:custom_name": {
-              "text": "Compressed String",
+              "text": "Compressed Ender Pearl",
               "italic": false,
               "color": "green"
             }
@@ -92,37 +86,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_string"
-      }
-    },
-    {
-      "label": {
-        "text": " "
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/gray_concrete_powder",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:gray_concrete_powder",
-          "components": {
-            "minecraft:custom_name": {
-              "text": "Compressed Gunpowder",
-              "italic": false,
-              "color": "green"
-            }
-          }
-        }
-      },
-      "width": 20,
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_gunpowder"
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
       }
     },
     {
@@ -146,45 +110,21 @@
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_enderpearl"
-      }
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/nether_wart_block",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:nether_wart_block",
-          "components": {
-            "minecraft:custom_name": {
-              "text": "Compressed Redstone",
-              "italic": false,
-              "color": "green"
-            }
-          }
-        }
-      },
-      "width": 20,
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_redstone"
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
       }
     },
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/copper_nautilus_armor",
+        "sprite": "minecraft:item/popped_chorus_fruit",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:copper_nautilus_armor",
+          "id": "minecraft:popped_chorus_fruit",
           "components": {
             "minecraft:custom_name": {
-              "text": "Compressed Rotten Flesh",
+              "text": "Compressed Ender Pearl",
               "italic": false,
               "color": "green"
             }
@@ -194,27 +134,21 @@
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_rotten_flesh"
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
       }
     },
     {
       "label": {
-        "text": " "
-      },
-      "width": 20
-    },
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/bone_block_top",
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
         "object": "atlas",
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:bone_block",
+          "id": "minecraft:popped_chorus_fruit",
           "components": {
             "minecraft:custom_name": {
-              "text": "Compressed Bone",
+              "text": "Compressed Ender Pearl",
               "italic": false,
               "color": "green"
             }
@@ -224,7 +158,127 @@
       "width": 20,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_bone"
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Ender Pearl",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Ender Pearl",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Ender Pearl",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Ender Pearl",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/popped_chorus_fruit",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:popped_chorus_fruit",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Ender Pearl",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/compressed_items/mob_essence"
       }
     },
     {

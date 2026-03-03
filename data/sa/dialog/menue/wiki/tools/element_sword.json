@@ -48,7 +48,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +100% Mob Drop Chance",
+        "text": "Bonus: +50% Mob Drop Chance",
         "color": "green",
         "italic": false
       }

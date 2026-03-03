@@ -48,7 +48,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +100% Log Ertrag",
+        "text": "Bonus: +50% Log Ertrag",
         "color": "green",
         "italic": false
       }

@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/popped_chorus_fruit",
+    "extra": [
+      {
+        "text": " Monster Essence",
+        "color": "green",
+        "bold": true
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:popped_chorus_fruit",
+        "count": 1,
+        "components": {
+          "minecraft:item_name": "monster_essence",
+          "minecraft:custom_name": {
+            "text": "Monster Essence",
+            "color": "green",
+            "bold": true,
+            "italic": false
+          },
+          "minecraft:lore": [
+            {
+              "text": "Pure monster Essenz",
+              "color": "gray",
+              "italic": false
+            },
+            "",
+            {
+              "text": "Uncommon",
+              "color": "green",
+              "bold": true,
+              "italic": false
+            }
+          ]
+        }
+      },
+      "show_decorations": true,
+      "show_tooltip": true,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung:",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP – stinkt irgendwie. Wird als Crafting-Material verwendet."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Zurück"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki/compressed_items"
+    }
+  }
+}

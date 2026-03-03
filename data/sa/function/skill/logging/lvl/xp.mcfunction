@@ -49,4 +49,4 @@ scoreboard players set @s logging_xp_gain 100
     #execute as @s[scores={logging_xp_gain=1000}] run experience add @s 10 points
 
 #funktioniert
-function sa:skill/logging/event/oak_drop
+function sa:skill/logging/event/drops

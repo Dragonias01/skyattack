@@ -58,3 +58,7 @@ scoreboard players set @s menue_open 0
 
 # --- INIT-FLAG setzen (damit diese Funktion nicht nochmal läuft) ---
 scoreboard players set @s player_initialized 1
+
+
+#Recepie
+recipe give @s dirt

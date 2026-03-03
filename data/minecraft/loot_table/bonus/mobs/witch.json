@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
-          "weight": 40
+          "weight": 39
         },
         {
           "type": "minecraft:item",
@@ -28,6 +28,40 @@
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
           "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 1,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "monster_essence",
+                "minecraft:custom_name": {
+                  "text": "Monster Essence",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Pure monster Essenz",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         }
       ],
       "rolls": 1

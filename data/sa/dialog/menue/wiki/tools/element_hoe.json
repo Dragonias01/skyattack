@@ -48,7 +48,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +100% Crop Ertrag",
+        "text": "Bonus: +50% Crop Ertrag",
         "color": "green",
         "italic": false
       }
@@ -77,7 +77,7 @@
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/dried_kelp_block_top",
+        "sprite": "minecraft:block/dried_kelp_top",
         "object": "atlas",
         "type": "object",
         "hover_event": {
@@ -101,7 +101,7 @@
     {
       "label": {
         "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/dried_kelp_block_top",
+        "sprite": "minecraft:block/dried_kelp_top",
         "object": "atlas",
         "type": "object",
         "hover_event": {
