@@ -5,7 +5,7 @@ scoreboard players operation @s combat_drop_menge += @s c_sword_gain
 
 #Rod learning
 execute store result score @s combat_drops run random value 1..40
-execute at @s if score @s combat_drop_menge >= @s combat_drops unless score @s ESword_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"creeper_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Rod]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_rod_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
+execute at @s if score @s combat_drop_menge >= @s combat_drops unless score @s ESword_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"zombie_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Sword]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_sword_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
 
 
 # Level 1-20: Anstieg um 5%

@@ -7,7 +7,7 @@ scoreboard players operation @s logging_drop_menge += @s l_axe_gain
 
 #Recipe learning
 execute store result score @s logging_drops run random value 1..40
-execute at @s if score @s logging_drop_menge >= @s logging_drops unless score @s EAxe_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"oak_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Pickaxe]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_axe_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
+execute at @s if score @s logging_drop_menge >= @s logging_drops unless score @s EAxe_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"oak_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Axe]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_axe_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
 
 
 # Level 1-20: Anstieg um 5%
