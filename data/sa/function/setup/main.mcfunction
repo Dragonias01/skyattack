@@ -37,6 +37,10 @@ gamerule random_tick_speed 15
 gamerule mob_griefing false
 gamerule keep_inventory true
 difficulty hard
+gamerule send_command_feedback false
+gamerule players_sleeping_percentage 10
+gamerule locator_bar false
+gamerule limited_crafting true
 
 scoreboard players set server setup1 1
 function sa:setup/npc

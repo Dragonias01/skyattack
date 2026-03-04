@@ -5,7 +5,7 @@
 # ============================================================================
 
 # Guardian an Spieler-Position summonen (etwas über Spieler)
-summon guardian ~ ~1 ~ {Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","guardian_fished"],attributes:[{id:max_health,base:20f}]}
+summon drowned ~ ~1 ~ {CanBreakDoors:true,Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","drowned_fished"],attributes:[{id:max_health,base:20f}]}
 
 # Sound-Effekt: Aggressive Musik
 playsound entity.guardian.ambient hostile @a[distance=0..30] ~ ~ ~ 1.0 1.2
@@ -17,4 +17,4 @@ particle minecraft:falling_water ~ ~ ~ 0.5 0.5 0.5 0.1 10 normal
 title @p[distance=0..30] actionbar [{"text":"🐋 A wild Guardian appeared!","color":"aqua"}]
 
 # Nachricht an Spieler
-tellraw @p[distance=0..30] [{"text":"🐋 Guardian ","color":"aqua","bold":true},{"text":"hat dich angegriffen!","color":"blue"}]
+#tellraw @p[distance=0..30] [{"text":"🐋 Guardian ","color":"aqua","bold":true},{"text":"hat dich angegriffen!","color":"blue"}]

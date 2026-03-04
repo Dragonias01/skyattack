@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:guardian_spawn_egg",
-          "weight": 50,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -23,7 +23,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_spawn_egg",
-          "weight": 50,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -33,6 +33,32 @@
               },
               "target": "item_name",
               "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:drowned_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "spawn_drowned"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bogged_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "spawn_bogged"
+              }
             }
           ]
         }

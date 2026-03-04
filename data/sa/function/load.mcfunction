@@ -108,10 +108,6 @@ execute unless score server Combat_initialized = server one run function sa:setu
 scoreboard objectives add menue_open dummy
 scoreboard objectives add menue trigger
 
-# Gamerules:
-gamerule send_command_feedback false
-gamerule players_sleeping_percentage 10
-gamerule locator_bar false
 
 #Math values
 scoreboard objectives add scale_fast_num dummy
@@ -134,6 +130,12 @@ scoreboard players set server scale_slow_num 101
 scoreboard players set server scale_slow_den 100
 
 scoreboard objectives add goal1 dummy
+
+scoreboard objectives add ERod_learn dummy
+scoreboard objectives add EAxe_learn dummy
+scoreboard objectives add ESword_learn dummy
+scoreboard objectives add EHoe_learn dummy
+scoreboard objectives add EPickaxe_learn dummy
 
 
 scoreboard objectives add goals_initialized dummy "Foraging Setup Initialized"

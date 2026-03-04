@@ -5,8 +5,7 @@
 # ============================================================================
 
 # Guardian an Spieler-Position summonen (etwas über Spieler)
-summon guardian ~ ~1 ~ {Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","guardian_fished"],attributes:[{id:max_health,base:20f}]}
-
+summon bogged ~ ~1 ~ {Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","bogged_fished"],attributes:[{id:max_health,base:20f}]}
 # Sound-Effekt: Aggressive Musik
 playsound entity.guardian.ambient hostile @a[distance=0..30] ~ ~ ~ 1.0 1.2
 

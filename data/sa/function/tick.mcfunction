@@ -20,6 +20,12 @@ scoreboard players enable @a menue
 
 execute as @a unless score @s player_initialized matches 1 run function sa:setup/player_init
 
+scoreboard players add @a ERod_learn 0
+scoreboard players add @a ESword_learn 0
+scoreboard players add @a EAxe_learn 0
+scoreboard players add @a EPickaxe_learn 0
+scoreboard players add @a EHoe_learn 0
+
 execute as @a[scores={menue=1..}] run function sa:menue/compiler
 
 

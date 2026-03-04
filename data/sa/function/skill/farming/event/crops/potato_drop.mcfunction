@@ -4,6 +4,12 @@ scoreboard players operation @s farming_drop_menge = @s farming_lvl
 
 
 scoreboard players operation @s farming_drop_menge += @s f_hoe_gain
+
+#Recipe learning
+execute store result score @s farming_drops run random value 1..40
+execute at @s if score @s farming_drop_menge >= @s farming_drops unless score @s EHoe_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Pickaxe]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_axe_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
+
+
 # Level 1-20: Anstieg um 5%
 execute store result score @s farming_drops run random value 1..20
 execute at @s if score @s farming_drop_menge >= @s farming_drops run execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"potato_drop"}}}] at @s run loot spawn ~ ~ ~ loot minecraft:bonus/potato
