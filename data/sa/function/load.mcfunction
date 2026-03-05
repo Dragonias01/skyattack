@@ -141,4 +141,8 @@ scoreboard objectives add EPickaxe_learn dummy
 scoreboard objectives add goals_initialized dummy "Foraging Setup Initialized"
 execute unless score server goals_initialized = server one run function sa:setup/overworld/goals
 
-scoreboard objectives add hub_initialized dummy "Foraging Setup Initialized"
+scoreboard objectives add hub_goals_initialized dummy
+execute unless score server hub_goals_initialized = server one run function sa:setup/hub/goals
+
+
+scoreboard objectives add hub_initialized dummy "hub Initialized"

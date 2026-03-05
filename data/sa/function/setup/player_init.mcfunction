@@ -60,6 +60,24 @@ scoreboard players set @s menue_open 0
 scoreboard players set @s player_initialized 1
 
 execute as @s run scoreboard players add server goal1_cost 25
+# ── Hub Goals - Gemeinschaftliche Kosten skalieren (pro Spieler) ─────────
+scoreboard players add server hub_dungeon_cost 50
+scoreboard players add server hub_skillrooms_cost 200
+scoreboard players add server hub_mining_cost 100
+scoreboard players add server hub_farming_cost 100
+scoreboard players add server hub_fishing_cost 100
+scoreboard players add server hub_fishpond_cost 1000
+scoreboard players add server hub_combat_cost 100
+# TODO: Kosten fuer Schmied und Techniker noch festlegen
+scoreboard players add server hub_schmied_cost 100
+scoreboard players add server hub_techniker_cost 100
+# TODO: SERVER PROGRESS SYSTEM - Levelbaum + Fishing Pond
+scoreboard players add server hub_levelbaum_cost 1000
+
+
+
+
+
 data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goal_ship","name":"server"},"color":"green"},{"text":"/","color":"white"},{"score":{"objective":"goal1_cost","name":"server"},"color":"white"}]
 #Recepie
 recipe give @s dirt
