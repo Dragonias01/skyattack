@@ -42,4 +42,4 @@ playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 1 1
 
 # ── Schritt 10: Text Display & Zielcheck ─────────────────────────────────
 data modify entity @e[type=text_display,tag=display_goal_ship,limit=1,sort=nearest] text set from storage sa:goal_ship_text text
-execute if score server goal_ship >= server goal1_cost run function sa:goals/goal_ship/spawn_ship
+execute if score server goal_ship >= server goal1_cost run function sa:goals/goal_ship/reward

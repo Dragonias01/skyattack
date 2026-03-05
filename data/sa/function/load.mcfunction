@@ -13,7 +13,7 @@ scoreboard players set server five 5
 
 # Setup-Tracking
 scoreboard objectives add setup1 dummy
-execute unless score server setup1 matches 1 run function sa:setup/main
+execute unless score server setup1 matches 1 run function sa:setup/overworld/main
 
 # Timer für Actionbar (basierend auf Play-Time)
 scoreboard objectives add timer minecraft.custom:minecraft.play_time
@@ -139,4 +139,6 @@ scoreboard objectives add EPickaxe_learn dummy
 
 
 scoreboard objectives add goals_initialized dummy "Foraging Setup Initialized"
-execute unless score server goals_initialized = server one run function sa:setup/goals
+execute unless score server goals_initialized = server one run function sa:setup/overworld/goals
+
+scoreboard objectives add hub_initialized dummy "Foraging Setup Initialized"

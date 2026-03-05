@@ -44,4 +44,4 @@ gamerule limited_crafting true
 
 scoreboard players set server setup1 1
 function sa:setup/npc
-function sa:setup/goals
+function sa:setup/overworld/goals

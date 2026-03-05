@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:jungle",
+      "lakes": false,
+      "features": false,
+      "layers": []
+    }
+  }
+}
