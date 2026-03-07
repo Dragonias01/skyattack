@@ -12,13 +12,13 @@ scoreboard objectives add goal_ship_remaining dummy
 
 
 # 2. Werte initialisieren
-scoreboard players set server goal_ship 0
+scoreboard players add server goal_ship 0
 
 
 # 3. Entities spawnen
 setblock -6 102 10 minecraft:reinforced_deepslate
 summon minecraft:interaction -6 103 10 {Tags:["goal","goal_ship"]}
-summon minecraft:block_display -6 103 10 {block_state:{Name:"minecraft:basalt"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_goal_ship"]}
+summon minecraft:block_display -6.0 103.0 10.0 {block_state:{Name:"minecraft:basalt"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_goal_ship"]}
 summon minecraft:text_display -6 104 10 {text:{"text":"0/25"},Tags:["display_goal_ship"],billboard:"center"}
 
 
@@ -27,5 +27,5 @@ data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goa
 
 
 
-scoreboard players set server goal1_cost 0
+scoreboard players add server goal1_cost 0
 scoreboard players set server goals_initialized 1

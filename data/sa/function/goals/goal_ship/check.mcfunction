@@ -1,6 +1,6 @@
+data modify entity @e[type=text_display,tag=display_goal_ship,limit=1,sort=nearest] text set from storage sa:goal_ship_text text
 # ── Schritt 1: Items zählen (entfernt nichts) ──────────────────────────────
 execute store result score @s temp_goal_ship_check run clear @s minecraft:basalt[item_name="compressed_log"] 0
-
 # ── Schritt 2: Keine Items → Fehlermeldung & Abbruch ──────────────────────
 execute as @s if score @s temp_goal_ship_check matches 0 run tellraw @s [{"text":"✗ Du hast keine Compressed Log!","color":"red"}]
 execute as @s if score @s temp_goal_ship_check matches 0 run return 0
