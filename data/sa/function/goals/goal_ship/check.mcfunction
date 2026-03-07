@@ -21,16 +21,16 @@ execute if score server goal_ship_remaining matches ..0 run return 0
 scoreboard players operation @s temp_goal_ship_check < server goal_ship_remaining
 
 # ── Schritt 7: Items entfernen (exakt so viele wie temp_goal_ship_check) ──
-execute if score @s temp_goal_ship_check matches 1 run clear @s minecraft:zombie_head[item_name="compressed_log"] 1
-execute if score @s temp_goal_ship_check matches 2 run clear @s minecraft:zombie_head[item_name="compressed_log"] 2
-execute if score @s temp_goal_ship_check matches 3 run clear @s minecraft:zombie_head[item_name="compressed_log"] 3
-execute if score @s temp_goal_ship_check matches 4 run clear @s minecraft:zombie_head[item_name="compressed_log"] 4
-execute if score @s temp_goal_ship_check matches 5 run clear @s minecraft:zombie_head[item_name="compressed_log"] 5
-execute if score @s temp_goal_ship_check matches 6 run clear @s minecraft:zombie_head[item_name="compressed_log"] 6
-execute if score @s temp_goal_ship_check matches 7 run clear @s minecraft:zombie_head[item_name="compressed_log"] 7
-execute if score @s temp_goal_ship_check matches 8 run clear @s minecraft:zombie_head[item_name="compressed_log"] 8
-execute if score @s temp_goal_ship_check matches 9 run clear @s minecraft:zombie_head[item_name="compressed_log"] 9
-execute if score @s temp_goal_ship_check matches 10 run clear @s minecraft:zombie_head[item_name="compressed_log"] 10
+execute if score @s temp_goal_ship_check matches 1 run clear @s minecraft:basalt[item_name="compressed_log"] 1
+execute if score @s temp_goal_ship_check matches 2 run clear @s minecraft:basalt[item_name="compressed_log"] 2
+execute if score @s temp_goal_ship_check matches 3 run clear @s minecraft:basalt[item_name="compressed_log"] 3
+execute if score @s temp_goal_ship_check matches 4 run clear @s minecraft:basalt[item_name="compressed_log"] 4
+execute if score @s temp_goal_ship_check matches 5 run clear @s minecraft:basalt[item_name="compressed_log"] 5
+execute if score @s temp_goal_ship_check matches 6 run clear @s minecraft:basalt[item_name="compressed_log"] 6
+execute if score @s temp_goal_ship_check matches 7 run clear @s minecraft:basalt[item_name="compressed_log"] 7
+execute if score @s temp_goal_ship_check matches 8 run clear @s minecraft:basalt[item_name="compressed_log"] 8
+execute if score @s temp_goal_ship_check matches 9 run clear @s minecraft:basalt[item_name="compressed_log"] 9
+execute if score @s temp_goal_ship_check matches 10 run clear @s minecraft:basalt[item_name="compressed_log"] 10
 
 # ── Schritt 8: Score addieren ─────────────────────────────────────────────
 scoreboard players operation server goal_ship += @s temp_goal_ship_check
