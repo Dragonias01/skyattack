@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "weight": 86
+          "weight": 83
         },
         {
           "type": "minecraft:item",
@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 1,
+          "weight": 3,
           "conditions": [],
           "functions": [
             {

@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 89
+          "weight": 87
         },
         {
           "type": "minecraft:item",
@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 1,
+          "weight": 3,
           "conditions": [],
           "functions": [
             {

@@ -6,7 +6,7 @@
 
 
 # ── Schritt 1: Items zaehlen (entfernt nichts) ───────────────────────────
-execute store result score @s temp_hub_skillrooms run clear @s minecraft:tuff[item_name="compressed_log"] 0
+execute store result score @s temp_hub_skillrooms run clear @s minecraft:basalt[item_name="compressed_log"] 0
 
 # ── Schritt 2: Keine Items → Fehlermeldung & Abbruch ─────────────────────
 execute if score @s temp_hub_skillrooms matches 0 run tellraw @s [{"text":"Du hast keine Compressed Log!","color":"red"}]
@@ -27,16 +27,16 @@ execute if score server hub_skillrooms_rem matches ..0 run return 0
 scoreboard players operation @s temp_hub_skillrooms < server hub_skillrooms_rem
 
 # ── Schritt 7: Items entfernen ────────────────────────────────────────────
-execute if score @s temp_hub_skillrooms matches 1 run clear @s minecraft:tuff[item_name="compressed_log"] 1
-execute if score @s temp_hub_skillrooms matches 2 run clear @s minecraft:tuff[item_name="compressed_log"] 2
-execute if score @s temp_hub_skillrooms matches 3 run clear @s minecraft:tuff[item_name="compressed_log"] 3
-execute if score @s temp_hub_skillrooms matches 4 run clear @s minecraft:tuff[item_name="compressed_log"] 4
-execute if score @s temp_hub_skillrooms matches 5 run clear @s minecraft:tuff[item_name="compressed_log"] 5
-execute if score @s temp_hub_skillrooms matches 6 run clear @s minecraft:tuff[item_name="compressed_log"] 6
-execute if score @s temp_hub_skillrooms matches 7 run clear @s minecraft:tuff[item_name="compressed_log"] 7
-execute if score @s temp_hub_skillrooms matches 8 run clear @s minecraft:tuff[item_name="compressed_log"] 8
-execute if score @s temp_hub_skillrooms matches 9 run clear @s minecraft:tuff[item_name="compressed_log"] 9
-execute if score @s temp_hub_skillrooms matches 10 run clear @s minecraft:tuff[item_name="compressed_log"] 10
+execute if score @s temp_hub_skillrooms matches 1 run clear @s minecraft:basalt[item_name="compressed_log"] 1
+execute if score @s temp_hub_skillrooms matches 2 run clear @s minecraft:basalt[item_name="compressed_log"] 2
+execute if score @s temp_hub_skillrooms matches 3 run clear @s minecraft:basalt[item_name="compressed_log"] 3
+execute if score @s temp_hub_skillrooms matches 4 run clear @s minecraft:basalt[item_name="compressed_log"] 4
+execute if score @s temp_hub_skillrooms matches 5 run clear @s minecraft:basalt[item_name="compressed_log"] 5
+execute if score @s temp_hub_skillrooms matches 6 run clear @s minecraft:basalt[item_name="compressed_log"] 6
+execute if score @s temp_hub_skillrooms matches 7 run clear @s minecraft:basalt[item_name="compressed_log"] 7
+execute if score @s temp_hub_skillrooms matches 8 run clear @s minecraft:basalt[item_name="compressed_log"] 8
+execute if score @s temp_hub_skillrooms matches 9 run clear @s minecraft:basalt[item_name="compressed_log"] 9
+execute if score @s temp_hub_skillrooms matches 10 run clear @s minecraft:basalt[item_name="compressed_log"] 10
 
 # ── Schritt 8: Score addieren ────────────────────────────────────────────
 scoreboard players operation server hub_skillrooms += @s temp_hub_skillrooms

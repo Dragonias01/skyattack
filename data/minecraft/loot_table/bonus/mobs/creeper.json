@@ -6,13 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 99,
+          "weight": 97,
           "name": "minecraft:gunpowder"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 1,
+          "weight": 3,
           "conditions": [],
           "functions": [
             {
