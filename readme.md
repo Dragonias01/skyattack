@@ -52,7 +52,7 @@ Diese Punkte sind bekannt und werden noch weiterentwickelt – kein Bug-Report n
 
 **Farming**
 - Gibt es Bugs?
-- Schaut euhc vorallem an ob die Berechnung auch im Multiplayer Funktioniert und keine Probleme hervor ruft.
+- Schaut euch vorallem an ob die Berechnung auch im Multiplayer Funktioniert und keine Probleme hervor ruft.
 
 
 
@@ -63,7 +63,6 @@ Diese Punkte sind bekannt und werden noch weiterentwickelt – kein Bug-Report n
 Folgende Inhalte sind bekannt nicht vorhanden oder noch in Arbeit – bitte nicht melden:
 
 - Alles rund um das **End**
-- Alles rund um den **Nether**
 - **Diamonds**
 
 ---
