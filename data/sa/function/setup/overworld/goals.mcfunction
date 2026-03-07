@@ -18,7 +18,7 @@ scoreboard players set server goal_ship 0
 # 3. Entities spawnen
 setblock -6 102 10 minecraft:reinforced_deepslate
 summon minecraft:interaction -6 103 10 {Tags:["goal","goal_ship"]}
-summon minecraft:block_display -5 103.0 10 {block_state: {Name: "minecraft:zombie_head", Properties: {powered: "false", rotation: "0"}}, transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.8f, 0.79999995f, 0.8f], translation: [-0.3f, 0.3f, 0.3f]},Tags:["goal","block_goal_ship"]}
+summon minecraft:block_display -6 103 10 {block_state:{Name:"minecraft:basalt"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_goal_ship"]}
 summon minecraft:text_display -6 104 10 {text:{"text":"0/25"},Tags:["display_goal_ship"],billboard:"center"}
 
 

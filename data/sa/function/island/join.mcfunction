@@ -79,4 +79,3 @@ execute as @a[scores={itrigger=28}] if score @s island matches 0 if score server
 execute as @a[scores={itrigger=28,island=8}] run tellraw @s [{"text":"[Server] ","color":"yellow"},{"text":"Insel 8 beigetreten!","color":"green"}]
 
 scoreboard players reset @a[scores={itrigger=21..28}] itrigger
-function sa:island/starting_kit
