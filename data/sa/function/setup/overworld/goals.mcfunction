@@ -24,7 +24,7 @@ summon minecraft:text_display -6 104 10 {text:{"text":"0/25"},Tags:["display_goa
 
 # 4. Storage Text setzen
 data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goal_ship","name":"server"},"color":"green"},{"text":"/","color":"white"},{"score":{"objective":"goal1_cost","name":"server"},"color":"white"}]
-
+execute as @e positioned -6 104 10 run data modify entity @e[type=text_display,tag=display_goal_ship,limit=1,sort=nearest] text set from storage sa:goal_ship_text text
 
 
 scoreboard players add server goal1_cost 0

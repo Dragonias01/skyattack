@@ -21,7 +21,6 @@ scoreboard players set server hub_skillrooms_done 1
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
 title @a title [{"text":"Skill Rooms Goal Completed!","color":"green"}]
-say Feature in Work
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
 

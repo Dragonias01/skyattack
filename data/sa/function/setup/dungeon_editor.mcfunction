@@ -69,7 +69,7 @@ execute in sa:dungeon_editor run setblock 35 70 112 minecraft:structure_block{mo
 execute in sa:dungeon_editor run place template sa:ship_2 36 71 113
 
 #Hub1
-execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b}
+execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
 execute in sa:dungeon_editor run place template sa:hub_1 36 71 159
 
 #Skillrooms

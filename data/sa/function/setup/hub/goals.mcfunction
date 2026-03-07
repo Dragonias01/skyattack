@@ -86,12 +86,6 @@ scoreboard players set server hub_techniker_cost 0
 execute in sa:hub run function sa:setup/hub/goal_setup/levelbaum_goal
 execute in sa:hub run function sa:setup/hub/goal_setup/dungeon_goal
 execute in sa:hub run function sa:setup/hub/goal_setup/skillrooms_goal
-#execute in sa:hub run function sa:setup/hub/goal_setup/mining_goal
-#execute in sa:hub run function sa:setup/hub/goal_setup/farming_goal
-#execute in sa:hub run function sa:setup/hub/goal_setup/fishing_goal
 execute in sa:hub run function sa:setup/hub/goal_setup/fishing_pond_goal
-#execute in sa:hub run function sa:setup/hub/goal_setup/combatgoal
-#execute in sa:hub run function sa:setup/hub/goal_setup/schmied_goal
-#execute in sa:hub run function sa:setup/hub/goal_setup/techniker_goal
 
 scoreboard players set server hub_goals_initialized 1

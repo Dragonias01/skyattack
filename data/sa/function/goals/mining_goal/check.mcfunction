@@ -12,7 +12,7 @@ execute unless score server hub_skillrooms_done matches 1 run return 0
 
 # ── Schritt 1: Items zaehlen (entfernt nichts) ───────────────────────────
 # PLATZHALTER ITEM: minecraft:paper[item_name="double_compressed_log"] - Ersetzen!
-execute store result score @s temp_hub_mining run clear @s minecraft:paper[item_name="double_compressed_log"] 0
+execute store result score @s temp_hub_mining run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 0
 
 # ── Schritt 2: Keine Items → Fehlermeldung & Abbruch ─────────────────────
 execute if score @s temp_hub_mining matches 0 run tellraw @s [{"text":"Du hast keine Double Compressed Log!","color":"red"}]
@@ -33,16 +33,16 @@ execute if score server hub_mining_rem matches ..0 run return 0
 scoreboard players operation @s temp_hub_mining < server hub_mining_rem
 
 # ── Schritt 7: Items entfernen ────────────────────────────────────────────
-execute if score @s temp_hub_mining matches 1 run clear @s minecraft:paper[item_name="double_compressed_log"] 1
-execute if score @s temp_hub_mining matches 2 run clear @s minecraft:paper[item_name="double_compressed_log"] 2
-execute if score @s temp_hub_mining matches 3 run clear @s minecraft:paper[item_name="double_compressed_log"] 3
-execute if score @s temp_hub_mining matches 4 run clear @s minecraft:paper[item_name="double_compressed_log"] 4
-execute if score @s temp_hub_mining matches 5 run clear @s minecraft:paper[item_name="double_compressed_log"] 5
-execute if score @s temp_hub_mining matches 6 run clear @s minecraft:paper[item_name="double_compressed_log"] 6
-execute if score @s temp_hub_mining matches 7 run clear @s minecraft:paper[item_name="double_compressed_log"] 7
-execute if score @s temp_hub_mining matches 8 run clear @s minecraft:paper[item_name="double_compressed_log"] 8
-execute if score @s temp_hub_mining matches 9 run clear @s minecraft:paper[item_name="double_compressed_log"] 9
-execute if score @s temp_hub_mining matches 10 run clear @s minecraft:paper[item_name="double_compressed_log"] 10
+execute if score @s temp_hub_mining matches 1 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 1
+execute if score @s temp_hub_mining matches 2 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 2
+execute if score @s temp_hub_mining matches 3 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 3
+execute if score @s temp_hub_mining matches 4 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 4
+execute if score @s temp_hub_mining matches 5 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 5
+execute if score @s temp_hub_mining matches 6 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 6
+execute if score @s temp_hub_mining matches 7 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 7
+execute if score @s temp_hub_mining matches 8 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 8
+execute if score @s temp_hub_mining matches 9 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 9
+execute if score @s temp_hub_mining matches 10 run clear @s minecraft:oak_wood[item_name="double_compressed_log"] 10
 
 # ── Schritt 8: Score addieren ────────────────────────────────────────────
 scoreboard players operation server hub_mining += @s temp_hub_mining
