@@ -72,6 +72,15 @@ execute in sa:dungeon_editor run place template sa:ship_2 36 71 113
 execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
 execute in sa:dungeon_editor run place template sa:hub_1 36 71 159
 
+execute in sa:dungeon_editor run setblock 84 71 173 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon_room",posX:1,posY:1,posZ:1,sizeX:17,sizeY:15,sizeZ:17,showboundingbox:1b,ignoreEntities:false}
+execute in sa:dungeon_editor run place template sa:dungeon_room 85 72 174
+
+execute in sa:dungeon_editor run setblock 105 71 168 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon_1",posX:1,posY:1,posZ:1,sizeX:48,sizeY:14,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
+execute in sa:dungeon_editor run place template sa:dungeon_1 106 72 169
+
+execute in sa:dungeon_editor run setblock 153 71 168 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon_2",posX:1,posY:1,posZ:1,sizeX:12,sizeY:14,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
+execute in sa:dungeon_editor run place template sa:dungeon_2 154 72 169
+
 #Skillrooms
 execute in sa:dungeon_editor run setblock 45 70 240 minecraft:structure_block{mode:"SAVE",name:"sa:skillroom",posX:1,posY:1,posZ:1,sizeX:23,sizeY:14,sizeZ:35,showboundingbox:1b}
 execute in sa:dungeon_editor run place template sa:skillroom 46 71 241
