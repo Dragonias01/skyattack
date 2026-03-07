@@ -3,6 +3,7 @@
 # Datei: sa:goals/farming_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_farming,limit=1,sort=nearest] text set from storage sa:farming_goal_text text
 
 # ── Dependency: Mining Raum ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen

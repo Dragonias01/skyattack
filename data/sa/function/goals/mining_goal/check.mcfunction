@@ -3,6 +3,7 @@
 # Datei: sa:goals/mining_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_mining,limit=1,sort=nearest] text set from storage sa:mining_goal_text text
 
 # ── Dependency: Skill Rooms ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen

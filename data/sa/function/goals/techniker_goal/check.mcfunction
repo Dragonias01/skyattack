@@ -3,6 +3,7 @@
 # Datei: sa:goals/techniker_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_techniker,limit=1,sort=nearest] text set from storage sa:techniker_goal_text text
 
 # ── Dependency: Skill Rooms ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen

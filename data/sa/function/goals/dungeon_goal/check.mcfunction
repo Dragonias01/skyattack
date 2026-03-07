@@ -3,6 +3,7 @@
 # Datei: sa:goals/dungeon_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_dungeon,limit=1,sort=nearest] text set from storage sa:dungeon_goal_text text
 
 
 # ── Schritt 1: Items zaehlen (entfernt nichts) ───────────────────────────

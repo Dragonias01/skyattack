@@ -3,6 +3,7 @@
 # Datei: sa:goals/schmied_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_schmied,limit=1,sort=nearest] text set from storage sa:schmied_goal_text text
 
 # ── Dependency: Skill Rooms ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen

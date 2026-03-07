@@ -3,6 +3,7 @@
 # Datei: sa:goals/fishing_goal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_fishing,limit=1,sort=nearest] text set from storage sa:fishing_goal_text text
 
 # ── Dependency: Farming Raum ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen

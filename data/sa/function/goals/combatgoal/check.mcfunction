@@ -3,6 +3,7 @@
 # Datei: sa:goals/combatgoal/check
 # Version: 1.21.11
 # ============================================================================
+data modify entity @e[type=text_display,tag=display_combat,limit=1,sort=nearest] text set from storage sa:combat_goal_text text
 
 # ── Dependency: Fishing Raum ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen
