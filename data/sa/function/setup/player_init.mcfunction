@@ -7,7 +7,7 @@
 #   Mining/Logging/Farming/Combat: 10
 #   Fishing: 5
 # ============================================================================
-
+say hi
 # --- FISHING ---
 scoreboard players set @s fishing_xp 0
 scoreboard players set @s fishing_lvl 0
@@ -62,17 +62,17 @@ scoreboard players set @s player_initialized 1
 execute as @s run scoreboard players add server goal1_cost 25
 # ── Hub Goals - Gemeinschaftliche Kosten skalieren (pro Spieler) ─────────
 scoreboard players add server hub_dungeon_cost 50
-scoreboard players add server hub_skillrooms_cost 200
-scoreboard players add server hub_mining_cost 100
-scoreboard players add server hub_farming_cost 100
-scoreboard players add server hub_fishing_cost 100
-scoreboard players add server hub_fishpond_cost 1000
-scoreboard players add server hub_combat_cost 100
+scoreboard players add server hub_skillrooms_cost 25
+scoreboard players add server hub_mining_cost 50
+scoreboard players add server hub_farming_cost 50
+scoreboard players add server hub_fishing_cost 50
+scoreboard players add server hub_fishpond_cost 100
+scoreboard players add server hub_combat_cost 50
 # TODO: Kosten fuer Schmied und Techniker noch festlegen
-scoreboard players add server hub_schmied_cost 100
-scoreboard players add server hub_techniker_cost 100
+scoreboard players add server hub_schmied_cost 50
+scoreboard players add server hub_techniker_cost 50
 # TODO: SERVER PROGRESS SYSTEM - Levelbaum + Fishing Pond
-scoreboard players add server hub_levelbaum_cost 1000
+scoreboard players add server hub_levelbaum_cost 50
 
 
 

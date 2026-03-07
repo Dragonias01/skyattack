@@ -27,5 +27,5 @@ data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goa
 
 
 
-scoreboard players set server goal1_cost 25
+scoreboard players set server goal1_cost 0
 scoreboard players set server goals_initialized 1
