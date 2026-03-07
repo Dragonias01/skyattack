@@ -72,4 +72,24 @@ execute in sa:dungeon_editor run place template sa:ship_2 36 71 113
 execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b}
 execute in sa:dungeon_editor run place template sa:hub_1 36 71 159
 
+#Skillrooms
+execute in sa:dungeon_editor run setblock 45 70 240 minecraft:structure_block{mode:"SAVE",name:"sa:skillroom",posX:1,posY:1,posZ:1,sizeX:23,sizeY:14,sizeZ:35,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:skillroom 46 71 241
+#Rooms
+execute in sa:dungeon_editor run setblock 50 70 225 minecraft:structure_block{mode:"SAVE",name:"sa:logging",posX:1,posY:1,posZ:1,sizeX:13,sizeY:10,sizeZ:12,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:logging 51 71 226
 
+execute in sa:dungeon_editor run setblock 30 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:farming",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:farming 31 71 246
+
+execute in sa:dungeon_editor run setblock 30 70 58 minecraft:structure_block{mode:"SAVE",name:"sa:combat",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:combat 31 71 259
+
+execute in sa:dungeon_editor run setblock 71 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:fishing",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:fishing 72 71 246
+
+execute in sa:dungeon_editor run setblock 71 70 257 minecraft:structure_block{mode:"SAVE",name:"sa:mining",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:mining 72 71 258
+
+execute in sa:dungeon_editor run setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:fishing_room 75 72 215

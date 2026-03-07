@@ -24,3 +24,13 @@ title @a title [{"text":"Skill Rooms Goal Completed!","color":"green"}]
 say Feature in Work
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
+
+
+#place room 
+execute in sa:hub run place template sa:skillroom -11 96 -58
+execute in sa:hub run fill 1 99 -23 -1 102 -23 air
+execute in sa:hub run place template sa:logging -6 96 -70
+execute in sa:hub run fill -1 99 -58 1 102 -58 air
+
+function sa:npc/villager/wood_merchant
+function sa:setup/hub/goal_setup/mining_goal
