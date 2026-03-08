@@ -11,9 +11,8 @@ kill @e[type=block_display,tag=block_fishing]
 
 setblock 10 99 -47 minecraft:air
 
-# ── Struktur platzieren ───────────────────────────────────────────────────
-# TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_FISHING_GOAL 10 99 -47
+place template sa:fishing 12 96 -53
+fill 11 99 -48 11 102 -46 air
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 scoreboard players set server hub_fishing_done 1

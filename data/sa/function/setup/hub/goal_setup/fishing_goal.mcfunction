@@ -18,7 +18,7 @@ summon minecraft:interaction 10 100 -47 {width:1.0f,height:1.0f,Tags:["goal","go
 
 # ── Block Display ─────────────────────────────────────────────────────────
 # TODO: block_state → passendes Symbol ersetzen (z.B. fishing_rod item_display)
-summon minecraft:block_display 10.0 100.0 -47.0 {block_state:{Name:"minecraft:emerald_block"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_fishing"]}
+summon minecraft:block_display 10.0 100.0 -47.0 {block_state:{Name:"minecraft:cobbled_deepslate"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_fishing"]}
 
 # ── Text Display ──────────────────────────────────────────────────────────
 summon minecraft:text_display 10 101 -47 {text:{"text":"0/100"},Tags:["display_fishing"],billboard:"center"}
