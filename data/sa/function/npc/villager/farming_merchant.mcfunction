@@ -1,0 +1,16 @@
+# ============================================================================
+# NPC: Farming Merchant
+# Datei: sa:npc/villager/farming_merchant
+# Version: 1.21.11
+# ============================================================================
+# ACHTUNG: Position anpassen! Platzhalter-Koordinaten – ersetzen.
+# Der Merchant spawnt im Farming Raum nahe dem Eingang.
+# Verkauft Double Compressed Crop → benötigt für Combat Goal
+# ============================================================================
+
+# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
+kill @e[type=villager,tag=farming_merchant]
+
+# ── Farming Merchant spawnen ──────────────────────────────────────────────
+# POSITION ANPASSEN: Koordinaten durch richtige Position ersetzen
+summon villager -10 99 -52 {Tags:["farming_merchant"],VillagerData:{type:plains,profession:farmer,level:5},Offers:{Recipes:[{maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,buy:{id:"minecraft:wheat",count:64,components:{custom_name:[{text:"Compressed Crop",bold:true,italic:false,color:green}],lore:[[{text:"Komprimierte Ernte",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],item_name:[{text:compressed_crop,italic:false}]}},sell:{id:"minecraft:paper",count:1,components:{custom_name:[{text:"Double Compressed Crop",italic:false,color:blue}],lore:[[{text:"Doppelt komprimierte Ernte",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:double_compressed_crop,italic:false}]}}},{buy:{id:barrier,count:1,components:{custom_name:[{text:WIP,italic:false,color:red}],lore:[[{text:"Work In Progress",italic:false,color:gray}],"",[{text:Temporarily,italic:false,color:red}]]}},sell:{id:barrier,count:1,components:{custom_name:[{text:WIP,italic:false,color:red}],lore:[[{text:"Work In Progress",italic:false,color:gray}],"",[{text:Temporarily,italic:false,color:red}]]}}}]},CustomName:[{"text":"[Farming Merchant]","color":"yellow"}],Invulnerable:1b,NoAI:1b,NoGravity:1b,OnGround:1b,PersistenceRequired:1b,Silent:1b}

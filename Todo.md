@@ -30,3 +30,7 @@ Goals:
 
 - Schmied_goal (ressource: ?) [Schaltet den Schmied Frei, Dependencie: Skillrooms goal] pos: -11 99 3 in sa:hub
 - Techniker_goal (ressource: ?) [Schaltet den Techniker Frei, Dependencie: Skillrooms goal und, Dungeon goal] pos: 3 99 -11 in sa:hub
+
+
+
+

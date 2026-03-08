@@ -2,6 +2,7 @@
 # GOAL SETUP: Farming Raum
 # Datei: sa:setup/hub/goal_setup/farming_goal  |  Version: 1.21.11
 # Kontext: Wird aufgerufen mit "execute in sa:hub run function sa:setup/hub/goal_setup/farming_goal"
+# HINWEIS: Wird durch fishing_goal/reward gespawnt, nicht beim Start.
 # ============================================================================
 
 # ── Bestehende Entities entfernen (Re-Setup Sicherheit) ───────────────────
@@ -9,21 +10,18 @@ kill @e[type=interaction,tag=goal_farming]
 kill @e[type=text_display,tag=display_farming]
 kill @e[type=block_display,tag=block_farming]
 
-# PLATZHALTER KOORDINATEN - Anpassen!
 # ── Deepslate setzen ──────────────────────────────────────────────────────
-setblock -20 99 5 minecraft:reinforced_deepslate
+setblock -10 99 -47 minecraft:reinforced_deepslate
 
-# ── Interaction Entity (1x1x1 auf dem Deepslate-Block) ────────────────────
-summon minecraft:interaction -20 100 5 {width:1.0f,height:1.0f,Tags:["goal","goal_farming"]}
+# ── Interaction Entity ────────────────────────────────────────────────────
+summon minecraft:interaction -10 100 -47 {width:1.0f,height:1.0f,Tags:["goal","goal_farming"]}
 
-# ── Block Display: zentriert, halbe Groesse (scale 0.4) ───────────────────
-# Position = Blockmitte (x, y+1, z)
-# translation [0.3, 0.3, 0.3] zentriert einen 0.4-skalierten Block im 1x1-Feld
-# TODO: block_state → passendes Symbol-Item ersetzen
-summon minecraft:block_display -20.0 100.0 5.0 {block_state:{Name:"minecraft:emerald_block"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_farming"]}
+# ── Block Display ─────────────────────────────────────────────────────────
+# TODO: block_state → passendes Symbol ersetzen
+summon minecraft:block_display -10.0 100.0 -47.0 {block_state:{Name:"minecraft:emerald_block"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.4f,0.4f,0.4f],translation:[0.3f,0.3f,0.3f]},Tags:["goal","block_farming"]}
 
-# ── Text Display (zentriert, 2 Blöcke über dem Deepslate) ─────────────────
-summon minecraft:text_display -20 101 5 {text:{"text":"0/100"},Tags:["display_farming"],billboard:"center"}
+# ── Text Display ──────────────────────────────────────────────────────────
+summon minecraft:text_display -10 101 -47 {text:{"text":"0/100"},Tags:["display_farming"],billboard:"center"}
 
 # ── Storage Text setzen ───────────────────────────────────────────────────
 data modify storage sa:farming_goal_text text set value [{"score":{"objective":"hub_farming","name":"server"},"color":"green"},{"text":"/","color":"white"},{"score":{"objective":"hub_farming_cost","name":"server"},"color":"white"}]

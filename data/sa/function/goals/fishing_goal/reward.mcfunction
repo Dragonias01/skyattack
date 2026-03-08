@@ -9,18 +9,26 @@ kill @e[type=interaction,tag=goal_fishing]
 kill @e[type=text_display,tag=display_fishing]
 kill @e[type=block_display,tag=block_fishing]
 
-# PLATZHALTER KOORDINATEN - Anpassen!
-setblock -20 99 10 minecraft:air
+setblock 10 99 -47 minecraft:air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 # TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_FISHING_GOAL -20 99 10
+# place template sa:TEMPLATE_FISHING_GOAL 10 99 -47
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
-# TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen
 scoreboard players set server hub_fishing_done 1
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
 title @a title [{"text":"Fishing Room Goal Completed!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
+
+# ── Fishing Merchant spawnen ──────────────────────────────────────────────
+# (Verkauft Double Compressed Fish – wird für Farming Goal & Fishing Pond benötigt)
+function sa:npc/villager/fishing_merchant
+
+# ── Farming Goal spawnen ──────────────────────────────────────────────────
+execute in sa:hub run function sa:setup/hub/goal_setup/farming_goal
+
+# ── Fishing Pond Goal spawnen ─────────────────────────────────────────────
+execute in sa:hub run function sa:setup/hub/goal_setup/fishing_pond_goal

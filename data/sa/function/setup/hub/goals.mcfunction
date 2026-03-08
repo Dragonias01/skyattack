@@ -82,10 +82,15 @@ scoreboard players set server hub_schmied_cost 0
 scoreboard players set server hub_techniker 0
 scoreboard players set server hub_techniker_cost 0
 
-# ── Goal Entities spawnen ────────────────────────────────────────────────
+# ── Goal Entities spawnen ─────────────────────────────────────────────────
+# HINWEIS: Nur die Goals die von Anfang an aktiv sind werden hier gespawnt.
+# dungeon_goal     → wird in skillrooms_goal/reward gespawnt (+ DungeonMaster NPC)
+# mining_goal      → wird in skillrooms_goal/reward gespawnt
+# fishing_goal     → wird in mining_goal/reward gespawnt
+# fishing_pond     → wird in fishing_goal/reward gespawnt
+# farming_goal     → wird in fishing_goal/reward gespawnt
+# combat_goal      → wird in farming_goal/reward gespawnt
 execute in sa:hub run function sa:setup/hub/goal_setup/levelbaum_goal
-execute in sa:hub run function sa:setup/hub/goal_setup/dungeon_goal
 execute in sa:hub run function sa:setup/hub/goal_setup/skillrooms_goal
-execute in sa:hub run function sa:setup/hub/goal_setup/fishing_pond_goal
 
 scoreboard players set server hub_goals_initialized 1

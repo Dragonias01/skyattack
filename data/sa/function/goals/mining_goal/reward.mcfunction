@@ -9,18 +9,23 @@ kill @e[type=interaction,tag=goal_mining]
 kill @e[type=text_display,tag=display_mining]
 kill @e[type=block_display,tag=block_mining]
 
-# PLATZHALTER KOORDINATEN - Anpassen!
-setblock -20 99 0 minecraft:air
+setblock 10 99 -35 minecraft:air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 # TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_MINING_GOAL -20 99 0
+# place template sa:TEMPLATE_MINING_GOAL 10 99 -35
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
-# TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen
 scoreboard players set server hub_mining_done 1
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
 title @a title [{"text":"Mining Room Goal Completed!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
+
+# ── Mining Merchant spawnen ───────────────────────────────────────────────
+# (Verkauft Double Compressed Stone – wird für das Fishing Goal benötigt)
+function sa:npc/villager/mining_merchant
+
+# ── Fishing Goal spawnen (nächste Stufe der Kette) ────────────────────────
+execute in sa:hub run function sa:setup/hub/goal_setup/fishing_goal
