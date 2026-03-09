@@ -13,7 +13,7 @@ setblock 13 99 5 minecraft:air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 # TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_DUNGEON_GOAL 13 99 5
+place template sa:dungeon_room 24 97 -8
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen

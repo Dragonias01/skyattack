@@ -10,10 +10,10 @@ kill @e[type=text_display,tag=display_farming]
 kill @e[type=block_display,tag=block_farming]
 
 setblock -10 99 -47 minecraft:air
+fill -11 99 -46 -11 102 -48 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
-# TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_FARMING_GOAL -10 99 -47
+place template sa:farming -23 96 -53
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 scoreboard players set server hub_farming_done 1

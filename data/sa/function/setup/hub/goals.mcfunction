@@ -61,26 +61,26 @@ scoreboard objectives add temp_hub_techniker dummy
 scoreboard objectives add hub_techniker_done dummy
 
 # ── Startwerte ────────────────────────────────────────────────────────────
-scoreboard players set server hub_levelbaum 0
-scoreboard players set server hub_levelbaum_cost 0
-scoreboard players set server hub_dungeon 0
-scoreboard players set server hub_dungeon_cost 0
-scoreboard players set server hub_skillrooms 0
-scoreboard players set server hub_skillrooms_cost 0
-scoreboard players set server hub_mining 0
-scoreboard players set server hub_mining_cost 0
-scoreboard players set server hub_farming 0
-scoreboard players set server hub_farming_cost 0
-scoreboard players set server hub_fishing 0
-scoreboard players set server hub_fishing_cost 0
-scoreboard players set server hub_fishpond 0
-scoreboard players set server hub_fishpond_cost 0
-scoreboard players set server hub_combat 0
-scoreboard players set server hub_combat_cost 0
-scoreboard players set server hub_schmied 0
-scoreboard players set server hub_schmied_cost 0
-scoreboard players set server hub_techniker 0
-scoreboard players set server hub_techniker_cost 0
+scoreboard players add server hub_levelbaum 0
+scoreboard players add server hub_levelbaum_cost 0
+scoreboard players add server hub_dungeon 0
+scoreboard players add server hub_dungeon_cost 0
+scoreboard players add server hub_skillrooms 0
+scoreboard players add server hub_skillrooms_cost 0
+scoreboard players add server hub_mining 0
+scoreboard players add server hub_mining_cost 0
+scoreboard players add server hub_farming 0
+scoreboard players add server hub_farming_cost 0
+scoreboard players add server hub_fishing 0
+scoreboard players add server hub_fishing_cost 0
+scoreboard players add server hub_fishpond 0
+scoreboard players add server hub_fishpond_cost 0
+scoreboard players add server hub_combat 0
+scoreboard players add server hub_combat_cost 0
+scoreboard players add server hub_schmied 0
+scoreboard players add server hub_schmied_cost 0
+scoreboard players add server hub_techniker 0
+scoreboard players add server hub_techniker_cost 0
 
 # ── Goal Entities spawnen ─────────────────────────────────────────────────
 # HINWEIS: Nur die Goals die von Anfang an aktiv sind werden hier gespawnt.

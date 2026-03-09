@@ -9,12 +9,14 @@ kill @e[type=interaction,tag=goal_combat]
 kill @e[type=text_display,tag=display_combat]
 kill @e[type=block_display,tag=block_combat]
 
-# PLATZHALTER KOORDINATEN - Anpassen!
+
 setblock -20 99 15 minecraft:air
+fill -11 99 -34 -11 102 -36 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
-# TODO: Struktur-Template einsetzen
-# place template sa:TEMPLATE_COMBATGOAL -20 99 15
+place template sa:combat -23 96 -40
+
+function sa:npc/villager/combat
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen
