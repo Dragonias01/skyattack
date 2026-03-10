@@ -13,7 +13,7 @@ setblock -10 99 -47 minecraft:air
 fill -11 99 -46 -11 102 -48 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
-place template sa:farming -23 96 -53
+place template sa:hub/farming -23 96 -53
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 scoreboard players set server hub_farming_done 1

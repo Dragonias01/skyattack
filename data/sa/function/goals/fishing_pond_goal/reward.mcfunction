@@ -13,7 +13,7 @@ setblock 0 99 22 minecraft:air
 fill -1 99 23 1 102 23 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
-place template sa:fishing_room -12 92 24
+place template sa:hub/fishing_room -12 92 24
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen

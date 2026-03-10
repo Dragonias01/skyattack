@@ -24,9 +24,9 @@ execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
 
 # ── Skillroom + Logging Raum platzieren ───────────────────────────────────
-execute in sa:hub run place template sa:skillroom -11 96 -58
+execute in sa:hub run place template sa:hub/skillroom -11 96 -58
 execute in sa:hub run fill 1 99 -23 -1 102 -23 air
-execute in sa:hub run place template sa:logging -6 96 -70
+execute in sa:hub run place template sa:hub/logging -6 96 -70
 execute in sa:hub run fill -1 99 -58 1 102 -58 air
 
 # ── Wood Merchant spawnen ─────────────────────────────────────────────────

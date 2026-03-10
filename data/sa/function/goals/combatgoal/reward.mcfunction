@@ -14,7 +14,7 @@ setblock -20 99 15 minecraft:air
 fill -11 99 -34 -11 102 -36 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
-place template sa:combat -23 96 -40
+place template sa:hub/combat -23 96 -40
 
 function sa:npc/villager/combat
 

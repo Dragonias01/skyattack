@@ -1,8 +1,8 @@
 setblock 0 59 0 diamond_block
 #platzieren der strukturen
 #Start
-execute in sa:dungeon_editor run place template sa:start -4 61 6
-execute in sa:dungeon_editor run setblock -5 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:9,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/start -4 61 6
+execute in sa:dungeon_editor run setblock -5 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:hub/start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:9,showboundingbox:1b}
 
 #Rooms
 execute in sa:dungeon_editor run place template sa:blackmarket -33 61 6
@@ -58,19 +58,19 @@ execute in sa:dungeon_editor run setblock 17 60 42 minecraft:structure_block{mod
 execute in sa:dungeon_editor run fill 18 60 7 24 60 49 packed_mud
 
 
-execute in sa:dungeon_editor run place template sa:main_island 32 61 9
-execute in sa:dungeon_editor run setblock 31 60 8 minecraft:structure_block{mode:"SAVE",name:"sa:main_island",posX:1,posY:1,posZ:1,sizeX:37,sizeY:48,sizeZ:35,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/main_island 32 61 9
+execute in sa:dungeon_editor run setblock 31 60 8 minecraft:structure_block{mode:"SAVE",name:"sa:hub/main_island",posX:1,posY:1,posZ:1,sizeX:37,sizeY:48,sizeZ:35,showboundingbox:1b}
 
 
 
-execute in sa:dungeon_editor run setblock 35 70 64 minecraft:structure_block{mode:"SAVE",name:"sa:ship_1",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:48,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:ship_1 36 71 65
-execute in sa:dungeon_editor run setblock 35 70 112 minecraft:structure_block{mode:"SAVE",name:"sa:ship_2",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:40,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:ship_2 36 71 113
+execute in sa:dungeon_editor run setblock 35 70 64 minecraft:structure_block{mode:"SAVE",name:"sa:hub/ship_1",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:48,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/ship_1 36 71 65
+execute in sa:dungeon_editor run setblock 35 70 112 minecraft:structure_block{mode:"SAVE",name:"sa:hub/ship_2",posX:1,posY:1,posZ:1,sizeX:24,sizeY:44,sizeZ:40,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/ship_2 36 71 113
 
 #Hub1
-execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
-execute in sa:dungeon_editor run place template sa:hub_1 36 71 159
+execute in sa:dungeon_editor run setblock 35 70 158 minecraft:structure_block{mode:"SAVE",name:"sa:hub/hub_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:22,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+execute in sa:dungeon_editor run place template sa:hub/hub_1 36 71 159
 
 execute in sa:dungeon_editor run setblock 84 71 173 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon_room",posX:1,posY:1,posZ:1,sizeX:17,sizeY:15,sizeZ:17,showboundingbox:1b,ignoreEntities:false}
 execute in sa:dungeon_editor run place template sa:dungeon_room 85 72 174
@@ -82,23 +82,23 @@ execute in sa:dungeon_editor run setblock 153 71 168 minecraft:structure_block{m
 execute in sa:dungeon_editor run place template sa:dungeon_2 154 72 169
 
 #Skillrooms
-execute in sa:dungeon_editor run setblock 45 70 240 minecraft:structure_block{mode:"SAVE",name:"sa:skillroom",posX:1,posY:1,posZ:1,sizeX:23,sizeY:14,sizeZ:35,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:skillroom 46 71 241
+execute in sa:dungeon_editor run setblock 45 70 240 minecraft:structure_block{mode:"SAVE",name:"sa:hub/skillroom",posX:1,posY:1,posZ:1,sizeX:23,sizeY:14,sizeZ:35,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/skillroom 46 71 241
 #Rooms
-execute in sa:dungeon_editor run setblock 50 70 225 minecraft:structure_block{mode:"SAVE",name:"sa:logging",posX:1,posY:1,posZ:1,sizeX:13,sizeY:10,sizeZ:12,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:logging 51 71 226
+execute in sa:dungeon_editor run setblock 50 70 225 minecraft:structure_block{mode:"SAVE",name:"sa:hub/logging",posX:1,posY:1,posZ:1,sizeX:13,sizeY:10,sizeZ:12,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/logging 51 71 226
 
-execute in sa:dungeon_editor run setblock 30 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:farming",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:farming 31 71 246
+execute in sa:dungeon_editor run setblock 30 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:hub/farming",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/farming 31 71 246
 
-execute in sa:dungeon_editor run setblock 30 70 258 minecraft:structure_block{mode:"SAVE",name:"sa:combat",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:combat 31 71 259
+execute in sa:dungeon_editor run setblock 30 70 258 minecraft:structure_block{mode:"SAVE",name:"sa:hub/combat",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/combat 31 71 259
 
-execute in sa:dungeon_editor run setblock 71 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:fishing",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:fishing 72 71 246
+execute in sa:dungeon_editor run setblock 71 70 245 minecraft:structure_block{mode:"SAVE",name:"sa:hub/fishing",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/fishing 72 71 246
 
-execute in sa:dungeon_editor run setblock 71 70 257 minecraft:structure_block{mode:"SAVE",name:"sa:mining",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:mining 72 71 258
+execute in sa:dungeon_editor run setblock 71 70 257 minecraft:structure_block{mode:"SAVE",name:"sa:hub/mining",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/mining 72 71 258
 
-execute in sa:dungeon_editor run setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b}
-execute in sa:dungeon_editor run place template sa:fishing_room 75 72 215
+execute in sa:dungeon_editor run setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:hub/fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:hub/fishing_room 75 72 215

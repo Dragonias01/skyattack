@@ -11,7 +11,7 @@ kill @e[type=block_display,tag=block_fishing]
 
 setblock 10 99 -47 minecraft:air
 
-place template sa:fishing 12 96 -53
+place template sa:hub/fishing 12 96 -53
 fill 11 99 -48 11 102 -46 air
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────

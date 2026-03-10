@@ -22,7 +22,7 @@ scoreboard players set server current 1
 
 # ── Insel 8 │ X=-177  Z=-177 (Nord-West) ─────────────────────────────────
 execute if score server i7 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i8 matches 1 run place template sa:island -179 99 -179
+execute if score server current matches 0 unless score server i8 matches 1 run place template sa:hub/island -179 99 -179
 execute if score server current matches 0 unless score server i8 matches 1 run tp @s -177 108 -177
 execute if score server current matches 0 unless score server i8 matches 1 run spawnpoint @s -177 108 -177
 execute if score server current matches 0 unless score server i8 matches 1 run scoreboard players set @s island 8
@@ -34,7 +34,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 7 │ X=-250  Z=0   (West) ──────────────────────────────────────
 execute if score server i6 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i7 matches 1 run place template sa:island -252 99 -2
+execute if score server current matches 0 unless score server i7 matches 1 run place template sa:hub/island -252 99 -2
 execute if score server current matches 0 unless score server i7 matches 1 run tp @s -250 108 0
 execute if score server current matches 0 unless score server i7 matches 1 run spawnpoint @s -250 108 0
 execute if score server current matches 0 unless score server i7 matches 1 run scoreboard players set @s island 7
@@ -46,7 +46,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 6 │ X=-177  Z=177  (Süd-West) ─────────────────────────────────
 execute if score server i5 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i6 matches 1 run place template sa:island -179 99 175
+execute if score server current matches 0 unless score server i6 matches 1 run place template sa:hub/island -179 99 175
 execute if score server current matches 0 unless score server i6 matches 1 run tp @s -177 108 177
 execute if score server current matches 0 unless score server i6 matches 1 run spawnpoint @s -177 108 177
 execute if score server current matches 0 unless score server i6 matches 1 run scoreboard players set @s island 6
@@ -58,7 +58,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 5 │ X=0     Z=250  (Süd) ──────────────────────────────────────
 execute if score server i4 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i5 matches 1 run place template sa:island -2 99 248
+execute if score server current matches 0 unless score server i5 matches 1 run place template sa:hub/island -2 99 248
 execute if score server current matches 0 unless score server i5 matches 1 run tp @s 0 108 250
 execute if score server current matches 0 unless score server i5 matches 1 run spawnpoint @s 0 108 250
 execute if score server current matches 0 unless score server i5 matches 1 run scoreboard players set @s island 5
@@ -70,7 +70,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 4 │ X=177   Z=177  (Süd-Ost) ──────────────────────────────────
 execute if score server i3 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i4 matches 1 run place template sa:island 175 99 175
+execute if score server current matches 0 unless score server i4 matches 1 run place template sa:hub/island 175 99 175
 execute if score server current matches 0 unless score server i4 matches 1 run tp @s 177 108 177
 execute if score server current matches 0 unless score server i4 matches 1 run spawnpoint @s 177 108 177
 execute if score server current matches 0 unless score server i4 matches 1 run scoreboard players set @s island 4
@@ -82,7 +82,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 3 │ X=250   Z=0    (Ost) ──────────────────────────────────────
 execute if score server i2 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i3 matches 1 run place template sa:island 248 99 -2
+execute if score server current matches 0 unless score server i3 matches 1 run place template sa:hub/island 248 99 -2
 execute if score server current matches 0 unless score server i3 matches 1 run tp @s 250 108 0
 execute if score server current matches 0 unless score server i3 matches 1 run spawnpoint @s 250 108 0
 execute if score server current matches 0 unless score server i3 matches 1 run scoreboard players set @s island 3
@@ -94,7 +94,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 2 │ X=177   Z=-177 (Nord-Ost) ─────────────────────────────────
 execute if score server i1 matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i2 matches 1 run place template sa:island 175 99 -179
+execute if score server current matches 0 unless score server i2 matches 1 run place template sa:hub/island 175 99 -179
 execute if score server current matches 0 unless score server i2 matches 1 run tp @s 177 108 -177
 execute if score server current matches 0 unless score server i2 matches 1 run spawnpoint @s 177 108 -177
 execute if score server current matches 0 unless score server i2 matches 1 run scoreboard players set @s island 2
@@ -106,7 +106,7 @@ execute if score server current matches 0 run scoreboard players set server curr
 
 # ── Insel 1 │ X=0     Z=-250 (Nord) ─────────────────────────────────────
 execute if score server current matches 1 run scoreboard players set server current 0
-execute if score server current matches 0 unless score server i1 matches 1 run place template sa:island -2 99 -252
+execute if score server current matches 0 unless score server i1 matches 1 run place template sa:hub/island -2 99 -252
 execute if score server current matches 0 unless score server i1 matches 1 run tp @s 0 108 -250
 execute if score server current matches 0 unless score server i1 matches 1 run spawnpoint @s 0 108 -250
 execute if score server current matches 0 unless score server i1 matches 1 run scoreboard players set @s island 1

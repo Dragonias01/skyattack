@@ -13,7 +13,7 @@ setblock 10 99 -35 minecraft:air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 # TODO: Struktur-Template einsetzen
-place template sa:mining 12 96 -41
+place template sa:hub/mining 12 96 -41
 fill 11 99 -36 11 102 -34 minecraft:air
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
