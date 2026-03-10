@@ -7,9 +7,10 @@
 # ── Entities entfernen ────────────────────────────────────────────────────
 kill @e[type=interaction,tag=goal_fishing_pond]
 kill @e[type=text_display,tag=display_fishpond]
-kill @e[type=block_display,tag=block_fishpond]
+kill @e[type=item_display,tag=item_fishpond]
 
 setblock 0 99 22 minecraft:air
+fill -1 99 23 1 102 23 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 place template sa:fishing_room -12 92 24
@@ -23,4 +24,3 @@ title @a title [{"text":"Fishing Pond Goal Completed!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
 
-function sa:setup/hub/goal_setup/fishing_pond_goal

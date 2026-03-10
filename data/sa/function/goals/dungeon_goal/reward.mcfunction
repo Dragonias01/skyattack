@@ -9,7 +9,8 @@ kill @e[type=interaction,tag=goal_dungeon]
 kill @e[type=text_display,tag=display_dungeon]
 kill @e[type=block_display,tag=block_dungeon]
 
-setblock 13 99 5 minecraft:air
+setblock 22 99 0 minecraft:air
+fill 23 99 1 23 102 -1 air
 
 # ── Struktur platzieren ───────────────────────────────────────────────────
 # TODO: Struktur-Template einsetzen

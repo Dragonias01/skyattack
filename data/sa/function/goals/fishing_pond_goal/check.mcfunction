@@ -11,7 +11,7 @@ execute unless score server hub_fishing_done matches 1 run tellraw @s [{"text":"
 execute unless score server hub_fishing_done matches 1 run return 0
 
 # ── Schritt 1: Aktuelle Fishing Level des Spielers lesen ─────────────────
-execute store result score @s temp_hub_fishing run experience query @s levels
+execute store result score @s temp_hub_fishpond run experience query @s levels
 
 # ── Schritt 2: Keine Level → Fehlermeldung & Abbruch ─────────────────────
 execute if score @s temp_hub_fishpond matches ..0 run tellraw @s [{"text":"Du hast nicht Genügend Level!","color":"red"}]
@@ -32,8 +32,16 @@ execute if score server hub_fishpond_rem matches ..0 run return 0
 scoreboard players operation @s temp_hub_fishpond < server hub_fishpond_rem
 
 # ── Schritt 7: Fishing Level abziehen & XP zurücksetzen ──────────────────
-scoreboard players operation @s fishing_lvl -= @s temp_hub_fishpond
-scoreboard players set @s fishing_xp 0
+execute if score @s temp_hub_fishpond matches 1 run experience add @s -1 levels
+execute if score @s temp_hub_fishpond matches 2 run experience add @s -2 levels
+execute if score @s temp_hub_fishpond matches 3 run experience add @s -3 levels
+execute if score @s temp_hub_fishpond matches 4 run experience add @s -4 levels
+execute if score @s temp_hub_fishpond matches 5 run experience add @s -5 levels
+execute if score @s temp_hub_fishpond matches 6 run experience add @s -6 levels
+execute if score @s temp_hub_fishpond matches 7 run experience add @s -7 levels
+execute if score @s temp_hub_fishpond matches 8 run experience add @s -8 levels
+execute if score @s temp_hub_fishpond matches 9 run experience add @s -9 levels
+execute if score @s temp_hub_fishpond matches 10.. run experience add @s -10 levels
 
 # ── Schritt 8: Score addieren ─────────────────────────────────────────────
 scoreboard players operation server hub_fishpond += @s temp_hub_fishpond
