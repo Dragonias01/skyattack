@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Dungeon Master",
+    "color": "dark_red",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Dungeon-System",
+        "color": "dark_red",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[WIP] – Dieser Text wird später angepasst. Hier wird erklärt, was das Dungeon-System ist, wie Dungeons funktionieren und wie man den ersten Dungeon freischaltet."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Verstanden"
+    }
+  }
+}

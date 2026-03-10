@@ -14,4 +14,5 @@ execute as @s if entity @e[type=mannequin,tag=tutorial,distance=..5] run dialog 
 execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] run function sa:npc/pilot/function
 
 # ── DungeonMaster NPC ─────────────────────────────────────────────────────
-execute as @s if entity @e[type=mannequin,tag=dungeon_master,distance=..5] run dialog show @s sa:dungeon_master
+execute unless score server hub_dungeon_done matches 1 as @s if entity @e[type=mannequin,tag=dungeon_master,distance=..5] run dialog show @s sa:chat/dungeon_master_intro
+execute if score server hub_dungeon_done matches 1 as @s if entity @e[type=mannequin,tag=dungeon_master,distance=..5] run dialog show @s sa:chat/dungeon_master_enter_hub

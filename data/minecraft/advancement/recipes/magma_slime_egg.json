@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:slime_spawn_egg"
+          },
+          {
+            "items": "minecraft:flint_and_steel"
+          },
+          {
+            "items": "minecraft:magma_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:magma_slime_egg"
+    ]
+  }
+}

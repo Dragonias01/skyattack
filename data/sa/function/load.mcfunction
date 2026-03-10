@@ -137,6 +137,8 @@ scoreboard objectives add ESword_learn dummy
 scoreboard objectives add EHoe_learn dummy
 scoreboard objectives add EPickaxe_learn dummy
 
+scoreboard objectives add menue_fix dummy
+
 
 scoreboard objectives add goals_initialized dummy "Foraging Setup Initialized"
 execute unless score server goals_initialized = server one run function sa:setup/overworld/goals

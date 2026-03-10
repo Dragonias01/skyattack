@@ -24,3 +24,4 @@ scoreboard players set server hub_dungeon_done 1
 title @a title [{"text":"Dungeon Goal Completed!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"gray"}]
+function sa:npc/dungeon_master
