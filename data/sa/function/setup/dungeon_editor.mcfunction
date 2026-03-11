@@ -1,8 +1,8 @@
 setblock 0 59 0 diamond_block
 #platzieren der strukturen
 #Start
-execute in sa:dungeon_editor run place template sa:hub/start -4 61 6
-execute in sa:dungeon_editor run setblock -5 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:hub/start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:9,showboundingbox:1b}
+execute in sa:dungeon_editor run place template sa:start -4 61 6
+execute in sa:dungeon_editor run setblock -5 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:9,showboundingbox:1b}
 
 #Rooms
 execute in sa:dungeon_editor run place template sa:blackmarket -33 61 6

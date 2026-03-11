@@ -14,3 +14,4 @@
 # Wenn Slot B größer als aktuelles Best → B wird neues Best
 execute if score lb_cmp_b lb_sort_score > lb_cmp_best lb_sort_score run scoreboard players operation lb_cmp_best lb_sort_score = lb_cmp_b lb_sort_score
 execute if score lb_cmp_b lb_sort_score > lb_cmp_best lb_sort_score run data modify storage sa:lb_temp best set from storage sa:lb_temp b
+ 

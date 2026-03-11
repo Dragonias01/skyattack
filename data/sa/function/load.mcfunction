@@ -1,3 +1,4 @@
+
 # ============================================================================
 # LOAD FUNCTION - Initialisierung des Datapacks
 # Wird einmalig beim Laden des Servers ausgeführt
@@ -146,7 +147,8 @@ execute unless score server goals_initialized = server one run function sa:setup
 scoreboard objectives add hub_goals_initialized dummy
 execute unless score server hub_goals_initialized = server one run function sa:setup/hub/goals
 
-scoreboard objectives add hub_fishpond_done dummy
+
+scoreboard objectives add hub_initialized dummy "hub Initialized"
 
 
 
@@ -161,7 +163,9 @@ scoreboard objectives add lb_tick dummy
 #     lb_insert_val             → Score des aktuellen Spielers
 #     lb_swap_tmp               → Temp beim Bubble-Sort Tausch
 scoreboard objectives add lb_log_score dummy
+scoreboard objectives add lb_sort_score dummy
 scoreboard objectives add lb_log_name dummy
+
 
 # Initialisierungs-Flag (verhindert doppeltes Setup)
 scoreboard objectives add lb_initialized dummy
