@@ -1,4 +1,3 @@
-
 # ============================================================================
 # LOAD FUNCTION - Initialisierung des Datapacks
 # Wird einmalig beim Laden des Servers ausgeführt
@@ -151,6 +150,13 @@ execute unless score server hub_goals_initialized = server one run function sa:s
 scoreboard objectives add hub_initialized dummy "hub Initialized"
 
 
+# ============================================================================
+# LEADERBOARD - Load-Einträge
+# DIESE ZEILEN in sa:load.mcfunction einfügen
+# Version: 1.21.11
+# ============================================================================
+
+# ── Scoreboard Objectives (alle die das System braucht) ───────────────────
 
 # Tick-Counter für den Update-Rhythmus
 scoreboard objectives add lb_tick dummy
@@ -163,12 +169,18 @@ scoreboard objectives add lb_tick dummy
 #     lb_insert_val             → Score des aktuellen Spielers
 #     lb_swap_tmp               → Temp beim Bubble-Sort Tausch
 scoreboard objectives add lb_log_score dummy
-scoreboard objectives add lb_sort_score dummy
 scoreboard objectives add lb_log_name dummy
-
-
+scoreboard objectives add lb_insert_idx dummy
 # Initialisierungs-Flag (verhindert doppeltes Setup)
 scoreboard objectives add lb_initialized dummy
 
 # ── Server-Startwerte setzen ──────────────────────────────────────────────
 scoreboard players set server lb_tick 0
+
+# ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────
+execute unless score server lb_initialized matches 1 run function sa:leaderboard/setup
+
+# ============================================================================
+# TICK - Diese Zeile in sa:tick.mcfunction einfügen
+# ============================================================================
+# function sa:leaderboard/tick
