@@ -146,5 +146,25 @@ execute unless score server goals_initialized = server one run function sa:setup
 scoreboard objectives add hub_goals_initialized dummy
 execute unless score server hub_goals_initialized = server one run function sa:setup/hub/goals
 
+scoreboard objectives add hub_fishpond_done dummy
 
-scoreboard objectives add hub_initialized dummy "hub Initialized"
+
+
+# Tick-Counter für den Update-Rhythmus
+scoreboard objectives add lb_tick dummy
+
+# Das einzige Score-Objective für alle Leaderboard-Slots und Temp-Werte:
+#   Fake-Player die darüber laufen:
+#     lb_log_s1 .. lb_log_s10  → die 10 Bestenlisten-Slots
+#     lb_min_val                → Hilfs-Temp beim Einfügen (kleinster Slot)
+#     lb_min_slot               → Welcher Slot überschrieben wird
+#     lb_insert_val             → Score des aktuellen Spielers
+#     lb_swap_tmp               → Temp beim Bubble-Sort Tausch
+scoreboard objectives add lb_log_score dummy
+scoreboard objectives add lb_log_name dummy
+
+# Initialisierungs-Flag (verhindert doppeltes Setup)
+scoreboard objectives add lb_initialized dummy
+
+# ── Server-Startwerte setzen ──────────────────────────────────────────────
+scoreboard players set server lb_tick 0

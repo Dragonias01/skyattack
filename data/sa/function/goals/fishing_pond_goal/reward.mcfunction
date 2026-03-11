@@ -18,6 +18,7 @@ place template sa:hub/fishing_room -12 92 24
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen
 scoreboard players set server hub_fishpond_done 1
+function sa:leaderboard/setup
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
 title @a title [{"text":"Fishing Pond Goal Completed!","color":"green"}]
