@@ -117,11 +117,11 @@ scoreboard objectives add scale_mid_den dummy
 scoreboard objectives add scale_slow_num dummy
 scoreboard objectives add scale_slow_den dummy
 
-# *1.5  = 15/10
+# *1.5 = 15/10
 scoreboard players set server scale_fast_num 15
 scoreboard players set server scale_fast_den 10
 
-# *1.1  = 11/10
+# *1.1 = 11/10
 scoreboard players set server scale_mid_num 11
 scoreboard players set server scale_mid_den 10
 
@@ -162,12 +162,12 @@ scoreboard objectives add hub_initialized dummy "hub Initialized"
 scoreboard objectives add lb_tick dummy
 
 # Das einzige Score-Objective für alle Leaderboard-Slots und Temp-Werte:
-#   Fake-Player die darüber laufen:
-#     lb_log_s1 .. lb_log_s10  → die 10 Bestenlisten-Slots
-#     lb_min_val                → Hilfs-Temp beim Einfügen (kleinster Slot)
-#     lb_min_slot               → Welcher Slot überschrieben wird
-#     lb_insert_val             → Score des aktuellen Spielers
-#     lb_swap_tmp               → Temp beim Bubble-Sort Tausch
+#  Fake-Player die darüber laufen:
+#   lb_log_s1 .. lb_log_s10 → die 10 Bestenlisten-Slots
+#   lb_min_val        → Hilfs-Temp beim Einfügen (kleinster Slot)
+#   lb_min_slot        → Welcher Slot überschrieben wird
+#   lb_insert_val       → Score des aktuellen Spielers
+#   lb_swap_tmp        → Temp beim Bubble-Sort Tausch
 scoreboard objectives add lb_log_score dummy
 scoreboard objectives add lb_log_name dummy
 scoreboard objectives add lb_insert_idx dummy
@@ -180,7 +180,4 @@ scoreboard players set server lb_tick 0
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────
 execute unless score server lb_initialized matches 1 run function sa:leaderboard/setup
 
-# ============================================================================
-# TICK - Diese Zeile in sa:tick.mcfunction einfügen
-# ============================================================================
-# function sa:leaderboard/tick
+scoreboard objectives add lb_log_slot dummy
