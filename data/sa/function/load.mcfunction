@@ -150,6 +150,8 @@ execute unless score server hub_goals_initialized = server one run function sa:s
 scoreboard objectives add hub_initialized dummy "hub Initialized"
 
 
+scoreboard objectives add dungeon_arena_one_init dummy "Combat Setup Initialized"
+
 # ============================================================================
 # LEADERBOARD - Load-Einträge
 # DIESE ZEILEN in sa:load.mcfunction einfügen
