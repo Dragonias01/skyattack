@@ -22,47 +22,31 @@ scoreboard objectives add lb_log_score dummy
 # Abstand pro Zeile: 0.6 Blöcke
 
 # ── Titel-Display ─────────────────────────────────────────────────────────
-summon minecraft:text_display -11 105.2 36 {Tags:["lb_log","lb_log_title"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"🪓 Logging Top 10","color":"gold","bold":true},background:0,shadow:true,text_opacity:255,line_width:200}
-
-# ── Zeile 1 (#1 Platz) ────────────────────────────────────────────────────
-summon minecraft:text_display -11 104.4 36 {Tags:["lb_log","lb_log_r1"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#1  ---  0","color":"white"},background:0,shadow:true,text_opacity:255,line_width:200}
-
-# ── Zeile 2 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 103.8 36 {Tags:["lb_log","lb_log_r2"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#2  ---  0","color":"white"},background:0,shadow:true,text_opacity:255,line_width:200}
-
-# ── Zeile 3 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 103.2 36 {Tags:["lb_log","lb_log_r3"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#3  ---  0","color":"white"},background:0,shadow:true,text_opacity:255,line_width:200}
-
-# ── Zeile 4 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 102.6 36 {Tags:["lb_log","lb_log_r4"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#4  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
-
-# ── Zeile 5 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 102.0 36 {Tags:["lb_log","lb_log_r5"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#5  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
-
+summon minecraft:text_display -11 102.0 36 {Tags:["lb_log","lb_log_title"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"🪓 Logging Top 5","color":"gold","bold":true},background:0,shadow:true,text_opacity:255,line_width:200}
 # ── Zeile 6 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 101.4 36 {Tags:["lb_log","lb_log_r6"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#6  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
+summon minecraft:text_display -11 101.4 36 {Tags:["lb_log","lb_log_r1"],billboard:"fixed",Rotation:[270f,0f],text:{"text":" - ","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
 
 # ── Zeile 7 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 100.8 36 {Tags:["lb_log","lb_log_r7"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#7  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
+summon minecraft:text_display -11 100.8 36 {Tags:["lb_log","lb_log_r2"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"-","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
 
 # ── Zeile 8 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 100.2 36 {Tags:["lb_log","lb_log_r8"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#8  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
+summon minecraft:text_display -11 100.2 36 {Tags:["lb_log","lb_log_r3"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"-","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
 
 # ── Zeile 9 ───────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 99.6 36 {Tags:["lb_log","lb_log_r9"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#9  ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
+summon minecraft:text_display -11 99.6 36 {Tags:["lb_log","lb_log_r4"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"-","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
 
 # ── Zeile 10 ──────────────────────────────────────────────────────────────
-summon minecraft:text_display -11 99.0 36 {Tags:["lb_log","lb_log_r10"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"#10 ---  0","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
+summon minecraft:text_display -11 99.0 36 {Tags:["lb_log","lb_log_r5"],billboard:"fixed",Rotation:[270f,0f],text:{"text":"-","color":"gray"},background:0,shadow:true,text_opacity:255,line_width:200}
 
 
 
-scoreboard players set lb_slot1_taken lb_log_score 0
-scoreboard players set lb_slot2_taken lb_log_score 0
-scoreboard players set lb_slot3_taken lb_log_score 0
-scoreboard players set lb_slot4_taken lb_log_score 0
-scoreboard players set lb_slot5_taken lb_log_score 0
-scoreboard players set lb_slot6_taken lb_log_score 0
-scoreboard players set lb_slot7_taken lb_log_score 0
-scoreboard players set lb_slot8_taken lb_log_score 0
-scoreboard players set lb_slot9_taken lb_log_score 0
-scoreboard players set lb_slot10_taken lb_log_score 0
+execute unless score lb_slot1_taken lb_log_score matches 0..1 run scoreboard players set lb_slot1_taken lb_log_score 0
+execute unless score lb_slot2_taken lb_log_score matches 0..1 run scoreboard players set lb_slot2_taken lb_log_score 0
+execute unless score lb_slot3_taken lb_log_score matches 0..1 run scoreboard players set lb_slot3_taken lb_log_score 0
+execute unless score lb_slot4_taken lb_log_score matches 0..1 run scoreboard players set lb_slot4_taken lb_log_score 0
+execute unless score lb_slot5_taken lb_log_score matches 0..1 run scoreboard players set lb_slot5_taken lb_log_score 0
+execute unless score lb_slot6_taken lb_log_score matches 0..1 run scoreboard players set lb_slot6_taken lb_log_score 0
+execute unless score lb_slot7_taken lb_log_score matches 0..1 run scoreboard players set lb_slot7_taken lb_log_score 0
+execute unless score lb_slot8_taken lb_log_score matches 0..1 run scoreboard players set lb_slot8_taken lb_log_score 0
+execute unless score lb_slot9_taken lb_log_score matches 0..1 run scoreboard players set lb_slot9_taken lb_log_score 0
+execute unless score lb_slot10_taken lb_log_score matches 0..1 run scoreboard players set lb_slot10_taken lb_log_score 0

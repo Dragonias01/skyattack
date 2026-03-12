@@ -1,101 +1,22 @@
-# ============================================================================
-# LEADERBOARD: Sort-Pass (Bubble Sort, absteigend)
-# Datei: sa:leaderboard/logging/sort_pass
-# Version: 1.21.11
-#
-# Sortiert lb_log_s1..s10 absteigend nach lb_log_score.
-# Tauscht parallel auch die Namen in sa:leaderboard log.sX.
-# Wird einmal nach insert_player aufgerufen.
-# ============================================================================
-
-# Bubble Sort - 9 Passes (worst case für 10 Elemente ausreichend)
+# sa:leaderboard/logging/sort_pass
+# Bubble Sort 4 Passes für 5 Elemente
 # Pass 1
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
 # Pass 2
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
 # Pass 3
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
 # Pass 4
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
-# Pass 5
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
-# Pass 6
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
-# Pass 7
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
-# Pass 8
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}
-# Pass 9
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s3",b:"lb_log_s4",na:"3",nb:"4"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s4",b:"lb_log_s5",na:"4",nb:"5"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s5",b:"lb_log_s6",na:"5",nb:"6"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s6",b:"lb_log_s7",na:"6",nb:"7"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s7",b:"lb_log_s8",na:"7",nb:"8"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s8",b:"lb_log_s9",na:"8",nb:"9"}
-function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s9",b:"lb_log_s10",na:"9",nb:"10"}

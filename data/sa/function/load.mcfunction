@@ -183,3 +183,5 @@ scoreboard players set server lb_tick 0
 execute unless score server lb_initialized matches 1 run function sa:leaderboard/setup
 
 scoreboard objectives add lb_log_slot dummy
+
+
