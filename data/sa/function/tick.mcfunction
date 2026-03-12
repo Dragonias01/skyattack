@@ -29,4 +29,4 @@ scoreboard players add @a EHoe_learn 0
 execute as @a[scores={menue=1..}] run function sa:menue/compiler
 
 function sa:leaderboard/tick
-
+function sa:dungeon/boss_check

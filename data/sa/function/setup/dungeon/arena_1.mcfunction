@@ -6,5 +6,7 @@ execute in sa:dungeon_arena_1 if score server dungeon_arena_one_init matches 1 r
 execute in sa:dungeon_arena_1 if score server dungeon_arena_one_init matches 1 run summon mannequin 3 100 3 {profile:Dragonias01,immovable:true,Invulnerable:1b,NoGravity:1b,OnGround:1b,Silent:1b,Rotation:[180f,0f],Tags:["npc","dungeon_master","indungeon"]}
 execute in sa:dungeon_arena_1 if score server dungeon_arena_one_init matches 1 run summon interaction 3 100 3 {width:1.0f,height:2.0f,Tags:["npc","dungeon_master","indungeon"]}
 
+function sa:setup/dungeon/bossbar
+
 tp @s 0 100 0
 scoreboard players set server dungeon_arena_one_init 1
