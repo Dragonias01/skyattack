@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"boss1\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sa:dungeon/dungeon_1/boss/kill/kill_event"
+  }
+}
