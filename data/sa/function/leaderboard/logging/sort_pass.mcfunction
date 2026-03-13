@@ -1,5 +1,7 @@
-# sa:leaderboard/logging/sort_pass
-# Bubble Sort 4 Passes für 5 Elemente
+# LEADERBOARD: Sort-Pass für Logging
+# Datei: sa:leaderboard/logging/sort_pass
+# Version: 1.21.11
+
 # Pass 1
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s1",b:"lb_log_s2",na:"1",nb:"2"}
 function sa:leaderboard/logging/swap_if_needed {a:"lb_log_s2",b:"lb_log_s3",na:"2",nb:"3"}

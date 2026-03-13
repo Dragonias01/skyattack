@@ -1,17 +1,11 @@
-# ============================================================================
 # LEADERBOARD SETUP - Einmalige Initialisierung
 # Datei: sa:leaderboard/setup
 # Version: 1.21.11
-#
-# Wird aufgerufen von: load (execute unless score server lb_initialized matches 1)
-# Spawnt alle Leaderboard-Entities.
-#
-# ERWEITERUNG: Neue Bestenliste hier eintragen:
-#   execute in sa:hub run function sa:setup/hub/leaderboard/mining
-# ============================================================================
 
-# ── Logging Bestenliste spawnen ───────────────────────────────────────────
 execute in sa:hub run function sa:setup/hub/leaderboard/logging
+execute in sa:hub run function sa:setup/hub/leaderboard/mining
+execute in sa:hub run function sa:setup/hub/leaderboard/fishing
+execute in sa:hub run function sa:setup/hub/leaderboard/farming
+execute in sa:hub run function sa:setup/hub/leaderboard/combat
 
-# ── Als initialisiert markieren ───────────────────────────────────────────
 scoreboard players set server lb_initialized 1

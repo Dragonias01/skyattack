@@ -107,5 +107,5 @@ execute in sa:dungeon_editor run place template sa:hub/fishing 72 71 246
 execute in sa:dungeon_editor run setblock 71 70 257 minecraft:structure_block{mode:"SAVE",name:"sa:hub/mining",posX:1,posY:1,posZ:1,sizeX:12,sizeY:10,sizeZ:13,showboundingbox:1b}
 execute in sa:dungeon_editor run place template sa:hub/mining 72 71 258
 
-execute in sa:dungeon_editor run setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:hub/fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b}
+execute in sa:dungeon_editor run setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:hub/fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b,ignoreEntities:false}
 execute in sa:dungeon_editor run place template sa:hub/fishing_room 75 72 215

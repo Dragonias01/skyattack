@@ -162,26 +162,40 @@ scoreboard objectives add dungeon_arena_one_init dummy "Combat Setup Initialized
 
 # Tick-Counter für den Update-Rhythmus
 scoreboard objectives add lb_tick dummy
-
-# Das einzige Score-Objective für alle Leaderboard-Slots und Temp-Werte:
-#  Fake-Player die darüber laufen:
-#   lb_log_s1 .. lb_log_s10 → die 10 Bestenlisten-Slots
-#   lb_min_val        → Hilfs-Temp beim Einfügen (kleinster Slot)
-#   lb_min_slot        → Welcher Slot überschrieben wird
-#   lb_insert_val       → Score des aktuellen Spielers
-#   lb_swap_tmp        → Temp beim Bubble-Sort Tausch
 scoreboard objectives add lb_log_score dummy
 scoreboard objectives add lb_log_name dummy
 scoreboard objectives add lb_insert_idx dummy
 # Initialisierungs-Flag (verhindert doppeltes Setup)
 scoreboard objectives add lb_initialized dummy
-
+scoreboard objectives add lb_log_slot dummy
 # ── Server-Startwerte setzen ──────────────────────────────────────────────
 scoreboard players set server lb_tick 0
+
+# ── Mining Leaderboard Objectives ─────────────────────────────────────────
+scoreboard objectives add lb_min_score dummy
+scoreboard objectives add lb_min_name dummy
+scoreboard objectives add lb_min_slot dummy
+
+# ── Fishing Leaderboard Objectives ────────────────────────────────────────
+scoreboard objectives add lb_fsh_score dummy
+scoreboard objectives add lb_fsh_name dummy
+scoreboard objectives add lb_fsh_slot dummy
+
+# ── Farming Leaderboard Objectives ────────────────────────────────────────
+scoreboard objectives add lb_far_score dummy
+scoreboard objectives add lb_far_name dummy
+scoreboard objectives add lb_far_slot dummy
+
+# ── Combat Leaderboard Objectives ─────────────────────────────────────────
+scoreboard objectives add lb_com_score dummy
+scoreboard objectives add lb_com_name dummy
+scoreboard objectives add lb_com_slot dummy
+
+
 
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────
 execute unless score server lb_initialized matches 1 run function sa:leaderboard/setup
 
-scoreboard objectives add lb_log_slot dummy
+
 
 
