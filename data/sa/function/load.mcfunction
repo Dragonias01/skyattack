@@ -191,6 +191,23 @@ scoreboard objectives add lb_com_score dummy
 scoreboard objectives add lb_com_name dummy
 scoreboard objectives add lb_com_slot dummy
 
+#System counter
+scoreboard objectives add tick_counter dummy
+
+# Auffhol System
+scoreboard objectives add logging_max_player_level dummy
+
+# In setup/skills/logging.mcfunction ergänzen:
+scoreboard objectives add logging_proximity dummy
+scoreboard objectives add calc_temp dummy
+
+scoreboard objectives add const_100 dummy
+scoreboard objectives add const_10 dummy
+
+# In load.mcfunction oder wo du deine Konstanten setzt:
+scoreboard players set server const_100 100
+scoreboard players set server const_10 10
+
 
 
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────

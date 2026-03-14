@@ -22,5 +22,14 @@ scoreboard players set @a logging_drop_menge 0
 scoreboard players set @a logging_xp_gain 0
 scoreboard players set @a l_axe_gain 0
 
+# Auffhol System
+scoreboard objectives add logging_max_player_level dummy
+scoreboard objectives add logging_xp_boost_gain dummy
+
+# In setup/skills/logging.mcfunction ergänzen:
+scoreboard objectives add logging_proximity dummy
+
+
+
 #logging auf Initiatliziert setzten 
 scoreboard players set server logging_initialized 1

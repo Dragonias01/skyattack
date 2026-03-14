@@ -30,3 +30,4 @@ execute as @a[scores={menue=1..}] run function sa:menue/compiler
 
 function sa:leaderboard/tick
 function sa:dungeon/boss_check
+function sa:system/updates
