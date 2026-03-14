@@ -78,3 +78,10 @@ execute as @a unless score @s m_pickaxe_gain = @s m_pickaxe_gain run scoreboard 
 scoreboard objectives add mining_initialized dummy "Mining Setup Initialized"
 scoreboard players set server mining_initialized 1
 
+# Aufhol System
+scoreboard objectives add mining_max_player_level dummy
+scoreboard objectives add mining_xp_boost_gain dummy
+scoreboard objectives add mining_proximity dummy
+
+scoreboard players set @a mining_xp_boost_gain 0
+

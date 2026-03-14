@@ -39,3 +39,11 @@ Wiki:
 Items:
  - Xp Fruits
  - Xp Katalysator
+
+
+
+
+
+ TODO:
+ - Wiki einträge für die skills
+ - starting kit fehler

@@ -9,8 +9,7 @@ execute unless score @s farming_goal matches 1.. run scoreboard players set @s f
 
 
 scoreboard players set @s farming_xp_gain 100
-
-#scoreboard players operation @s farming_xp_gain += @s m_xp_boost_gain
+scoreboard players operation @s farming_xp_gain += @s farming_xp_boost_gain
 #scoreboard players operation @s farming_xp_gain += @s m_xp_fruit_gain
 
 #100%

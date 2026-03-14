@@ -28,3 +28,10 @@ scoreboard players set @a f_hoe_gain 0
 
 #Farming auf Initiatliziert setzten 
 scoreboard players set server farming_initialized 1
+
+# Aufhol System
+scoreboard objectives add farming_max_player_level dummy
+scoreboard objectives add farming_xp_boost_gain dummy
+scoreboard objectives add farming_proximity dummy
+
+scoreboard players set @a farming_xp_boost_gain 0

@@ -208,6 +208,50 @@ scoreboard objectives add const_10 dummy
 scoreboard players set server const_100 100
 scoreboard players set server const_10 10
 
+# Aufhol System - Mining
+scoreboard objectives add mining_max_player_level dummy
+scoreboard objectives add mining_xp_boost_gain dummy
+scoreboard objectives add mining_proximity dummy
+
+# Aufhol System - Farming
+scoreboard objectives add farming_max_player_level dummy
+scoreboard objectives add farming_xp_boost_gain dummy
+scoreboard objectives add farming_proximity dummy
+
+# Aufhol System - Combat
+scoreboard objectives add combat_max_player_level dummy
+scoreboard objectives add combat_xp_boost_gain dummy
+scoreboard objectives add combat_proximity dummy
+
+# Aufhol System - Fishing
+scoreboard objectives add fishing_max_player_level dummy
+scoreboard objectives add fishing_xp_boost_gain dummy
+scoreboard objectives add fishing_proximity dummy
+scoreboard objectives add fishing_xp_gain dummy
+
+#Temp
+scoreboard objectives add mining_max_player_level dummy
+scoreboard objectives add mining_xp_boost_gain dummy
+scoreboard objectives add mining_proximity dummy
+
+scoreboard objectives add farming_max_player_level dummy
+scoreboard objectives add farming_xp_boost_gain dummy
+scoreboard objectives add farming_proximity dummy
+
+scoreboard objectives add combat_max_player_level dummy
+scoreboard objectives add combat_xp_boost_gain dummy
+scoreboard objectives add combat_proximity dummy
+
+scoreboard objectives add fishing_max_player_level dummy
+scoreboard objectives add fishing_xp_boost_gain dummy
+scoreboard objectives add fishing_proximity dummy
+scoreboard objectives add fishing_xp_gain dummy
+
+scoreboard objectives add calc_temp dummy
+scoreboard objectives add const_100 dummy
+scoreboard objectives add const_10 dummy
+scoreboard players set server const_100 100
+scoreboard players set server const_10 10
 
 
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────

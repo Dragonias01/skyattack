@@ -1,21 +1,50 @@
 # ============================================================================
-# FISHING SYSTEM - XP Vergabe
-# Wird aufgerufen von: sa:skill/fishing/fish
-# Effekt: Gibt 1 XP-Punkt und aktualisiert Actionbar
+# FISHING SYSTEM - XP VERGABE
+# Wird aufgerufen von: sa:skill/fishing/fish.mcfunction
+# Version: 1.21.11
 # ============================================================================
 
-# 1. Prüfung ob fishing_goal initialisiert ist (Fallback-Check)
-execute unless score @s fishing_goal matches 1.. run scoreboard players set @s fishing_goal 100
-
-# 2. XP-Punkt hinzufügen
-scoreboard players add @s fishing_xp 1
-
-# 3. Timer auf Actionbar-Range setzen (90-170)
-# Dies triggert die fishing.mcfunction im actionbar-System
+# timer Für die Action bar
 scoreboard players set @s timer 90
 
-# 4. Minecraft-Experience-Points hinzufügen (für natürliches Feeling)
-experience add @s 1 points
+# 1. Fallback: Wenn Goal nicht initialisiert, setze auf 100
+execute unless score @s fishing_goal matches 1.. run scoreboard players set @s fishing_goal 100
+
+# 2. XP-Gain berechnen (Basis + Boost)
+scoreboard players set @s fishing_xp_gain 100
+scoreboard players operation @s fishing_xp_gain += @s fishing_xp_boost_gain
+#scoreboard players operation @s fishing_xp_gain += @s fishing_xp_fruit_gain
+
+#100%
+    execute as @s[scores={fishing_xp_gain=100}] run scoreboard players add @s fishing_xp 1
+    #execute as @s[scores={fishing_xp_gain=100}] run experience add @s 1 points
+#200%
+    execute as @s[scores={fishing_xp_gain=200}] run scoreboard players add @s fishing_xp 2
+    #execute as @s[scores={fishing_xp_gain=200}] run experience add @s 2 points
+#300%
+    execute as @s[scores={fishing_xp_gain=300}] run scoreboard players add @s fishing_xp 3
+    #execute as @s[scores={fishing_xp_gain=300}] run experience add @s 3 points
+#400%
+    execute as @s[scores={fishing_xp_gain=400}] run scoreboard players add @s fishing_xp 4
+    #execute as @s[scores={fishing_xp_gain=400}] run experience add @s 4 points
+#500%
+    execute as @s[scores={fishing_xp_gain=500}] run scoreboard players add @s fishing_xp 5
+    #execute as @s[scores={fishing_xp_gain=500}] run experience add @s 5 points
+#600%
+    execute as @s[scores={fishing_xp_gain=600}] run scoreboard players add @s fishing_xp 6
+    #execute as @s[scores={fishing_xp_gain=600}] run experience add @s 6 points
+#700%
+    execute as @s[scores={fishing_xp_gain=700}] run scoreboard players add @s fishing_xp 7
+    #execute as @s[scores={fishing_xp_gain=700}] run experience add @s 7 points
+#800%
+    execute as @s[scores={fishing_xp_gain=800}] run scoreboard players add @s fishing_xp 8
+    #execute as @s[scores={fishing_xp_gain=800}] run experience add @s 8 points
+#900%
+    execute as @s[scores={fishing_xp_gain=900}] run scoreboard players add @s fishing_xp 9
+    #execute as @s[scores={fishing_xp_gain=900}] run experience add @s 9 points
+#1000%
+    execute as @s[scores={fishing_xp_gain=1000}] run scoreboard players add @s fishing_xp 10
+    #execute as @s[scores={fishing_xp_gain=1000}] run experience add @s 10 points
 
 scoreboard players set @s fishing_drop_pending 1
 execute as @s run schedule function sa:skill/fishing/events/delay_drop 1t

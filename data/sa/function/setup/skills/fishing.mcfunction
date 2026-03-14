@@ -47,3 +47,12 @@ execute as @a unless score @s fishing_goal = @s fishing_goal run scoreboard play
 
 # Markiere dass Setup abgeschlossen ist (damit diese Funktion nur 1x läuft)
 scoreboard players set server fishing_initialized 1
+
+# Aufhol System
+scoreboard objectives add fishing_max_player_level dummy
+scoreboard objectives add fishing_xp_boost_gain dummy
+scoreboard objectives add fishing_proximity dummy
+scoreboard objectives add fishing_xp_gain dummy
+
+scoreboard players set @a fishing_xp_boost_gain 0
+scoreboard players set @a fishing_xp_gain 0

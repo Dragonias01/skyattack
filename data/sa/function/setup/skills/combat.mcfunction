@@ -33,3 +33,10 @@ scoreboard players set @a c_sword_gain 0
 
 #combat auf Initiatliziert setzten 
 scoreboard players set server Combat_initialized 1
+
+# Aufhol System
+scoreboard objectives add combat_max_player_level dummy
+scoreboard objectives add combat_xp_boost_gain dummy
+scoreboard objectives add combat_proximity dummy
+
+scoreboard players set @a combat_xp_boost_gain 0

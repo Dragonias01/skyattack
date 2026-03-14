@@ -14,7 +14,7 @@ execute unless score @s mining_goal matches 1.. run scoreboard players set @s mi
 
 
 scoreboard players set @s m_xp_gain 100
-#scoreboard players operation @s m_xp_gain += @s m_xp_boost_gain
+scoreboard players operation @s m_xp_gain += @s mining_xp_boost_gain
 #scoreboard players operation @s m_xp_gain += @s m_xp_fruit_gain
 
 #100%
