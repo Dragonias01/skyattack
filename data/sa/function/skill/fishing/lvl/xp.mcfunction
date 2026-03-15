@@ -13,6 +13,7 @@ execute unless score @s fishing_goal matches 1.. run scoreboard players set @s f
 # 2. XP-Gain berechnen (Basis + Boost)
 scoreboard players set @s fishing_xp_gain 100
 scoreboard players operation @s fishing_xp_gain += @s fishing_xp_boost_gain
+scoreboard players operation @s fishing_xp_gain += server eventboost_fishing
 #scoreboard players operation @s fishing_xp_gain += @s fishing_xp_fruit_gain
 
 #100%

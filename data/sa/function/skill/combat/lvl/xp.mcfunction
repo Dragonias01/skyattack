@@ -14,6 +14,7 @@ execute unless score @s combat_goal matches 1.. run scoreboard players set @s co
 
 scoreboard players set @s combat_xp_gain 100
 scoreboard players operation @s combat_xp_gain += @s combat_xp_boost_gain
+scoreboard players operation @s combat_xp_gain += server eventboost_fishing
 #scoreboard players operation @s combat_xp_gain += @s combat_xp_fruit_gain
 
 #100%

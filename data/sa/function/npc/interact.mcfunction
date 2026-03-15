@@ -8,7 +8,7 @@ advancement revoke @s only npc_interact
 
 # ── Tutorial NPC ──────────────────────────────────────────────────────────
 execute as @s if entity @e[type=mannequin,tag=tutorial,distance=..5] run scoreboard players enable @s itrigger
-execute as @s if entity @e[type=mannequin,tag=tutorial,distance=..5] run dialog show @s sa:start
+execute as @s if score @s island > server one if entity @e[type=mannequin,tag=tutorial,distance=..5] run dialog show @s sa:start
 
 # ── Pilot NPC ─────────────────────────────────────────────────────────────
 execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] run function sa:npc/pilot/function

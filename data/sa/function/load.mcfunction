@@ -11,6 +11,20 @@ scoreboard players set server one 1
 scoreboard objectives add five dummy
 scoreboard players set server five 5
 
+
+
+#Event
+scoreboard objectives add event_counter dummy
+scoreboard objectives add event_num dummy
+scoreboard objectives add scoreboard_counter dummy
+
+scoreboard objectives add eventboost_combat dummy
+scoreboard objectives add eventboost_logging dummy
+scoreboard objectives add eventboost_mining dummy
+scoreboard objectives add eventboost_farming dummy
+scoreboard objectives add eventboost_fishing dummy
+scoreboard objectives add score_timer dummy
+
 # Setup-Tracking
 scoreboard objectives add setup1 dummy
 execute unless score server setup1 matches 1 run function sa:setup/overworld/main
@@ -252,6 +266,13 @@ scoreboard objectives add const_100 dummy
 scoreboard objectives add const_10 dummy
 scoreboard players set server const_100 100
 scoreboard players set server const_10 10
+scoreboard players add @a ERod_learn 0
+scoreboard players add @a ESword_learn 0
+scoreboard players add @a EAxe_learn 0
+scoreboard players add @a EPickaxe_learn 0
+scoreboard players add @a EHoe_learn 0
+
+
 
 
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────
