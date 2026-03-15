@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/clock_00",
+    "extra": [
+      {
+        "text": " Stündliche Events",
+        "color": "gold"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle 60 Minuten wechselt automatisch ein neues Server-Event. Das Event gilt für alle Spieler gleichzeitig."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Anzeige:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das aktive Event und der verbleibende Countdown werden im Scoreboard (rechts im Bild) angezeigt. Du siehst welches Event gerade läuft und wie viel Zeit noch verbleibt."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mögliche Events:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "⚡ Tickspeed x2",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der randomTickSpeed wird auf 30 verdoppelt (normal: 15). Pflanzen wachsen doppelt so schnell wie im Normalzustand."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "⚡ Tickspeed x4",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der randomTickSpeed steigt auf 60 – vierfacher Normaltakt. Pflanzen wachsen extrem schnell. Nutze dieses Event zum massiven Farmen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "⚔ Combat XP Boost",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle Spieler erhalten beim Töten von Mobs doppelte Combat-XP für die Dauer des Events."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "🪓 Logging XP Boost",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle Spieler erhalten beim Holzfällen doppelte Logging-XP für die Dauer des Events."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "⛏ Mining XP Boost",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle Spieler erhalten beim Steinabbauen doppelte Mining-XP für die Dauer des Events."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "🌾 Farming XP Boost",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle Spieler erhalten beim Ernten doppelte Farming-XP für die Dauer des Events."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "🎣 Fishing XP Boost",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Alle Spieler erhalten beim Angeln doppelte Fishing-XP für die Dauer des Events."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Hinweis: Das nächste Event wird zufällig ausgewählt. Man kann also mehrfach dasselbe Event bekommen.",
+        "color": "gray",
+        "italic": true
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

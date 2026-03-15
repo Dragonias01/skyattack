@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/iron_sword",
+    "extra": [
+      {
+        "text": " Combat",
+        "color": "red"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Combat-Skill wird durch das Töten von Mobs gesteigert. Mit steigendem Level erhöht sich die Bonus-Drop-Chance pro getötetem Mob."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP bekommt man durch:",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Zombie töten\n• Creeper töten\n• Skeleton töten\n• Spider töten\n• Witch töten\n• Enderman töten"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was bekommt man?",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mit steigendem Level erhöht sich die Bonus-Drop-Chance bei Mob-Kills. Höhere Level schalten mehr Drops aus der Combat-Bonus-Loot-Table frei. Manche Mobs haben angepasste Loot-Tables und droppen Ressourcen die sonst im Skyblock unerreichbar wären.\n \nDas zugehörige Tool ist das Element Sword:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Weitere Stufen steigern den Multiplikator weiter\n \nBlueprints für Upgrades droppen beim Skillen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP-Boost durch Aufhol-System:",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/skills"
+      }
+    }
+  ]
+}

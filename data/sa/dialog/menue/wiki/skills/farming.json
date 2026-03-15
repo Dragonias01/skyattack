@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/iron_hoe",
+    "extra": [
+      {
+        "text": " Farming",
+        "color": "gold"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Farming-Skill wird durch das Ernten von Kartoffeln gesteigert. Mit steigendem Level erhöht sich die Bonus-Drop-Chance pro Ernte."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP bekommt man durch:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Kartoffeln (Potatoes) ernten"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was bekommt man?",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mit steigendem Level erhöht sich die Bonus-Drop-Chance beim Farmen. Höhere Level schalten mehr Drops aus der Farming-Bonus-Loot-Table frei.\n \nDas zugehörige Tool ist die Element Hoe:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Weitere Stufen steigern den Multiplikator weiter\n \nBlueprints für Upgrades droppen beim Skillen.\n \nBiomass und Compressed Biomass sind die zentralen Ressourcen dieses Skills und werden beim Farming Merchant und für Hub-Goals benötigt."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Tipp:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der randomTickSpeed ist auf 15 gesetzt (5x Vanilla) – Kartoffeln wachsen deutlich schneller als normal. Bei aktiven Tickspeed-Events sogar noch schneller."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP-Boost durch Aufhol-System:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/skills"
+      }
+    }
+  ]
+}

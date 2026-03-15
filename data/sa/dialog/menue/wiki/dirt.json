@@ -14,7 +14,7 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "dirt",
+        "id": "minecraft:dirt",
         "count": 1
       },
       "show_decorations": false,
@@ -38,6 +38,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Rezept erlernen:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Rezept wird beim ersten Join automatisch vergeben – du kannst Erde also von Anfang an herstellen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Erde erhalten:",
         "color": "dark_green"
       }
@@ -45,7 +58,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Um mehr Erde herzustellen, gibt es ein neues Crafting-Rezept. Benötigt wird Knochenmehl (Bonemeal). Bonemeal erhältst du auf zwei Wegen: Töte Mobs – sie droppen Knochen, die du zu Knochenmehl verarbeiten kannst. Oder baue einen Composter und wirf pflanzliche Items hinein, bis er voll ist."
+        "text": "Benötigt werden Setzlinge (beliebige Holzart, Kartoffel, Weizen oder Karotte) und Knochenmehl oder verrottetes Fleisch. Knochenmehl bekommst du aus Knochen (Mob-Drops) oder einem Composter."
       }
     },
     {
@@ -74,7 +87,11 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:oak_sapling"
+        }
       },
       "width": 20
     },
@@ -83,7 +100,11 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/bone_meal",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bone_meal"
+        }
       },
       "width": 20
     },
@@ -92,7 +113,11 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:oak_sapling"
+        }
       },
       "width": 20
     },
@@ -101,7 +126,11 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/bone_meal",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bone_meal"
+        }
       },
       "width": 20
     },
@@ -110,7 +139,11 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:oak_sapling"
+        }
       },
       "width": 20
     },
@@ -119,7 +152,11 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/bone_meal",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bone_meal"
+        }
       },
       "width": 20
     },
@@ -128,7 +165,11 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:oak_sapling"
+        }
       },
       "width": 20
     },
@@ -137,7 +178,11 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/bone_meal",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:bone_meal"
+        }
       },
       "width": 20
     },
@@ -146,9 +191,22 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/oak_sapling",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:oak_sapling"
+        }
       },
       "width": 20
+    },
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
     }
   ]
 }

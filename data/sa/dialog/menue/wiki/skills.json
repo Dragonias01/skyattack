@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/experience_bottle",
+    "extra": [
+      {
+        "text": " Skills",
+        "color": "green"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sky Attack hat 5 Skill-Tracks. Jeder Skill gibt XP durch bestimmte Aktionen und schaltet bei steigendem Level mehr Drops und Boni frei.",
+        "extra": [
+          {
+            "atlas": "minecraft:items",
+            "sprite": "minecraft:item/knowledge_book"
+          }
+        ]
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "Zurück"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  },
+  "button_width": 150,
+  "dialogs": [
+    "sa:menue/wiki/skills/mining",
+    "sa:menue/wiki/skills/logging",
+    "sa:menue/wiki/skills/farming",
+    "sa:menue/wiki/skills/combat",
+    "sa:menue/wiki/skills/fishing"
+  ]
+}

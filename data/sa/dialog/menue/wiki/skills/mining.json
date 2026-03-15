@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/iron_pickaxe",
+    "extra": [
+      {
+        "text": " Mining",
+        "color": "gray"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Mining-Skill wird durch das Abbauen von Stein und Cobblestone gesteigert. Mit steigendem Level erhöht sich die Chance auf Bonus-Drops pro abgebautem Block."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP bekommt man durch:",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Stein abbauen\n• Cobblestone abbauen"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was bekommt man?",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mit jedem Level-Up steigt die Bonus-Drop-Chance. Ab einem bestimmten Level-Multiplikator spawnt beim Abbau zusätzlich ein Cobblestone-Drop aus der Mining-Bonus-Loot-Table.\n \nDas zugehörige Tool ist die Element Pickaxe – sie erhöht den Drop-Multiplikator zusätzlich:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Rare / Epic / Legendary / Mythic: weitere Steigerungen\n \nBlueprints für Upgrades droppen beim Skillen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP-Boost durch Aufhol-System:",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/skills"
+      }
+    }
+  ]
+}

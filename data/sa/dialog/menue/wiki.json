@@ -28,7 +28,8 @@
   "pause": false,
   "after_action": "close",
   "dialogs": [
-    "sa:menue/wiki/general__infos",
+    "sa:menue/wiki/general_infos",
+    "sa:menue/wiki/skills",
     "sa:menue/wiki/compressed_items",
     "sa:menue/wiki/tools",
     "sa:menue/wiki/inseln",
@@ -38,6 +39,5 @@
     "sa:menue/wiki/lava",
     "sa:menue/wiki/moss",
     "sa:menue/wiki/deepslate"
-
   ]
 }

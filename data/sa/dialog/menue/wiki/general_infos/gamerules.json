@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/command_block_front",
+    "extra": [
+      {
+        "text": " Gamerules",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Folgende Gamerules sind in Sky Attack aktiv:"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "keepInventory: AN",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Du verlierst beim Tod keine Items."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Difficulty: Hard",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mobs machen mehr Schaden und spawnen häufiger."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "randomTickSpeed: 15",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "5x schneller als der Vanilla-Standard (3). Pflanzen wachsen deutlich schneller. Bei aktiven Events kann dieser Wert auf 30 oder 60 steigen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "mobGriefing: AUS",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mobs können keine Blöcke zerstören oder verändern. Creeper-Explosionen beschädigen die Insel nicht."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "limitedCrafting: AN",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Viele Rezepte müssen erst freigeschaltet werden bevor sie crafting-bar sind. Wie Rezepte erlernt werden steht im Crafting-Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

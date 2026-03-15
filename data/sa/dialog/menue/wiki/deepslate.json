@@ -5,23 +5,68 @@
     "sprite": "minecraft:block/cobbled_deepslate",
     "extra": [
       {
-        "text": "Deepslate",
+        "text": " Deepslate",
         "color": "yellow"
       }
     ]
   },
   "body": [
     {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:cobbled_deepslate",
+        "count": 1
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 14,
+      "height": 14
+    },
+    {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP",
+        "text": "Beschreibung:",
         "color": "yellow"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP"
+        "text": "Cobbled Deepslate ist ein wichtiger Baustein für fortgeschrittene Rezepte – unter anderem für Pointed Dripstone. Es lässt sich nicht normal abbauen, da kein Deepslate in der Welt vorkommt. Du musst es selbst herstellen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Rezept erlernen:",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Crafting Rezept: ",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:block/crafting_table_top",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "8× Compressed Stone (Tuff) + 1× Black Dye in der Mitte → 8× Cobbled Deepslate"
       }
     }
   ],
@@ -31,7 +76,182 @@
   "columns": 3,
   "actions": [
     {
-      "label": "zurück",
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/black_dye",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:black_dye"
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/tuff",
+        "object": "atlas",
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:tuff",
+          "components": {
+            "minecraft:custom_name": {
+              "text": "Compressed Stone",
+              "italic": false,
+              "color": "green"
+            }
+          }
+        }
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "text": "Zurück"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:menue/wiki"

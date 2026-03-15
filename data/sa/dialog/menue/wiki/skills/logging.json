@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/iron_axe",
+    "extra": [
+      {
+        "text": " Logging",
+        "color": "dark_green"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Logging-Skill wird durch das Fällen von Eichenholz gesteigert. Mit steigendem Level erhöht sich die Chance auf Bonus-Drops pro gefälltem Stamm."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP bekommt man durch:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Oak Log (Eichenholz) fällen"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was bekommt man?",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mit steigendem Level erhöht sich die Bonus-Drop-Chance beim Holzfällen. Höhere Level schalten zusätzliche Drops aus der Logging-Bonus-Loot-Table frei.\n \nDas zugehörige Tool ist die Element Axe:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Weitere Stufen steigern den Multiplikator weiter\n \nBlueprints für Upgrades droppen beim Skillen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Leaderboard:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Im Hub gibt es ein Logging-Leaderboard das die Top-5 Spieler nach Logging-Level anzeigt."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP-Boost durch Aufhol-System:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/skills"
+      }
+    }
+  ]
+}

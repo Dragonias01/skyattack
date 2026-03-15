@@ -5,7 +5,7 @@
     "sprite": "minecraft:block/moss_block",
     "extra": [
       {
-        "text": " Moos",
+        "text": " Moss Block",
         "color": "dark_green"
       }
     ]
@@ -32,7 +32,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Ohne Moos nix los! Moos ist eine der wichtigsten Ressourcen in diesem Skyblock. Er wird benötigt um Erde zu duplizieren und ist die Grundlage für viele Pflanzen und Vegetation. Wer früh an Moos kommt, hat einen enormen Vorteil beim Aufbau seiner Insel."
+        "text": "Moos ist eine vielseitige Ressource die sich durch Bonemeal weiter ausbreiten lässt und so die Grundlage für viele Pflanzen und Vegetation bildet. Wer früh an Moos kommt, hat einen enormen Vorteil beim Aufbau seiner Insel."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Rezept erlernen:",
+        "color": "dark_green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Rezept wird freigeschaltet sobald du gleichzeitig Bambus (bamboo) und eine Rankenpflanze (vine) im Inventar hast.\n \n⚠ Derzeit blockiert – Bamboo Block hat noch keine Bezugsquelle im Spiel."
       }
     },
     {
@@ -45,7 +58,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Moos lässt sich craften: Du benötigst 8 Weinranken (Vines) und einen Bambus-Block in der Mitte. Sowohl Vines als auch Bambus können beim Angeln gefunden werden – es könnte aber auch noch andere Wege geben, sie zu erhalten. Halte die Augen offen!"
+        "text": "Benötigt werden 8 Weinranken (Vines) und einen Bambus-Block in der Mitte. Vines und Bambus können beim Angeln gefunden werden."
       }
     },
     {
@@ -74,8 +87,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -84,7 +96,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -93,8 +105,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -103,8 +114,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -122,8 +132,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -132,8 +141,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -142,8 +150,7 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
     },
@@ -152,10 +159,18 @@
         "atlas": "minecraft:blocks",
         "sprite": "minecraft:block/vine",
         "object": "atlas",
-        "type": "object",
-        "color": "dark_green"
+        "type": "object"
       },
       "width": 20
+    },
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
     }
   ]
 }

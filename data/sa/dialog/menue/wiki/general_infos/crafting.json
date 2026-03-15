@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/crafting_table_top",
+    "extra": [
+      {
+        "text": " Crafting",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Rezepte erlernen:",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sky Attack nutzt limitedCrafting – viele Rezepte sind gesperrt und müssen erst freigeschaltet werden bevor sie am Crafting-Tisch verfügbar sind. Wie ein Rezept erlernt wird steht jeweils im Wiki-Eintrag des jeweiligen Items."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Rezepte im Wiki:",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Rezepte werden als Crafting-Grid dargestellt – genauso wie du es vom Crafting-Tisch kennst. Jedes Feld zeigt ein Item. Fahre mit der Maus über ein Item um seinen Namen zu sehen. Klickbare Items führen dich direkt zum Wiki-Eintrag des jeweiligen Materials."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

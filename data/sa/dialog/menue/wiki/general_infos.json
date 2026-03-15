@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/writable_book",
+    "extra": [
+      {
+        "text": " General Infos",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Allgemeine Informationen zu Sky Attack.",
+        "color": "gray"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "Zurück"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  },
+  "button_width": 150,
+  "dialogs": [
+    "sa:menue/wiki/general_infos/was_ist_skyattack",
+    "sa:menue/wiki/general_infos/hub",
+    "sa:menue/wiki/general_infos/tod",
+    "sa:menue/wiki/general_infos/gamerules",
+    "sa:menue/wiki/general_infos/crafting",
+    "sa:menue/wiki/general_infos/catchup",
+    "sa:menue/wiki/general_infos/events"
+  ]
+}

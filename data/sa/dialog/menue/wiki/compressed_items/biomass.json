@@ -47,6 +47,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Rezept erlernen:",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Rezept wird freigeschaltet sobald du 64 Kartoffeln oder Karotten gleichzeitig im Inventar hast."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Crafting Rezept: ",
         "extra": [
           {

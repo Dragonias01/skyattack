@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/bone",
+    "extra": [
+      {
+        "text": " Beim Tod",
+        "color": "red"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Stirbst du in Sky Attack, passieren folgende Dinge:"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Inventar:",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "keepInventory ist aktiv – du verlierst deine Items nicht. Dein gesamtes Inventar bleibt erhalten."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Minecraft XP-Level:",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Du verlierst die Hälfte deiner aktuellen Minecraft XP-Level. Der Server teilt deine Level durch 2 und setzt sie entsprechend zurück. Eine Meldung im Chat zeigt dir wie viele Level du verloren hast."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Skill XP:",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Deine Skill-XP (Mining, Logging, Farming, Combat, Fishing) sowie deine Skill-Level bleiben beim Tod vollständig erhalten."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Tipp: Verwalte deine Minecraft-Level sorgfältig, besonders vor gefährlichen Aktionen im Void oder Nether.",
+        "color": "gray",
+        "italic": true
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

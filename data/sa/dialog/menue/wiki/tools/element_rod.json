@@ -56,6 +56,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Rezept erlernen:",
+        "color": "white"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Crafting Rezept:",
         "extra": [
           {

@@ -5,7 +5,7 @@
     "sprite": "minecraft:item/potion",
     "extra": [
       {
-        "text": "Dirty water",
+        "text": " Dirty Water",
         "color": "dark_aqua"
       }
     ]
@@ -32,20 +32,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Work in progress "
+        "text": "Aus Erde und einer Glasflasche lässt sich trübes Wasser herstellen – ein Weg um ohne natürliche Wasserquelle an Wasser zu kommen."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Recepie:",
+        "text": "Rezept erlernen:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "kurzfassung: ihr könnt aus Erde und Glassflasche wasser machen"
+        "text": "Das Rezept wird freigeschaltet sobald du einen leeren Bucket im Inventar hast."
       }
     },
     {
@@ -74,7 +74,11 @@
         "atlas": "minecraft:items",
         "sprite": "minecraft:item/glass_bottle",
         "object": "atlas",
-        "type": "object"
+        "type": "object",
+        "hover_event": {
+          "action": "show_item",
+          "id": "minecraft:glass_bottle"
+        }
       },
       "width": 20
     },
@@ -86,15 +90,19 @@
         "type": "object",
         "hover_event": {
           "action": "show_item",
-          "id": "minecraft:magma_cube_spawn_egg",
-          "components": {
-            "minecraft:custom_name": {
-              "text": "Magma Cube Spawn Egg"
-            }
-          }
+          "id": "minecraft:dirt"
         }
       },
       "width": 20
+    },
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
     }
   ]
 }

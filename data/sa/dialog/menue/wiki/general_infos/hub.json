@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/diamond_block",
+    "extra": [
+      {
+        "text": " Der Hub",
+        "color": "aqua"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Hub ist das Zentrum von Sky Attack – ein gemeinsamer Bereich in der Dimension sa:hub, den alle Spieler besuchen können."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was findest du im Hub?",
+        "color": "aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Goal-Objekte – Interaktive Ziele an denen Spieler Items abgeben um Server-weite Fortschritte freizuschalten. Neue Bereiche, Händler und Features werden so für alle freigeschaltet.\n \n• 5 Skill-Räume – Nach dem Freischalten stehen spezialisierte Räume für jeden Skill zur Verfügung.\n \n• 5 Merchants – Händler-Villager die Compressed Items gegen nützliche Waren tauschen. Jeder Händler ist auf einen Skill spezialisiert.\n \n• Fishing Pond – Ein spezieller Angelteich im Hub mit eigenem Biom und angepassten Loot-Tables. (Coming Soon – wird in naher Zukunft vollständig implementiert)\n \n• Dungeon Master – NPC für den Zugang zu Dungeons. (WIP)\n \n• Leaderboards – Text-Displays die die Top-5 Spieler pro Skill anzeigen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Goal-Reihenfolge:",
+        "color": "aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Levelbaum Goal → Skill Rooms → Mining Goal → Fishing Goal → Farming Goal → Combat Goal\n \nDas Fishing Goal schaltet außerdem das Fishing Pond Goal frei."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

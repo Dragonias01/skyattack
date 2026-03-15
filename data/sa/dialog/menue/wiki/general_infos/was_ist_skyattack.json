@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:blocks",
+    "sprite": "minecraft:block/grass_block_side",
+    "extra": [
+      {
+        "text": " Was ist Sky Attack?",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sky Attack ist ein Skyblock-Datapack für Minecraft 1.21.11. Du startest auf einer kleinen Insel hoch oben im Void und musst mit begrenzten Ressourcen überleben, wachsen und deine Insel ausbauen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was macht Sky Attack besonders?",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• 5 Skill-Systeme (Mining, Logging, Farming, Combat, Fishing) – Jede Aktion bringt XP und schaltet stärkere Drops frei.\n \n• Compressed Items – Eine eigene Ressourcenwährung die für Fortschritte und Upgrades benötigt wird.\n \n• Angepasste Loot-Tables – Fischen, Mob-Drops und Junk wurden überarbeitet damit fehlende Skyblock-Ressourcen zugänglich sind.\n \n• Custom Rezepte – Ressourcen die in normalem Skyblock unerreichbar wären können hergestellt werden.\n \n• Hub mit Goal-System – Ein zentraler Hub-Bereich mit Zielen die Server-weite Fortschritte freischalten.\n \n• Stündliche Events – Jede Stunde wechselt ein zufälliges Server-Event das alle Spieler betrifft.\n \n• Aufhol-System – Spieler die hinter dem Server-Level liegen erhalten automatisch einen XP-Boost."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Die Welt:",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Overworld und Nether sind vollständig leer – kein Terrain, keine Strukturen, nur Void. Biome existieren jedoch weiterhin in beiden Dimensionen und beeinflussen Wetter, Lichtverhalten sowie welche Mobs spawnen und welche Fische gefangen werden können."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/general_infos"
+      }
+    }
+  ]
+}

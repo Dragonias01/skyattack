@@ -56,6 +56,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Rezept erlernen:",
+        "color": "white"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Crafting Rezept:",
         "extra": [
           {
@@ -74,30 +87,6 @@
   "after_action": "close",
   "columns": 3,
   "actions": [
-    {
-      "label": {
-        "atlas": "minecraft:blocks",
-        "sprite": "minecraft:block/tuff",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:tuff",
-          "components": {
-            "minecraft:custom_name": {
-              "text": "Compressed Stone",
-              "italic": false,
-              "color": "green"
-            }
-          }
-        }
-      },
-      "width": 20,
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki/compressed_items/compressed_stone"
-      }
-    },
     {
       "label": {
         "atlas": "minecraft:blocks",

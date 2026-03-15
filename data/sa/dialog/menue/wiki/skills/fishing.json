@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "atlas": "minecraft:items",
+    "sprite": "minecraft:item/fishing_rod",
+    "extra": [
+      {
+        "text": " Fishing",
+        "color": "dark_aqua"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beschreibung",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Der Fishing-Skill wird durch Angeln gesteigert. Das Angelsystem wurde umfangreich überarbeitet – viele Items, Ressourcen und Überraschungen lassen sich nur durch Angeln erhalten."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP bekommt man durch:",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "• Angeln (egal wo)"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Was bekommt man?",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Beim Angeln zieht man aus einem von 4 Loot-Pools:\n \n• Fish Pool (40%) – Standard-Fische\n• Junk Pool (30%) – Ressourcen wie Bambus (biom-abhängig), Kohle, Flint und mehr\n• Treasure Pool (10%) – Wertvolle Items\n• Creature Pool (20%) – Anstelle eines Items wird ein Mob gespawnt. Welche Kreatur erscheint hängt vom Biom ab. Manche seltenen Mobs lassen sich nur so erhalten.\n \nDas zugehörige Tool ist die Element Rod:\n• Common: +50% Fishing-Ertrag\n• Uncommon: +100%\n \nBlueprints für Upgrades droppen beim Skillen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Fishing Pond im Hub:",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Im Hub gibt es einen speziellen Angelteich – den Fishing Pond. Dieser wird nach dem Freischalten des Fishing Pond Goals zugänglich und hat ein eigenes Biom sowie eine angepasste Loot-Table mit exklusiven Drops die nur hier gefangen werden können.\n \n⚠ Der Fishing Pond ist aktuell noch in der Implementierung – Biom und Loot-Table werden in naher Zukunft fertiggestellt."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "XP-Boost durch Aufhol-System:",
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki/skills"
+      }
+    }
+  ]
+}

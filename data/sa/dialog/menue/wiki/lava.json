@@ -38,6 +38,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Rezept erlernen:",
+        "color": "gold"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Rezept wird freigeschaltet sobald du einen Magma Block im Inventar hast. Für den Magma Block wiederum benötigst du einen Coal Block – der noch keine Bezugsquelle im Spiel hat.\n \n⚠ Die gesamte Lava-Progression ist derzeit blockiert bis die Coal- und Magma-Block-Quellen implementiert sind."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Lava erhalten:",
         "color": "gold"
       }
@@ -45,7 +58,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept für einen Lava-Eimer ist... ungewöhnlich. Du benötigst einen leeren Eimer – und eine weitere Zutat, die du vielleicht nicht sofort erwartest. Irgendetwas... Feuriges. Etwas das aus der Tiefe stammt. Wer genau hinsieht und die richtigen Kreaturen kennt, wird früher oder später den richtigen Weg finden."
+        "text": "Benötigt wird ein leerer Eimer und ein Magma Cube Spawn Egg."
       }
     },
     {
@@ -99,6 +112,15 @@
         }
       },
       "width": 20
+    },
+    {
+      "label": {
+        "text": "Zurück"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/wiki"
+      }
     }
   ]
 }
