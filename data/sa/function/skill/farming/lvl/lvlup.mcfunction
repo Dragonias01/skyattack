@@ -1,6 +1,6 @@
 #Erhöhen des LVL
 scoreboard players add @s farming_lvl 1 
-scoreboard players set @s farming_xp 0
+scoreboard players operation @s farming_xp -= @s farming_goal
 
 #    (nach dem Increment = neues Level → Goal für nächsten Schritt)
 execute if score @s farming_lvl matches 1 run scoreboard players set @s farming_goal 20

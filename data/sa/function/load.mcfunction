@@ -272,6 +272,13 @@ scoreboard players add @a EAxe_learn 0
 scoreboard players add @a EPickaxe_learn 0
 scoreboard players add @a EHoe_learn 0
 
+scoreboard objectives add combat_xp_boost dummy
+scoreboard objectives add logging_xp_boost dummy
+scoreboard objectives add farming_xp_boost dummy
+scoreboard objectives add mining_xp_boost dummy
+scoreboard objectives add fishing_xp_boost dummy
+
+scoreboard objectives add fishing_Dropchance_Percent dummy
 
 
 

@@ -8,7 +8,7 @@
 scoreboard players add @s fishing_lvl 1
 
 # 2. XP zurücksetzen für nächstes Level
-scoreboard players set @s fishing_xp 0
+scoreboard players operation @s fishing_xp -= @s fishing_goal
 
 # 2. Feste Goals für Level 1–9
 execute if score @s fishing_lvl matches 1 run scoreboard players set @s fishing_goal 10

@@ -1,6 +1,6 @@
 #Erhöhen des LVL
 scoreboard players add @s logging_lvl 1 
-scoreboard players set @s logging_xp 0
+scoreboard players operation @s logging_xp -= @s logging_goal
 
 #    (nach dem Increment = neues Level → Goal für nächsten Schritt)
 execute if score @s logging_lvl matches 1 run scoreboard players set @s logging_goal 20

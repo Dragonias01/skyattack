@@ -1,6 +1,6 @@
 #Erhöhen des LVL
 scoreboard players add @s combat_lvl 1 
-scoreboard players set @s combat_xp 0
+scoreboard players operation @s combat_xp -= @s combat_goal
 
 # 2. Feste Goals für Level 1–9
 execute if score @s combat_lvl matches 1 run scoreboard players set @s combat_goal 30

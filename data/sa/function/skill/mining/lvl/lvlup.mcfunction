@@ -1,6 +1,7 @@
 #Erhöhen des LVL
-scoreboard players add @s mining_lvl 1 
-scoreboard players set @s mining_xp 0
+scoreboard players add @s mining_lvl 1
+scoreboard players operation @s mining_xp -= @s mining_goal
+
 
 #    (nach dem Increment = neues Level → Goal für nächsten Schritt)
 execute if score @s mining_lvl matches 1 run scoreboard players set @s mining_goal 20

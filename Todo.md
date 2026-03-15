@@ -48,12 +48,3 @@ Items:
  - Wiki einträge für die skills
  - starting kit fehler
 
-
-Stündliche Events:
-- Random Tickspeed x2
-- Random Tickspeed x4
-- Combat Xp Boost
-- Logging Xp Boost
-- Mining Xp Boost 
-- Farming Xp Boost
-- Fishing Xp Boost
