@@ -283,10 +283,9 @@ scoreboard objectives add fishing_Dropchance_Percent dummy
 
 scoreboard objectives add xp_cat dummy
 scoreboard objectives add deathcount_system deathCount
-scoreboard objectives add player_level_system level
 scoreboard objectives add temp_half_lvl dummy
 
-
+gamerule show_death_messages false
 
 # ── Einmalige Initialisierung (Entities spawnen) ──────────────────────────
 execute unless score server lb_initialized matches 1 run function sa:leaderboard/setup
