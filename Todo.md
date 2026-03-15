@@ -43,7 +43,5 @@ Items:
  TODO:
  - Wiki einträge für die skills
  - starting kit fehler
-
- - Beim Tod soll man die Hälfte Seiner Xp Verlieren 
  - Dungeon boss spawnable machen
  - Dungeon boss Loot hinzufügen
