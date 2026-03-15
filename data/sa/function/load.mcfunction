@@ -284,6 +284,7 @@ scoreboard objectives add fishing_Dropchance_Percent dummy
 scoreboard objectives add xp_cat dummy
 scoreboard objectives add deathcount_system deathCount
 scoreboard objectives add temp_half_lvl dummy
+scoreboard objectives add dungeon_key dummy
 
 gamerule show_death_messages false
 

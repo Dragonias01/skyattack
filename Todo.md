@@ -42,6 +42,4 @@ Items:
 
  TODO:
  - Wiki einträge für die skills
- - starting kit fehler
- - Dungeon boss spawnable machen
- - Dungeon boss Loot hinzufügen
+ - starting kit fehler (fixed)?
