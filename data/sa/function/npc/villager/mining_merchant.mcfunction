@@ -29,7 +29,7 @@ summon villager 17 99 -35 {\
   Silent:1b,\
   Offers:{Recipes:[\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-      buy:{id:"minecraft:tuff",count:64,components:{item_name:[{text:"compressed_stone",italic:false}]}},\
+      buy:{id:"minecraft:tuff",count:9,components:{item_name:[{text:"compressed_stone",italic:false}]}},\
       sell:{id:"minecraft:deepslate",count:1,components:{\
         custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],\
         lore:[[{text:"Doppelt komprimierter Stein",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\

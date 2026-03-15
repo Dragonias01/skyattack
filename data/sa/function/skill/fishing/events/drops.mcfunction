@@ -20,7 +20,7 @@ execute as @a[nbt={SelectedItem:{"components":{"minecraft:item_name":{"text":"el
 scoreboard players operation @s fishing_drop_menge += @s f_rod_gain
 #Rod learning
 execute store result score @s fishing_drops run random value 1..40
-execute at @s if score @s fishing_drop_menge >= @s fishing_drops unless score @s ERod_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"fish_drop"}}}] at @s run summon item ~ ~1 ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Rod]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_rod_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
+execute at @s if score @s fishing_drop_menge >= @s fishing_drops unless score @s ERod_learn matches 5 as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"fish_drop"}}}] at @s run summon item ~ ~ ~ {Item:{id:filled_map,count:1,components:{custom_name:[{"text":"[Bauplan - Element Rod]","italic":false,"color":"yellow"}],lore:[[{"text":"Rechtsklick zum Lernen","italic":false,"color":"gray"}]],item_name:[{"text":"element_rod_blueprint","italic":false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:9999999,has_consume_particles:0b}}}}
 
 # Level 1-20: Anstieg um 5%
 execute store result score @s fishing_drops run random value 1..20

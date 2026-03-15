@@ -30,7 +30,7 @@ summon villager 0 99 -64 {\
   Silent:1b,\
   Offers:{Recipes:[\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-      buy:{id:"minecraft:basalt",count:64,components:{item_name:[{text:"compressed_log",italic:false}]}},\
+      buy:{id:"minecraft:basalt",count:9,components:{item_name:[{text:"compressed_log",italic:false}]}},\
       sell:{id:"minecraft:oak_wood",count:1,components:{\
         custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],\
         lore:[[{text:"Doppelt komprimiertes Holz",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\

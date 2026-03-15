@@ -6,7 +6,7 @@
         "items": [
           {
             "items": "minecraft:green_dye",
-            "count": 64,
+            "count": 9,
             "components": {
               "minecraft:item_name": "compressed_biomass"
             }

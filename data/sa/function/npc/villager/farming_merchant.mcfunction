@@ -32,7 +32,7 @@ summon villager -17 99 -47 {\
   Silent:1b,\
   Offers:{Recipes:[\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-      buy:{id:"minecraft:green_dye",count:64,components:{item_name:[{text:"biomass",italic:false}]}},\
+      buy:{id:"minecraft:green_dye",count:9,components:{item_name:[{text:"biomass",italic:false}]}},\
       sell:{id:"minecraft:dried_kelp_block",count:1,components:{\
         custom_name:[{text:"Compressed Biomass",italic:false,color:blue}],\
         lore:[[{text:"Komprimierte Biomasse",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\

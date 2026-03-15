@@ -34,12 +34,17 @@ Wiki:
 
 Items:
  - Xp Fruits
-
-
-
-
-
-
  TODO:
- - Wiki einträge für die skills
+ - Englische übersetzung
+ - Dungeon Master Dialog + Skin
+ - Tutorial NPC Dialog + Skin
+ - Dungeon hub Rework
+ - Dungeon Arena Welt 2
+ - Dungeon Generierung
+ - Lotterie
+ - Schmied
+ - Techniker
+ - Xp Fruits
  - starting kit fehler (fixed)?
+ - xp Variety 
+ - Log abuse Protection

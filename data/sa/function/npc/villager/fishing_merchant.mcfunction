@@ -31,7 +31,7 @@ summon villager 17 99 -47 {\
   Silent:1b,\
   Offers:{Recipes:[\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-      buy:{id:"minecraft:frogspawn",count:64,components:{item_name:[{text:"fish_mesh",italic:false}]}},\
+      buy:{id:"minecraft:frogspawn",count:9,components:{item_name:[{text:"fish_mesh",italic:false}]}},\
       sell:{id:"minecraft:wet_sponge",count:1,components:{\
         custom_name:[{text:"Compressed Fish",bold:true,italic:false,color:blue}],\
         lore:[[{text:"Doppelt komprimierter Fisch",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
