@@ -79,7 +79,59 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Viele Rezepte müssen erst freigeschaltet werden bevor sie crafting-bar sind. Wie Rezepte erlernt werden steht im Crafting-Tab."
+        "text": "Viele Rezepte müssen erst freigeschaltet werden. Wie das geht steht im Crafting-Tab und in den Wiki-Einträgen der jeweiligen Items."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "playersSleepingPercentage: 10%",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Bereits ein einzelner schlafender Spieler reicht aus um die Nacht zu überspringen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "locatorBar: AUS",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Die Spieler-Positionsanzeige oben im Bild ist deaktiviert."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "spreadVines: AUS",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Weinranken (Vines) breiten sich nicht von selbst aus. So bleibt die Insel kontrollierbar."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "sendCommandFeedback: AUS",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Befehlsausgaben im Chat sind ausgeblendet – hält den Chat sauber."
       }
     }
   ],
