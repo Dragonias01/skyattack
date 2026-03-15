@@ -1,0 +1,1 @@
+execute as @a if score @s deathcount_system matches 1.. run function sa:system/death/punishment

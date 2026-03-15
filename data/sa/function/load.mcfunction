@@ -130,7 +130,8 @@ scoreboard objectives add scale_mid_num dummy
 scoreboard objectives add scale_mid_den dummy
 scoreboard objectives add scale_slow_num dummy
 scoreboard objectives add scale_slow_den dummy
-
+scoreboard objectives add two dummy
+scoreboard players set server two 2
 # *1.5 = 15/10
 scoreboard players set server scale_fast_num 15
 scoreboard players set server scale_fast_den 10
@@ -279,6 +280,11 @@ scoreboard objectives add mining_xp_boost dummy
 scoreboard objectives add fishing_xp_boost dummy
 
 scoreboard objectives add fishing_Dropchance_Percent dummy
+
+scoreboard objectives add xp_cat dummy
+scoreboard objectives add deathcount_system deathCount
+scoreboard objectives add player_level_system level
+scoreboard objectives add temp_half_lvl dummy
 
 
 

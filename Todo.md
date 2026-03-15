@@ -18,7 +18,6 @@ Techniker:
   - Soll Special items upgraden können
 
 Dungeon Hub:
-  - Dungeon master Hinzufügen
   - Dungeon Master Dialog anpassen
   - Dungeon 1 Fertig Stellen
   - Dungeon 1 Boss Arena
@@ -28,9 +27,6 @@ Xp Baum:
   - Hinzu Fügen
   - Funktion implementieren
 General:
- - Beim Tod soll man die Hälfte Seiner Xp Verlieren
- - Aufhol System für leute die hinten Liegen
- - Scoreboard Systeme
  - Bessere Menü Funktionen / Menü Variabel?
  - Item Schutz Beim Menü 
 Wiki:
@@ -38,7 +34,7 @@ Wiki:
 
 Items:
  - Xp Fruits
- - Xp Katalysator
+
 
 
 
@@ -48,3 +44,6 @@ Items:
  - Wiki einträge für die skills
  - starting kit fehler
 
+ - Beim Tod soll man die Hälfte Seiner Xp Verlieren 
+ - Dungeon boss spawnable machen
+ - Dungeon boss Loot hinzufügen

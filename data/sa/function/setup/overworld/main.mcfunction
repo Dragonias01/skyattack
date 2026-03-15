@@ -41,6 +41,7 @@ gamerule send_command_feedback false
 gamerule players_sleeping_percentage 10
 gamerule locator_bar false
 gamerule limited_crafting true
+gamerule spread_vines false
 
 #Random Tickspeed Erhöhen
 

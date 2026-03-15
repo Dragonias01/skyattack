@@ -17,20 +17,14 @@
         "text": "Compressed Log",
         "color": "green",
         "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false
+        "italic": false
       },
       "minecraft:lore": [
         {
           "text": "Komprimiertes Holz",
           "color": "gray",
           "bold": false,
-          "italic": false,
-          "underlined": false,
-          "strikethrough": false,
-          "obfuscated": false
+          "italic": false
         },
         {
           "text": ""
@@ -39,13 +33,15 @@
           "text": "Uncommon",
           "color": "green",
           "bold": true,
-          "italic": false,
-          "underlined": false,
-          "strikethrough": false,
-          "obfuscated": false
+          "italic": false
         }
       ],
-      "minecraft:item_name": "compressed_log"
+      "minecraft:item_name":[ 
+          {
+          "text": "compressed_log",
+          "italic": false
+        }
+      ]
     },
     "count": 1
   }

@@ -16,7 +16,7 @@ team modify ev_time prefix "⏱ "
 
 team add ev_green
 team modify ev_green color green
-team modify ev_green prefix "✔ Event: "
+team modify ev_green prefix "Event: "
 
 team add ev_gray
 team modify ev_gray color gray
@@ -25,6 +25,7 @@ team modify ev_gray prefix ""
 team add ev_yellow
 team modify ev_yellow color yellow
 team modify ev_yellow prefix ""
+
 
 
 
