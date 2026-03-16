@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
-          "weight": 37
+          "weight": 35
         },
         {
           "type": "minecraft:item",
@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 3,
+          "weight": 5,
           "conditions": [],
           "functions": [
             {

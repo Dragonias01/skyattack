@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 97
+          "weight": 90
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 3,
+          "weight": 10,
           "conditions": [],
           "functions": [
             {

@@ -1,10 +1,37 @@
 #Check
 execute as @a[scores={zombie_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={spider_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={creeper_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={skeleton_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+
+#Witch 5xp
 execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={spider_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+
+#enderman 10xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
+
+#calculate drops
+execute as @a[scores={zombie_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+execute as @a[scores={spider_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+execute as @a[scores={creeper_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+execute as @a[scores={skeleton_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/event/drops
+
 
 execute as @a[scores={zombie_killed=1..}] run scoreboard players remove @s zombie_killed 1
 execute as @a[scores={enderman_killed=1..}] run scoreboard players remove @s enderman_killed 1

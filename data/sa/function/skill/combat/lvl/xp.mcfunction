@@ -47,6 +47,3 @@ scoreboard players operation @s combat_xp_gain += server eventboost_combat
 #1000%
     execute as @s[scores={combat_xp_gain=1000}] run scoreboard players add @s combat_xp 10
     execute as @s[scores={combat_xp_gain=1000}] if score @s xp_cat matches 1 run experience add @s 10 points
-
-
-function sa:skill/combat/event/drops

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 97,
+          "weight": 90,
           "functions": [
             {
               "add": false,
@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
-          "weight": 3,
+          "weight": 10,
           "conditions": [],
           "functions": [
             {

@@ -45,6 +45,9 @@ Items:
  - Schmied
  - Techniker
  - Xp Fruits
- - starting kit fehler (fixed)?
- - xp Variety 
  - Log abuse Protection
+
+
+
+ Feature idee:
+ - Teleport modul was langsam ausgebaut werden kann
