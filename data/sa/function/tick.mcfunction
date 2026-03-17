@@ -3,6 +3,10 @@
 execute as @a[scores={itrigger=100}] run function sa:island/create
 execute as @a[scores={itrigger=21..28}] run function sa:island/join
 
+scoreboard players enable @a gambling_trigger
+execute as @a[scores={gambling_trigger=1..}] run function sa:system/lotterie/check_levels
+
+
 function sa:item/reset/check
 function sa:actionbar/actionbar
 function sa:protection/compiler
