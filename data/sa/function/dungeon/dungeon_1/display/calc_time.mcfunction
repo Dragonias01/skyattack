@@ -16,6 +16,10 @@ scoreboard players operation #d1_sec temp %= #d1_div temp
 execute store result storage sa:dungeon_1_display min int 1 run scoreboard players get #d1_min temp
 execute store result storage sa:dungeon_1_display sec int 1 run scoreboard players get #d1_sec temp
 
-# Sekunden: zweistellig formatieren (0-9 → 0X, 10-59 → XX)
+# Text-Display aktualisieren
 execute if score #d1_sec temp matches 0..9 run function sa:dungeon/dungeon_1/display/set_time_pad with storage sa:dungeon_1_display
 execute if score #d1_sec temp matches 10..59 run function sa:dungeon/dungeon_1/display/set_time with storage sa:dungeon_1_display
+
+# Sidebar-Suffix aktualisieren
+execute if score #d1_sec temp matches 0..9 run function sa:dungeon/dungeon_1/sidebar/set_suffix_pad with storage sa:dungeon_1_display
+execute if score #d1_sec temp matches 10..59 run function sa:dungeon/dungeon_1/sidebar/set_suffix with storage sa:dungeon_1_display

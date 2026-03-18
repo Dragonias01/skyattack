@@ -277,7 +277,10 @@ scoreboard objectives add hub_initialized dummy
 
 scoreboard objectives add dungeon_arena_one_init dummy
 
-# ── Dungeon 1 Timer & Spieler ─────────────────────────────────────────────
+# ── Dungeon System ────────────────────────────────────────────────────────
+# dungeon_hud: separate Sidebar für Spieler im Dungeon
+# Neue Dungeons: eigene Scoreboards hier registrieren
+scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
 scoreboard objectives add dungeon_1_timer dummy
 scoreboard objectives add dungeon_1_players dummy
 scoreboard players add server dungeon_1_timer 0

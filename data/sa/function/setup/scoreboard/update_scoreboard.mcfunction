@@ -50,3 +50,9 @@ execute if score server event_num matches 7 run scoreboard players set Fishing_X
 
 team modify ev_green suffix " (Time: 00:00)"
 function sa:setup/scoreboard/calculate/time
+# ── Dungeon Sidebar ────────────────────────────────────────────────────────
+# Dungeon 1: Zeile nur sichtbar wenn aktiv (Status=1)
+# Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
+scoreboard players reset D1_Zeit skyattack
+execute if score server dungeon_1_status matches 1 run scoreboard players set D1_Zeit skyattack 3
+team join dg_d1_timer D1_Zeit
