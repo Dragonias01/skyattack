@@ -1,6 +1,7 @@
 scoreboard players add server tick_counter 1
 
 execute if score server tick_counter matches 20 run function sa:system/bonus/logging/calc_bonus
+execute if score server tick_counter matches 20 run function sa:dungeon/dungeon_1/tick
 execute if score server tick_counter matches 21 run function sa:system/bonus/mining/calc_bonus
 execute if score server tick_counter matches 22 run function sa:system/bonus/farming/calc_bonus
 execute if score server tick_counter matches 23 run function sa:system/bonus/combat/calc_bonus

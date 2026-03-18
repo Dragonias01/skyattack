@@ -277,6 +277,12 @@ scoreboard objectives add hub_initialized dummy
 
 scoreboard objectives add dungeon_arena_one_init dummy
 
+# ── Dungeon 1 Timer & Spieler ─────────────────────────────────────────────
+scoreboard objectives add dungeon_1_timer dummy
+scoreboard objectives add dungeon_1_players dummy
+scoreboard players add server dungeon_1_timer 0
+scoreboard players add server dungeon_1_players 0
+
 
 # ============================================================================
 # LEADERBOARD SYSTEM
