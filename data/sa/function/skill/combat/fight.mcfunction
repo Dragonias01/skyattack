@@ -8,16 +8,8 @@ execute as @a[scores={skeleton_killed=1..,combat_lvl=0..999}] run function sa:sk
 execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={witch_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 
 #enderman 10xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
-execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp
 execute as @a[scores={enderman_killed=1..,combat_lvl=0..999}] run function sa:skill/combat/lvl/xp

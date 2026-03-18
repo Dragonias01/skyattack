@@ -13,4 +13,4 @@ effect give @a blindness 5
 effect give @s slow_falling 5 99
 
 # Spawn-Befehl NACH dem Teleport, mit dem Spieler als Anker
-schedule function sa:dungeon/spawn_structure 20t
+schedule function sa:dungeon/dungeon_1/generate_dungeon 20t

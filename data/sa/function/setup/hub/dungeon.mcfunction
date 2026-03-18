@@ -9,4 +9,4 @@ place template sa:dungeon_2 19 0 -9
 #summon mannequin -21 2 6 {profile:Dragonias01,immovable:true,Invulnerable:1b,NoGravity:1b,OnGround:1b,Silent:1b,Rotation:[180f,0f],Tags:["npc","dungeon_master"]}
 #summon interaction -21 2 6 {width:1.0f,height:2.0f,Tags:["npc","dungeon_master","indungeon"]}
 
-summon interaction -4 3 -7.4 {width:3.0f,height:3.0f,Tags:["button","enter_dungeon_1"]}
+summon interaction -4 3 -7.4 {width:3.0f,height:3.0f,Tags:["portal","dungeon1"]}

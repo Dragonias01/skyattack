@@ -324,3 +324,7 @@ execute unless score server lb_initialized matches 1 run function sa:leaderboard
 
 scoreboard objectives add gambling_trigger trigger
 scoreboard objectives add temp_gambling dummy
+
+scoreboard objectives add dungeon_1_status dummy
+scoreboard players add server dungeon_1_status 0
+scoreboard objectives add dungeon_1_key dummy

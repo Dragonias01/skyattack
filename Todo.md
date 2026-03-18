@@ -7,9 +7,7 @@ Fishing Pond:
   - Loot Table hinzufügen
 
 Loot boxen:
-  - Hinzufügen
   - Loot Table mit cutom items 
-  - Bezahlung gegen level
 
 Schmied:
   - elements Weapons Upgradeble machen
@@ -51,3 +49,6 @@ Items:
 
  Feature idee:
  - Teleport modul was langsam ausgebaut werden kann
+
+
+Items:
