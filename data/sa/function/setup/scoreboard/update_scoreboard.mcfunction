@@ -48,8 +48,7 @@ execute if score server event_num matches 6 run scoreboard players set Farming_X
 execute if score server event_num matches 7 run scoreboard players set Fishing_XP skyattack 2
 
 
-team modify ev_green suffix " (Time: 00:00)"
-function sa:setup/scoreboard/calculate/time
+function sa:setup/scoreboard/calculate/calc_event_time
 # ── Dungeon Sidebar ────────────────────────────────────────────────────────
 # Dungeon 1: Zeile nur sichtbar wenn aktiv (Status=1)
 # Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
