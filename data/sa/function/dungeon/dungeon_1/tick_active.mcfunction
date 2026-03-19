@@ -13,8 +13,7 @@ execute in sa:dungeon1 as @a run scoreboard players add server dungeon_1_players
 # ── Dungeon HUD Team-Zuweisung ─────────────────────────────────────────
 # Alle Spieler aus dg_players entfernen, dann Spieler in Dungeon wieder hinzufügen.
 # So verlassen Spieler die den Dungeon verlassen automatisch das HUD.
-team empty dg_players
-execute in sa:dungeon1 as @a run team join dg_players @s
+
 
 # ── Dungeon HUD Pseudo-Spieler aktualisieren ───────────────────────────
 # Dungeon-Name (Zeile 1) - statisch, Wert 4 = höchste Position

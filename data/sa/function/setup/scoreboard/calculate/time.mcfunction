@@ -8,6 +8,10 @@ execute if score server event_counter matches 1..20 run team modify ev_green suf
 # 1..20 = 59:59 | 71981..72000 = 00:00
 # ============================================================================
 
+# Sidebar-Suffix aktualisieren
+execute if score #d1_sec temp matches 0..9 run function sa:setup/scoreboard/calculate/set_suffix_pad with storage sa:dungeon_1_display
+execute if score #d1_sec temp matches 10..59 run function sa:setup/scoreboard/calculate/set_suffix with storage sa:dungeon_1_display
+
 execute if score server event_counter matches 0..1 run team modify ev_green suffix " (60:00)"
 execute if score server event_counter matches 21..40 run team modify ev_green suffix " (59:58)"
 execute if score server event_counter matches 41..60 run team modify ev_green suffix " (59:57)"
