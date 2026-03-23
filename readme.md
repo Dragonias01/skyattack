@@ -110,7 +110,7 @@ Position: `17 99 -35`
 
 | Kaufe                   | Preis             | Erhalte                   |
 |-------------------------|-------------------|---------------------------|
-| Double Compressed Stone | 64 Compressed Stone | 1× Double Compressed Stone |
+| Double Compressed Stone | 9 Compressed Stone | 1× Double Compressed Stone |
 | Element Pickaxe (Common) | 25 DCS + Common Pickaxe | Element Pickaxe (Uncommon) |
 | Night Vision Potion     | 32 Compressed Stone | Potion (1 Std)            |
 | Haste II Potion         | 5 DCS             | Potion (1 Std)            |
@@ -122,7 +122,7 @@ Position: `0 99 -64`
 
 | Kaufe                  | Preis             | Erhalte                    |
 |------------------------|-------------------|----------------------------|
-| Double Compressed Log  | 64 Compressed Log | 1× Double Compressed Log   |
+| Double Compressed Log  | 9 Compressed Log | 1× Double Compressed Log   |
 | Element Axe (Uncommon) | 25 DCL + Common Axe | Element Axe (Uncommon)   |
 | Strength II Potion     | 12 DCL            | Potion (1 Std)             |
 | Foraging Fruit         | 2 DCL             | Foraging Fruit (Uncommon)  |
@@ -134,7 +134,7 @@ Position: `-17 99 -47`
 
 | Kaufe                    | Preis               | Erhalte                      |
 |--------------------------|---------------------|------------------------------|
-| Compressed Biomass       | 64 Biomass          | 1× Compressed Biomass        |
+| Compressed Biomass       | 9 Biomass          | 1× Compressed Biomass        |
 | Element Hoe (Uncommon)   | 25 CB + Common Hoe  | Element Hoe (Uncommon)       |
 | Speed II Potion          | 32 Compressed Stone | Potion (1 Std)               |
 | Farming Fruit            | 2 CB                | Farming Fruit (Uncommon)     |
@@ -145,7 +145,7 @@ Position: `17 99 -47`
 
 | Kaufe                   | Preis                  | Erhalte                    |
 |-------------------------|------------------------|----------------------------|
-| Compressed Fish         | 64 Fish Mesh           | 1× Compressed Fish         |
+| Compressed Fish         | 9 Fish Mesh           | 1× Compressed Fish         |
 | Element Rod (Uncommon)  | 25 CF + Common Rod     | Element Rod (Uncommon)     |
 | Glückstrank             | 2 CF                   | Luck Potion (1 Std)        |
 | WIP                     | 10 CF                  | WIP                        |
