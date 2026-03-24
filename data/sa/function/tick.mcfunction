@@ -33,3 +33,5 @@ function sa:system/events/check
 function sa:setup/scoreboard/counter
 function sa:item/function/xp_catalysator/checkinv
 function sa:system/death/check_death
+function sa:item/function/xpfruits/update
+

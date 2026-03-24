@@ -25,7 +25,13 @@ execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"
 execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"element_pickaxe_blueprint","italic":false}]] run function sa:recipe/element_tools/pickaxe
 execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"element_pickaxe_blueprint","italic":false}]] run clear @s filled_map[item_name=[{"text":"element_pickaxe_blueprint","italic":false}]] 1
 
-
+# ============================================================================
+# FRÜCHTE - Rechtsklick
+# ============================================================================
+execute as @s if items entity @s weapon.mainhand sweet_berries[item_name=[{"text":"foraging_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_logging
+execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"mining_fruit","italic":false}]] run say hi
+execute as @s if items entity @s weapon.mainhand pitcher_pod[item_name=[{"text":"farming_fruit","italic":false}]] run say hi
+execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"combat_fruit","italic":false}]] run say hi
 
 #Achievment Reset
 advancement revoke @s only item_interact

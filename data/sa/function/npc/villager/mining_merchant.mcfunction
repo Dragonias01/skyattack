@@ -3,20 +3,9 @@
 # Datei: sa:npc/villager/mining_merchant
 # Version: 1.21.11
 # ============================================================================
-# Trades:
-#   1. Compressed Stone      64x              → Double Compressed Stone
-#   2. Double Compressed Stone 25x + Element Pickaxe (Common) → Element Pickaxe (Uncommon)
-#   3. Compressed Stone      32x              → Night Vision Potion (1 Std, Rare)
-#   4. Double Compressed Stone  5x            → Haste II Potion (1 Std, Rare)
-#   5. Double Compressed Stone  2x            → Mining Fruit (Uncommon)
-#   6. Double Compressed Stone 10x            → Dungeon Key (Legendary)
-# ============================================================================
 
-# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
 kill @e[type=villager,tag=mining_merchant]
 
-# ── Mining Merchant spawnen ───────────────────────────────────────────────
-# POSITION ANPASSEN: 17 99 -35
 summon villager 17 99 -35 {\
   Tags:["mining_merchant"],\
   VillagerData:{type:plains,profession:toolsmith,level:5},\
@@ -61,7 +50,9 @@ summon villager 17 99 -35 {\
       sell:{id:"minecraft:glow_berries",count:1,components:{\
         custom_name:[{text:"Mining Fruit",italic:false,color:green}],\
         lore:[[{text:"Erhöht den Mining XP Gain für eine Stunde",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
-        item_name:[{text:"mining_fruit",italic:false}]}}},\
+        item_name:[{text:"mining_fruit",italic:false}],\
+        food:{nutrition:0,saturation:0,can_always_eat:1b},\
+        consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
       buy:{id:"minecraft:deepslate",count:10,components:{item_name:[{text:"double_compressed_stone",italic:false}]}},\
       sell:{id:"minecraft:trial_key",count:1,components:{\
@@ -70,3 +61,4 @@ summon villager 17 99 -35 {\
         item_name:[{text:"dungeon_key",italic:false}]}}}\
   ]}\
 }
+

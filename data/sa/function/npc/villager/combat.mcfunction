@@ -3,18 +3,10 @@
 # Datei: sa:npc/villager/combat
 # Version: 1.21.11
 # ============================================================================
-# Trades:
-#   1. Compressed Mob Mesh  25x + Element Sword (Common) → Element Sword (Uncommon)
-#   2. Compressed Mob Mesh  32x              → Resistance II Potion (1 Std, Rare)
-#   3. Compressed Mob Mesh   2x              → Combat Fruit (glow_berries, Uncommon)
-#   4. Compressed Mob Mesh  10x              → Dungeon Key (Legendary)
-# ============================================================================
 
-# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
 kill @e[type=villager,tag=combat_merchant]
 
-# ── Combat Merchant spawnen ───────────────────────────────────────────────
-# POSITION ANPASSEN: -17 99 -35
+
 summon villager -17 99 -35 {\
   Tags:["combat_merchant"],\
   VillagerData:{type:plains,profession:weaponsmith,level:5},\
@@ -46,7 +38,9 @@ summon villager -17 99 -35 {\
       sell:{id:"minecraft:glow_berries",count:1,components:{\
         custom_name:[{text:"Combat Fruit",italic:false,color:green}],\
         lore:[[{text:"Erhöht den Combat XP Gain für eine Stunde",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
-        item_name:[{text:"combat_fruit",italic:false}]}}},\
+        item_name:[{text:"combat_fruit",italic:false}],\
+        food:{nutrition:0,saturation:0,can_always_eat:1b},\
+        consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
       buy:{id:"minecraft:zombie_head",count:10,components:{item_name:[{text:"compressed_mob_mesh",italic:false}]}},\
       sell:{id:"minecraft:trial_key",count:1,components:{\
@@ -55,3 +49,4 @@ summon villager -17 99 -35 {\
         item_name:[{text:"dungeon_key",italic:false}]}}}\
   ]}\
 }
+

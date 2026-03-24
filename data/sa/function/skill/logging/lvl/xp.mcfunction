@@ -16,7 +16,7 @@ execute unless score @s logging_goal matches 1.. run scoreboard players set @s l
 scoreboard players set @s logging_xp_gain 100
 scoreboard players operation @s logging_xp_gain += @s logging_xp_boost_gain
 scoreboard players operation @s fishing_xp_gain += server eventboost_logging
-#scoreboard players operation @s logging_xp_gain += @s logging_xp_fruit_gain
+scoreboard players operation @s logging_xp_gain += @s Logging_fruit_gain
 
 #100%
     execute as @s[scores={logging_xp_gain=100}] run scoreboard players add @s logging_xp 1

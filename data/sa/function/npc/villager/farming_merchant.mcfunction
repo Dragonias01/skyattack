@@ -3,23 +3,9 @@
 # Datei: sa:npc/villager/farming_merchant
 # Version: 1.21.11
 # ============================================================================
-# Trades:
-#   1. Biomass               64x              → Compressed Biomass
-#   2. Compressed Biomass    25x + Element Hoe (Common) → Element Hoe (Uncommon)
-#   3. Compressed Stone      32x              → Speed Potion (Schnelligkeit II, 1 Std, Rare)
-#   4. Compressed Biomass     2x              → Farming Fruit (pitcher_pod, Uncommon)
-#   5. Compressed Biomass    10x              → Dungeon Key (Legendary)
-# ============================================================================
-# HINWEIS: Biomass         = green_dye   [item_name: biomass]
-#          Compressed Biomass = dried_kelp_block [item_name: compressed_biomass]
-#          Speed Potion Trade verlangt Compressed Stone (tuff) – so in der Spec.
-# ============================================================================
 
-# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
 kill @e[type=villager,tag=farming_merchant]
 
-# ── Farming Merchant spawnen ──────────────────────────────────────────────
-# POSITION ANPASSEN: -17 99 -47
 summon villager -17 99 -47 {\
   Tags:["farming_merchant"],\
   VillagerData:{type:plains,profession:farmer,level:5},\
@@ -57,7 +43,9 @@ summon villager -17 99 -47 {\
       sell:{id:"minecraft:pitcher_pod",count:1,components:{\
         custom_name:[{text:"Farming Fruit",italic:false,color:green}],\
         lore:[[{text:"Erhöht den Farming XP Gain für eine Stunde",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
-        item_name:[{text:"farming_fruit",italic:false}]}}},\
+        item_name:[{text:"farming_fruit",italic:false}],\
+        food:{nutrition:0,saturation:0,can_always_eat:1b},\
+        consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
       buy:{id:"minecraft:dried_kelp_block",count:10,components:{item_name:[{text:"compressed_biomass",italic:false}]}},\
       sell:{id:"minecraft:trial_key",count:1,components:{\
@@ -66,3 +54,4 @@ summon villager -17 99 -47 {\
         item_name:[{text:"dungeon_key",italic:false}]}}}\
   ]}\
 }
+

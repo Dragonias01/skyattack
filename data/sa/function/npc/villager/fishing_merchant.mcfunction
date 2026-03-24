@@ -3,22 +3,9 @@
 # Datei: sa:npc/villager/fishing_merchant
 # Version: 1.21.11
 # ============================================================================
-# Trades:
-#   1. Fish Mesh            64x              → Compressed Fish (wet_sponge, Rare)
-#   2. Compressed Fish      25x + Element Rod (Common) → Element Rod (Uncommon)
-#   3. Compressed Fish       2x              → Potion of Luck (1 Std, Rare)
-#   4. Compressed Fish      10x              → Placeholder (WIP)
-#   5. Compressed Fish      10x              → Placeholder (WIP)
-# ============================================================================
-# HINWEIS: Fish Mesh item_name = "fish_mesh" – bitte gegen deinen Code-Stand prüfen!
-#          Compressed Fish = wet_sponge (neues Item, Rare)
-# ============================================================================
 
-# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
 kill @e[type=villager,tag=fishing_merchant]
 
-# ── Fishing Merchant spawnen ──────────────────────────────────────────────
-# POSITION ANPASSEN: 17 99 -47
 summon villager 17 99 -47 {\
   Tags:["fishing_merchant"],\
   VillagerData:{type:swamp,profession:fisherman,level:5},\
@@ -63,3 +50,4 @@ summon villager 17 99 -47 {\
         lore:[[{text:"Work In Progress",italic:false,color:gray}],"",[{text:Temporarily,italic:false,color:red}]]}}}\
   ]}\
 }
+

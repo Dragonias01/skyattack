@@ -337,3 +337,7 @@ scoreboard objectives add temp_gambling dummy
 scoreboard objectives add dungeon_1_status dummy
 scoreboard players add server dungeon_1_status 0
 scoreboard objectives add dungeon_1_key dummy
+
+scoreboard objectives add Logging_fruit_timer minecraft.custom:minecraft.play_time
+scoreboard objectives add Logging_fruit_gain dummy
+

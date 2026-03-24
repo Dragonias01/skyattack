@@ -3,20 +3,8 @@
 # Datei: sa:npc/villager/wood_merchant
 # Version: 1.21.11
 # ============================================================================
-# Trades:
-#   1. Compressed Log      64x              → Double Compressed Log
-#   2. Double Compressed Log 25x + Element Axe (Common) → Element Axe (Uncommon)
-#   3. Double Compressed Log 12x            → Strength Potion (Stärke II, 1 Std, Rare)
-#   4. Double Compressed Log  2x            → Foraging Fruit (Uncommon)
-#   5. Double Compressed Log 45x            → XP Katalysator (Legendary)
-#   6. Double Compressed Log 10x            → Dungeon Key (Legendary)
-# ============================================================================
 
-# ── Alten Merchant entfernen (Re-Setup Sicherheit) ────────────────────────
 kill @e[type=villager,tag=wood_merchant]
-
-# ── Wood Merchant spawnen ─────────────────────────────────────────────────
-# POSITION ANPASSEN: 0 99 -64
 
 summon villager 0 99 -64 {\
   Tags:["wood_merchant"],\
@@ -55,7 +43,9 @@ summon villager 0 99 -64 {\
       sell:{id:"minecraft:sweet_berries",count:1,components:{\
         custom_name:[{text:"Foraging Fruit",italic:false,color:green}],\
         lore:[[{text:"Erhöht den Foraging XP Gain für eine Stunde",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
-        item_name:[{text:"foraging_fruit",italic:false}]}}},\
+        item_name:[{text:"foraging_fruit",italic:false}],\
+        food:{nutrition:0,saturation:0,can_always_eat:1b},\
+        consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
     {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
       buy:{id:"minecraft:oak_wood",count:45,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
       sell:{id:"minecraft:gray_dye",count:1,components:{\
@@ -71,3 +61,4 @@ summon villager 0 99 -64 {\
         item_name:[{text:"dungeon_key",italic:false}]}}}\
   ]}\
 }
+
