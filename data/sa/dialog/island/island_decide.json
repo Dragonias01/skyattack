@@ -1,14 +1,52 @@
 {
   "type": "minecraft:dialog_list",
   "title": {
-    "text": "Start"
+    "text": "Inselwahl",
+    "color": "gold",
+    "bold": false
   },
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": {
-      "text": "Wohin Soll es Gehen?"
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Multiplayer",
+        "color": "yellow",
+        "bold": false
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Bei SkyAttack legen wir natürlich auch Wert auf eine interessante Multiplayer-Erfahrung — das ist aber vollständig optional. Jeder Spieler kann entweder eine eigene Insel erstellen oder der Insel eines anderen Spielers beitreten."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Nicht sicher welche Insel euer Partner hat? Kein Problem — jeder Spieler kann seine eigene Inselnummer jederzeit unter seinem Stats-Tab im Menü nachschauen."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Da alle Spieler in derselben Welt sind, könnt ihr euch später jederzeit zu eurer gemeinsamen Basis bauen oder eigene Wege gehen — die Wahl liegt bei euch."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Also — wohin soll es gehen?",
+        "color": "green",
+        "bold": false
+      }
     }
-  },
+  ],
   "inputs": [],
   "button_width": 100,
   "dialogs": [

@@ -15,16 +15,79 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Tutorial Text"
+        "text": "Willkommen bei SkyAttack!",
+        "color": "gold",
+        "bold": false
       },
       "width": 200
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "möchtest du eine insel haben?"
+        "text": "Dieses Datapack ist ein wenig anders. Ihr spawnt auf einer Insel und dürft das Vanilla-Skyblock-Feeling ganz neu erleben. Hier findet ihr Custom-Skill-Systeme, neue Crafting-Systeme und eine Menge neuen Content. Vieles liegt hinter Rätseln und erfordert ein wenig Knobelei."
       },
-      "width": 70
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Das Menü",
+        "color": "yellow",
+        "bold": false
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Ihr erhaltet ein Menü — es befindet sich im letzten Slot der Hotbar. Legt dort keine Items rein, diese werden automatisch entfernt!"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Im Menü findet ihr einen Stats-Tab mit einem genauen Überblick über eure Statistiken sowie ein vollständiges Ingame-Wiki. Im Verlauf des Spiels werdet ihr dieses Wiki weiter ausbauen können — dazu aber später mehr."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[WIP] Einige Texte und Features sind noch in Entwicklung und werden im Laufe der Testphase überarbeitet.",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Kommen wir aber zur Inselerstellung — möchtest du loslegen?",
+        "color": "green"
+      },
+      "width": 200
     }
   ],
   "inputs": [],
@@ -32,7 +95,7 @@
   "after_action": "wait_for_response",
   "action": {
     "label": {
-      "text": "Los Gehts",
+      "text": "Los geht's!",
       "type": "text",
       "color": "dark_green"
     },
