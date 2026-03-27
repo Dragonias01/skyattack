@@ -340,4 +340,10 @@ scoreboard objectives add dungeon_1_key dummy
 
 scoreboard objectives add Logging_fruit_timer minecraft.custom:minecraft.play_time
 scoreboard objectives add Logging_fruit_gain dummy
+scoreboard objectives add Mining_fruit_timer minecraft.custom:minecraft.play_time
+scoreboard objectives add m_xp_fruit_gain dummy
+scoreboard objectives add Farming_fruit_timer minecraft.custom:minecraft.play_time
+scoreboard objectives add farming_xp_fruit_gain dummy
+scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
+scoreboard objectives add combat_xp_fruit_gain dummy
 
