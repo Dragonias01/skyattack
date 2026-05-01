@@ -9,7 +9,7 @@ kill @e[type=item_display,tag=spawn_boss1]
 
 
 
-function sa:setup/dungeon/setup_interactions
+execute in sa:dungeon_arena_1 run function sa:setup/dungeon/setup_interactions
 function sa:setup/dungeon/bossbar
 
 tp @s 0 100 0

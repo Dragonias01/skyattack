@@ -1,17 +1,11 @@
 {
   "type": "minecraft:overworld",
   "generator": {
-    "type": "minecraft:flat",
-    "settings": {
-      "biome": "minecraft:plains",
-      "lakes": false,
-      "features": false,
-      "layers": [
-        {
-          "height": 124,
-          "block": "minecraft:white_concrete"
-        }
-      ]
-    }
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    },
+    "settings": "sa:custom"
   }
 }
