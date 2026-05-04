@@ -25,33 +25,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Aus Erde und einer Glasflasche lässt sich trübes Wasser herstellen – ein Weg um ohne natürliche Wasserquelle an Wasser zu kommen."
+        "text": "You can craft murky water from dirt and a glass bottle – a way to get water without a natural water source."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du einen leeren Bucket im Inventar hast."
+        "text": "The recipe is automatically unlocked when you first join – you can therefore craft murky water from the beginning."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",
@@ -97,7 +97,7 @@
     },
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

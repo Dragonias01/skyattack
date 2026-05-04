@@ -14,20 +14,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Stirbst du in Sky Attack, passieren folgende Dinge:"
+        "text": "If you die in Sky Attack, the following happens:"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Inventar:",
+        "text": "Inventory:",
         "color": "red"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "keepInventory ist aktiv – du verlierst deine Items nicht. Dein gesamtes Inventar bleibt erhalten."
+        "text": "keepInventory is enabled – you will not lose your items. Your entire inventory will be retained."
       }
     },
     {
@@ -40,7 +40,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Du verlierst die Hälfte deiner aktuellen Minecraft XP-Level. Der Server teilt deine Level durch 2 und setzt sie entsprechend zurück. Eine Meldung im Chat zeigt dir wie viele Level du verloren hast."
+        "text": "You lose half of your current Minecraft XP levels. The server divides your levels by 2 and resets them accordingly. A message in the chat will show you how many levels you have lost."
       }
     },
     {
@@ -53,13 +53,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Deine Skill-XP (Mining, Logging, Farming, Combat, Fishing) sowie deine Skill-Level bleiben beim Tod vollständig erhalten."
+        "text": "Your Skill XP (Mining, Logging, Farming, Combat, Fishing) and Skill Levels will be fully retained upon death."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Tipp: Verwalte deine Minecraft-Level sorgfältig, besonders vor gefährlichen Aktionen im Void oder Nether.",
+        "text": "Tip: Manage your Minecraft levels carefully, especially before dangerous actions in the Void or Nether.",
         "color": "gray",
         "italic": true
       }
@@ -72,7 +72,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

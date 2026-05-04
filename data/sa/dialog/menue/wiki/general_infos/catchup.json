@@ -5,7 +5,7 @@
     "sprite": "minecraft:item/nether_star",
     "extra": [
       {
-        "text": " Aufhol-System",
+        "text": "Catch-Up System",
         "color": "aqua"
       }
     ]
@@ -14,52 +14,52 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Aufhol-System sorgt dafür, dass Spieler die hinter dem Server-Level liegen schneller aufholen können."
+        "text": "The Catch-Up System ensures that players who are behind the server level can catch up faster."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wie funktioniert es?",
+        "text": "How does it work?",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das System vergleicht dein Level in einem Skill mit dem höchsten Level das irgendein Spieler auf dem Server in diesem Skill hat. Daraus wird ein Prozentwert berechnet – deine Nähe zum Leader.\n \nJe weiter du hinter dem Leader liegst, desto mehr Bonus-XP bekommst du automatisch pro Aktion."
+        "text": "The system compares your level in a skill with the highest level any player has in that skill on the server. This calculates a percentage – your proximity to the leader.\n \nThe further behind you are from the leader, the more bonus XP you automatically receive per action."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus-Tabelle:",
+        "text": "Bonus Table:",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "0–20% des Leader-Levels → +700% XP\n21–40% → +500% XP\n41–60% → +300% XP\n61–80% → +200% XP\n81–90% → +100% XP\n91–100% → kein Bonus"
+        "text": "0–20% of Leader Levels → +700% XP\n21–40% → +500% XP\n41–60% → +300% XP\n61–80% → +200% XP\n81–90% → +100% XP\n91–100% → no bonus"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beispiel:",
+        "text": "Example:",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der beste Mining-Spieler hat Level 100. Du hast Level 15. Das sind 15% des Leader-Levels → du bekommst +700% XP pro Stein. Statt 1 XP erhältst du also 8 XP pro Block."
+        "text": "The best Mining player has Level 100. You have Level 15. That's 15% of the Leader's Level → you get +700% XP per stone. Instead of 1 XP, you get 8 XP per block."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das System gilt für alle 5 Skills separat. In einem Skill kann man weit hinten liegen und trotzdem in einem anderen vorne sein.",
+        "text": "The system applies to all 5 skills separately. In one skill, you can be far behind and still be ahead in another.",
         "color": "gray",
         "italic": true
       }
@@ -67,14 +67,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Hinweis:",
+        "text": "Note:",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der Bonus gilt zusätzlich zu aktiven Event-Boosts und Stack-XP durch den XP-Katalysator."
+        "text": "The bonus applies additionally to active event boosts and stacked XP through the XP catalyst."
       }
     }
   ],
@@ -85,7 +85,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

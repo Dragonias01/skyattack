@@ -5,7 +5,7 @@
     "sprite": "minecraft:item/fishing_rod",
     "extra": [
       {
-        "text": " Fishing (Überblick)",
+        "text": " Fishing (Overview)",
         "color": "dark_aqua"
       }
     ]
@@ -14,14 +14,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung",
+        "text": "Description",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Angeln ist eine der wichtigsten Mechaniken in Sky Attack. Viele Ressourcen, Mobs und seltene Items lassen sich ausschließlich durch Fischen erhalten. Alle Loot-Pools wurden speziell für das Skyblock-Gameplay angepasst."
+        "text": "Fishing is one of the most important mechanics in Sky Attack. Many resources, mobs, and rare items can only be obtained through fishing. All loot pools have been specifically adapted for the Skyblock gameplay."
       }
     },
     {
@@ -34,7 +34,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "• Fish (40%) – Standard-Fische\n• Junk (30%) – Ressourcen wie Bambus, Kohle, Flint\n• Treasure (10%) – Seltene wertvolle Items\n• Creature (20%) – Spawnt einen Mob statt eines Items"
+        "text": "• Fish (40%) – Standard-Fish\n• Junk (30%) – Ressources like Bamboo, Coal, Flint\n• Treasure (10%) – Rare Valuable Items\n• Creature (20%) – Spawns a Mob instead of an Item"
       }
     },
     {
@@ -47,7 +47,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Angeln kann statt einem Item eine Kreatur erscheinen. Welcher Mob spawnt hängt vom Biom ab. Manche Mobs sind ausschließlich über diesen Weg erreichbar."
+        "text": "When fishing, a creature may spawn instead of an item. Which mob spawns depends on the biome. Some mobs can only be obtained through this method."
       }
     },
     {
@@ -56,7 +56,7 @@
         "id": "minecraft:guardian_spawn_egg"
       },
       "description": {
-        "text": "Guardian – Biom-abhängig"
+        "text": "Guardian – Biom-dependant"
       }
     },
     {
@@ -65,7 +65,7 @@
         "id": "minecraft:slime_spawn_egg"
       },
       "description": {
-        "text": "Slime – Biom-abhängig"
+        "text": "Slime – Biom-dependant"
       }
     },
     {
@@ -74,7 +74,7 @@
         "id": "minecraft:drowned_spawn_egg"
       },
       "description": {
-        "text": "Drowned – Biom-abhängig"
+        "text": "Drowned – Biom-dependant"
       }
     },
     {
@@ -83,7 +83,7 @@
         "id": "minecraft:bogged_spawn_egg"
       },
       "description": {
-        "text": "Bogged – Biom-abhängig"
+        "text": "Bogged – Biom-dependant"
       }
     },
     {
@@ -96,7 +96,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Im Hub befindet sich ein spezieller Angelteich der nach dem Fishing Pond Goal freigeschaltet wird. Dort gibt es ein eigenes Biom und exklusive Drops. (⚠ Coming Soon – wird in naher Zukunft fertiggestellt)"
+        "text": "The hub features a special fishing pond that unlocks after completing the Fishing Pond Goal. It has its own biome and exclusive drops. (⚠ Coming Soon – will be completed in the near future)"
       }
     }
   ],

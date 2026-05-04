@@ -34,20 +34,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "blue"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Dieses Material sieht irgendwie stabil aus. Ein seltenes Crafting-Material, das aus verschiedenen komprimierten Mob-Drops zusammengepresst wurde. Alle Zutaten müssen selbst erst hergestellt werden."
+        "text": "This material looks somewhat sturdy. A rare crafting material made by compressing various mob drops. All ingredients must be crafted by yourself."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

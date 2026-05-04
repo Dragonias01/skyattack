@@ -34,33 +34,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "blue"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Eine vollständig verdichtete Masse aus Compressed Biomass. Gerüchte besagen, dass sich damit Werkzeuge herstellen lassen, die die Kräfte der Natur selbst in sich tragen. Was genau damit möglich ist, muss jeder selbst herausfinden..."
+        "text": "A fully compressed mass from Compressed Biomass. Rumors say that tools can be crafted with it that carry the very forces of nature within them. What exactly is possible with it, each must discover for themselves..."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "blue"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du 64 Compressed Biomass gleichzeitig im Inventar hast."
+        "text": "The recipe will be unlocked once you have 64 Compressed Biomass equal time in your inventory."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",

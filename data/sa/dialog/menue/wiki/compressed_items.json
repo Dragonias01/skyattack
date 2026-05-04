@@ -29,7 +29,7 @@
   "after_action": "close",
   "exit_action": {
     "label": {
-      "text": "Zurück"
+      "text": "Back"
     },
     "action": {
       "type": "minecraft:show_dialog",

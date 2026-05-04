@@ -34,20 +34,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP – viel zu viele Fische. Jede Fischart kann verwendet werden. Wird als Crafting-Material benötigt."
+        "text": "WIP – much too many fish. Any fish type can be used. Required as a crafting material."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",

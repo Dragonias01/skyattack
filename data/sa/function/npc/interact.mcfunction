@@ -14,7 +14,7 @@ advancement revoke @s only npc_interact
     execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] run function sa:npc/pilot/function
 
 
-execute as @s if entity @e[type=mannequin,tag=loot_master,distance=..5] run tellraw @a ["[",{"text":"Loot Master","color":"yellow"},"] ",{"text":"Möchtest du eine Lootbox für ","color":"yellow"},{"text":"100 Level","color":"green"},{"text":" Kaufen? ","color":"yellow"},{"text":"[","color":"white"},{"text":"Kaufen","color":"yellow","click_event":{"action":"run_command","command":"trigger gambling_trigger"}},{"text":"]","color":"white"}]
+execute as @s if entity @e[type=mannequin,tag=loot_master,distance=..5] run tellraw @a ["[",{"text":"Loot Master","color":"yellow"},"] ",{"text":"Do you want to buy a Lootbox for ","color":"yellow"},{"text":"100 Level","color":"green"},{"text":"? ","color":"yellow"},{"text":"[","color":"white"},{"text":"Kaufen","color":"yellow","click_event":{"action":"run_command","command":"trigger gambling_trigger"}},{"text":"]","color":"white"}]
 
 # ── DungeonMaster NPC ─────────────────────────────────────────────────────
     execute unless score server hub_dungeon_done matches 1 as @s if entity @e[type=mannequin,tag=dungeon_master,distance=..5] run dialog show @s sa:chat/dungeon_master_intro

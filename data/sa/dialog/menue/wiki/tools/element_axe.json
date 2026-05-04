@@ -35,20 +35,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Eine Axt aus komprimiertem Holz gefertigt. Unzerstörbar und effektiv: Beim Fällen von Bäumen erhält man doppelt so viele Logs. Für jeden der eine Holzfarm betreibt ein unverzichtbares Werkzeug. Benötigt Compressed Log zum Herstellen."
+        "text": "A pickaxe made from compressed wood. Unbreakable and effective: When mining stone, you get twice as many drops. An essential tool for anyone running a stone farm. Requires Compressed Log to craft."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +50% Log Ertrag",
+        "text": "Bonus: +50% Log Gain",
         "color": "green",
         "italic": false
       }
@@ -56,20 +56,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+        "text": "When mining, an Element Pickaxe Blueprint may drop. Hold the blueprint in your hand—the recipe will be unlocked immediately and the blueprint will be consumed."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

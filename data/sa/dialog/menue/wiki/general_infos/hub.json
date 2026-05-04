@@ -5,7 +5,7 @@
     "sprite": "minecraft:block/diamond_block",
     "extra": [
       {
-        "text": " Der Hub",
+        "text": " The Hub",
         "color": "aqua"
       }
     ]
@@ -14,33 +14,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der Hub ist das Zentrum von Sky Attack – ein gemeinsamer Bereich in der Dimension sa:hub, den alle Spieler besuchen können."
+        "text": "The Hub is the center of Sky Attack – a shared area in the sa:hub dimension that all players can visit."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Was findest du im Hub?",
+        "text": "What do you find in the Hub?",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "• Goal-Objekte – Interaktive Ziele an denen Spieler Items abgeben um Server-weite Fortschritte freizuschalten. Neue Bereiche, Händler und Features werden so für alle freigeschaltet.\n \n• 5 Skill-Räume – Nach dem Freischalten stehen spezialisierte Räume für jeden Skill zur Verfügung.\n \n• 5 Merchants – Händler-Villager die Compressed Items gegen nützliche Waren tauschen. Jeder Händler ist auf einen Skill spezialisiert.\n \n• Fishing Pond – Ein spezieller Angelteich im Hub mit eigenem Biom und angepassten Loot-Tables. (Coming Soon – wird in naher Zukunft vollständig implementiert)\n \n• Dungeon Master – NPC für den Zugang zu Dungeons. (WIP)\n \n• Leaderboards – Text-Displays die die Top-5 Spieler pro Skill anzeigen."
+        "text": "• Goal Objects – Interactive targets where players can turn in items to unlock server-wide progress. New areas, merchants, and features are unlocked this way.\n \n• 5 Skill Rooms – After unlocking, specialized rooms for each skill become available.\n \n• 5 Merchants – Merchant villagers who exchange Compressed Items for useful goods. Each merchant is specialized in one skill.\n \n• Fishing Pond – A special fishing pond in the Hub with its own biome and adjusted loot tables. (Coming Soon – will be fully implemented in the near future)\n \n• Dungeon Master – NPC for accessing Dungeons. (WIP)\n \n• Leaderboards – Text displays showing the top 5 players for each skill."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Goal-Reihenfolge:",
+        "text": "Goal - Order:",
         "color": "aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Levelbaum Goal → Skill Rooms → Mining Goal → Fishing Goal → Farming Goal → Combat Goal\n \nDas Fishing Goal schaltet außerdem das Fishing Pond Goal frei."
+        "text": "Skill Tree: Goal → Skill Rooms → Mining Goal → Fishing Goal → Farming Goal → Combat Goal\n \nThe Fishing Goal also unlocks the Fishing Pond Goal."
       }
     }
   ],
@@ -51,7 +51,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

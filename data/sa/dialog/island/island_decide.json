@@ -1,7 +1,7 @@
 {
   "type": "minecraft:dialog_list",
   "title": {
-    "text": "Inselwahl",
+    "text": "Create Island or Join Island",
     "color": "gold",
     "bold": false
   },
@@ -17,19 +17,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bei SkyAttack legen wir natürlich auch Wert auf eine interessante Multiplayer-Erfahrung — das ist aber vollständig optional. Jeder Spieler kann entweder eine eigene Insel erstellen oder der Insel eines anderen Spielers beitreten."
+        "text": "At SkyAttack, we naturally place a lot of emphasis on providing an engaging multiplayer experience—but this is entirely optional. Each player can either create their own island or join another player’s island."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+          "contents": {
+          "text": "Not sure which island your partner has? No problem — each player can check their own island number at any time under their Stats tab in the menu."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Nicht sicher welche Insel euer Partner hat? Kein Problem — jeder Spieler kann seine eigene Inselnummer jederzeit unter seinem Stats-Tab im Menü nachschauen."
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "Da alle Spieler in derselben Welt sind, könnt ihr euch später jederzeit zu eurer gemeinsamen Basis bauen oder eigene Wege gehen — die Wahl liegt bei euch."
+        "text": "Since all players are in the same world, you can later build together at your shared base or take your own paths — the choice is yours."
       }
     },
     {
@@ -41,7 +41,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Also — wohin soll es gehen?",
+        "text": "Also — where to go?",
         "color": "green",
         "bold": false
       }

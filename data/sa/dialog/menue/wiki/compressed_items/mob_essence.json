@@ -49,14 +49,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "WIP – stinkt irgendwie. Wird als Crafting-Material verwendet."
+        "text": "WIP – It smells kind of bad. It's used as a crafting material."
       }
     }
   ],
@@ -65,7 +65,10 @@
   "after_action": "close",
   "action": {
     "label": {
-      "text": "Zurück"
+      "text": "Back to Compressed Items",
+      "color": "green",
+      "bold": true,
+      "italic": false
     },
     "action": {
       "type": "minecraft:show_dialog",

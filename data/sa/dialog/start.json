@@ -15,7 +15,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Willkommen bei SkyAttack!",
+        "text": "Welcome to SkyAttack!",
         "color": "gold",
         "bold": false
       },
@@ -24,7 +24,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Dieses Datapack ist ein wenig anders. Ihr spawnt auf einer Insel und dürft das Vanilla-Skyblock-Feeling ganz neu erleben. Hier findet ihr Custom-Skill-Systeme, neue Crafting-Systeme und eine Menge neuen Content. Vieles liegt hinter Rätseln und erfordert ein wenig Knobelei."
+        "text": "This datapack is a bit different. You spawn on an island and get to experience the Vanilla-Skyblock feeling all over again. Here you will find custom skill systems, new crafting systems, and a lot of new content. Much of it is hidden behind puzzles and requires a bit of brain power."
       },
       "width": 200
     },
@@ -38,7 +38,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Menü",
+        "text": "The Menu",
         "color": "yellow",
         "bold": false
       },
@@ -47,14 +47,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Ihr erhaltet ein Menü — es befindet sich im letzten Slot der Hotbar. Legt dort keine Items rein, diese werden automatisch entfernt!"
+        "text": "You'll receive a menu—it's located in the last slot of the hotbar. Don't place any items there; they'll be automatically removed!"
       },
       "width": 200
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Im Menü findet ihr einen Stats-Tab mit einem genauen Überblick über eure Statistiken sowie ein vollständiges Ingame-Wiki. Im Verlauf des Spiels werdet ihr dieses Wiki weiter ausbauen können — dazu aber später mehr."
+        "text": "The menu will contain a Stats tab with a detailed overview of your statistics, as well as a complete in-game wiki. As you progress through the game, you'll be able to expand this wiki — more on that later."
       },
       "width": 200
     },
@@ -68,7 +68,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "[WIP] Einige Texte und Features sind noch in Entwicklung und werden im Laufe der Testphase überarbeitet.",
+        "text": "[WIP] Some texts and features are still in development and will be revised during the testing phase.",
         "color": "gray",
         "italic": true
       },
@@ -84,7 +84,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Kommen wir aber zur Inselerstellung — möchtest du loslegen?",
+        "text": "But let's get to creating the island—are you ready to get started?",
         "color": "green"
       },
       "width": 200
@@ -95,7 +95,7 @@
   "after_action": "wait_for_response",
   "action": {
     "label": {
-      "text": "Los geht's!",
+      "text": "Let's get started!",
       "type": "text",
       "color": "dark_green"
     },

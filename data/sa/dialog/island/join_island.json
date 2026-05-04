@@ -5,7 +5,7 @@
     "sprite": "minecraft:item/ender_eye",
     "extra": [
       {
-        "text": " Beitreten",
+        "text": "Join Island",
         "color": "white"
       }
     ]
@@ -14,14 +14,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wähle eine Insel um ihr zu joinen."
+        "text": "Select an island to join."
       }
     }
   ],

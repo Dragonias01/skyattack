@@ -35,40 +35,40 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Eine Hacke aus Block of Biomass gefertigt – dem konzentrierten Ergebnis einer gut betriebenen Farm. Unzerstörbar und mit einer besonderen Verbindung zur Erde: Beim Ernten von Pflanzen erhält man doppelt so viele Erträge. Das wichtigste Werkzeug für jeden Farmer."
+        "text": "A hoe made from Block of Biomass – the concentrated result of a well-run farm. Unbreakable and with a special connection to the earth: When harvesting crops, you get twice as many yields. The most important tool for any farmer."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +50% Crop Ertrag",
+        "text": "Bonus: +50% Crop Gain",
         "color": "green",
         "italic": false
       }
     },{
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+        "text": "When mining, an Element Pickaxe Blueprint may drop. Hold the blueprint in your hand—the recipe will be unlocked immediately and the blueprint will be consumed."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

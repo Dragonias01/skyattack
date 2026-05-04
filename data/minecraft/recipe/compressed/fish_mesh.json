@@ -22,7 +22,7 @@
       },
       "minecraft:lore": [
         {
-          "text": "viel zu viele...",
+          "text": "Too many...",
           "color": "gray",
           "bold": false,
           "italic": false,
@@ -43,7 +43,7 @@
           "obfuscated": false
         }
       ],
-      "minecraft:item_name": "compressed_ender pearl"
+      "minecraft:item_name": "compressed_fish_mesh"
     },
     "count": 1
   }

@@ -25,46 +25,46 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Moos ist eine vielseitige Ressource die sich durch Bonemeal weiter ausbreiten lässt und so die Grundlage für viele Pflanzen und Vegetation bildet. Wer früh an Moos kommt, hat einen enormen Vorteil beim Aufbau seiner Insel."
+        "text": "Moss is a versatile resource that can be spread further with Bonemeal and thus forms the basis for many plants and vegetation. Those who come to moss early have a significant advantage in building their island."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Learn Recipe:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du gleichzeitig Bambus (bamboo) und eine Rankenpflanze (vine) im Inventar hast.\n \n⚠ Derzeit blockiert – Bamboo Block hat noch keine Bezugsquelle im Spiel."
+        "text": "The recipe will be unlocked once you have both Bamboo (bamboo) and a Vine (vine) in your inventory.\n \n⚠ Currently blocked – Bamboo Block has no source in the game."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Moos erhalten:",
+        "text": "Obtain Moss:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Benötigt werden 8 Weinranken (Vines) und einen Bambus-Block in der Mitte. Vines und Bambus können beim Angeln gefunden werden."
+        "text": "You need 8 Vines and a Bamboo Block in the center. Vines and Bamboo can be found while fishing."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",
@@ -165,7 +165,7 @@
     },
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

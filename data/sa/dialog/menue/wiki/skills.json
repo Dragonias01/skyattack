@@ -14,7 +14,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Sky Attack hat 5 Skill-Tracks. Jeder Skill gibt XP durch bestimmte Aktionen und schaltet bei steigendem Level mehr Drops und Boni frei.",
+        "text": "Sky Attack has 5 Skill-Tracks. Each skill gives XP through certain actions and unlocks more drops and bonuses at higher levels.",
         "extra": [
           {
             "atlas": "minecraft:items",
@@ -29,7 +29,7 @@
   "after_action": "close",
   "exit_action": {
     "label": {
-      "text": "Zurück"
+      "text": "Back"
     },
     "action": {
       "type": "minecraft:show_dialog",

@@ -9,5 +9,5 @@
 
 
 # TODO: Implementierung ausstehend - Platzhalter
-tellraw @s [{"text":"[TODO] Levelbaum Goal wird mit dem Server Progress System implementiert.","color":"yellow"}]
-return 0
+    tellraw @s [{"text":"[TODO] Work in Progress","color":"yellow"}]
+    return 0

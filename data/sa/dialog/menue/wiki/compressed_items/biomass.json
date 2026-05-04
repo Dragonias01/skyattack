@@ -34,33 +34,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Organische Ressourcen auf engstem Raum zusammengepresst. Compressed Biomass ist ein vielseitiges Material das im späteren Spielverlauf sowohl als Handelsgut als auch als Grundlage für verschiedene Crafting-Rezepte dient. Wer eine Farm betreibt, sollte dieses Item nicht unterschätzen. Kann mit Kartoffeln oder Karotten hergestellt werden."
+        "text": "Organic resources compressed into a small space. Compressed Biomass is a versatile material that serves as both a trading good and a foundation for various crafting recipes in later stages of the game. Those who operate farms should not underestimate this item. It can be crafted using potatoes or carrots."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du 64 Kartoffeln oder Karotten gleichzeitig im Inventar hast."
+        "text": "The recipe will be unlocked once you have 64 potatoes or carrots in your inventory at the same time."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",

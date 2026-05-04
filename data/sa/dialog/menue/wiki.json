@@ -14,7 +14,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Hier Steht viel Nützliches Wissen! ",
+        "text": "Here is a lot of useful information! ",
         "extra": [
           {
             "atlas": "minecraft:items",

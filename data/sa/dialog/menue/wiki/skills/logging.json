@@ -14,40 +14,40 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung",
+        "text": "Description",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der Logging-Skill wird durch das Fällen von Eichenholz gesteigert. Mit steigendem Level erhöht sich die Chance auf Bonus-Drops pro gefälltem Stamm."
+        "text": "The Logging skill is leveled up by chopping oak logs. As the level increases, the bonus drop chance per chopped log also increases."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP bekommt man durch:",
+        "text": "XP is gained by:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "• Oak Log (Eichenholz) fällen"
+        "text": "• Chopping Oak Logs (Eichenholz)"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Was bekommt man?",
+        "text": "What do you get?",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Mit steigendem Level erhöht sich die Bonus-Drop-Chance beim Holzfällen. Höhere Level schalten zusätzliche Drops aus der Logging-Bonus-Loot-Table frei.\n \nDas zugehörige Tool ist die Element Axe:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Weitere Stufen steigern den Multiplikator weiter\n \nBlueprints für Upgrades droppen beim Skillen."
+        "text": "As the level increases, the bonus drop chance per chopped log also increases. Higher levels unlock more drops from the Logging Bonus Loot Table.\n \nThe corresponding tool is the Element Axe:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Further levels increase the multiplier even more\n \nBlueprints for upgrades drop when leveling up."
       }
     },
     {
@@ -60,20 +60,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Im Hub gibt es ein Logging-Leaderboard das die Top-5 Spieler nach Logging-Level anzeigt."
+        "text": "In the Hub, there is a Logging Leaderboard that shows the top 5 players by Logging Level."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP-Boost durch Aufhol-System:",
+        "text": "XP-Boost through the Catch-Up System:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+        "text": "Players who are far behind the server leader automatically receive more XP per action. More information in the Catch-Up System tab."
       }
     }
   ],
@@ -84,7 +84,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

@@ -14,7 +14,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Element Tools sind spezielle Werkzeuge die aus komprimierten Materialien hergestellt werden. Jedes Tool bringt einen einzigartigen Vorteil mit sich und ist unzerstörbar.",
+        "text": "Element Tools are special tools made from compressed materials. Each tool offers a unique advantage and is indestructible. They are essential for maximizing your efficiency in various activities. To craft them, you need to gather the required compressed materials and unlock the recipes by having the necessary items in your inventory.",
         "extra": [
           {
             "atlas": "minecraft:items",
@@ -28,7 +28,7 @@
   "pause": false,
   "after_action": "close",
   "exit_action": {
-    "label": "Zurück",
+    "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "sa:menue/wiki"

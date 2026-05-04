@@ -14,7 +14,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Allgemeine Informationen zu Sky Attack.",
+        "text": "General information about Sky Attack.",
         "color": "gray"
       }
     }
@@ -24,7 +24,7 @@
   "after_action": "close",
   "exit_action": {
     "label": {
-      "text": "Zurück"
+      "text": "Back"
     },
     "action": {
       "type": "minecraft:show_dialog",

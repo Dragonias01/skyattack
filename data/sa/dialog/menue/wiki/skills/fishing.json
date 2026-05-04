@@ -14,66 +14,66 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung",
+        "text": "Description:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der Fishing-Skill wird durch Angeln gesteigert. Das Angelsystem wurde umfangreich überarbeitet – viele Items, Ressourcen und Überraschungen lassen sich nur durch Angeln erhalten."
+        "text": "The Fishing skill is leveled up by fishing. The fishing system has been extensively revised – many items, resources, and surprises can only be obtained through fishing."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP bekommt man durch:",
+        "text": "XP is gained by:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "• Angeln (egal wo)"
+        "text": "• Fishing (anywhere)"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Was bekommt man?",
+        "text": "What do you get?",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Angeln zieht man aus einem von 4 Loot-Pools:\n \n• Fish Pool (40%) – Standard-Fische\n• Junk Pool (30%) – Ressourcen wie Bambus (biom-abhängig), Kohle, Flint und mehr\n• Treasure Pool (10%) – Wertvolle Items\n• Creature Pool (20%) – Anstelle eines Items wird ein Mob gespawnt. Welche Kreatur erscheint hängt vom Biom ab. Manche seltenen Mobs lassen sich nur so erhalten.\n \nDas zugehörige Tool ist die Element Rod:\n• Common: +50% Fishing-Ertrag\n• Uncommon: +100%\n \nBlueprints für Upgrades droppen beim Skillen."
+        "text": "When fishing, you draw from one of 4 loot pools:\n \n• Fish Pool (40%) – Standard fish\n• Junk Pool (30%) – Resources such as bamboo (biome-dependent), coal, flint, and more\n• Treasure Pool (10%) – Valuable items\n• Creature Pool (20%) – Instead of an item, a mob is spawned. Which creature appears depends on the biome. Some rare mobs can only be obtained this way.\n \nThe associated tool is the Element Rod:\n• Common: +50% fishing yield\n• Uncommon: +100%\n \nBlueprints for upgrades drop when leveling up."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Fishing Pond im Hub:",
+        "text": "Fishing Pond in the Hub:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Im Hub gibt es einen speziellen Angelteich – den Fishing Pond. Dieser wird nach dem Freischalten des Fishing Pond Goals zugänglich und hat ein eigenes Biom sowie eine angepasste Loot-Table mit exklusiven Drops die nur hier gefangen werden können.\n \n⚠ Der Fishing Pond ist aktuell noch in der Implementierung – Biom und Loot-Table werden in naher Zukunft fertiggestellt."
+        "text": "In the Hub, there is a special fishing pond – the Fishing Pond. This pond becomes accessible after unlocking the Fishing Pond Goals and has its own biome as well as an adjusted loot table with exclusive drops that can only be caught here.\n \n⚠ The Fishing Pond is currently still in development – the biome and loot table will be completed in the near future."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP-Boost durch Aufhol-System:",
+        "text": "XP-Boost through the Catch-Up System:",
         "color": "dark_aqua"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+        "text": "Players who are far behind the server leader automatically receive more XP per action. More information in the Catch-Up System tab."
       }
     }
   ],
@@ -84,7 +84,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

@@ -25,40 +25,40 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Du startest mit nur einem einzigen Erde-Block. Geh damit sorgsam um! Erde kann nicht abgebaut und einfach wieder platziert werden – sie ist deine wertvollste Ressource zu Beginn."
+        "text": "You start with only a single dirt block. Handle it carefully! Dirt cannot be mined and placed back down – it is your most valuable resource at the beginning."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird beim ersten Join automatisch vergeben – du kannst Erde also von Anfang an herstellen."
+        "text": "The recipe is automatically unlocked when you first join – you can therefore craft dirt from the beginning."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Erde erhalten:",
+        "text": "Gathering:",
         "color": "dark_green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Benötigt werden Setzlinge (beliebige Holzart, Kartoffel, Weizen oder Karotte) und Knochenmehl oder verrottetes Fleisch. Knochenmehl bekommst du aus Knochen (Mob-Drops) oder einem Composter."
+        "text": "You need saplings (any wood type, potato, wheat or carrot) and bone meal or rotten flesh. You get bone meal from bones (mob drops) or a composter."
       }
     },
     {

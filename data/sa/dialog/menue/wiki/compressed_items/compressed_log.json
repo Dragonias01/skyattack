@@ -34,33 +34,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Neun Holzstämme zu einem einzigen komprimierten Block gepresst. Jede Holzart kann dafür verwendet werden. Compressed Log wird im späteren Spielverlauf noch eine wichtige Rolle spielen."
+        "text": "Nine logs pressed into a single compressed block. Any wood type can be used for this. Compressed Log will play an important role in later stages of the game."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Crafting Recipe:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du 64 Oak Logs gleichzeitig im Inventar hast."
+        "text": "The recipe will be unlocked once you have 64 Oak Logs equal time in your inventory."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",

@@ -25,46 +25,46 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "gold"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Lava ist eine der seltensten und wertvollsten Ressourcen in diesem Skyblock. Sie wird zum Schmelzen, als Falle oder zur Cobblestone-Generator-Erweiterung benötigt. Geh äußerst vorsichtig damit um – einmal verschüttet, ist sie schwer zurückzubekommen."
+        "text": "Lava is one of the rarest and most valuable resources in this Skyblock. It is needed for smelting, as a trap, or to extend the Cobblestone Generator. Handle it with extreme caution – once lost, it is difficult to retrieve."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Learn Recipe:",
         "color": "gold"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du einen Magma Block im Inventar hast. Für den Magma Block wiederum benötigst du einen Coal Block – der noch keine Bezugsquelle im Spiel hat.\n \n⚠ Die gesamte Lava-Progression ist derzeit blockiert bis die Coal- und Magma-Block-Quellen implementiert sind."
+        "text": "The recipe will be unlocked once you have a Magma Block in your inventory. For the Magma Block, you need a Coal Block – which currently has no source in the game.\n \n⚠ The entire lava progression is currently blocked until the coal and magma block sources are implemented."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Lava erhalten:",
+        "text": "Obtain Lava:",
         "color": "gold"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Benötigt wird ein leerer Eimer und ein Magma Cube Spawn Egg."
+        "text": "You need a empty bucket and a Magma Cube Spawn Egg."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",
@@ -115,7 +115,7 @@
     },
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

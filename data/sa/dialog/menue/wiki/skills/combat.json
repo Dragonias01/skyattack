@@ -14,53 +14,53 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung",
+        "text": "Description",
         "color": "red"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der Combat-Skill wird durch das Töten von Mobs gesteigert. Mit steigendem Level erhöht sich die Bonus-Drop-Chance pro getötetem Mob."
+        "text": "The Combat skill is leveled up by killing mobs. As the level increases, the bonus drop chance per killed mob also increases."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP bekommt man durch:",
+        "text": "XP is gained by:",
         "color": "red"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "• Zombie töten\n• Creeper töten\n• Skeleton töten\n• Spider töten\n• Witch töten\n• Enderman töten"
+        "text": "• Killing Zombies\n• Killing Creepers\n• Killing Skeletons\n• Killing Spiders\n• Killing Witches\n• Killing Endermen"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Was bekommt man?",
+        "text": "What do you get?",
         "color": "red"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Mit steigendem Level erhöht sich die Bonus-Drop-Chance bei Mob-Kills. Höhere Level schalten mehr Drops aus der Combat-Bonus-Loot-Table frei. Manche Mobs haben angepasste Loot-Tables und droppen Ressourcen die sonst im Skyblock unerreichbar wären.\n \nDas zugehörige Tool ist das Element Sword:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Weitere Stufen steigern den Multiplikator weiter\n \nBlueprints für Upgrades droppen beim Skillen."
+        "text": "As the level increases, the bonus drop chance per killed mob also increases. Higher levels unlock more drops from the Combat Bonus Loot Table. Some mobs have adjusted loot tables and drop resources that would otherwise be unreachable in Skyblock.\n \nThe corresponding tool is the Element Sword:\n• Common: +50% Drop-Chance\n• Uncommon: +100%\n• Further levels increase the multiplier even more\n \nBlueprints for upgrades drop when leveling up."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "XP-Boost durch Aufhol-System:",
+        "text": "XP Boost via the Catch-Up System:",
         "color": "red"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Wer weit hinter dem Server-Leader liegt, erhält automatisch mehr XP pro Aktion. Mehr Infos im Aufhol-System Tab."
+        "text": "Players who are far behind the server leader automatically receive more XP per action. More information in the Catch-Up System tab."
       }
     }
   ],
@@ -71,7 +71,7 @@
   "actions": [
     {
       "label": {
-        "text": "Zurück"
+        "text": "Back"
       },
       "action": {
         "type": "minecraft:show_dialog",

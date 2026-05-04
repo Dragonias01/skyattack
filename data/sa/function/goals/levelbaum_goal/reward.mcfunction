@@ -5,9 +5,9 @@
 # ============================================================================
 
 # ── Entities entfernen ────────────────────────────────────────────────────
-kill @e[type=interaction,tag=goal_levelbaum]
-kill @e[type=text_display,tag=display_levelbaum]
-kill @e[type=block_display,tag=block_levelbaum]
+    kill @e[type=interaction,tag=goal_levelbaum]
+    kill @e[type=text_display,tag=display_levelbaum]
+    kill @e[type=block_display,tag=block_levelbaum]
 
 setblock 0 99 10 minecraft:air
 
@@ -17,9 +17,9 @@ setblock 0 99 10 minecraft:air
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschritts-Event ersetzen
-scoreboard players set server hub_levelbaum_done 1
+    scoreboard players set server hub_levelbaum_done 1
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
-title @a title [{"text":"Levelbaum Goal Completed!","color":"green"}]
-execute as @a run playsound ui.toast.challenge_complete player @a
-title @a subtitle [{"text":"WIP","color":"gray"}]
+    title @a title [{"text":"Level Tree Goal Completed!","color":"green"}]
+    execute as @a run playsound ui.toast.challenge_complete player @a
+    title @a subtitle [{"text":"WIP","color":"gray"}]

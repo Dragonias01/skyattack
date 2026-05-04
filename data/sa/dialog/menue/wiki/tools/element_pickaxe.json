@@ -35,20 +35,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Eine Spitzhacke aus komprimiertem Stein gefertigt. Unzerstörbar und mit einer besonderen Eigenschaft: Jeder abgebaute Block droppt doppelt so viele Ressourcen. Unverzichtbar für jeden der seinen Mining Output maximieren will. Benötigt Compressed Stone zum Herstellen."
+        "text": "A pickaxe made from Compressed Stone – a concentrated result of a well-run mine. Unbreakable and with a special property: Every mined block drops twice as many resources. Essential for any miner looking to maximize their mining output. Requires Compressed Stone for crafting."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +50% Block Ertrag",
+        "text": "Bonus: +50% Block Gain",
         "color": "green",
         "italic": false
       }
@@ -56,20 +56,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+        "text": "When mining, an Element Pickaxe Blueprint may drop. Hold the blueprint in your hand—the recipe will be unlocked immediately and the blueprint will be consumed."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

@@ -9,7 +9,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Dungeon-System",
+        "text": "The Dungeon System",
         "color": "dark_red",
         "bold": true
       }
@@ -17,7 +17,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "[WIP] – Dieser Text wird später angepasst. Hier wird erklärt, was das Dungeon-System ist, wie Dungeons funktionieren und wie man den ersten Dungeon freischaltet."
+        "text": "[WIP] – This text will be adjusted later. Here, we will explain what the Dungeon System is, how Dungeons work, and how to unlock the first Dungeon."
       }
     }
   ],
@@ -26,7 +26,7 @@
   "after_action": "close",
   "action": {
     "label": {
-      "text": "Verstanden"
+      "text": "Okay"
     }
   }
 }

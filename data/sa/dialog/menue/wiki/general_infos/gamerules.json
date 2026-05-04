@@ -14,20 +14,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Folgende Gamerules sind in Sky Attack aktiv:"
+        "text": "The following Gamerules are active in Sky Attack:"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "keepInventory: AN",
+        "text": "keepInventory: ON",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Du verlierst beim Tod keine Items."
+        "text": "All items are kept upon death."
       }
     },
     {
@@ -40,7 +40,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Mobs machen mehr Schaden und spawnen häufiger."
+        "text": "Mobs deal more damage and spawn more frequently."
       }
     },
     {
@@ -53,33 +53,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "5x schneller als der Vanilla-Standard (3). Pflanzen wachsen deutlich schneller. Bei aktiven Events kann dieser Wert auf 30 oder 60 steigen."
+        "text": "5x faster than the vanilla default (3). Plants grow much faster. During active events, this value can increase to 30 or 60."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "mobGriefing: AUS",
+        "text": "mobGriefing: OFF",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Mobs können keine Blöcke zerstören oder verändern. Creeper-Explosionen beschädigen die Insel nicht."
+        "text": "Mobs cannot destroy blocks or change them. Creeper explosions do not damage the island."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "limitedCrafting: AN",
+        "text": "limitedCrafting: ON",
         "color": "gold"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Viele Rezepte müssen erst freigeschaltet werden. Wie das geht steht im Crafting-Tab und in den Wiki-Einträgen der jeweiligen Items."
+        "text": "Many recipes must first be unlocked. Instructions on how to do this can be found in the crafting tab and the wiki entries for the respective items."
       }
     },
     {
@@ -92,46 +92,46 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bereits ein einzelner schlafender Spieler reicht aus um die Nacht zu überspringen."
+        "text": "Already a single sleeping player is enough to skip the night."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "locatorBar: AUS",
+        "text": "locatorBar: OFF",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Die Spieler-Positionsanzeige oben im Bild ist deaktiviert."
+        "text": "The player position indicator at the top of the screen is disabled."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "spreadVines: AUS",
+        "text": "spreadVines: OFF",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Weinranken (Vines) breiten sich nicht von selbst aus. So bleibt die Insel kontrollierbar."
+        "text": "Vines do not spread on their own. This keeps the island under control."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "sendCommandFeedback: AUS",
+        "text": "sendCommandFeedback: OFF",
         "color": "gray"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Befehlsausgaben im Chat sind ausgeblendet – hält den Chat sauber."
+        "text": "Command feedback in the chat is hidden – keeps the chat clean."
       }
     }
   ],

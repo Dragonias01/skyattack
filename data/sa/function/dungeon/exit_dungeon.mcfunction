@@ -1,3 +1,3 @@
 #Später noch relevant
 function sa:tp/hub
-say "Du verlässt das Dungeon und kehrst zum Hub zurück."
+say "You have left the dungeon and returned to the hub."

@@ -34,33 +34,33 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Aus neun Stücken Kopfsteinpflaster zu einem einzigen Block gepresst. Compressed Stone ist eine zentrale Ressource im Spielverlauf – wertvoll genug, um damit Handel zu treiben. Wer viel abbaut, sammelt viel. Wer viel sammelt, kann mehr erreichen."
+        "text": "Nine cobblestone pieces pressed into a single compressed block. Compressed Stone is a central resource in the game progression – valuable enough to engage in trade. Those who mine extensively collect abundantly. Those who collect extensively can achieve more."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Crafting Recipe:",
         "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das Rezept wird freigeschaltet sobald du 64 Cobblestone gleichzeitig im Inventar hast."
+        "text": "The recipe will be unlocked once you have 64 Cobblestone equal time in your inventory."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept: ",
+        "text": "Crafting Recipe: ",
         "extra": [
           {
             "atlas": "minecraft:blocks",

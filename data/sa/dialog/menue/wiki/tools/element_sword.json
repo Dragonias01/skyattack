@@ -35,14 +35,14 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Ein Schwert aus Compressed Mob Mesh – einem Material das aus verdichteten Mob-Drops besteht. Unzerstörbar und mit einer besonderen Wirkung auf Feinde: Jeder getötete Mob hat eine doppelt so hohe Chance seinen normalen Drop zu hinterlassen. Unentbehrlich für jeden Mob-Farmer."
+        "text": "A sword made from Compressed Mob Mesh – a material composed of compressed mob drops. Unbreakable and with a special effect on enemies: Each killed mob has a doubled chance to drop its normal loot. Essential for every mob farmer."
       }
     },
     {
@@ -56,20 +56,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+        "text": "When fighting mobs, an Element Sword Blueprint may drop. Hold the blueprint in your hand—the recipe will be unlocked immediately and the blueprint will be consumed."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

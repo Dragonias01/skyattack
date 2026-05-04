@@ -35,20 +35,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beschreibung:",
+        "text": "Description:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Eine Angel aus komprimierten Fischen und Stöcken gefertigt. Unzerstörbar und mit einer besonderen Verbindung zum Wasser: Jeder Fischzug bringt doppelt so viele Ressourcen. Das optimale Werkzeug für jeden der den Fishing Skill ausbauen möchte. Benötigt Compressed Fish zum Herstellen."
+        "text": "A fishing rod made from Compressed Fish and Sticks. Unbreakable and with a special connection to water: Each fish catch brings twice as many resources. The optimal tool for anyone looking to improve their fishing skills. Requires Compressed Fish for crafting."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Bonus: +50% Fishing Ertrag",
+        "text": "Bonus: +50% Fishing Gain",
         "color": "green",
         "italic": false
       }
@@ -56,20 +56,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezept erlernen:",
+        "text": "Recipe:",
         "color": "white"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Beim Mining-Skillen kann ein Element Pickaxe Blueprint droppen. Halte den Blueprint in der Hand – das Rezept wird sofort freigeschaltet und der Blueprint verbraucht."
+        "text": "When fishing, an Element Rod Blueprint may drop. Hold the blueprint in your hand—the recipe will be unlocked immediately and the blueprint will be consumed."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Crafting Rezept:",
+        "text": "Crafting Recipe:",
         "extra": [
           {
             "atlas": "minecraft:blocks",

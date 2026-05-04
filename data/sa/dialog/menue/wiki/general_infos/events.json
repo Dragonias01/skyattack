@@ -5,7 +5,7 @@
     "sprite": "minecraft:item/clock_00",
     "extra": [
       {
-        "text": " Stündliche Events",
+        "text": " Hourly Events",
         "color": "gold"
       }
     ]
@@ -14,26 +14,26 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle 60 Minuten wechselt automatisch ein neues Server-Event. Das Event gilt für alle Spieler gleichzeitig."
+        "text": "Every 60 minutes, a new server event automatically replaces the current one. The event applies to all players simultaneously."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Anzeige:",
+        "text": "Display:",
         "color": "gold"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Das aktive Event und der verbleibende Countdown werden im Scoreboard (rechts im Bild) angezeigt. Du siehst welches Event gerade läuft und wie viel Zeit noch verbleibt."
+        "text": "The active event and the remaining countdown are displayed in the scoreboard (right in the image). You can see which event is currently running and how much time is left."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Mögliche Events:",
+        "text": "Possible Events:",
         "color": "gold"
       }
     },
@@ -47,7 +47,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der randomTickSpeed wird auf 30 verdoppelt (normal: 15). Pflanzen wachsen doppelt so schnell wie im Normalzustand."
+        "text": "The randomTickSpeed is doubled to 30 (normal: 15). Plants grow twice as fast as in the normal state."
       }
     },
     {
@@ -60,7 +60,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Der randomTickSpeed steigt auf 60 – vierfacher Normaltakt. Pflanzen wachsen extrem schnell. Nutze dieses Event zum massiven Farmen."
+        "text": "The randomTickSpeed increases to 60 – four times the normal rate. Plants grow extremely fast. Use this event for massive farming."
       }
     },
     {
@@ -73,7 +73,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle Spieler erhalten beim Töten von Mobs doppelte Combat-XP für die Dauer des Events."
+        "text": "All players receive double Combat XP for the duration of the event."
       }
     },
     {
@@ -86,7 +86,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle Spieler erhalten beim Holzfällen doppelte Logging-XP für die Dauer des Events."
+        "text": "All players receive double Logging XP for the duration of the event."
       }
     },
     {
@@ -99,7 +99,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle Spieler erhalten beim Steinabbauen doppelte Mining-XP für die Dauer des Events."
+        "text": "All players receive double Mining XP for the duration of the event."
       }
     },
     {
@@ -112,7 +112,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle Spieler erhalten beim Ernten doppelte Farming-XP für die Dauer des Events."
+        "text": "All players receive double Farming XP for the duration of the event."
       }
     },
     {
@@ -125,13 +125,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Alle Spieler erhalten beim Angeln doppelte Fishing-XP für die Dauer des Events."
+        "text": "All players receive double Fishing XP for the duration of the event."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Hinweis: Das nächste Event wird zufällig ausgewählt. Man kann also mehrfach dasselbe Event bekommen.",
+        "text": "Note: The next event is randomly selected. You can therefore get the same event multiple times.",
         "color": "gray",
         "italic": true
       }

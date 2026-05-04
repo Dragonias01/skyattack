@@ -14,27 +14,27 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezepte erlernen:",
+        "text": "Learning Recipes:",
         "color": "yellow"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Sky Attack nutzt limitedCrafting – viele Rezepte sind gesperrt und müssen erst freigeschaltet werden bevor sie am Crafting-Tisch verfügbar sind. Wie ein Rezept erlernt wird steht jeweils im Wiki-Eintrag des jeweiligen Items."
+        "text": "Sky Attack uses limited crafting — many recipes are locked and must first be unlocked before they become available at the crafting table. Instructions on how to learn a recipe can be found in the wiki entry for each item."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezepte im Wiki:",
+        "text": "Recipes in the Wiki:",
         "color": "yellow"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Rezepte werden als Crafting-Grid dargestellt – genauso wie du es vom Crafting-Tisch kennst. Jedes Feld zeigt ein Item. Fahre mit der Maus über ein Item um seinen Namen zu sehen. Klickbare Items führen dich direkt zum Wiki-Eintrag des jeweiligen Materials."
+        "text": "Recipes are displayed as a crafting grid – just like you know from the crafting table. Each slot shows an item. Hover over an item to see its name. Clickable items will take you directly to the wiki entry for that material."
       }
     }
   ],

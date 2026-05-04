@@ -3,55 +3,55 @@
 # Datei: sa:goals/schmied_goal/check
 # Version: 1.21.11
 # ============================================================================
-data modify entity @e[type=text_display,tag=display_schmied,limit=1,sort=nearest] text set from storage sa:schmied_goal_text text
+    data modify entity @e[type=text_display,tag=display_schmied,limit=1,sort=nearest] text set from storage sa:schmied_goal_text text
 
 # ── Dependency: Skill Rooms ─────────────────────────────────────────────────
 # TODO: SERVER PROGRESS SYSTEM - Durch Fortschrittspruefung ersetzen
-execute unless score server hub_skillrooms_done matches 1 run tellraw @s [{"text":"Voraussetzung nicht erfuellt! (Skill Rooms)","color":"red"}]
-execute unless score server hub_skillrooms_done matches 1 run return 0
+    execute unless score server hub_skillrooms_done matches 1 run tellraw @s [{"text":"dependency not met! (Skill Rooms)","color":"red"}]
+    execute unless score server hub_skillrooms_done matches 1 run return 0
 
 # ── Schritt 1: Items zaehlen (entfernt nichts) ───────────────────────────
 # PLATZHALTER ITEM: minecraft:paper[item_name="schmied_ressource"] - Ersetzen!
 # TODO: Ressource noch nicht definiert!
-execute store result score @s temp_hub_schmied run clear @s minecraft:paper[item_name="schmied_ressource"] 0
+    execute store result score @s temp_hub_schmied run clear @s minecraft:paper[item_name="schmied_ressource"] 0
 
 # ── Schritt 2: Keine Items → Fehlermeldung & Abbruch ─────────────────────
-execute if score @s temp_hub_schmied matches 0 run tellraw @s [{"text":"Du hast keine Schmied-Ressource!","color":"red"}]
-execute if score @s temp_hub_schmied matches 0 run return 0
+    execute if score @s temp_hub_schmied matches 0 run tellraw @s [{"text":"You have no Schmied-Ressource!","color":"red"}]
+    execute if score @s temp_hub_schmied matches 0 run return 0
 
 # ── Schritt 3: Auf maximal 10 begrenzen ──────────────────────────────────
-execute if score @s temp_hub_schmied matches 11.. run scoreboard players set @s temp_hub_schmied 10
+    execute if score @s temp_hub_schmied matches 11.. run scoreboard players set @s temp_hub_schmied 10
 
 # ── Schritt 4: Verbleibenden Platz berechnen ─────────────────────────────
-scoreboard players operation server hub_schmied_rem = server hub_schmied_cost
-scoreboard players operation server hub_schmied_rem -= server hub_schmied
+    scoreboard players operation server hub_schmied_rem = server hub_schmied_cost
+    scoreboard players operation server hub_schmied_rem -= server hub_schmied
 
 # ── Schritt 5: Goal bereits voll → Abbruch ───────────────────────────────
-execute if score server hub_schmied_rem matches ..0 run tellraw @s [{"text":"Das Abgabe-Ziel ist bereits erfuellt!","color":"red"}]
-execute if score server hub_schmied_rem matches ..0 run return 0
+    execute if score server hub_schmied_rem matches ..0 run tellraw @s [{"text":"The delivery goal is already completed!","color":"red"}]
+    execute if score server hub_schmied_rem matches ..0 run return 0
 
 # ── Schritt 6: Overflow-Schutz ────────────────────────────────────────────
-scoreboard players operation @s temp_hub_schmied < server hub_schmied_rem
+    scoreboard players operation @s temp_hub_schmied < server hub_schmied_rem
 
 # ── Schritt 7: Items entfernen ────────────────────────────────────────────
-execute if score @s temp_hub_schmied matches 1 run clear @s minecraft:paper[item_name="schmied_ressource"] 1
-execute if score @s temp_hub_schmied matches 2 run clear @s minecraft:paper[item_name="schmied_ressource"] 2
-execute if score @s temp_hub_schmied matches 3 run clear @s minecraft:paper[item_name="schmied_ressource"] 3
-execute if score @s temp_hub_schmied matches 4 run clear @s minecraft:paper[item_name="schmied_ressource"] 4
-execute if score @s temp_hub_schmied matches 5 run clear @s minecraft:paper[item_name="schmied_ressource"] 5
-execute if score @s temp_hub_schmied matches 6 run clear @s minecraft:paper[item_name="schmied_ressource"] 6
-execute if score @s temp_hub_schmied matches 7 run clear @s minecraft:paper[item_name="schmied_ressource"] 7
-execute if score @s temp_hub_schmied matches 8 run clear @s minecraft:paper[item_name="schmied_ressource"] 8
-execute if score @s temp_hub_schmied matches 9 run clear @s minecraft:paper[item_name="schmied_ressource"] 9
-execute if score @s temp_hub_schmied matches 10 run clear @s minecraft:paper[item_name="schmied_ressource"] 10
+    execute if score @s temp_hub_schmied matches 1 run clear @s minecraft:paper[item_name="schmied_ressource"] 1
+    execute if score @s temp_hub_schmied matches 2 run clear @s minecraft:paper[item_name="schmied_ressource"] 2
+    execute if score @s temp_hub_schmied matches 3 run clear @s minecraft:paper[item_name="schmied_ressource"] 3
+    execute if score @s temp_hub_schmied matches 4 run clear @s minecraft:paper[item_name="schmied_ressource"] 4
+    execute if score @s temp_hub_schmied matches 5 run clear @s minecraft:paper[item_name="schmied_ressource"] 5
+    execute if score @s temp_hub_schmied matches 6 run clear @s minecraft:paper[item_name="schmied_ressource"] 6
+    execute if score @s temp_hub_schmied matches 7 run clear @s minecraft:paper[item_name="schmied_ressource"] 7
+    execute if score @s temp_hub_schmied matches 8 run clear @s minecraft:paper[item_name="schmied_ressource"] 8
+    execute if score @s temp_hub_schmied matches 9 run clear @s minecraft:paper[item_name="schmied_ressource"] 9
+    execute if score @s temp_hub_schmied matches 10 run clear @s minecraft:paper[item_name="schmied_ressource"] 10
 
 # ── Schritt 8: Score addieren ────────────────────────────────────────────
-scoreboard players operation server hub_schmied += @s temp_hub_schmied
+    scoreboard players operation server hub_schmied += @s temp_hub_schmied
 
 # ── Schritt 9: Bestaetigung ───────────────────────────────────────────────
-tellraw @s [{"text":"Du hast ","color":"green"},{"score":{"name":"@s","objective":"temp_hub_schmied"},"color":"green"},{"text":" Schmied-Ressource abgegeben!","color":"green"}]
-playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+    tellraw @s [{"text":"You have given ","color":"green"},{"score":{"name":"@s","objective":"temp_hub_schmied"},"color":"green"},{"text":" Schmied-Ressource!","color":"green"}]
+    playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 1 1
 
 # ── Schritt 10: Text Display & Zielcheck ─────────────────────────────────
-data modify entity @e[type=text_display,tag=display_schmied,limit=1,sort=nearest] text set from storage sa:schmied_goal_text text
-execute if score server hub_schmied >= server hub_schmied_cost run function sa:goals/schmied_goal/reward
+    data modify entity @e[type=text_display,tag=display_schmied,limit=1,sort=nearest] text set from storage sa:schmied_goal_text text
+    execute if score server hub_schmied >= server hub_schmied_cost run function sa:goals/schmied_goal/reward

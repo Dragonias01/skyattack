@@ -1,7 +1,7 @@
 {
   "type": "minecraft:confirmation",
   "title": {
-    "text": "Erstellen"
+    "text": "Create Island"
   },
   "body": [],
   "inputs": [],
