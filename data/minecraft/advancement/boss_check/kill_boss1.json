@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "sa:dungeon/dungeon_1/boss/kill/kill_event"
+    "function": "sa:dungeon/dungeon_1/boss/kill_event"
   }
 }

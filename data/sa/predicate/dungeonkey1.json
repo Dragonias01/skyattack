@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:match_tool",
+  "predicate": {
+    "items": "minecraft:trial_key",
+    "components": {
+      "minecraft:item_name": {
+        "italic": false,
+        "text": "dungeon_key"
+      }
+    }
+  }
+}

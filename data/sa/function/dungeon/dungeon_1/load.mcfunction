@@ -10,6 +10,7 @@ scoreboard objectives add dg1_players_boss dummy
 scoreboard objectives add dg1_boss_state dummy
 scoreboard objectives add dg1_generated dummy
 scoreboard objectives add dg1_loot_generated dummy
+#scoreboard objectives add dg1_click_cd dummy
 
 # Temp / constants für display calc
     scoreboard objectives add d1_tmp_minutes dummy
@@ -27,3 +28,4 @@ scoreboard objectives add dg1_loot_generated dummy
     scoreboard players set server dg1_boss_state 0
     scoreboard players set server dg1_generated 0
     scoreboard players set server dg1_loot_generated 0
+    # scoreboard players set server dg1_click_cd 0

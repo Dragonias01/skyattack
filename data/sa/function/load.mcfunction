@@ -18,12 +18,12 @@ scoreboard players set server five 5
 
 
 # Skalierungswerte
-scoreboard objectives add scale_fast_num dummy
-scoreboard objectives add scale_fast_den dummy
-scoreboard objectives add scale_mid_num dummy
-scoreboard objectives add scale_mid_den dummy
-scoreboard objectives add scale_slow_num dummy
-scoreboard objectives add scale_slow_den dummy
+    scoreboard objectives add scale_fast_num dummy
+    scoreboard objectives add scale_fast_den dummy
+    scoreboard objectives add scale_mid_num dummy
+    scoreboard objectives add scale_mid_den dummy
+    scoreboard objectives add scale_slow_num dummy
+    scoreboard objectives add scale_slow_den dummy
 
 scoreboard players set server scale_fast_num 15
 scoreboard players set server scale_fast_den 10
@@ -36,8 +36,8 @@ scoreboard players set server scale_slow_den 100
 
 
 # Mathe Konstanten
-scoreboard objectives add const_100 dummy
-scoreboard objectives add const_10 dummy
+    scoreboard objectives add const_100 dummy
+    scoreboard objectives add const_10 dummy
 
 scoreboard players set server const_100 100
 scoreboard players set server const_10 10
@@ -280,11 +280,11 @@ scoreboard objectives add dungeon_arena_one_init dummy
 # ── Dungeon System ────────────────────────────────────────────────────────
 # dungeon_hud: separate Sidebar für Spieler im Dungeon
 # Neue Dungeons: eigene Scoreboards hier registrieren
-scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
-scoreboard objectives add dungeon_1_timer dummy
-scoreboard objectives add dungeon_1_players dummy
-scoreboard players add server dungeon_1_timer 0
-scoreboard players add server dungeon_1_players 0
+    scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
+    scoreboard objectives add dungeon_1_timer dummy
+    scoreboard objectives add dungeon_1_players dummy
+    scoreboard players add server dungeon_1_timer 0
+    scoreboard players add server dungeon_1_players 0
 
 
 # ============================================================================
@@ -302,24 +302,24 @@ scoreboard objectives add lb_insert_idx dummy
 scoreboard players set server lb_tick 0
 
 # Mining
-scoreboard objectives add lb_min_score dummy
-scoreboard objectives add lb_min_name dummy
-scoreboard objectives add lb_min_slot dummy
+    scoreboard objectives add lb_min_score dummy
+    scoreboard objectives add lb_min_name dummy
+    scoreboard objectives add lb_min_slot dummy
 
 # Fishing
-scoreboard objectives add lb_fsh_score dummy
-scoreboard objectives add lb_fsh_name dummy
-scoreboard objectives add lb_fsh_slot dummy
+    scoreboard objectives add lb_fsh_score dummy
+    scoreboard objectives add lb_fsh_name dummy
+    scoreboard objectives add lb_fsh_slot dummy
 
 # Farming
-scoreboard objectives add lb_far_score dummy
-scoreboard objectives add lb_far_name dummy
-scoreboard objectives add lb_far_slot dummy
+    scoreboard objectives add lb_far_score dummy
+    scoreboard objectives add lb_far_name dummy
+    scoreboard objectives add lb_far_slot dummy
 
 # Combat
-scoreboard objectives add lb_com_score dummy
-scoreboard objectives add lb_com_name dummy
-scoreboard objectives add lb_com_slot dummy
+    scoreboard objectives add lb_com_score dummy
+    scoreboard objectives add lb_com_name dummy
+    scoreboard objectives add lb_com_slot dummy
 
 
 # ============================================================================
@@ -347,3 +347,4 @@ scoreboard objectives add farming_xp_fruit_gain dummy
 scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
 scoreboard objectives add combat_xp_fruit_gain dummy
 
+##function sa:dungeon/dungeon_1/load

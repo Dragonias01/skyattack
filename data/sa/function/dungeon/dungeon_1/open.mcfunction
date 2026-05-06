@@ -8,7 +8,8 @@ execute unless score server dg1_state matches 0 run tellraw @s {"text":"Dungeon 
 execute unless score server dg1_state matches 0 run return 1
 
 # Key entfernen (du musst hier ggf. dein echtes Key-Item anpassen!)
-    clear @s minecraft:tripwire_hook 1
+    clear @s minecraft:trial_key[item_name={text:"dungeon_key",italic:0b}] 1
+    tag @s add transfer_to_dungeon1
 
 scoreboard players set server dg1_state 1
 scoreboard players set server dg1_timer 900

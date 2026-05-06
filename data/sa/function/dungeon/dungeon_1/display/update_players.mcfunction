@@ -1,7 +1,4 @@
 # ============================================================================
-# DUNGEON 1 - DISPLAY: Spieleranzahl
-# Schreibt die aktuelle Spieleranzahl in Storage, dann per Macro ins Display.
+# DUNGEON 1 - UPDATE PLAYERS DISPLAY
 # ============================================================================
-
-execute store result storage sa:dungeon_1_display players int 1 run scoreboard players get server dungeon_1_players
-function sa:dungeon/dungeon_1/display/set_players with storage sa:dungeon_1_display
+    execute if score server dg1_state matches 1..4 run data modify entity @e[type=text_display,tag=d1_display_players,limit=1] text set value [{"text":"Player: ","color":"gray","italic":false},{"score":{"name":"server","objective":"dg1_players_dungeon"},"color":"white","italic":false}]
