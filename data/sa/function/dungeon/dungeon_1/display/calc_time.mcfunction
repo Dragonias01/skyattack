@@ -1,25 +1,15 @@
 # ============================================================================
-# DUNGEON 1 - DISPLAY: Zeit berechnen (Sekunden → MM:SS)
-# Verwendet temp-Scoreboards für die Berechnung.
+# DUNGEON 1 - CALC TIME (MM:SS)
+# Liest dg1_timer (Sekunden) und schreibt formatiert in Text Display
 # ============================================================================
 
-# Minuten berechnen: timer / 60
-scoreboard players operation #d1_min temp = server dungeon_1_timer
-scoreboard players set #d1_div temp 60
-scoreboard players operation #d1_min temp /= #d1_div temp
+# Minuten = dg1_timer / 60
+    scoreboard players operation server d1_tmp_minutes = server dg1_timer
+    scoreboard players operation server d1_tmp_minutes /= server d1_const_60
 
-# Sekunden berechnen: timer % 60
-scoreboard players operation #d1_sec temp = server dungeon_1_timer
-scoreboard players operation #d1_sec temp %= #d1_div temp
+# Sekunden = dg1_timer % 60
+    scoreboard players operation server d1_tmp_seconds = server dg1_timer
+    scoreboard players operation server d1_tmp_seconds %= server d1_const_60
 
-# Werte in Storage schreiben
-execute store result storage sa:dungeon_1_display min int 1 run scoreboard players get #d1_min temp
-execute store result storage sa:dungeon_1_display sec int 1 run scoreboard players get #d1_sec temp
-
-# Text-Display aktualisieren
-execute if score #d1_sec temp matches 0..9 run function sa:dungeon/dungeon_1/display/set_time_pad with storage sa:dungeon_1_display
-execute if score #d1_sec temp matches 10..59 run function sa:dungeon/dungeon_1/display/set_time with storage sa:dungeon_1_display
-
-# Sidebar-Suffix aktualisieren
-execute if score #d1_sec temp matches 0..9 run function sa:dungeon/dungeon_1/sidebar/set_suffix_pad with storage sa:dungeon_1_display
-execute if score #d1_sec temp matches 10..59 run function sa:dungeon/dungeon_1/sidebar/set_suffix with storage sa:dungeon_1_display
+# Ausgabe vorbereiten (Timer wird einfach als Zahl geschrieben, optional schöner später)
+#execute store result entity @e[type=text_display,tag=d1_display_timer,limit=1] text run tellraw @s [{"text":"Time: ","color":"gold"},{"score":{"name":"server","objective":"dg1_timer"},"color":"white"}]
