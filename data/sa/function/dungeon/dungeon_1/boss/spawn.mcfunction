@@ -1,7 +1,8 @@
 execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=spawn_boss1]
 execute in sa:dungeon_arena_1 run kill @e[type=text_display,tag=spawn_boss1]
 execute in sa:dungeon_arena_1 run kill @e[type=item_display,tag=spawn_boss1]
-execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=npc]
+execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=dungeon_master]
+
 
 
 summon zombie 0 102 -28 {CustomName:[{text:"Zombie Boss",color:gold}],CustomNameVisible:1b,Health:100,Tags:["boss1"],attributes:[{id:scale,base:2f},{id:armor,base:5f},{id:knockback_resistance,base:1f},{id:attack_damage,base:10f},{id:max_health,base:100f}]}
