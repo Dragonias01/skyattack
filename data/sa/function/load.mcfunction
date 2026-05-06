@@ -209,6 +209,7 @@ execute unless score server logging_initialized = server one run function sa:set
 
 scoreboard objectives add Combat_initialized dummy
 
+execute unless score server Combat_initialized = server one run function sa:setup/scoreboard/setup_scoreboard
 execute unless score server Combat_initialized = server one run function sa:setup/skills/combat
 
 
@@ -347,4 +348,3 @@ scoreboard objectives add farming_xp_fruit_gain dummy
 scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
 scoreboard objectives add combat_xp_fruit_gain dummy
 
-##function sa:dungeon/dungeon_1/load
