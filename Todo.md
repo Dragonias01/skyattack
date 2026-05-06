@@ -55,3 +55,9 @@ Feature idee:
 - Teleport modul was langsam ausgebaut werden kann
 
 Items:
+
+Bugs TODO:
+
+- Boss Arena 1 Setup
+- Setup neu organisieren
+- bessere struktur :D
