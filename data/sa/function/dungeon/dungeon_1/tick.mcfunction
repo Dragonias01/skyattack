@@ -42,7 +42,6 @@
         tag @a[predicate=sa:inboss1] add dg1_player
 
 
-
-
+function sa:dungeon/dungeon_1/boss/tick
 
 
