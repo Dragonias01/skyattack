@@ -21,7 +21,8 @@
 
 
 # Boss tick nur wenn Boss alive
-    execute if score server dg1_boss_state matches 1 run function sa:dungeon/dungeon_1/boss/tick
+# überprüfen weil nicht vorahdnen
+#execute if score server dg1_boss_state matches 1 run function sa:dungeon/dungeon_1/boss/tick
 
 
 # Displays
@@ -41,7 +42,7 @@
         tag @a[predicate=sa:indungeon1] add dg1_player
         tag @a[predicate=sa:inboss1] add dg1_player
 
-
-function sa:dungeon/dungeon_1/boss/tick
+    # überprüfen anscheinend nicht vorhanden
+    #function sa:dungeon/dungeon_1/boss/tick
 
 

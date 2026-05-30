@@ -8,7 +8,6 @@
 # ── Dependency: Skill Rooms ───────────────────────────────────────────────
     execute unless score server hub_skillrooms_done matches 1 run tellraw @s [{"text":"dependency not met! (Skill Rooms)","color":"red"}]
     execute unless score server hub_skillrooms_done matches 1 run return 0
-    say hi
     # ── Schritt 1: Items zaehlen (entfernt nichts) ───────────────────────────
     # item_name muss exakt dem Format des Wood Merchant entsprechen: [{text:...,italic:false}]
         execute store result score @s temp_hub_mining run clear @s minecraft:oak_wood[item_name=[{"text":"double_compressed_log","italic":false}]] 0

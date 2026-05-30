@@ -49,4 +49,4 @@ scoreboard players set server event_num 1
 scoreboard players set server setup1 1
 function sa:setup/npc
 function sa:setup/overworld/goals
-function sa:setup/scoreboard/setup_scoreboard
+
