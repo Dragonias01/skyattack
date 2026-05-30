@@ -17,7 +17,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "[WIP] – This text will be adjusted later. Here, we will explain what the Dungeon System is, how Dungeons work, and how to unlock the first Dungeon."
+        "text": "[WIP] – This text will be adjusted later. Here, we will explain what the Dungeon System is, how dungeons work, and how to unlock the first dungeon.  \n \n The important part for you to know is that you can open the dungeon room with compressed mob mesh. If you open a dungeon, it will be accessible for 15 minutes; everyone can access it then. In the dungeon, you can, with a small chance, find the boss pre-room. It is currently not guaranteed that it will generate. All loot tables (mobs, bosses, and trial spawners) are temporary and will change with upcoming updates."
       }
     }
   ],
