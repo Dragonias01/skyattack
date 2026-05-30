@@ -27,7 +27,7 @@
     execute unless score server mining_initialized matches 1 run function sa:setup/skills/mining
     execute unless score server farming_initialized matches 1 run function sa:setup/skills/farming
     execute unless score server logging_initialized matches 1 run function sa:setup/skills/logging
-    execute unless score server combat_initialized matches 1 run function sa:setup/skills/combat
+    execute unless score server Combat_initialized matches 1 run function sa:setup/skills/combat
 
 # ── Phase 6: Hub Goals (Guard: hub_goals_initialized) ─────────────────────
     execute unless score server hub_goals_initialized matches 1 run function sa:setup/hub/goals

@@ -55,3 +55,4 @@ function sa:setup/scoreboard/calculate/calc_event_time
     scoreboard players reset D1_Zeit skyattack
     execute if score server dg1_state matches 1.. run scoreboard players set D1_Zeit skyattack 3
     team join dg_d1_timer D1_Zeit
+

@@ -266,3 +266,6 @@
     scoreboard objectives add farming_xp_fruit_gain dummy
     scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
     scoreboard objectives add combat_xp_fruit_gain dummy
+
+# ──────────────────────────────────────────────────────────────────────────────
+    scoreboard objectives add bossbar_boss1_init dummy
