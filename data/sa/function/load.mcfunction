@@ -41,9 +41,6 @@
 # ── Phase 9: Dungeon System (immer – Funktion selbst ist idempotent) ───────
     function sa:dungeon/dungeon_1/load
 
-# ── Phase 10: NPCs (immer – kill+respawn Pattern) ─────────────────────────
-    function sa:setup/npc
-
 # ── Phase 11: Tool-Learn Scores für neue Spieler initialisieren ───────────
     scoreboard players add @a ERod_learn 0
     scoreboard players add @a ESword_learn 0

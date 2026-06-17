@@ -5,43 +5,48 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:netherrack"
+    "Name": "minecraft:light",
+    "Properties": {
+      "level": "15",
+      "waterlogged": "false"
+    }
   },
   "default_fluid": {
-    "Name": "minecraft:lava",
+    "Name": "minecraft:light",
     "Properties": {
-      "level": "0"
+      "level": "15",
+      "waterlogged": "false"
     }
   },
   "noise": {
-  "min_y": 0,
-  "height": 128,
-  "size_horizontal": 1,
-  "size_vertical": 2
-},
+    "min_y": 0,
+    "height": 128,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
   "noise_router": {
-    "barrier": 0,
-    "fluid_level_floodedness": 0,
-    "fluid_level_spread": 0,
-    "lava": 0,
-"temperature": {
-  "type": "minecraft:shifted_noise",
-  "noise": "minecraft:temperature",
-  "xz_scale": 0.25,
-  "y_scale": 0,
-  "shift_x": "minecraft:shift_x",
-  "shift_y": 0,
-  "shift_z": "minecraft:shift_z"
-},
-"vegetation": {
-  "type": "minecraft:shifted_noise",
-  "noise": "minecraft:vegetation",
-  "xz_scale": 0.25,
-  "y_scale": 0,
-  "shift_x": "minecraft:shift_x",
-  "shift_y": 0,
-  "shift_z": "minecraft:shift_z"
-},
+    "barrier": -1,
+    "fluid_level_floodedness": -1,
+    "fluid_level_spread": -1,
+    "lava": -1,
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:vegetation",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
     "continents": 0,
     "erosion": 0,
     "depth": 0,
@@ -55,6 +60,13 @@
   "spawn_target": [],
   "surface_rule": {
     "type": "minecraft:sequence",
-    "sequence": []
+    "sequence": [
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "minecraft:air"
+        }
+      }
+    ]
   }
 }

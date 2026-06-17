@@ -1,1 +1,1 @@
-tp @s -19 2 4
+execute in sa:hub run tp @s -19 2 4

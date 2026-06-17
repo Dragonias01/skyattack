@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Teleporter [WIP]",
+    "extra": [
+      {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/ender_eye"
+      }
+    ],
+    "color": "dark_purple"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Experimental Feature, Not Fully Implemented Ignore For  now!",
+        "bold": false
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "Back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:main_menue"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/diamond_sword",
+        "extra": [
+          {
+            "text": "Player Island",
+            "color": "green"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 11"
+      }
+    },
+    {
+      "label": {
+        "text": "Main Island"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 12"
+      }
+    },
+    {
+      "label": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/book",
+        "extra": [
+          {
+            "text": "Hub",
+            "color": "aqua"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 13"
+      }
+    },
+    {
+      "label": {
+        "text": "Dungeon Hub",
+        "extra": [
+          {
+            "atlas": "minecraft:blocks",
+            "sprite": "minecraft:entity/skeleton/skeleton"
+          }
+        ],
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 14"
+      }
+    }
+  ]
+}

@@ -10,15 +10,15 @@
   "actions": [
     {
       "label": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/diamond_sword",
-    "extra": [
-      {
-        "text": " Stats",
-        "color": "green"
-      }
-    ]
-  },
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/diamond_sword",
+        "extra": [
+          {
+            "text": " Stats",
+            "color": "green"
+          }
+        ]
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger menue set 2"
@@ -26,18 +26,34 @@
     },
     {
       "label": {
-    "atlas": "minecraft:items",
-    "sprite": "minecraft:item/book",
-    "extra": [
-      {
-        "text": " Wiki",
-        "color": "aqua"
-      }
-    ]
-  },
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/book",
+        "extra": [
+          {
+            "text": " Wiki",
+            "color": "aqua"
+          }
+        ]
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:menue/wiki"
+      }
+    },
+    {
+      "label": {
+        "text": "Teleporter [WIP]",
+        "extra": [
+          {
+            "atlas": "minecraft:items",
+            "sprite": "minecraft:item/ender_eye"
+          }
+        ],
+        "color": "dark_purple"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:teleporter"
       }
     }
   ]

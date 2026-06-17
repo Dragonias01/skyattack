@@ -1,8 +1,5 @@
 
-#Menue
-execute as @s if predicate sa:menue run function sa:menue/open
-execute as @s if predicate sa:menue unless score @s menue_open matches 1 run scoreboard players set @s menue_open 1
-execute as @s if predicate sa:menue run clear @s command_block[item_name="menue"]
+
 
 #Blueprint:
 #hoe
@@ -28,10 +25,10 @@ execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"
 # ============================================================================
 # FRÜCHTE - Rechtsklick
 # ============================================================================
-execute as @s if items entity @s weapon.mainhand sweet_berries[item_name=[{"text":"foraging_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_logging
-execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"mining_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_mining
-execute as @s if items entity @s weapon.mainhand pitcher_pod[item_name=[{"text":"farming_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_farming
-execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"combat_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_combat
+    execute as @s if items entity @s weapon.mainhand sweet_berries[item_name=[{"text":"foraging_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_logging
+    execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"mining_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_mining
+    execute as @s if items entity @s weapon.mainhand pitcher_pod[item_name=[{"text":"farming_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_farming
+    execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"combat_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_combat
 
-#Achievment Reset
+    #Achievment Reset
 advancement revoke @s only item_interact
