@@ -1,41 +1,49 @@
-# Seite 1: Stats (1/6)
+# ============================================================
+# Liest alle relevanten Scores des ausführenden Spielers (@s)
+# und speichert sie als Zahlen im Storage sa:stats unter "v".
+# Wird IMMER mit @s als ausführendem Spieler aufgerufen,
+# z.B. über "execute as <Spieler> run function sa:stats/load_scores"
+# ============================================================
 
-execute as @s[scores={menue=2}] run tellraw @s ["",{"text":"|============== ","color":"gold"},{"text":"STATS","color":"white"},{"text":" ==============|\n|","color":"gold"},{"text":" Name:  ","color":"white"},{"selector":"@s","color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Level: \\","color":"white"},"\n",{"text":"| ","color":"gold"},{"text":"Deaths: \\","color":"white"},"\n",{"text":"| ","color":"gold"},{"text":"Island: ","color":"white"},{"score":{"name":"@s","objective":"island"},"color":"white"},{"text":" ","color":"white"},{"text":"                                         \n|============== (","color":"gold"},{"text":"1","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":") ","color":"gold"},{"text":">>","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 3"},"hover_event":{"action":"show_text","value":"Show Mining Skill"}},{"text":" ============|","color":"gold"}]
+# Generelle Infos
+    execute store result storage sa:stats v.island int 1 run scoreboard players get @s island
 
-# Seite 2: Mining (2/6)
-    execute as @s[scores={menue=3}] run scoreboard players operation @s Mining_Dropchance_Percent = @s mining_lvl
-    execute as @s[scores={menue=3}] run scoreboard players operation @s Mining_Dropchance_Percent *= server five
-    execute as @s[scores={menue=3}] run scoreboard players operation @s mining_xp_boost = @s mining_xp_boost_gain
-    execute as @s[scores={menue=3}] run scoreboard players operation @s mining_xp_boost += server eventboost_mining
-    execute as @s[scores={menue=3}] run tellraw @s ["",{"text":"|=============","color":"gold"},{"text":" ⛏ Mining","color":"white"},{"text":" =============|\n|","color":"gold"},{"text":" Level: ","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"mining_lvl"},"color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Xp: ","color":"white"},{"score":{"name":"@s","objective":"mining_xp"},"color":"green"},{"text":" / ","color":"gray"},{"score":{"name":"@s","objective":"mining_goal"},"color":"gray"},"\n",{"text":"| ","color":"gold"},{"text":"Dropchance: ","color":"white"},{"text":"+","color":"green"},{"score":{"name":"@s","objective":"Mining_Dropchance_Percent"},"color":"green"},{"text":"%","color":"green"},"\n",{"text":"| ","color":"gold"},{"text":"XP Boost: ","color":"white"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"mining_xp_boost"},"color":"aqua"},{"text":"%  ","color":"aqua"},{"text":"                                    \n|=========== ","color":"gold"},{"text":"<<","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 2"},"hover_event":{"action":"show_text","value":"Show Stats"}},{"text":" ","color":"green"},{"text":"(","color":"gold"},{"text":"2","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":") ","color":"gold"},{"text":">>","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 4"},"hover_event":{"action":"show_text","value":"Show Farming Skill"}},{"text":" =============|","color":"gold"}]
+# --- Mining ---
+    execute store result storage sa:stats v.mining_lvl int 1 run scoreboard players get @s mining_lvl
+    execute store result storage sa:stats v.mining_xp int 1 run scoreboard players get @s mining_xp
+    execute store result storage sa:stats v.mining_goal int 1 run scoreboard players get @s mining_goal
+    execute store result storage sa:stats v.mining_drop int 1 run scoreboard players get @s Mining_Dropchance_Percent
+    execute store result storage sa:stats v.mining_boost int 1 run scoreboard players get @s mining_xp_boost
 
-# Seite 3: Farming (3/6)
-    execute as @s[scores={menue=4}] run scoreboard players operation @s Farming_Dropchance_Percent = @s farming_lvl
-    execute as @s[scores={menue=4}] run scoreboard players operation @s Farming_Dropchance_Percent *= server five
-    execute as @s[scores={menue=4}] run scoreboard players operation @s farming_xp_boost = @s farming_xp_boost_gain
-    execute as @s[scores={menue=4}] run scoreboard players operation @s farming_xp_boost += server eventboost_farming
-    execute as @s[scores={menue=4}] run tellraw @s ["",{"text":"|=============","color":"gold"},{"text":" 🧪 Farming","color":"white"},{"text":" =============|\n|","color":"gold"},{"text":" Level: ","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"farming_lvl"},"color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Xp: ","color":"white"},{"score":{"name":"@s","objective":"farming_xp"},"color":"green"},{"text":" / ","color":"gray"},{"score":{"name":"@s","objective":"farming_goal"},"color":"gray"},"\n",{"text":"| ","color":"gold"},{"text":"Dropchance: ","color":"white"},{"text":"+","color":"green"},{"score":{"name":"@s","objective":"Farming_Dropchance_Percent"},"color":"green"},{"text":"%","color":"green"},"\n",{"text":"| ","color":"gold"},{"text":"XP Boost: ","color":"white"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"farming_xp_boost"},"color":"aqua"},{"text":"%  ","color":"aqua"},{"text":"                                    \n|=========== ","color":"gold"},{"text":"<<","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 3"},"hover_event":{"action":"show_text","value":"Show Mining Skill"}},{"text":" ","color":"green"},{"text":"(","color":"gold"},{"text":"3","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":") ","color":"gold"},{"text":">>","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 5"},"hover_event":{"action":"show_text","value":"Show Logging Skill"}},{"text":" =============|","color":"gold"}]
+# --- Farming ---
+    execute store result storage sa:stats v.farming_lvl int 1 run scoreboard players get @s farming_lvl
+    execute store result storage sa:stats v.farming_xp int 1 run scoreboard players get @s farming_xp
+    execute store result storage sa:stats v.farming_goal int 1 run scoreboard players get @s farming_goal
+    execute store result storage sa:stats v.farming_drop int 1 run scoreboard players get @s Farming_Dropchance_Percent
+    execute store result storage sa:stats v.farming_boost int 1 run scoreboard players get @s farming_xp_boost
 
-# Seite 4: Logging (4/6)
-    execute as @s[scores={menue=5}] run scoreboard players operation @s Logging_Dropchance_Percent = @s logging_lvl
-    execute as @s[scores={menue=5}] run scoreboard players operation @s Logging_Dropchance_Percent *= server five
-    execute as @s[scores={menue=5}] run scoreboard players operation @s logging_xp_boost = @s logging_xp_boost_gain
-    execute as @s[scores={menue=5}] run scoreboard players operation @s logging_xp_boost += server eventboost_logging
-    execute as @s[scores={menue=5}] run tellraw @s ["",{"text":"|=============","color":"gold"},{"text":" 🪓 Logging","color":"white"},{"text":" =============|\n|","color":"gold"},{"text":" Level: ","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"logging_lvl"},"color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Xp: ","color":"white"},{"score":{"name":"@s","objective":"logging_xp"},"color":"green"},{"text":" / ","color":"gray"},{"score":{"name":"@s","objective":"logging_goal"},"color":"gray"},"\n",{"text":"| ","color":"gold"},{"text":"Dropchance: ","color":"white"},{"text":"+","color":"green"},{"score":{"name":"@s","objective":"Logging_Dropchance_Percent"},"color":"green"},{"text":"%","color":"green"},"\n",{"text":"| ","color":"gold"},{"text":"XP Boost: ","color":"white"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"logging_xp_boost"},"color":"aqua"},{"text":"%  ","color":"aqua"},{"text":"                                    \n|=========== ","color":"gold"},{"text":"<<","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 4"},"hover_event":{"action":"show_text","value":"Show Farming Skill"}},{"text":" ","color":"green"},{"text":"(","color":"gold"},{"text":"4","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":") ","color":"gold"},{"text":">>","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 6"},"hover_event":{"action":"show_text","value":"Show Fishing Skill"}},{"text":" =============|","color":"gold"}]
+# --- Logging ---
+    execute store result storage sa:stats v.logging_lvl int 1 run scoreboard players get @s logging_lvl
+    execute store result storage sa:stats v.logging_xp int 1 run scoreboard players get @s logging_xp
+    execute store result storage sa:stats v.logging_goal int 1 run scoreboard players get @s logging_goal
+    execute store result storage sa:stats v.logging_drop int 1 run scoreboard players get @s Logging_Dropchance_Percent
+    execute store result storage sa:stats v.logging_boost int 1 run scoreboard players get @s logging_xp_boost
 
-# Seite 5: Fishing (5/6)
-    execute as @s[scores={menue=6}] run scoreboard players operation @s fishing_Dropchance_Percent = @s fishing_lvl
-    execute as @s[scores={menue=6}] run scoreboard players operation @s fishing_Dropchance_Percent *= server five
+# --- Fishing ---
+    execute store result storage sa:stats v.fishing_lvl int 1 run scoreboard players get @s fishing_lvl
+    execute store result storage sa:stats v.fishing_xp int 1 run scoreboard players get @s fishing_xp
+    execute store result storage sa:stats v.fishing_goal int 1 run scoreboard players get @s fishing_goal
+    execute store result storage sa:stats v.fishing_drop int 1 run scoreboard players get @s fishing_Dropchance_Percent
+    execute store result storage sa:stats v.fishing_boost int 1 run scoreboard players get @s fishing_xp_boost
 
-execute as @s[scores={menue=6}] run scoreboard players operation @s fishing_xp_boost = @s fishing_xp_boost_gain
-execute as @s[scores={menue=6}] run scoreboard players operation @s fishing_xp_boost += server eventboost_fishing
-execute as @s[scores={menue=6}] run tellraw @s ["",{"text":"|=============","color":"gold"},{"text":" 🎣 Fishing","color":"white"},{"text":" ==============|\n|","color":"gold"},{"text":" Level: ","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"fishing_lvl"},"color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Xp: ","color":"white"},{"score":{"name":"@s","objective":"fishing_xp"},"color":"green"},{"text":" / ","color":"gray"},{"score":{"name":"@s","objective":"fishing_goal"},"color":"gray"},"\n",{"text":"| ","color":"gold"},{"text":"Dropchance: ","color":"white"},{"text":"+","color":"green"},{"score":{"name":"@s","objective":"fishing_Dropchance_Percent"},"color":"green"},{"text":"%","color":"green"},"\n",{"text":"| ","color":"gold"},{"text":"XP Boost: ","color":"white"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"fishing_xp_boost"},"color":"aqua"},{"text":"%  ","color":"aqua"},{"text":"                                    \n|=========== ","color":"gold"},{"text":"<<","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 5"},"hover_event":{"action":"show_text","value":"Show Logging Skill"}},{"text":" ","color":"gold"},{"text":"(","color":"gold"},{"text":"5","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":") ","color":"gold"},{"text":">>","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 7"},"hover_event":{"action":"show_text","value":"Show Combat Skill"}},{"text":" =============|","color":"gold"}]
+# --- Combat ---
+    execute store result storage sa:stats v.combat_lvl int 1 run scoreboard players get @s combat_lvl
+    execute store result storage sa:stats v.combat_xp int 1 run scoreboard players get @s combat_xp
+    execute store result storage sa:stats v.combat_goal int 1 run scoreboard players get @s combat_goal
+    execute store result storage sa:stats v.combat_drop int 1 run scoreboard players get @s Combat_Dropchance_Percent
+    execute store result storage sa:stats v.combat_boost int 1 run scoreboard players get @s combat_xp_boost
 
-# Seite 6: Combat (6/6)
-    execute as @s[scores={menue=7}] run scoreboard players operation @s Combat_Dropchance_Percent = @s combat_lvl
-    execute as @s[scores={menue=7}] run scoreboard players operation @s Combat_Dropchance_Percent *= server five
-    execute as @s[scores={menue=7}] run scoreboard players operation @s combat_xp_boost = @s combat_xp_boost_gain
-    execute as @s[scores={menue=7}] run scoreboard players operation @s combat_xp_boost += server eventboost_combat
-    execute as @s[scores={menue=7}] run tellraw @s ["",{"text":"|=============","color":"gold"},{"text":" ⚔ Combat","color":"white"},{"text":" ==============|\n|","color":"gold"},{"text":" Level: ","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"combat_lvl"},"color":"green"},"\n",{"text":"|","color":"gold"},{"text":" Xp: ","color":"white"},{"score":{"name":"@s","objective":"combat_xp"},"color":"green"},{"text":" / ","color":"gray"},{"score":{"name":"@s","objective":"combat_goal"},"color":"gray"},"\n",{"text":"| ","color":"gold"},{"text":"Mob Drop Chance: ","color":"white"},{"text":"+","color":"green"},{"score":{"name":"@s","objective":"Combat_Dropchance_Percent"},"color":"green"},{"text":"%","color":"green"},"\n",{"text":"| ","color":"gold"},{"text":"XP Boost: ","color":"white"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"combat_xp_boost"},"color":"aqua"},{"text":"%  ","color":"aqua"},{"text":"                                    \n|========== ","color":"gold"},{"text":"<<","color":"white","click_event":{"action":"run_command","command":"/trigger menue set 6"},"hover_event":{"action":"show_text","value":"Show Fishing Skill"}},{"text":" ","color":"gold"},{"text":"(","color":"gold"},{"text":"6","color":"green"},{"text":"/","color":"gold"},{"text":"6","color":"green"},{"text":")  ==============|","color":"gold"}]
+# Nachdem alle Werte geladen sind, Dialog mit den Werten anzeigen
+    function sa:menue/skills/show_dialog with storage sa:stats v
 
 scoreboard players reset @s menue
