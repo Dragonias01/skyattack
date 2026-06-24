@@ -239,10 +239,7 @@ Das Dungeon-System ist in Entwicklung. Geplant:
 - `compressed_fish.json` Crafting-Rezept: `item_name` hat einen Leerzeichen-Fehler (`"compressed_ender pearl"` statt `"compressed_fish"`) — Output-Item wird von keinem anderen System erkannt
 - Loot-Table-Fixes für `bamboo_block` und `coal` stehen noch aus (blockieren 4 Rezept-Chains)
 - Fishing Pond: Biom und Loot-Table noch nicht implementiert
-- Loot-Boxen: Nicht implementiert
 - XP-Baum: Nicht implementiert
-- Beim Tod: Halbierung der XP noch nicht implementiert
-- Aufhol-System für zurückliegende Spieler fehlt
 - Wiki-Dialoge: Mehrere Seiten noch auf WIP-Platzhalter
 
 ---
