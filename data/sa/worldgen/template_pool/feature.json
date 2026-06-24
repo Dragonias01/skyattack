@@ -5,7 +5,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sa:feature1",
+        "location": "sa:dungeon/floor1/features/feature1",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
@@ -14,7 +14,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sa:feature2",
+        "location": "sa:dungeon/floor1/features/feature2",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
@@ -23,7 +23,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sa:feature3",
+        "location": "sa:dungeon/floor1/features/feature3",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
@@ -32,7 +32,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sa:feature4",
+        "location": "sa:dungeon/floor1/features/feature4",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
@@ -41,7 +41,7 @@
       "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sa:feature5",
+        "location": "sa:dungeon/floor1/features/feature5",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
