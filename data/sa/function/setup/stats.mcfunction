@@ -1,1 +1,6 @@
+
+#Armor Bonis
 scoreboard objectives add crypt_skeleton_fullsetbonus dummy
+scoreboard objectives add crypt_weaver_fullsetbonus dummy
+scoreboard objectives add crypt_ooze_fullsetbonus dummy
+scoreboard objectives add stonecarver_fullsetbonus dummy

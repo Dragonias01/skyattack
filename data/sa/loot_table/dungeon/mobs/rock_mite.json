@@ -5,17 +5,225 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "diamond",
+          "name": "minecraft:cobblestone",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
-          "weight": 10
+          "name": "minecraft:flint",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 4473924,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:stonecarver_helmet",
+                    "amount": 3,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Stonecarver Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "stonecarver_helmet",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1 Safe Fall Distance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 4473924,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:stonecarver_chestplate",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Stonecarver Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "stonecarver_chestplate",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1 Safe Fall Distance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 4473924,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:stonecarver_leggings",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Stonecarver Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "stonecarver_leggings",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1 Safe Fall Distance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 4473924,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:stonecarver_boots",
+                    "amount": 3,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Stonecarver Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "stonecarver_boots",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1 Safe Fall Distance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         }
       ]
     }

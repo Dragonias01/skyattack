@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "stonecarver_helmet",
+            "italic": false
+          }
+        }
+      },
+      "armor.chest": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "stonecarver_chestplate",
+            "italic": false
+          }
+        }
+      },
+      "armor.legs": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "stonecarver_leggings",
+            "italic": false
+          }
+        }
+      },
+      "armor.feet": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "stonecarver_boots",
+            "italic": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -15,6 +15,8 @@
     scoreboard objectives add score_timer dummy
     scoreboard objectives add timer minecraft.custom:minecraft.play_time
     scoreboard objectives add deathcount_system deathCount
+    scoreboard objectives add ten dummy
+    scoreboard players set server ten 10
 
 # ── Setup Tracking ────────────────────────────────────────────────────────
     scoreboard objectives add setup1 dummy

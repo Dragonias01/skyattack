@@ -5,17 +5,258 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "diamond",
-          "weight": 10
+          "name": "minecraft:slime_ball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Crypt Ooze",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
-          "weight": 10
+          "name": "minecraft:moss_block",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Slime Moss",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         },
+
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 65280,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_ooze_helmet",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Ooze Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "crypt_ooze_helmet",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Negative Gravity",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 65280,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_ooze_chestplate",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Ooze Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "crypt_ooze_chestplate",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Negative Gravity",
+                    "color": "blue"
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 65280,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_ooze_leggings",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Ooze Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "crypt_ooze_leggings",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:"
+                  },
+                  {
+                    "text": "Negative Gravity",
+                    "color": "blue"
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 65280,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_ooze_boots",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Ooze Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "crypt_ooze_boots",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:"
+                  },
+                  {
+                    "text": "Negative Gravity",
+                    "color": "blue"
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         }
       ]
     }

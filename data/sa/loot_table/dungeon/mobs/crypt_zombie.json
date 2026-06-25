@@ -5,17 +5,229 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "diamond",
+          "name": "minecraft:rotten_flesh",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
-          "weight": 10
+          "name": "minecraft:bone",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 5526612,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:rotting_guard_helmet",
+                    "amount": 2,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:rotting_guard_helmet_hp",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Rotting Guard Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "rotting_guard_helmet",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "+1 Health",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 5526612,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:rotting_guard_chestplate",
+                    "amount": 5,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:rotting_guard_chestplate_hp",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Rotting Guard Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "rotting_guard_chestplate",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "+1 Health",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 5526612,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:rotting_guard_leggings",
+                    "amount": 5,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:rotting_guard_leggings_hp",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Rotting Guard Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "rotting_guard_leggings",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "+1 Health",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 5526612,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:rotting_guard_boots",
+                    "amount": 2,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "minecraft:rotting_guard_boots_hp",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Rotting Guard Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "rotting_guard_boots",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "+1 Health",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         }
       ]
     }
