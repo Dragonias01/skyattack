@@ -286,3 +286,5 @@ scoreboard objectives add d2_tmp_seconds dummy
 
 # ──────────────────────────────────────────────────────────────────────────────
     scoreboard objectives add bossbar_boss1_init dummy
+
+function sa:setup/stats

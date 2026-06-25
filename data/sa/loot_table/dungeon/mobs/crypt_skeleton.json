@@ -5,17 +5,220 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "diamond",
+          "name": "minecraft:bone",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
-          "weight": 10
+          "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16710651,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_sniper_helmet",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Sniper Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 2 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "crypt_sniper_helmet",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16710651,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_sniper_chestplate",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Sniper Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 2 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "crypt_sniper_chestplate",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16710651,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_sniper_leggings",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Sniper Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 2 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "crypt_sniper_leggings",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16710651,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:crypt_sniper_boots",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Crypt Sniper Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Fullset Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 2 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "crypt_sniper_boots",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         }
       ]
     }

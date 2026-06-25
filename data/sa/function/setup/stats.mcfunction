@@ -1,0 +1,1 @@
+scoreboard objectives add crypt_skeleton_fullsetbonus dummy

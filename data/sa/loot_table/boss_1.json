@@ -5,17 +5,49 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "diamond",
+          "name": "minecraft:rotten_flesh",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
+          "name": "minecraft:amethyst_shard",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:gray_dye",
+          "weight": 1,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "uncommon_grav_stone",
+                  "italic": false
+                },
+                "minecraft:custom_name": {
+                  "text": "Gravitation Stone",
+                  "color": "green",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+2 Item Magnetism",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "minecraft:firework_star"
+              }
+            }
+          ]
         }
       ]
     }

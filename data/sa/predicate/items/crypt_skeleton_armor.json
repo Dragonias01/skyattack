@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "crypt_sniper_helmet",
+            "italic": false
+          }
+        }
+      },
+      "armor.chest": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "crypt_sniper_chestplate",
+            "italic": false
+          }
+        }
+      },
+      "armor.legs": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "crypt_sniper_leggings",
+            "italic": false
+          }
+        }
+      },
+      "armor.feet": {
+        "components": {
+          "minecraft:item_name": {
+            "text": "crypt_sniper_boots",
+            "italic": false
+          }
+        }
+      }
+    }
+  }
+}
