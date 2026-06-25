@@ -6,12 +6,55 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "weight": 10
+          "weight": 95
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 5
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "minecraft:",
+                    "amount": -0.3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 1.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Zombie Soldier Sword",
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",

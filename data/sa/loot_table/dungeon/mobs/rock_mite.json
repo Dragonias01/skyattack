@@ -5,13 +5,69 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "weight": 45
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:cobblestone",
-          "weight": 10
+          "weight": 50
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:flint",
-          "weight": 5
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Mite Dagger",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+5 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+2 Attack Speed",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",

@@ -6,29 +6,339 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "weight": 10
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Crypt Flesh",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
-          "weight": 10
+          "name": "minecraft:potion",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Small healing Potion",
+                  "color": "green",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Crypt Berry",
+                  "color": "blue",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Rare",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Golden Apple",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:dyed_color": 5592405,
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:armor",
+                              "id": "minecraft:gravekeeper_helmet",
+                              "amount": 3,
+                              "operation": "add_value"
+                            }
+                          ],
+                          "minecraft:item_name": {
+                            "text": "gravekeeper_helmet",
+                            "italic": false
+                          },
+                          "minecraft:custom_name": {
+                            "text": "Gravekeeper Helmet",
+                            "color": "dark_purple",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "text": "Fullset Bonus:",
+                              "color": "gray",
+                              "italic": false
+                            },
+                            {
+                              "text": "+2 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Epic",
+                              "color": "dark_purple",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:unbreakable": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:dyed_color": 5592405,
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:armor",
+                              "id": "minecraft:gravekeeper_chestplate",
+                              "amount": 6,
+                              "operation": "add_value"
+                            }
+                          ],
+                          "minecraft:item_name": {
+                            "text": "gravekeeper_chestplate",
+                            "italic": false
+                          },
+                          "minecraft:custom_name": {
+                            "text": "Gravekeeper Chestplate",
+                            "color": "dark_purple",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "text": "Fullset Bonus:",
+                              "color": "gray",
+                              "italic": false
+                            },
+                            {
+                              "text": "+2 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Epic",
+                              "color": "dark_purple",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:unbreakable": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:dyed_color": 5592405,
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:armor",
+                              "id": "minecraft:gravekeeper_leggings",
+                              "amount": 6,
+                              "operation": "add_value"
+                            }
+                          ],
+                          "minecraft:item_name": {
+                            "text": "gravekeeper_leggings",
+                            "italic": false
+                          },
+                          "minecraft:custom_name": {
+                            "text": "Gravekeeper Leggings",
+                            "color": "dark_purple",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "text": "Fullset Bonus:",
+                              "color": "gray",
+                              "italic": false
+                            },
+                            {
+                              "text": "+2 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Epic",
+                              "color": "dark_purple",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:unbreakable": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:dyed_color": 5592405,
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:armor",
+                              "id": "minecraft:gravekeeper_boots",
+                              "amount": 3,
+                              "operation": "add_value"
+                            }
+                          ],
+                          "minecraft:item_name": {
+                            "text": "gravekeeper_boots",
+                            "italic": false
+                          },
+                          "minecraft:custom_name": {
+                            "text": "Gravekeeper Boots",
+                            "color": "dark_purple",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "text": "Fullset Bonus:",
+                              "color": "gray",
+                              "italic": false
+                            },
+                            {
+                              "text": "+2 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Epic",
+                              "color": "dark_purple",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:unbreakable": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gray_dye",
           "weight": 1,
-          "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "text": "uncommon_grav_stone",
+                  "text": "epic_grav_stone",
                   "italic": false
                 },
                 "minecraft:custom_name": {
                   "text": "Gravitation Stone",
-                  "color": "green",
+                  "color": "dark_purple",
                   "italic": false
                 },
                 "minecraft:lore": [
@@ -38,13 +348,38 @@
                     "italic": false
                   },
                   {
-                    "text": "Uncommon",
-                    "color": "green",
+                    "text": "Epic",
+                    "color": "dark_purple",
                     "bold": true,
                     "italic": false
                   }
                 ],
                 "minecraft:item_model": "minecraft:firework_star"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Boss Placeholder",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Legendary",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
               }
             }
           ]

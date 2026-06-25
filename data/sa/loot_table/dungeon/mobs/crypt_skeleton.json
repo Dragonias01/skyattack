@@ -6,11 +6,58 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "weight": 10
+          "weight": 95
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow"
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:damage_type": {
+                  "exhaustion": 0,
+                  "scaling": "never",
+                  "message_id": "",
+                  "effects": "poking"
+                },
+                "minecraft:charged_projectiles": [
+                  {
+                    "id": "minecraft:spectral_arrow",
+                    "count": 64
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Snipers Bow",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Damage Type: ",
+                    "extra": [
+                      {
+                        "text": "Poking",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rare",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -25,7 +72,10 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_sniper_helmet",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
@@ -36,7 +86,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+2 Armor",
+                    "color": "blue"
                   },
                   {
                     "text": "Fullset Bonus:",
@@ -77,7 +128,10 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_sniper_chestplate",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
@@ -88,7 +142,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+5 Armor",
+                    "color": "blue"
                   },
                   {
                     "text": "Fullset Bonus:",
@@ -129,7 +184,10 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_sniper_leggings",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
@@ -140,7 +198,7 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+5 Armor"
                   },
                   {
                     "text": "Fullset Bonus:",
@@ -181,7 +239,10 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_sniper_boots",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
@@ -192,7 +253,7 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+2 Armor"
                   },
                   {
                     "text": "Fullset Bonus:",

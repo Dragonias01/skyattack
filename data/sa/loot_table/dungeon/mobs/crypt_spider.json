@@ -6,12 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 10
+          "weight": 85
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -210,6 +210,77 @@
                   },
                   {
                     "text": "+1 Step Height",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "id": "minecraft:",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 4.5,
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 1.4,
+                    "operation": "add_value",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Weaver Sword",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+4.5 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1.4 Attack Speed",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+2 Entity Interaction Range",
                     "color": "blue",
                     "italic": false
                   },
