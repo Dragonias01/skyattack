@@ -39,7 +39,8 @@
     execute unless score server scoreboard_teams_init matches 1 run function sa:setup/scoreboard/setup_scoreboard
 
 # ── Phase 9: Dungeon System (immer – Funktion selbst ist idempotent) ───────
-    function sa:dungeon/dungeon_1/load
+    function sa:dungeon/floor1/dungeon_1/load
+    function sa:dungeon/floor1/dungeon_2/load
 
 # ── Phase 11: Tool-Learn Scores für neue Spieler initialisieren ───────────
     scoreboard players add @a ERod_learn 0

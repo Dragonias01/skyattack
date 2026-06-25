@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Dev State",
+    "color": "yellow",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "⚠ Warning!",
+        "color": "dark_red",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Since this datapack is in active development, updates may at any time cause player data — including skill levels, progress, and island contents — to be reset or lost. No guarantee is given for data persistence. Anyone testing the datapack should do so with the awareness that data loss is possible."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Development State",
+        "color": "green",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sky Attack is currently in active development. The core systems — five skills (Mining, Logging, Farming, Combat, Fishing), the Hub goal system, custom items, leaderboards, and the dungeon system — are implemented and playable. However, many systems are not yet fully complete. Dungeon 1 including the boss arena, the fishing pond biome, XP fruits, and several wiki entries are still marked as WIP. Merchants, recipes, and loot tables are mostly in place but will continue to be adjusted. The goal is to make the datapack progressively more stable and content-rich with each update."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Okay"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:main_menue"
+    }
+  }
+}

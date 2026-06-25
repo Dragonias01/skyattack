@@ -11,4 +11,7 @@ execute unless score server dg1_state matches 2..4 unless score server dg2_state
 
 execute in sa:dungeon_arena_1 run tp @s 0 101 0
 
-function sa:dungeon/floor1/dungeon_1/on_enter_boss
+execute as @a[tag=dg1_in_dungeon] run function sa:dungeon/floor1/dungeon_1/on_enter_boss
+execute as @a[tag=dg2_in_dungeon] run function sa:dungeon/floor1/dungeon_2/on_enter_boss
+
+

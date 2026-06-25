@@ -38,5 +38,10 @@ scoreboard objectives setdisplay sidebar skyattack
     team modify dg_d1_timer prefix "☠ Dungeon I | "
     team modify dg_d1_timer suffix " 15:00"
     team join dg_d1_timer D1_Zeit
-
-scoreboard players set server event_num 1
+    #dungeon2
+    team add dg_d2_timer
+    team modify dg_d2_timer color red
+    team modify dg_d2_timer prefix "☠ Dungeon II | "
+    team modify dg_d2_timer suffix " 15:00"
+    team join dg_d2_timer D2_Zeit
+    scoreboard players set server event_num 1

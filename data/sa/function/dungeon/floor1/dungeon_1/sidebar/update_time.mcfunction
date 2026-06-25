@@ -16,8 +16,8 @@
     execute store result storage sa:dg1_time sec int 1 run scoreboard players get server d1_tmp_seconds
 
 # Wenn Sekunden < 10 -> padding version
-    execute if score server d1_tmp_seconds matches 0..9 run function sa:dungeon/dungeon_1/sidebar/set_suffix_pad with storage sa:dg1_time
+    execute if score server d1_tmp_seconds matches 0..9 run function sa:dungeon/floor1/dungeon_1/sidebar/set_suffix_pad with storage sa:dg1_time
 
 # Normal
-    execute if score server d1_tmp_seconds matches 10..59 run function sa:dungeon/dungeon_1/sidebar/set_suffix with storage sa:dg1_time
+    execute if score server d1_tmp_seconds matches 10..59 run function sa:dungeon/floor1/dungeon_1/sidebar/set_suffix with storage sa:dg1_time
 

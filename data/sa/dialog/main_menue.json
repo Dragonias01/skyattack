@@ -46,7 +46,8 @@
         "extra": [
           {
             "atlas": "minecraft:items",
-            "sprite": "minecraft:item/ender_eye"
+            "sprite": "minecraft:item/ender_eye",
+            "color": "white"
           }
         ],
         "color": "dark_purple"
@@ -54,6 +55,16 @@
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:teleporter"
+      }
+    },
+    {
+      "label": {
+        "text": "Dev State",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:dev_state"
       }
     }
   ]

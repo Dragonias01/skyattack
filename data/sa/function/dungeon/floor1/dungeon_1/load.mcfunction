@@ -8,7 +8,6 @@
     scoreboard objectives add dg1_timer dummy
     scoreboard objectives add dg1_players_dungeon dummy
     scoreboard objectives add dg1_players_boss dummy
-    scoreboard objectives add dg1_boss_state dummy
     scoreboard objectives add dg1_generated dummy
     scoreboard objectives add dg1_loot_generated dummy
     scoreboard objectives add d1_tmp_minutes dummy
@@ -25,7 +24,6 @@
     execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_timer 0
     execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_players_dungeon 0
     execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_players_boss 0
-    execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_boss_state 0
     execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_generated 0
     execute unless score server dg1_loaded matches 1 run scoreboard players set server dg1_loot_generated 0
     scoreboard players set server dg1_loaded 1
