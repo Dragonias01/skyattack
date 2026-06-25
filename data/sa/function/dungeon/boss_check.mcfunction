@@ -1,1 +1,1 @@
-function sa:dungeon/dungeon_1/boss/bossbar_check
+function sa:dungeon/floor1/boss/bossbar_check

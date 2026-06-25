@@ -13,4 +13,4 @@ gamemode adventure @s
 tag @s add dg1_player
 
 execute in sa:dungeon1 run tp @s 0 200 0
-execute in sa:dungeon1 run function sa:dungeon/dungeon_1/on_enter_dungeon
+execute in sa:dungeon1 run function sa:dungeon/floor1/dungeon_1/on_enter_dungeon

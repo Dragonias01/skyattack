@@ -13,10 +13,10 @@ execute store result storage sa:dungeon_1_coords x int 1 run scoreboard players 
 execute store result storage sa:dungeon_1_coords z int 1 run scoreboard players get #z temp
 
 # Dimension vorbereiten
-    execute in sa:dungeon1 run function sa:dungeon/dungeon_1/clear_dimension
+    execute in sa:dungeon1 run function sa:dungeon/floor1/dungeon_1/clear_dimension
 
 # Dungeon generation scheduled (genau wie früher)
-    schedule function sa:dungeon/dungeon_1/generate_dungeon 5t
+    schedule function sa:dungeon/floor1/dungeon_1/generate_dungeon 5t
 
 # Flags setzen
     scoreboard players set server dg1_generated 1

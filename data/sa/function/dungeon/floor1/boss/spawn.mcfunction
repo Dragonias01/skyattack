@@ -12,5 +12,5 @@ CustomNameVisible:1b,Health:100,Tags:["boss1"],attributes:[{id:scale,base:2f},{i
 
 bossbar set minecraft:boss_1 max 100
 scoreboard players reset @s dungeon_key
-scoreboard players set server dg1_boss_state 1
+scoreboard players set server f1_boss_state 1
 tellraw @a {"text":"The Boss has spawned!","color":"dark_red"}

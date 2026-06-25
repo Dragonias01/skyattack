@@ -238,6 +238,10 @@
     scoreboard objectives add lb_com_slot dummy
 
 # ── Dungeon System ────────────────────────────────────────────────────────
+
+# general
+    scoreboard objectives add f1_boss_state dummy
+    #Floor 1
     scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
     scoreboard objectives add dungeon_1_timer dummy
     scoreboard objectives add dungeon_1_players dummy
@@ -247,11 +251,24 @@
     scoreboard objectives add dg1_timer dummy
     scoreboard objectives add dg1_players_dungeon dummy
     scoreboard objectives add dg1_players_boss dummy
-    scoreboard objectives add dg1_boss_state dummy
     scoreboard objectives add dg1_generated dummy
     scoreboard objectives add dg1_loot_generated dummy
     scoreboard objectives add d1_tmp_minutes dummy
     scoreboard objectives add d1_tmp_seconds dummy
+
+    #Floor 2
+scoreboard objectives add dungeon_2_timer dummy
+scoreboard objectives add dungeon_2_players dummy
+scoreboard objectives add dungeon_2_status dummy
+scoreboard objectives add dungeon_2_key dummy
+scoreboard objectives add dg2_state dummy
+scoreboard objectives add dg2_timer dummy
+scoreboard objectives add dg2_players_dungeon dummy
+scoreboard objectives add dg2_players_boss dummy
+scoreboard objectives add dg2_generated dummy
+scoreboard objectives add dg2_loot_generated dummy
+scoreboard objectives add d2_tmp_minutes dummy
+scoreboard objectives add d2_tmp_seconds dummy
 
 # ── Gambling ──────────────────────────────────────────────────────────────
     scoreboard objectives add gambling_trigger trigger

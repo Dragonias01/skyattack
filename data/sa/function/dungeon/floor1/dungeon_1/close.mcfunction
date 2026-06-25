@@ -13,7 +13,7 @@ tellraw @a {"text":"Dungeon 1 has closed!","color":"red"}
     execute in sa:dungeon_arena_1 as @a[tag=dg1_in_dungeon] run tp @s[tag=dg1_in_dungeon] 0 100 0
     execute in sa:dungeon_arena_1 as @a[tag=dg1_in_dungeon] run execute in sa:hub run tp @s[tag=dg1_in_dungeon] 0 100 0
 
-function sa:dungeon/dungeon_1/cleanup
+function sa:dungeon/floor1/dungeon_1/cleanup
 
 # reset values
     scoreboard players set server dg1_state 0

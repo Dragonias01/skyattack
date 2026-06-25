@@ -7,7 +7,7 @@
 kill @e[tag=dg1_entity]
 
 # Bossbar entfernen falls vorhanden
-    function sa:dungeon/dungeon_1/boss/clear_bossbar
+    function sa:dungeon/floor1/boss/clear_bossbar
 
 # Loot chest entfernen (Position anpassen!)
     execute in sa:dungeon_arena_1 run setblock 0 100 5 air
