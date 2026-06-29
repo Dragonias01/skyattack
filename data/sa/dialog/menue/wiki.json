@@ -27,6 +27,13 @@
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:main_menue"
+    }
+  },
   "dialogs": [
     "sa:menue/wiki/general_infos",
     "sa:menue/wiki/skills",

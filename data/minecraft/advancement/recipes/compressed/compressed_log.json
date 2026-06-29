@@ -6,7 +6,9 @@
         "items": [
           {
             "items": "minecraft:oak_log",
-            "count": 9
+            "count": {
+              "min": 9
+            }
           }
         ]
       },

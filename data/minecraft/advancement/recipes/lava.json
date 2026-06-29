@@ -5,13 +5,11 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:slime_spawn_egg"
-          },
-          {
-            "items": "minecraft:flint_and_steel"
-          },
-          {
-            "items": "minecraft:magma_block"
+            "items": "minecraft:bucket",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
           }
         ]
       },
@@ -20,7 +18,7 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:magma_slime_egg"
+      "minecraft:lava"
     ]
   }
 }

@@ -1,14 +1,10 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    "minecraft:magma_cube_spawn_egg",
-    "minecraft:bucket"
-  ],
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:bucket",
   "result": {
     "id": "minecraft:lava_bucket",
-    "components": {
-      "minecraft:item_name": "compressed_stone"
-    },
-    "count": 1
-  }
+    "components": {}
+  },
+  "experience": 100,
+  "cookingtime": 12000
 }

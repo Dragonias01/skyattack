@@ -6,7 +6,9 @@
         "items": [
           {
             "items": "minecraft:popped_chorus_fruit",
-            "count": 9,
+            "count": {
+              "min": 9
+            },
             "components": {
               "minecraft:item_name": "monster_essence"
             }

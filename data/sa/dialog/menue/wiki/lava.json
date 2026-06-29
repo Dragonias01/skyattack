@@ -45,7 +45,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "The recipe will be unlocked once you have a Magma Block in your inventory. For the Magma Block, you need a Coal Block – which currently has no source in the game.\n \n⚠ The entire lava progression is currently blocked until the coal and magma block sources are implemented."
+        "text": "The recipe will be unlocked once you have a empty Bucket in your inventory."
       }
     },
     {
@@ -58,7 +58,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "You need a empty bucket and a Magma Cube Spawn Egg."
+        "text": "You need a empty bucket smelt it in a blast Furnace and after around ten minutes of smelting the bucket fills up with lava. "
       }
     },
     {
@@ -68,7 +68,7 @@
         "extra": [
           {
             "atlas": "minecraft:blocks",
-            "sprite": "minecraft:block/crafting_table_top",
+            "sprite": "minecraft:block/blast_furnace_front_on",
             "color": "white",
             "italic": false
           }
@@ -80,47 +80,61 @@
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "Back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:menue/wiki"
+    }
+  },
   "columns": 3,
   "actions": [
     {
+      "label": "",
+      "width": 20
+    },
+    {
+      "label": "",
+      "width": 20
+    },
+    {
+      "label": "",
+      "width": 20
+    },
+    {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/bucket",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:bucket"
-        }
+        "sprite": "minecraft:item/bucket"
+      },
+      "width": 20
+    },
+    {
+      "label": {
+        "atlas": "minecraft:blocks",
+        "sprite": "minecraft:block/fire_0"
       },
       "width": 20
     },
     {
       "label": {
         "atlas": "minecraft:items",
-        "sprite": "minecraft:item/magma_cube_spawn_egg",
-        "object": "atlas",
-        "type": "object",
-        "hover_event": {
-          "action": "show_item",
-          "id": "minecraft:magma_cube_spawn_egg",
-          "components": {
-            "minecraft:custom_name": {
-              "text": "Magma Cube Spawn Egg"
-            }
-          }
-        }
+        "sprite": "minecraft:item/lava_bucket"
       },
       "width": 20
     },
     {
-      "label": {
-        "text": "Back"
-      },
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "sa:menue/wiki"
-      }
+      "label": "",
+      "width": 20
+    },
+    {
+      "label": "",
+      "width": 20
+    },
+    {
+      "label": "",
+      "width": 20
     }
   ]
 }

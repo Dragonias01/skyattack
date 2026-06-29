@@ -6,7 +6,9 @@
         "items": [
           {
             "items": "#minecraft:fishes",
-            "count": 9
+            "count": {
+              "min": 9
+            }
           }
         ]
       },
