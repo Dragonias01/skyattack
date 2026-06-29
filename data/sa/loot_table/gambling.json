@@ -4,18 +4,129 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "diamond",
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "common_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 70
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "uncommon_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "rare_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg",
-          "weight": 10
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "epic_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "Legendary_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 1
         }
       ]
     }

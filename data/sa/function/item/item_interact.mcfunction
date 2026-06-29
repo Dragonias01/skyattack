@@ -1,6 +1,4 @@
 
-
-
 #Blueprint:
 #hoe
 execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"element_rod_blueprint","italic":false}]] run function sa:recipe/element_tools/rod
@@ -30,5 +28,10 @@ execute as @s if items entity @s weapon.mainhand filled_map[item_name=[{"text":"
     execute as @s if items entity @s weapon.mainhand pitcher_pod[item_name=[{"text":"farming_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_farming
     execute as @s if items entity @s weapon.mainhand glow_berries[item_name=[{"text":"combat_fruit","italic":false}]] run function sa:item/function/xpfruits/start/start_combat
 
-    #Achievment Reset
-advancement revoke @s only item_interact
+
+# ============================================================================
+# Consumables - Rechtsklick
+# ============================================================================
+    execute as @s if items entity @s weapon.mainhand potion[item_name=[{"text":"small_healing_potion","italic":false}]] run function sa:item/function/small_heal
+
+schedule function sa:item/revoke_advancement 5t

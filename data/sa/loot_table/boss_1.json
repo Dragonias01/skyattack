@@ -36,19 +36,67 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11546150
+                },
                 "minecraft:custom_name": {
-                  "text": "Small healing Potion",
-                  "color": "green",
+                  "text": "Small Healing Potion",
+                  "color": "blue",
                   "italic": false
                 },
                 "minecraft:lore": [
-                  {
-                    "text": "Uncommon",
-                    "color": "green",
-                    "bold": true,
-                    "italic": false
-                  }
-                ]
+                  [
+                    {
+                      "text": "Heielt den spieler!",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Kostet:",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": " 10",
+                      "color": "green",
+                      "italic": false
+                    },
+                    {
+                      "text": " Ap",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Verbrauchs Gegenstand",
+                      "color": "dark_gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Rare",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:item_name": {
+                  "text": "small_healing_potion",
+                  "italic": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1000000,
+                  "animation": "none"
+                }
               }
             }
           ]
@@ -62,18 +110,41 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "text": "Crypt Berry",
-                  "color": "blue",
+                  "text": "Foraging Fruit",
+                  "color": "green",
                   "italic": false
                 },
                 "minecraft:lore": [
-                  {
-                    "text": "Rare",
-                    "color": "blue",
-                    "bold": true,
-                    "italic": false
-                  }
-                ]
+                  [
+                    {
+                      "text": "Increases Foraging XP gain for one hour",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Uncommon",
+                      "color": "green",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:item_name": {
+                  "text": "foraging_fruit",
+                  "italic": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 99999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                }
               }
             }
           ]
@@ -163,6 +234,7 @@
                       }
                     ]
                   },
+
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_chestplate",
@@ -215,6 +287,7 @@
                       }
                     ]
                   },
+
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_leggings",
@@ -267,6 +340,7 @@
                       }
                     ]
                   },
+
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_boots",
@@ -324,6 +398,7 @@
             ]
           }
         },
+
         {
           "type": "minecraft:item",
           "name": "minecraft:gray_dye",
@@ -359,20 +434,43 @@
             }
           ]
         },
+
         {
           "type": "minecraft:item",
-          "name": "minecraft:nether_star",
+          "name": "minecraft:iron_sword",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "text": "Boss Placeholder",
+                  "text": "Zombie Cleaver",
                   "color": "gold",
+                  "bold": true,
                   "italic": false
                 },
                 "minecraft:lore": [
+                  {
+                    "text": "+1.3 Attack Speed",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+8 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "A legend says:",
+                    "color": "dark_gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": " \"This sword belongs to Governor Baldur.\"",
+                        "italic": true
+                      }
+                    ]
+                  },
                   {
                     "text": "Legendary",
                     "color": "gold",
