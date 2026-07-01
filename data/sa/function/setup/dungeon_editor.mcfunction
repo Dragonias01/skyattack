@@ -33,7 +33,7 @@ setblock -78 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/
 setblock -78 60 36 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway5",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27, showboundingbox:1b,ignoreEntities:false}
 setblock -78 60 67 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway2",posX:1,posY:1,posZ:1,sizeX:22,sizeY:11,sizeZ:33, showboundingbox:1b,ignoreEntities:false}
 setblock -86 60 104 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway3",posX:1,posY:1,posZ:1,sizeX:33,sizeY:7,sizeZ:33, showboundingbox:1b,ignoreEntities:false}
-setblock -78 60 140 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway4",posX:1,posY:1,posZ:1,sizeX:22,sizeY:7,sizeZ:22, showboundingbox:1b,ignoreEntities:false}
+setblock -81 60 140 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway4",posX:1,posY:1,posZ:1,sizeX:25,sizeY:7,sizeZ:26, showboundingbox:1b,ignoreEntities:false}
 #button für die Interaktion mit den Dungeons
 summon minecraft:interaction -23 79 166 {Tags:["button","enter_boss_room"],width:1.1f,height:1.1f}
 
@@ -112,3 +112,39 @@ place template sa:hub/mining 72 71 258
 
 setblock 74 71 214 minecraft:structure_block{mode:"SAVE",name:"sa:hub/fishing_room",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:25,showboundingbox:1b,ignoreEntities:false}
 place template sa:hub/fishing_room 75 72 215
+
+
+# ============================================================================
+# Floor 2
+# ============================================================================
+
+#Rooms
+place template sa:dungeon/floor2/rooms/blackmarket -171 61 7
+place template sa:dungeon/floor2/rooms/room1 -175 61 34
+place template sa:dungeon/floor2/rooms/room2 -175 61 65
+place template sa:dungeon/floor2/rooms/room3 -184 61 105
+place template sa:dungeon/floor2/rooms/room4 -184 61 144
+
+setblock -172 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/blackmarket",posX:1,posY:1,posZ:1,sizeX:23,sizeY:18,sizeZ:24,showboundingbox:1b,ignoreEntities:false}
+setblock -176 60 33 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room1",posX:1,posY:1,posZ:1,sizeX:27,sizeY:15,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
+setblock -176 60 64 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room2",posX:1,posY:1,posZ:1,sizeX:27,sizeY:15,sizeZ:36,showboundingbox:1b,ignoreEntities:false}
+setblock -185 60 104 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room3",posX:1,posY:1,posZ:1,sizeX:36,sizeY:17,sizeZ:37,showboundingbox:1b,ignoreEntities:false}
+setblock -185 60 143 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room4",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+#Boss Arena
+place template sa:dungeon/floor2/arena/boss_arena_1 -265 61 7
+setblock -266 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/arena/boss_arena_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:26,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+#Hallways
+place template sa:dungeon/floor2/hallways/hallway1 -215 61 7
+place template sa:dungeon/floor2/hallways/hallway5 -215 61 38
+place template sa:dungeon/floor2/hallways/hallway2 -215 61 69
+place template sa:dungeon/floor2/hallways/hallway3 -223 61 106
+place template sa:dungeon/floor2/hallways/hallway4 -215 61 142
+
+setblock -216 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway1",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
+setblock -216 60 37 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway5",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
+setblock -216 60 68 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway2",posX:1,posY:1,posZ:1,sizeX:22,sizeY:11,sizeZ:33,showboundingbox:1b,ignoreEntities:false}
+setblock -224 60 105 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway3",posX:1,posY:1,posZ:1,sizeX:33,sizeY:7,sizeZ:33,showboundingbox:1b,ignoreEntities:false}
+setblock -219 60 141 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway4",posX:1,posY:1,posZ:1,sizeX:25,sizeY:7,sizeZ:26,showboundingbox:1b,ignoreEntities:false}
+ 
