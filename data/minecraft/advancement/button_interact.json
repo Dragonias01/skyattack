@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "sa:goals/interact"
+    "function": "sa:button/interact"
   }
 }
