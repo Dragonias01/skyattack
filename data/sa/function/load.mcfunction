@@ -48,3 +48,4 @@
     scoreboard players add @a EAxe_learn 0
     scoreboard players add @a EPickaxe_learn 0
     scoreboard players add @a EHoe_learn 0
+    forceload add -7 -257 7 -243
