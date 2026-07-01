@@ -15,6 +15,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sa:skyattack/welcome_to_skyattack": true
+            }
+          },
           "location": {
             "position": {
               "x": {
