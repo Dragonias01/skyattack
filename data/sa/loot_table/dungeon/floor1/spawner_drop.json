@@ -15,7 +15,59 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold"
+          "name": "minecraft:potion",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11546150
+                },
+                "minecraft:custom_name": {
+                  "text": "Small Healing Potion",
+                  "color": "blue",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Heielt den spieler!",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Verbrauchs Gegenstand",
+                      "color": "dark_gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Rare",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:item_name": {
+                  "text": "small_healing_potion",
+                  "italic": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1000000,
+                  "animation": "none"
+                }
+              }
+            }
+          ]
         }
       ]
     }

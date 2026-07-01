@@ -5,7 +5,7 @@ execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=indungeon]
 
 execute in sa:dungeon_arena_1 run summon zombie 0 102 -28 \
 {CustomName:[{text:"[",color:gray},{text:"Zombie Boss",color:red},{text:"]",color:gray}],\
-CustomNameVisible:1b,Health:100,Tags:["boss1"],attributes:[{id:scale,base:2f},{id:armor,base:5f},{id:knockback_resistance,base:1f},{id:attack_damage,base:10f},{id:max_health,base:200f},{id:"entity_interaction_range",base:3.0f}]}
+CustomNameVisible:1b,Health:100,Tags:["boss1"],attributes:[{id:scale,base:2f},{id:armor,base:5f},{id:knockback_resistance,base:1f},{id:attack_damage,base:10f},{id:max_health,base:200f},{id:"entity_interaction_range",base:6.0f}]}
 
 
 

@@ -98,7 +98,8 @@
                     "bold": true,
                     "italic": false
                   }
-                ]
+                ],
+                "minecraft:unbreakable": {}
               }
             }
           ]
@@ -117,7 +118,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_ooze_helmet",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "head"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -170,7 +172,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_ooze_chestplate",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "chest"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -220,7 +223,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_ooze_leggings",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "legs"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -269,7 +273,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_ooze_boots",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "feet"
                   }
                 ],
                 "minecraft:custom_name": {

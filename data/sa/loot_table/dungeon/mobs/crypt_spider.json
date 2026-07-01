@@ -27,7 +27,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_weaver_helmet",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "head"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -80,7 +81,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_weaver_chestplate",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "chest"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -133,7 +135,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_weaver_leggings",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "legs"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -186,7 +189,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:crypt_weaver_boots",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "feet"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -239,6 +243,7 @@
                     "id": "minecraft:",
                     "amount": 2,
                     "operation": "add_value",
+                    "slot": "mainhand",
                     "display": {
                       "type": "hidden"
                     }

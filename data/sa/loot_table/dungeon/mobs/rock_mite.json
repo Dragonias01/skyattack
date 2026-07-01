@@ -61,10 +61,7 @@
                     "italic": false
                   }
                 ],
-                "minecraft:unbreakable": {},
-                "minecraft:tooltip_display": {
-                  "hide_tooltip": true
-                }
+                "minecraft:unbreakable": {}
               }
             }
           ]
@@ -83,7 +80,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:stonecarver_helmet",
                     "amount": 3,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "head"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -136,7 +134,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:stonecarver_chestplate",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "chest"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -189,7 +188,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:stonecarver_leggings",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "legs"
                   }
                 ],
                 "minecraft:custom_name": {
@@ -242,7 +242,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:stonecarver_boots",
                     "amount": 3,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "feet"
                   }
                 ],
                 "minecraft:custom_name": {

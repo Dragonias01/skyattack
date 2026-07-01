@@ -20,14 +20,14 @@
                   {
                     "type": "minecraft:movement_speed",
                     "id": "minecraft:",
-                    "amount": -0.3,
+                    "amount": -0.03,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "type": "minecraft:attack_damage",
                     "id": "minecraft:",
-                    "amount": 6,
+                    "amount": 8,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
@@ -70,7 +70,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:rotting_guard_helmet",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "head"
                   },
                   {
                     "type": "minecraft:max_health",
@@ -124,7 +125,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:rotting_guard_chestplate",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "chest"
                   },
                   {
                     "type": "minecraft:max_health",
@@ -178,7 +180,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:rotting_guard_leggings",
                     "amount": 5,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "legs"
                   },
                   {
                     "type": "minecraft:max_health",
@@ -232,7 +235,8 @@
                     "type": "minecraft:armor",
                     "id": "minecraft:rotting_guard_boots",
                     "amount": 2,
-                    "operation": "add_value"
+                    "operation": "add_value",
+                    "slot": "feet"
                   },
                   {
                     "type": "minecraft:max_health",

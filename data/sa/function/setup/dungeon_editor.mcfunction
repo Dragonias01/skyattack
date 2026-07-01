@@ -27,7 +27,7 @@ place template sa:dungeon/floor1/hallways/hallway1 -77 61 6
 place template sa:dungeon/floor1/hallways/hallway5 -77 61 37
 place template sa:dungeon/floor1/hallways/hallway2 -77 61 68
 place template sa:dungeon/floor1/hallways/hallway3 -85 61 105
-place template sa:dungeon/floor1/hallways/hallway4 -77 61 141
+place template sa:dungeon/floor1/hallways/hallway4 -80 61 141
 
 setblock -78 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway1",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27, showboundingbox:1b,ignoreEntities:false}
 setblock -78 60 36 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor1/hallways/hallway5",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27, showboundingbox:1b,ignoreEntities:false}
