@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": {
+      "text": "All or Nothing",
+      "color": "gold",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Gamble with your Friends!",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sa:skyattack/the_other_world/ultimate_trading/ultimate_trading",
+  "criteria": {
+    "enterhub": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "text": "The Crypt",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Enter The Crypt",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_catacombs",
+  "criteria": {
+    "enter_crypt": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

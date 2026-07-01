@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": {
+      "text": "The Otherworld",
+      "color": "dark_purple",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Unlock The Hub",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sa:skyattack/welcome_to_skyattack",
+  "criteria": {
+    "enterhub": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

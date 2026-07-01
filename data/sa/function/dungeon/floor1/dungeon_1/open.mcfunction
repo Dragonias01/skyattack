@@ -15,7 +15,7 @@ scoreboard players set server dg1_state 1
 scoreboard players set server dg1_timer 900
 
 scoreboard players set server dg1_generated 0
-scoreboard players set server dg1_boss_state 0
+scoreboard players set server f1_boss_state 0
 scoreboard players set server dg1_loot_generated 0
 
 tellraw @a {"text":"Dungeon 1 is now OPEN for 15 minutes!","color":"gold"}

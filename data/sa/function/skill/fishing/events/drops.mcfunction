@@ -1,4 +1,5 @@
-scoreboard players set @s fishing_drop_pending 0
+
+advancement revoke @s only minecraft:parity_fishing
 #Level bonus 5% pro level
 scoreboard players operation @s fishing_drop_menge = @s fishing_lvl
 scoreboard players set @s f_rod_gain 0

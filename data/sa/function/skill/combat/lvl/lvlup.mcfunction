@@ -34,3 +34,4 @@ scoreboard players operation @s combat_xp -= @s combat_goal
 
 # 5. Sound-Effekt für visuelles Feedback (optional aber empfohlen)
     execute at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.2
+    advancement grant @s only sa:skyattack/compressed_materials/solo_leveling/solo_leveling

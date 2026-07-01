@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:item_name": "fish_drop"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sa:skill/fishing/events/delay"
+  }
+}

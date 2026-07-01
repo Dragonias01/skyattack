@@ -1,0 +1,66 @@
+{
+  "parent": "sa:skyattack/compressed_materials/compressed_materials",
+  "criteria": {
+    "guardian": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "guardian"
+          }
+        }
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "spawn_slime"
+          }
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "spawn_drowned"
+          }
+        }
+      }
+    },
+    "bogged": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "spawn_bogged"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Fish a sea Creature"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:salmon_bucket"
+    },
+    "title": {
+      "text": "Why is my Fish still moving?"
+    }
+  },
+  "requirements": [
+    [
+      "bogged",
+      "drowned",
+      "guardian",
+      "slime"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,108 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": "Elemental",
+    "description": "Craft an Element Tool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sa:skyattack/compressed_materials/blueprint_to_infinity/blueprint_to_infinity",
+  "criteria": {
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_axe_common"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_picaxe_common",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_hoe_common",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_sword_common",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_rod_common",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "axe",
+      "hoe",
+      "pickaxe",
+      "rod",
+      "sword"
+    ]
+  ]
+}

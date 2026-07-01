@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Catalystic",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "buy the Catalyst!",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sa:skyattack/the_other_world/ultimate_trading/ultimate_trading",
+  "criteria": {
+    "enterhub": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "text": "xp_katalysator",
+                "italic": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

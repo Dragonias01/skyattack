@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": "ExCompressium",
+    "description": "Craft an compressed Material",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sa:skyattack/welcome_to_skyattack",
+  "criteria": {
+    "compressed_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "compressed_log",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "compressed_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": "compressed_stone"
+            }
+          }
+        ]
+      }
+    },
+    "compressed_biomass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": "compressed_biomass"
+            }
+          }
+        ]
+      }
+    },
+    "fish_mesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": "compressed_fish_mesh"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "compressed_biomass",
+      "compressed_logs",
+      "compressed_stone",
+      "fish_mesh"
+    ]
+  ]
+}

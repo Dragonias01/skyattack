@@ -1,0 +1,26 @@
+{
+  "parent": "sa:skyattack/to_the_start/to_the_start",
+  "criteria": {
+    "nugget": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_nugget"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Fish Iron at the starting island"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_nugget"
+    },
+    "title": {
+      "text": "Ironized Water"
+    }
+  },
+  "sends_telemetry_event": false
+}

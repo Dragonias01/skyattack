@@ -9,5 +9,6 @@ scoreboard players set server goal1 1
 title @a title [{"text":"Goal 1 Completet!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
 title @a subtitle [{"text":"WIP","color":"green"}]
+advancement grant @a only sa:skyattack/the_other_world/the_other_world
 
 function sa:npc/pilot/pilot

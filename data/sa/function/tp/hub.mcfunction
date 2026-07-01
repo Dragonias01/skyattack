@@ -5,3 +5,4 @@ execute positioned -15 99 5 as @a[gamemode=survival] run gamemode adventure @s
 execute unless score server hub_initialized = server one run effect give @s slow_falling 2 30
 execute unless score server hub_initialized = server one in sa:hub run tp @s 0 111 0
 execute unless score server hub_initialized = server one run schedule function sa:setup/hub/main_hub 20t
+advancement grant @s only sa:skyattack/the_other_world/the_other_world

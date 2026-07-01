@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Digging Deep",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Buy Double Compressed Stone",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sa:skyattack/the_other_world/ultimate_trading/hard_as_rock/hard_as_rock",
+  "criteria": {
+    "enter_crypt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "text": "double_compressed_stone",
+                "italic": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

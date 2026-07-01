@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_door"
+    },
+    "title": "To the Start",
+    "description": "Go back to the starting Island",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sa:skyattack/welcome_to_skyattack",
+  "criteria": {
+    "mainisland": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -16,
+                "max": 6
+              },
+              "y": {
+                "min": 95,
+                "max": 105
+              },
+              "z": {
+                "min": -9,
+                "max": 12
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  }
+}

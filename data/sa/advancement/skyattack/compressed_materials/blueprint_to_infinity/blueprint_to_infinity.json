@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": "Blue print to Infinity",
+    "description": "Find a Blueprint",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sa:skyattack/compressed_materials/compressed_materials",
+  "criteria": {
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_axe_blueprint",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_pickaxe_blueprint",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_hoe_blueprint",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_sword_blueprint",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": [
+                {
+                  "text": "element_rod_blueprint",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "axe",
+      "hoe",
+      "pickaxe",
+      "rod",
+      "sword"
+    ]
+  ]
+}

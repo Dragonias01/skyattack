@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Welcome to Sky Attack",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Enter An Island!",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:block/amethyst_block"
+  },
+  "criteria": {
+    "EnterIsland": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": {}
+      }
+    }
+  }
+}

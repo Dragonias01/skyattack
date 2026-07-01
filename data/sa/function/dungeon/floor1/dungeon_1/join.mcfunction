@@ -11,6 +11,7 @@ execute unless score server dg1_state matches 1..4 run return 1
 
 gamemode adventure @s
 tag @s add dg1_player
+advancement grant @s only sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt
 
 execute in sa:dungeon1 run tp @s 0 200 0
 execute in sa:dungeon1 run function sa:dungeon/floor1/dungeon_1/on_enter_dungeon

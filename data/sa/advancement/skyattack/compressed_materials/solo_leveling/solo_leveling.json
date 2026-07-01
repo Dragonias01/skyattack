@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": "Solo Leveling",
+    "description": "Level up!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sa:skyattack/compressed_materials/compressed_materials",
+  "criteria": {
+    "Solo_leveling": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": {}
+      }
+    }
+  }
+}
