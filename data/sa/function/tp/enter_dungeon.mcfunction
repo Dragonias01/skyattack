@@ -1,5 +1,5 @@
 # Teleportiere in die Test-Dimension
-execute in sa:dungeon1 run tp @s 0 200 0
+    execute in sa:dungeon1 run tp @s 0 200 0
 
 execute store result score #x temp run random value -1000..1000
 execute store result score #z temp run random value -1000..1000
@@ -13,4 +13,4 @@ effect give @a blindness 5
 effect give @s slow_falling 5 99
 
 # Spawn-Befehl NACH dem Teleport, mit dem Spieler als Anker
-schedule function sa:dungeon/dungeon_1/generate_dungeon 20t
+#schedule function sa:dungeon/dungeon_1/generate_dungeon 20t

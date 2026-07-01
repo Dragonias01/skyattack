@@ -4,8 +4,12 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"goal\"]}"
+          "minecraft:entity_tags": {
+            "any_of": [
+              "goal"
+            ]
+          },
+          "minecraft:entity_type": "minecraft:interaction"
         }
       }
     }

@@ -10,5 +10,5 @@ execute in sa:dungeon_arena_1 run function sa:setup/dungeon/setup_interactions
 execute in sa:dungeon_arena_1 run function sa:setup/dungeon/bossbar
 
 execute in sa:dungeon_arena_1 run tp @s 0 100 0
-schedule function sa:dungeon/dungeon_1/arena/tp_arena 20t
+schedule function sa:dungeon/floor1/arena/tp_arena 20t
 scoreboard players set server dungeon_arena_one_init 1

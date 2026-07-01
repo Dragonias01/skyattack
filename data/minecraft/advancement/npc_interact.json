@@ -4,13 +4,17 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"npc\"]}"
+          "minecraft:entity_tags": {
+            "any_of": [
+              "npc"
+            ]
+          },
+          "minecraft:entity_type": "minecraft:interaction"
         }
       }
     }
   },
   "rewards": {
-    "function": "sa:npc/interact"
+    "function": "sa:goals/interact"
   }
 }

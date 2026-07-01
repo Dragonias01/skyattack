@@ -4,8 +4,12 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie",
-          "nbt": "{Tags:[\"boss1\"]}"
+          "entity_type": "minecraft:zombie",
+          "minecraft:entity_tags": {
+            "any_of": [
+              "boss1"
+            ]
+          }
         }
       }
     }

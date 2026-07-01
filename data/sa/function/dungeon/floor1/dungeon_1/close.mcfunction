@@ -20,6 +20,6 @@ function sa:dungeon/floor1/dungeon_1/cleanup
     scoreboard players set server dg1_timer 0
     scoreboard players set server dg1_players_dungeon 0
     scoreboard players set server dg1_players_boss 0
-    scoreboard players set server dg1_boss_state 0
+    scoreboard players set server f1_boss_state 0
     scoreboard players set server dg1_generated 0
     scoreboard players set server dg1_loot_generated 0
