@@ -1,0 +1,355 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Drowned Flesh",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "",
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "drowned_flesh",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 21150,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Submerged Soilder Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "submerged_soilder_helmet",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 21150,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:submerged_soilder_chestplate",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Submerged Soilder Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 5 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "submerged_soilder_chestplate",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 21150,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:submerged_soilder_leggings",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Submerged Soilder Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 4 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "submerged_soilder_leggings",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 21150,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:submerged_soilder_boots",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:submerged_soilder_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Submerged Soilder Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "submerged_soilder_boots",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

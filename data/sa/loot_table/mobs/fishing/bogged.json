@@ -5,53 +5,29 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "weight": 95
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
-          "weight": 1,
+          "name": "minecraft:bone",
+          "weight": 45,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "type": "minecraft:movement_speed",
-                    "id": "minecraft:",
-                    "amount": -0.03,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "type": "minecraft:attack_damage",
-                    "id": "minecraft:",
-                    "amount": 8,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "type": "minecraft:attack_speed",
-                    "id": "minecraft:",
-                    "amount": 1.6,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ],
                 "minecraft:custom_name": {
-                  "text": "Zombie Soldier Sword",
-                  "color": "green"
+                  "text": "Swamp Bone",
+                  "bold": true,
+                  "italic": false
                 },
                 "minecraft:lore": [
+                  "",
                   {
-                    "text": "Uncommon",
-                    "color": "green",
+                    "text": "Common",
                     "bold": true,
                     "italic": false
                   }
                 ],
-                "minecraft:unbreakable": {}
+                "minecraft:item_name": {
+                  "text": "swamp_bone",
+                  "italic": false
+                }
               }
             }
           ]
@@ -64,39 +40,44 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": 4929558,
+                "minecraft:dyed_color": 7187233,
                 "minecraft:attribute_modifiers": [
                   {
-                    "type": "minecraft:armor",
-                    "id": "minecraft:rotting_guard_helmet",
-                    "amount": 2,
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:swamp_sniper_helmet",
+                    "amount": 0.5,
                     "operation": "add_value",
-                    "slot": "head"
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
                   },
                   {
-                    "type": "minecraft:max_health",
-                    "id": "minecraft:rotting_guard_helmet_hp",
-                    "amount": 1,
-                    "operation": "add_value"
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_sniper_helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
-                  "text": "Rotting Guard Helmet",
+                  "text": "Swamp Sniper Helmet",
                   "color": "green",
                   "bold": true,
                   "italic": false
                 },
-                "minecraft:item_name": {
-                  "text": "rotting_guard_helmet",
-                  "italic": false
-                },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+2 Armor",
+                    "color": "blue",
+                    "italic": false
                   },
                   {
-                    "text": "+1 Health",
-                    "color": "red",
+                    "text": "+0.5 Attack Damage",
+                    "color": "blue",
                     "italic": false
                   },
                   {
@@ -106,6 +87,10 @@
                     "italic": false
                   }
                 ],
+                "minecraft:item_name": {
+                  "text": "swamp_sniper_helmet",
+                  "italic": false
+                },
                 "minecraft:unbreakable": {}
               }
             }
@@ -119,39 +104,44 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": 4929558,
+                "minecraft:dyed_color": 7187233,
                 "minecraft:attribute_modifiers": [
                   {
-                    "type": "minecraft:armor",
-                    "id": "minecraft:rotting_guard_chestplate",
-                    "amount": 5,
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:swamp_sniper_chestplate",
+                    "amount": 0.5,
                     "operation": "add_value",
-                    "slot": "chest"
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
                   },
                   {
-                    "type": "minecraft:max_health",
-                    "id": "minecraft:rotting_guard_chestplate_hp",
-                    "amount": 1,
-                    "operation": "add_value"
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_sniper_chestplate",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
-                  "text": "Rotting Guard Chestplate",
+                  "text": "Swamp Sniper Chestplate",
                   "color": "green",
                   "bold": true,
                   "italic": false
                 },
-                "minecraft:item_name": {
-                  "text": "rotting_guard_chestplate",
-                  "italic": false
-                },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+5 Armor",
+                    "color": "blue",
+                    "italic": false
                   },
                   {
-                    "text": "+1 Health",
-                    "color": "red",
+                    "text": "+0.5 Attack Damage",
+                    "color": "blue",
                     "italic": false
                   },
                   {
@@ -161,6 +151,10 @@
                     "italic": false
                   }
                 ],
+                "minecraft:item_name": {
+                  "text": "swamp_sniper_chestplate",
+                  "italic": false
+                },
                 "minecraft:unbreakable": {}
               }
             }
@@ -174,39 +168,41 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": 4929558,
+                "minecraft:dyed_color": 7187233,
                 "minecraft:attribute_modifiers": [
                   {
-                    "type": "minecraft:armor",
-                    "id": "minecraft:rotting_guard_leggings",
-                    "amount": 5,
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:swamp_sniper_leggings",
+                    "amount": 0.5,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
-                    "type": "minecraft:max_health",
-                    "id": "minecraft:rotting_guard_leggings_hp",
-                    "amount": 1,
-                    "operation": "add_value"
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_sniper_leggings",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
-                  "text": "Rotting Guard Leggings",
+                  "text": "Swamp Sniper Leggings",
                   "color": "green",
                   "bold": true,
                   "italic": false
                 },
-                "minecraft:item_name": {
-                  "text": "rotting_guard_leggings",
-                  "italic": false
-                },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+4 Armor",
+                    "color": "blue",
+                    "italic": false
                   },
                   {
-                    "text": "+1 Health",
-                    "color": "red",
+                    "text": "+0.5 Attack Damage",
+                    "color": "blue",
                     "italic": false
                   },
                   {
@@ -216,6 +212,10 @@
                     "italic": false
                   }
                 ],
+                "minecraft:item_name": {
+                  "text": "swamp_sniper_leggings",
+                  "italic": false
+                },
                 "minecraft:unbreakable": {}
               }
             }
@@ -229,39 +229,44 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": 4929558,
+                "minecraft:dyed_color": 7187233,
                 "minecraft:attribute_modifiers": [
                   {
-                    "type": "minecraft:armor",
-                    "id": "minecraft:rotting_guard_boots",
-                    "amount": 2,
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:swamp_sniper_boots",
+                    "amount": 0.5,
                     "operation": "add_value",
-                    "slot": "feet"
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
                   },
                   {
-                    "type": "minecraft:max_health",
-                    "id": "minecraft:rotting_guard_boots_hp",
-                    "amount": 1,
-                    "operation": "add_value"
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_sniper_boots",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
                   }
                 ],
                 "minecraft:custom_name": {
-                  "text": "Rotting Guard Boots",
+                  "text": "Swamp Sniper Boots",
                   "color": "green",
                   "bold": true,
                   "italic": false
                 },
-                "minecraft:item_name": {
-                  "text": "rotting_guard_boots",
-                  "italic": false
-                },
                 "minecraft:lore": [
                   {
-                    "text": ""
+                    "text": "+2 Armor",
+                    "color": "blue",
+                    "italic": false
                   },
                   {
-                    "text": "+1 Health",
-                    "color": "red",
+                    "text": "+0.5 Attack Damage",
+                    "color": "blue",
                     "italic": false
                   },
                   {
@@ -271,6 +276,10 @@
                     "italic": false
                   }
                 ],
+                "minecraft:item_name": {
+                  "text": "swamp_sniper_boots",
+                  "italic": false
+                },
                 "minecraft:unbreakable": {}
               }
             }

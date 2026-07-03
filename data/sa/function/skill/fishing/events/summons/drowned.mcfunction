@@ -1,11 +1,11 @@
 # ============================================================================
-# GUARDIAN SPAWN HANDLER
-# Wird aufgerufen wenn ein Guardian Spawn Egg gefunden wird
-# Spawnt einen Guardian an Spieler-Position mit Effekten
+# DROWNED SPAWN HANDLER
+# Wird aufgerufen wenn ein Drowned Spawn Egg gefunden wird
+# Spawnt einen Drowned an Spieler-Position mit Effekten
 # ============================================================================
 
-# Guardian an Spieler-Position summonen (etwas über Spieler)
-    summon drowned ~ ~1 ~ {CanBreakDoors:true,Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","drowned_fished"],attributes:[{id:max_health,base:20f}]}
+# Drowned an Spieler-Position summonen (etwas über Spieler)
+    summon drowned ~ ~1 ~ {CanBreakDoors:true,Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","drowned_fished"],attributes:[{id:max_health,base:20f}],DeathLootTable:"sa:mobs/fishing/drowned"}
 
 # Sound-Effekt: Aggressive Musik
     playsound entity.guardian.ambient hostile @a[distance=0..30] ~ ~ ~ 1.0 1.2

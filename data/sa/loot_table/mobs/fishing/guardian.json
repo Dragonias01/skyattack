@@ -1,0 +1,316 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Guardian Scale",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "",
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "guardian_scale",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 9817086,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:guardian_scale_helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:guardian_scale_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Guardian Scale Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "guardian_scale_helmet",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 1
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 9817086,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:guardian_scale_chestplate",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:guardian_scale_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Guardian Scale Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 5 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "guardian_scale_chestplate",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 1
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 9817086,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:guardian_scale_leggings",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:guardian_scale_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Guardian Scale Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 4 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "guardian_scale_leggings",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 1
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 9817086,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:guardian_scale_boots",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:guardian_scale_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Guardian Scale Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "guardian_scale_boots",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 1
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

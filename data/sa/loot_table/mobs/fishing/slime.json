@@ -1,0 +1,391 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Slime Goo",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "",
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "swamp_goo",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Solified Goo",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "solified_goo",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "",
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3053824,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:gravity",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": -0.005,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Swamp Goo Helmet",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "- 0.005 Gravity",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "swamp_goo_helmet",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3053824,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:gravity",
+                    "id": "minecraft:swamp_goo_chestplate",
+                    "amount": -0.005,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_goo_chestplate",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Swamp Goo Chestplate",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 5 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.1 Water Movement Efficiency",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "- 0.005 Gravity",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "swamp_goo_chestplate",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3053824,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_goo_leggings",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:gravity",
+                    "id": "minecraft:swamp_goo_leggings",
+                    "amount": -0.005,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Swamp Goo Leggings",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 4 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "- 0.005 Gravity",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "swamp_goo_leggings",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3053824,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:gravity",
+                    "id": "minecraft:swamp_goo_boots",
+                    "amount": -0.005,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:swamp_goo_boots",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "minecraft:swamp_goo_helmet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Swamp Goo Boots",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+ 2 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+ 0.5 Oxygen Bonus",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "- 0.005 Gravity",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uncommon",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": {
+                  "text": "swamp_goo_boots",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

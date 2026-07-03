@@ -47,24 +47,7 @@
                 "minecraft:lore": [
                   [
                     {
-                      "text": "Heielt den spieler!",
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "Kostet:",
-                      "color": "gray",
-                      "italic": false
-                    },
-                    {
-                      "text": " 10",
-                      "color": "green",
-                      "italic": false
-                    },
-                    {
-                      "text": " Ap",
+                      "text": "Heals the player!",
                       "color": "gray",
                       "italic": false
                     }

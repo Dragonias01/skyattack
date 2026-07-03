@@ -8,7 +8,7 @@
           "value": {
             "pools": [
               {
-                "rolls": 0,
+                "rolls": 1,
                 "entries": [
                   {
                     "type": "minecraft:item",
@@ -33,7 +33,7 @@
           "value": {
             "pools": [
               {
-                "rolls": 0,
+                "rolls": 1,
                 "entries": [
                   {
                     "type": "minecraft:item",
@@ -58,7 +58,7 @@
           "value": {
             "pools": [
               {
-                "rolls": 0,
+                "rolls": 1,
                 "entries": [
                   {
                     "type": "minecraft:item",
@@ -83,7 +83,7 @@
           "value": {
             "pools": [
               {
-                "rolls": 0,
+                "rolls": 1,
                 "entries": [
                   {
                     "type": "minecraft:item",
@@ -108,16 +108,61 @@
           "value": {
             "pools": [
               {
-                "rolls": 0,
+                "rolls": 1,
                 "entries": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:rotten_flesh",
+                    "name": "minecraft:diamond_sword",
                     "functions": [
                       {
                         "function": "minecraft:set_components",
                         "components": {
-                          "minecraft:custom_name": "Legendary_drop"
+                          "minecraft:custom_name": {
+                            "text": "Aspect of the End",
+                            "color": "gold",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": "+ 10 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "+ 1.8 Attack Speed",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Legendary",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:attack_damage",
+                              "id": "minecraft:",
+                              "amount": 10,
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "display": {
+                                "type": "hidden"
+                              }
+                            },
+                            {
+                              "type": "minecraft:attack_speed",
+                              "id": "minecraft:",
+                              "amount": 1.8,
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "display": {
+                                "type": "hidden"
+                              }
+                            }
+                          ]
                         }
                       }
                     ]

@@ -1,5 +1,5 @@
 # Guardian an Spieler-Position summonen (etwas über Spieler)
-    summon slime ~ ~1 ~ {Size:2,Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","slime_fished"],attributes:[{id:max_health,base:20f}]}
+    summon slime ~ ~1 ~ {Size:2,Health:20,Motion:[0d,0.2d,0d],Tags:["fishing_creature","slime_fished"],attributes:[{id:max_health,base:20f}],DeathLootTable:"sa:mobs/fishing/slime"}
     # Sound-Effekt: Aggressive Musik
         playsound entity.guardian.ambient hostile @a[distance=0..30] ~ ~ ~ 1.0 1.2
 

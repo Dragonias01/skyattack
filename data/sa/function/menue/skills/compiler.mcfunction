@@ -5,6 +5,32 @@
 # z.B. über "execute as <Spieler> run function sa:stats/load_scores"
 # ============================================================
 
+#Prozent berechnungen:
+scoreboard players operation @s Mining_Dropchance_Percent = @s mining_lvl
+scoreboard players operation @s Mining_Dropchance_Percent *= server five
+scoreboard players operation @s mining_xp_boost = @s mining_xp_boost_gain
+scoreboard players operation @s mining_xp_boost += server eventboost_mining
+
+scoreboard players operation @s Farming_Dropchance_Percent = @s farming_lvl
+scoreboard players operation @s Farming_Dropchance_Percent *= server five
+scoreboard players operation @s farming_xp_boost = @s farming_xp_boost_gain
+scoreboard players operation @s farming_xp_boost += server eventboost_farming
+
+scoreboard players operation @s Logging_Dropchance_Percent = @s logging_lvl
+scoreboard players operation @s Logging_Dropchance_Percent *= server five
+scoreboard players operation @s logging_xp_boost = @s logging_xp_boost_gain
+scoreboard players operation @s logging_xp_boost += server eventboost_logging
+
+scoreboard players operation @s fishing_Dropchance_Percent = @s fishing_lvl
+scoreboard players operation @s fishing_Dropchance_Percent *= server five
+scoreboard players operation @s fishing_xp_boost = @s fishing_xp_boost_gain
+scoreboard players operation @s fishing_xp_boost += server eventboost_fishing
+
+scoreboard players operation @s Combat_Dropchance_Percent = @s combat_lvl
+scoreboard players operation @s Combat_Dropchance_Percent *= server five
+scoreboard players operation @s combat_xp_boost = @s combat_xp_boost_gain
+scoreboard players operation @s combat_xp_boost += server eventboost_combat
+
 # Generelle Infos
     execute store result storage sa:stats v.island int 1 run scoreboard players get @s island
 
