@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "--| ",
+    "extra": [
+      {
+        "text": "Fishing Collection",
+        "color": "white"
+      },
+      {
+        "text": " |--"
+      }
+    ],
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:cod"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": " Fish Collection ",
+            "color": "white"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 51"
+        }
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": "Comming soon... ",
+            "color": "red"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 52"
+        }
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": "Comming soon... ",
+            "color": "red"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 53"
+        }
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": "Comming soon... ",
+            "color": "red"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 54"
+        }
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": "Comming soon... ",
+            "color": "red"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 55"
+        }
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier"
+      },
+      "description": {
+        "text": "-<",
+        "extra": [
+          {
+            "text": "Comming soon... ",
+            "color": "red"
+          },
+          {
+            "text": ">-"
+          }
+        ],
+        "color": "green",
+        "click_event": {
+          "action": "run_command",
+          "command": "trigger menue set 56"
+        }
+      },
+      "show_tooltip": false
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger menue set 2"
+    }
+  },
+  "columns": 5,
+  "button_width": 16,
+  "dialogs": []
+}

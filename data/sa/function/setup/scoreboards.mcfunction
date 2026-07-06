@@ -289,4 +289,14 @@ scoreboard objectives add d2_tmp_seconds dummy
 # ──────────────────────────────────────────────────────────────────────────────
     scoreboard objectives add bossbar_boss1_init dummy
 
+# ── Collections ─────────────────────────────────────────────────────────────
+    scoreboard objectives add oak_collected minecraft.mined:minecraft.oak_log
+    scoreboard objectives add stone_collected minecraft.mined:minecraft.stone
+    scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
+    scoreboard objectives add overall_stone_collected minecraft.mined:minecraft.stone
+
+scoreboard objectives add potato_collected minecraft.mined:potatoes
+
+
+
 function sa:setup/stats

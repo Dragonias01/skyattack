@@ -26,7 +26,8 @@ execute as @a unless score @s player_initialized matches 1 run function sa:setup
     execute as @a[scores={menue=1..10}] run function sa:menue/skills/compiler
     #Teleporter
     execute as @a[scores={menue=11..20}] run function sa:menue/teleporter/compiler
-
+    #Collections
+    execute as @a[scores={menue=21..70}] run function sa:menue/collections/compiler
 
 function sa:leaderboard/tick
 function sa:dungeon/boss_check
