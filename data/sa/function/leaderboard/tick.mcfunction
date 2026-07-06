@@ -4,7 +4,7 @@
 
 scoreboard players add server lb_tick 1
 
-execute if score server lb_tick matches 20.. run function sa:leaderboard/logging/update
+execute if score server lb_tick matches 20 run function sa:leaderboard/logging/update
 execute if score server lb_tick matches 40 run function sa:leaderboard/mining/update
 execute if score server lb_tick matches 60 run function sa:leaderboard/fishing/update
 execute if score server lb_tick matches 80 run function sa:leaderboard/farming/update

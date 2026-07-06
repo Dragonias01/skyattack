@@ -7,10 +7,6 @@ Fishing Pond:
 - Biom Hinzufügen
 - Loot Table hinzufügen
 
-Loot boxen:
-
-- Loot Table mit cutom items
-
 Schmied:
 
 - elements Weapons Upgradeble machen
@@ -37,27 +33,12 @@ Xp Baum:
 
 Items:
 
-- Xp Fruits
-  TODO:
-- Englische übersetzung
-- Dungeon Master Dialog + Skin
 - Tutorial NPC Dialog + Skin
-- Dungeon hub Rework
 - Dungeon Arena Welt 2
-- Lotterie
 - Schmied
 - Techniker
-- Xp Fruits
 - Log abuse Protection
 
 Feature idee:
 
 - Teleport modul was langsam ausgebaut werden kann
-
-Items:
-
-Bugs TODO:
-
-- Boss Arena 1 Setup
-- Setup neu organisieren
-- bessere struktur :D
