@@ -17,6 +17,7 @@
     scoreboard objectives add deathcount_system deathCount
     scoreboard objectives add ten dummy
     scoreboard players set server ten 10
+    scoreboard objectives add config_initialized dummy
 
 # ── Setup Tracking ────────────────────────────────────────────────────────
     scoreboard objectives add setup1 dummy
@@ -162,6 +163,9 @@
     scoreboard objectives add EPickaxe_learn dummy
 
 # ── Goal System ───────────────────────────────────────────────────────────
+    scoreboard objectives add goal_temp dummy
+    scoreboard objectives add goal_math dummy
+    #ggf alles andere useless
     scoreboard objectives add goals_initialized dummy
     scoreboard objectives add hub_goals_initialized dummy
     scoreboard objectives add goal_ship_remaining dummy

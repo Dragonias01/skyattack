@@ -12,7 +12,7 @@
 setblock 0 99 -22 minecraft:air
 
 # ── Goal abgeschlossen markieren ──────────────────────────────────────────
-    scoreboard players set server hub_skillrooms_done 1
+# scoreboard players set server hub_skillrooms_done 1
 
 # ── Ankuendigung ──────────────────────────────────────────────────────────
     title @a title [{"text":"Skill Rooms Goal Completed!","color":"green"}]

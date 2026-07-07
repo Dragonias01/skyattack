@@ -3,10 +3,6 @@
 # Datei: sa:setup/player_init
 # Version: 1.21.11
 # ============================================================================
-# Start-Goals entsprechen dem "Level 1" Wert aus der Scaling-Tabelle:
-#   Mining/Logging/Farming/Combat: 10
-#   Fishing: 5
-# ============================================================================
 # --- FISHING ---
     scoreboard players add @s fishing_xp 0
     scoreboard players add @s fishing_lvl 0
@@ -58,25 +54,15 @@
 # --- INIT-FLAG setzen (damit diese Funktion nicht nochmal läuft) ---
     scoreboard players set @s player_initialized 1
 
-execute as @s run scoreboard players add server goal1_cost 25
-# ── Hub Goals - Gemeinschaftliche Kosten skalieren (pro Spieler) ─────────
-    scoreboard players add server hub_dungeon_cost 50
-    scoreboard players add server hub_skillrooms_cost 25
-    scoreboard players add server hub_mining_cost 50
-    scoreboard players add server hub_farming_cost 50
-    scoreboard players add server hub_fishing_cost 50
-    scoreboard players add server hub_fishpond_cost 100
-    scoreboard players add server hub_combat_cost 50
-    # TODO: Kosten fuer Schmied und Techniker noch festlegen
-        scoreboard players add server hub_schmied_cost 50
-        scoreboard players add server hub_techniker_cost 50
-        # TODO: SERVER PROGRESS SYSTEM - Levelbaum + Fishing Pond
-            scoreboard players add server hub_levelbaum_cost 50
+# ============================================================================
+# HUB-GOALS: der komplette alte Block
+#   execute as @s run scoreboard players add server goal1_cost 25
+#   scoreboard players add server hub_dungeon_cost 50
+#   ... (11 Zeilen) ...
+#   data modify storage sa:goal_ship_text text set value [...]
+# wird komplett durch DIESEN EINEN Aufruf ersetzt:
+# ============================================================================
+    function sa:goals/_lib/on_join
 
-
-
-
-
-data modify storage sa:goal_ship_text text set value [{"score":{"objective":"goal_ship","name":"server"},"color":"green"},{"text":"/","color":"white"},{"score":{"objective":"goal1_cost","name":"server"},"color":"white"}]
-#Recepie
+    #Recepie
 recipe give @s dirt

@@ -1,13 +1,2 @@
-# ============================================================================
-# GOAL: Levelbaum - Check
-# Datei: sa:goals/levelbaum_goal/check
-# Version: 1.21.11
-# ============================================================================
-# TODO: SERVER PROGRESS SYSTEM
-# Dieses Goal wird mit dem Server-Fortschrittssystem implementiert.
-# ============================================================================
-
-
-# TODO: Implementierung ausstehend - Platzhalter
-    tellraw @s [{"text":"[TODO] Work in Progress","color":"yellow"}]
-    return 0
+data modify storage sa:goals_ctx call set value {"goal":"level_baum_goal"}
+function sa:goals/_lib/give with storage sa:goals_ctx call

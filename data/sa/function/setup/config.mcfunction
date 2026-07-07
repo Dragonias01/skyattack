@@ -1,0 +1,216 @@
+# ============================================================================
+# CONFIG INIT - einmalig bei Datapack-(Neu)Start / Reload
+# ============================================================================
+# WICHTIG: "current_cost" ist NEU gegenüber deiner alten Config.
+# initial_cost      = Kosten bei 0 Spielern
+# cost_per_player    = wird bei JEDEM Player-Join einmalig draufaddiert
+# current_cost       = die tatsächlich aktive Zielsumme (initial_cost + n * cost_per_player)
+#                       -> wird von on_join.mcfunction hochgezählt, NICHT live berechnet
+#                       -> entspricht 1:1 deinem alten "goal1_cost += 25 pro Join"-Prinzip
+#
+# WICHTIG: NICHT automatisch bei jedem /reload ausfuehren - siehe README.
+# Erstes Setup / neue Season: einmal manuell mit /function sa:load/init_config
+# ============================================================================
+
+data modify storage sa:config config set value {\
+"goals": {\
+"ship_goal":{\
+"initial_cost": 25,\
+"cost_per_player": 25,\
+"current_cost": 25,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:basalt",\
+"item_name": "compressed_log",\
+"success_text": "Compressed Logs",\
+"max_per_use": 10,\
+"display_tag": "display_goal_ship",\
+"reward_function": "sa:goals/goal_ship/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"skillroom_goal":{\
+"initial_cost": 25,\
+"cost_per_player": 25,\
+"current_cost": 25,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:basalt",\
+"item_name": "compressed_log",\
+"success_text": "Compressed Logs",\
+"max_per_use": 10,\
+"display_tag": "display_skillrooms",\
+"reward_function": "sa:goals/skillrooms_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"dungeon_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:zombie_head",\
+"item_name": "compressed_mob_mesh",\
+"success_text": "Compressed Mob Mesh",\
+"max_per_use": 10,\
+"display_tag": "display_dungeon",\
+"reward_function": "sa:goals/dungeon_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"mining_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:oak_wood",\
+"item_name": "double_compressed_log",\
+"success_text": "Double Compressed Logs",\
+"max_per_use": 10,\
+"display_tag": "display_mining",\
+"reward_function": "sa:goals/mining_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"farming_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "double_compressed_fish",\
+"success_text": "Double Compressed Fish",\
+"max_per_use": 10,\
+"display_tag": "display_farming",\
+"reward_function": "sa:goals/farming_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"fishing_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:deepslate",\
+"item_name": "double_compressed_stone",\
+"success_text": "Double Compressed Stone",\
+"max_per_use": 10,\
+"display_tag": "display_fishing",\
+"reward_function": "sa:goals/fishing_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"combat_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "double_compressed_crop",\
+"success_text": "Double Compressed Crop",\
+"max_per_use": 10,\
+"display_tag": "display_combat",\
+"reward_function": "sa:goals/combat_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"fishing_pond_goal":{\
+"initial_cost": 100,\
+"cost_per_player": 100,\
+"current_cost": 100,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "placeholder_item",\
+"success_text": "Placeholder Items",\
+"max_per_use": 10,\
+"display_tag": "display_fishing_pond",\
+"reward_function": "sa:goals/fishing_pond_goal/reward",\
+"uses_xp": true,\
+"has_dependency": true,\
+"dependency_objective": "hub_fishing_done",\
+"dependency_value": 1,\
+"dependency_name": "Fishing Room"\
+},\
+"level_baum_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "placeholder_item",\
+"success_text": "Placeholder Items",\
+"max_per_use": 10,\
+"display_tag": "display_level_baum",\
+"reward_function": "sa:goals/level_baum_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"schmied_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "placeholder_item",\
+"success_text": "Placeholder Items",\
+"max_per_use": 10,\
+"display_tag": "display_schmied",\
+"reward_function": "sa:goals/schmied_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+},\
+"techniker_goal":{\
+"initial_cost": 50,\
+"cost_per_player": 50,\
+"current_cost": 50,\
+"goal_completed": false,\
+"goal_progress": 0,\
+"item": "minecraft:paper",\
+"item_name": "placeholder_item",\
+"success_text": "Placeholder Items",\
+"max_per_use": 10,\
+"display_tag": "display_techniker",\
+"reward_function": "sa:goals/techniker_goal/reward",\
+"uses_xp": false,\
+"has_dependency": false,\
+"dependency_objective": "",\
+"dependency_value": 0,\
+"dependency_name": ""\
+}\
+}\
+}

@@ -4,7 +4,9 @@ kill @e[type=interaction,tag=goal_ship]
 kill @e[type=text_display,tag=display_goal_ship]
 kill @e[type=block_display,tag=block_goal_ship]
 setblock -6 102 10 minecraft:air
-scoreboard players set server goal1 1
+
+# HINWEIS: "scoreboard players set server goal1 1" faellt weg -
+# goal_completed steht jetzt in der Config (wird von complete.mcfunction gesetzt).
 
 title @a title [{"text":"Goal 1 Completet!","color":"green"}]
 execute as @a run playsound ui.toast.challenge_complete player @a
