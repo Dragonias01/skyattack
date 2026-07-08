@@ -7,11 +7,13 @@
 advancement revoke @s only npc_interact
 
 # ── Tutorial NPC ──────────────────────────────────────────────────────────
-    execute as @s if entity @e[type=mannequin,tag=tutorial,distance=..5] run scoreboard players enable @s itrigger
-    execute as @s if score @s island matches ..1 if entity @e[type=mannequin,tag=tutorial,distance=..5] run dialog show @s sa:start
-
-# ── Pilot NPC ─────────────────────────────────────────────────────────────
-    execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] run function sa:npc/pilot/function
+    execute as @s if entity @e[type=mannequin,tag=tutorial,distance=..5] if score @s island matches ..0 run scoreboard players enable @s itrigger
+    execute as @s if score @s island matches ..0 if entity @e[type=mannequin,tag=tutorial,distance=..5] run dialog show @s sa:chat/welcome
+    execute as @s if score @s island matches 1.. if entity @e[type=mannequin,tag=tutorial,distance=..5] if data storage sa:goal {goal_ship:{completed:false}} run dialog show @s sa:chat/unlock_ship
+    execute as @s if score @s island matches 1.. if entity @e[type=mannequin,tag=tutorial,distance=..5] if data storage sa:goal {goal_ship:{completed:true}} run dialog show @s sa:chat/nothing_to_say
+    # ── Pilot NPC ─────────────────────────────────────────────────────────────
+        execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] if predicate sa:inhub run dialog show @s sa:chat/pilot_quest_hub
+        execute as @s if entity @e[type=mannequin,tag=pilot,distance=..5] if predicate sa:inoverworld run dialog show @s sa:chat/pilot_quest
 
 
 execute as @s if entity @e[type=mannequin,tag=loot_master,distance=..5] run tellraw @s ["[",{"text":"Loot Master","color":"yellow"},"] ",{"text":"Do you want to buy a Lootbox for ","color":"yellow"},{"text":"100 Level","color":"green"},{"text":"? ","color":"yellow"},{"text":"[","color":"white"},{"text":"Kaufen","color":"yellow","click_event":{"action":"run_command","command":"trigger gambling_trigger"}},{"text":"]","color":"white"}]

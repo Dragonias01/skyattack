@@ -3,7 +3,21 @@
   "title": {
     "text": "Create Island"
   },
-  "body": [],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Warning!",
+        "color": "dark_red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Creating and/or joining an island is permanent and cannot be undone. So choose carefully."
+      }
+    }
+  ],
   "inputs": [],
   "can_close_with_escape": true,
   "after_action": "close",

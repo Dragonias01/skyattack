@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "player": {
+      "name": "Dragonias01"
+    },
+    "extra": [
+      {
+        "text": " [Guide]",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Welcome Back!",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Now that the group's objective has been completed, a ship has docked at the back of the pier with a pilot who will take you to the Hub. If I were you, I'd stop by and see him.\nMy mission is complete as of now. "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[WIP] Some texts and features are still in development and will be revised during the testing phase.",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Close",
+      "type": "text",
+      "color": "white"
+    }
+  }
+}

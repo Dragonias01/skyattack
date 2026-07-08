@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "[Pilot]",
+    "color": "yellow"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Need a Ride?",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "I was planning to go to the Hub anyway - if you want, you can come with me. You might even be able to help me with something while I'm there, but it's not urgent, so it can wait. Just let me know when you have time."
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "actions": [
+    {
+      "label": {
+        "text": "Teleport",
+        "color": "green"
+      },
+      "width": 100,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger menue set 151"
+      }
+    },
+    {
+      "label": {
+        "text": "Quest",
+        "color": "aqua"
+      },
+      "width": 100
+    },
+    {
+      "label": "Close",
+      "width": 100
+    }
+  ]
+}

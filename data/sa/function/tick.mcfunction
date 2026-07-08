@@ -32,6 +32,8 @@ execute as @a unless score @s player_initialized matches 1 run function sa:setup
 
 # Teleporter
     execute as @a[scores={menue=11..20}] run function sa:menue/teleporter/compiler
+    execute as @a[scores={menue=150}] run function sa:npc/pilot/function
+    execute as @a[scores={menue=151}] run function sa:npc/pilot/function
 
 # Collections
     execute as @a[scores={menue=21..120}] run function sa:menue/collections/compiler

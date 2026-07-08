@@ -18,47 +18,24 @@ PersistenceRequired:1b,\
 Silent:1b,\
 Offers:{Recipes:[\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:basalt",count:9,components:{item_name:[{text:"compressed_log",italic:false}]}},\
-sell:{id:"minecraft:oak_wood",count:1,components:{\
-custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],\
-lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
-item_name:[{text:"double_compressed_log",italic:false}]}}},\
+buy:{id:"minecraft:basalt",count:9,components:{item_name:[{text:"compressed_log",italic:false}],custom_name:{italic:0b,text:"Compressed Log",bold:1b,color:"green"},lore:[{italic:0b,text:"Compressed Log",bold:0b,color:"gray"},"",{italic:0b,text:"Uncommon",bold:1b,color:"green"}]}},\
+sell:{id:"minecraft:oak_wood",count:1,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:25,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
-buyB:{id:"minecraft:wooden_axe",count:1,components:{item_name:[{text:"element_axe_common",italic:false}]}},\
-sell:{id:"minecraft:stone_axe",count:1,components:{\
-custom_name:[{text:"Element Axe",bold:true,italic:false,color:green}],\
-lore:[{text:" "},{text:"+",extra:[{text:"100",extra:[{text:"% Log Yield ",color:gray}],color:green}],color:gray,italic:false},{text:Uncommon,bold:true,italic:false,color:green,underlined:false,strikethrough:false,obfuscated:false}],\
-item_name:[{text:"element_axe_uncommon",italic:false}],\
-unbreakable:{}}}},\
+buy:{id:"minecraft:oak_wood",count:25,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
+buyB:{id:"minecraft:wooden_axe",count:1,components:{item_name:[{text:"element_axe_common",italic:false}],custom_name:{italic:0b,text:"Element Axe",bold:1b,color:"white"},lore:[{"text":" "},{italic:0b,extra:[{color:"green",extra:[{color:"gray",text:"% Log gain "}],text:"50"}],text:"+",color:"gray"},{text:"common",italic:0b,underlined:0b,obfuscated:0b,strikethrough:0b,bold:1b,color:"white"}],unbreakable:{}}},\
+sell:{id:"minecraft:stone_axe",count:1,components:{custom_name:[{text:"Element Axe",bold:true,italic:false,color:green}],lore:[" ",{text:"+",extra:[{text:"100",extra:[{text:"% Log Yield ",color:gray}],color:green}],color:gray,italic:false},{text:Uncommon,bold:true,italic:false,color:green,underlined:false,strikethrough:false,obfuscated:false}],item_name:[{text:"element_axe_uncommon",italic:false}],unbreakable:{}}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:12,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
-sell:{id:"minecraft:potion",count:1,components:{\
-potion_contents:{custom_effects:[{id:"minecraft:strength",amplifier:1,duration:72000}]},\
-custom_name:[{text:"Strength Potion II",italic:false,color:blue}],\
-lore:[[{text:"Grants Strength II for one hour",italic:false,color:gray}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
-item_name:[{text:"strength_potion",italic:false}]}}},\
+buy:{id:"minecraft:oak_wood",count:12,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
+sell:{id:"minecraft:potion",count:1,components:{potion_contents:{custom_effects:[{id:"minecraft:strength",amplifier:1,duration:72000}]},custom_name:[{text:"Strength Potion II",italic:false,color:blue}],lore:[[{text:"Grants Strength II for one hour",italic:false,color:gray}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"strength_potion",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:2,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
-sell:{id:"minecraft:sweet_berries",count:1,components:{\
-custom_name:[{text:"Foraging Fruit",italic:false,color:green}],\
-lore:[[{text:"Increases Foraging XP gain for one hour",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
-item_name:[{text:"foraging_fruit",italic:false}],\
-food:{nutrition:0,saturation:0,can_always_eat:1b},\
-consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
+buy:{id:"minecraft:oak_wood",count:2,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
+sell:{id:"minecraft:sweet_berries",count:1,components:{custom_name:[{text:"Foraging Fruit",italic:false,color:green}],lore:[[{text:"Increases Foraging XP gain for one hour",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],item_name:[{text:"foraging_fruit",italic:false}],food:{nutrition:0,saturation:0,can_always_eat:1b},consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:45,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
-sell:{id:"minecraft:gray_dye",count:1,components:{\
-"minecraft:item_model":"minecraft:nether_star",\
-custom_name:[{text:"XP Catalyst",italic:false,color:dark_purple}],\
-lore:[[{text:"Extracts Experience Points from blocks when held in inventory.",italic:false,color:gray}],"",[{text:Epic,bold:true,italic:false,color:dark_purple}]],\
-item_name:[{text:"xp_katalysator",italic:false}]}}},\
+buy:{id:"minecraft:oak_wood",count:45,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
+sell:{id:"minecraft:gray_dye",count:1,components:{"minecraft:item_model":"minecraft:nether_star",custom_name:[{text:"XP Catalyst",italic:false,color:dark_purple}],lore:[[{text:"Extracts Experience Points from blocks when held in inventory.",italic:false,color:gray}],"",[{text:Epic,bold:true,italic:false,color:dark_purple}]],item_name:[{text:"xp_katalysator",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:10,components:{item_name:[{text:"double_compressed_log",italic:false}]}},\
-sell:{id:"minecraft:trial_key",count:1,components:{\
-custom_name:[{text:"Dungeon Key",italic:false,color:gold}],\
-lore:[[{text:"Opens the First Dungeon",italic:false,color:gray}],"",[{text:Legendary,bold:true,italic:false,color:gold}]],\
-item_name:[{text:"dungeon_key",italic:false}]}}}\
+buy:{id:"minecraft:oak_wood",count:10,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
+sell:{id:"minecraft:trial_key",count:1,components:{custom_name:[{text:"Dungeon Key",italic:false,color:gold}],lore:[[{text:"Opens the First Dungeon",italic:false,color:gray}],"",[{text:Legendary,bold:true,italic:false,color:gold}]],item_name:[{text:"dungeon_key",italic:false}]}}}\
 ]}\
 }
 

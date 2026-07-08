@@ -14,6 +14,19 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Warning!",
+        "color": "dark_red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Creating and/or joining an island is permanent and cannot be undone. So choose carefully."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Description:",
         "color": "dark_green"
       }
@@ -21,7 +34,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Select an island to join."
+        "text": "Select the number of the island you want to join. You cannot join islands that are already taken. To find out which island a person has, that person can view the island number in the Player menu on the Skills page."
       }
     }
   ],
@@ -31,23 +44,43 @@
   "columns": 3,
   "actions": [
     {
-      "label": {"text": "1"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 21"},
+      "label": {
+        "text": "1"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 21"
+      },
       "width": 20
     },
     {
-      "label": {"text": "2"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 22"},
+      "label": {
+        "text": "2"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 22"
+      },
       "width": 20
     },
     {
-      "label": {"text": "3"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 23"},
+      "label": {
+        "text": "3"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 23"
+      },
       "width": 20
     },
     {
-      "label": {"text": "4"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 24"},
+      "label": {
+        "text": "4"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 24"
+      },
       "width": 20
     },
     {
@@ -58,23 +91,43 @@
       "width": 20
     },
     {
-      "label": {"text": "5"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 25"},
+      "label": {
+        "text": "5"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 25"
+      },
       "width": 20
     },
     {
-      "label": {"text": "6"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 26"},
+      "label": {
+        "text": "6"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 26"
+      },
       "width": 20
     },
     {
-      "label": {"text": "7"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 27"},
+      "label": {
+        "text": "7"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 27"
+      },
       "width": 20
     },
     {
-      "label": {"text": "8"},
-      "action": {"type": "minecraft:run_command", "command": "trigger itrigger set 28"},
+      "label": {
+        "text": "8"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger itrigger set 28"
+      },
       "width": 20
     }
   ]

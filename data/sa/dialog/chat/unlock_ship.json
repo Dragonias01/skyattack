@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "player": {
+      "name": "Dragonias01"
+    },
+    "extra": [
+      {
+        "text": " [Guide]",
+        "color": "yellow"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Welcome Back!",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Now that you’ve made it back here, I’ll explain how to unlock the Player Hub. Inside the house on the island, you’ll find a group objective; compressed logs must be turned in for this objective.\n \n Group objectives are tasks that must be completed server-wide. This allows players who join later to benefit from those who have already gained a lot of experience or spend a lot of time online. Group objectives always scale with the number of players who have joined the game.\n \nOnce the group objective in the house is completed, a ship with a pilot will dock at the back of the pier; the pilot will then help you enter the Player Hub."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "[WIP] Some texts and features are still in development and will be revised during the testing phase.",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Close",
+      "type": "text",
+      "color": "white"
+    }
+  }
+}

@@ -11,11 +11,12 @@ execute as @s[scores={menue=11}] if score @s island matches 8 run execute in min
 
 execute as @s[scores={menue=12}] run execute in minecraft:overworld run tp @s 0 100 0
 
-execute as @s[scores={menue=13}] if score server goal1 matches 1 run function sa:tp/hub
-execute as @s[scores={menue=13}] unless score server goal1 matches 1 run tellraw @s {"text":"You need to complete Goal 1 to unlock this Teleporter!","color":"red"}
+execute as @s[scores={menue=13},gamemode=!creative] if data storage sa:goal {goal_ship:{completed:true}} run function sa:tp/hub
+execute as @s[scores={menue=13},gamemode=!creative] unless data storage sa:goal {goal_ship:{completed:true}} run tellraw @s {"text":"You need to complete the goal on the main island to unlock this Teleport!","color":"red"}
+execute as @s[scores={menue=13},gamemode=creative] run function sa:tp/hub
 
-execute as @s[scores={menue=14}] if score server hub_dungeon_done matches 1 run function sa:tp/dungeonhub
-execute as @s[scores={menue=14}] unless score server hub_dungeon_done matches 1 run tellraw @s {"text":"You need to complete the Dungeon Goal to unlock this Teleporter!","color":"red"}
-
+execute as @s[scores={menue=14},gamemode=!creative] if data storage sa:goal {goal_dungeon:{completed:true}} run function sa:tp/dungeonhub
+execute as @s[scores={menue=14},gamemode=!creative] unless data storage sa:goal {goal_dungeon:{completed:true}} run tellraw @s {"text":"You need to complete the Dungeon Goal to unlock this Teleporter!","color":"red"}
+execute as @s[scores={menue=14},gamemode=creative] run function sa:tp/dungeonhub
 
 scoreboard players reset @s menue

@@ -24,9 +24,22 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "This datapack is a bit different. You spawn on an island and get to experience the Vanilla-Skyblock feeling all over again. Here you will find custom skill systems, new crafting systems, and a lot of new content. Much of it is hidden behind puzzles and requires a bit of brain power."
+        "text": "This datapack combines the classic Skyblock with MMO elements, grind mechanics, and a ton of custom content."
       },
       "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Warning! ",
+        "color": "dark_red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The version you're playing is a development version; you should expect bugs, errors, missing features, or placeholders. Even though versions are released as stably as possible on Modrinth, updating to a new version of the pack may still corrupt an old save file under certain circumstances!"
+      }
     },
     {
       "type": "minecraft:plain_message",
@@ -47,14 +60,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "You'll receive a menu—it's located in the last slot of the hotbar. Don't place any items there; they'll be automatically removed!"
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "The menu will contain a Stats tab with a detailed overview of your statistics, as well as a complete in-game wiki. As you progress through the game, you'll be able to expand this wiki — more on that later."
+        "text": "As a player, you have access to a player menu (default key: “G”). This menu gives you an overview of your stats, includes a teleport feature, and will prove very useful to you as the game progresses. \n You'll also find an in-game wiki there that provides an overview of features, systems, mechanics, and items. It's worth checking back there from time to time. "
       },
       "width": 200
     },
@@ -71,21 +77,6 @@
         "text": "[WIP] Some texts and features are still in development and will be revised during the testing phase.",
         "color": "gray",
         "italic": true
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": " "
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "But let's get to creating the island—are you ready to get started?",
-        "color": "green"
       },
       "width": 200
     }

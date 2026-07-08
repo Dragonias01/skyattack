@@ -4,6 +4,16 @@
     "text": "[Player menue] ",
     "color": "yellow"
   },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The game menu and many of its features may change or be further developed as Sky Attack continues to evolve.",
+        "color": "gray",
+        "italic": true
+      }
+    }
+  ],
   "can_close_with_escape": true,
   "pause": false,
   "after_action": "close",
@@ -42,7 +52,7 @@
     },
     {
       "label": {
-        "text": "Teleporter [WIP]",
+        "text": "Teleporter",
         "extra": [
           {
             "atlas": "minecraft:items",
@@ -55,6 +65,11 @@
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "sa:teleporter"
+      }
+    },
+    {
+      "label": {
+        "text": "Collections [WIP]"
       }
     },
     {

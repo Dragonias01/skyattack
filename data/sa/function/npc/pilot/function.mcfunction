@@ -1,3 +1,4 @@
+execute as @a[scores={menue=151}] run function sa:tp/main
+execute as @a[scores={menue=150}] run function sa:tp/hub
 
-execute if dimension minecraft:overworld run function sa:tp/hub
-execute if dimension sa:hub run function sa:tp/main
+scoreboard players reset @s menue

@@ -17,25 +17,20 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "At SkyAttack, we naturally place a lot of emphasis on providing an engaging multiplayer experience—but this is entirely optional. Each player can either create their own island or join another player’s island."
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-          "contents": {
-          "text": "Not sure which island your partner has? No problem — each player can check their own island number at any time under their Stats tab in the menu."
+        "text": "Even though SkyAttack is designed for multiplayer, the mode can also be played solo. Plus, for the most part, you don't have to play on a team. If you want to play alone, you should create an island. If you want to join someone else's game, ask for the island number and select it when joining."
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Since all players are in the same world, you can later build together at your shared base or take your own paths — the choice is yours."
+        "text": "One Last Thing",
+        "color": "green"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": " "
+        "text": " Once you've arrived on your island, your goal should be to settle in a bit and familiarize yourself with the systems. As soon as you feel ready, feel free to come back here to the island, and I'll explain what to do next."
       }
     },
     {
