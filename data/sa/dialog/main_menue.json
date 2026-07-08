@@ -69,7 +69,18 @@
     },
     {
       "label": {
-        "text": "Collections [WIP]"
+        "text": "Collections ",
+        "extra": [
+          {
+            "atlas": "minecraft:items",
+            "sprite": "minecraft:item/painting"
+          }
+        ],
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sa:menue/collections/collections"
       }
     },
     {

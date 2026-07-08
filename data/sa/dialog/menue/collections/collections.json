@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "--| ",
+    "extra": [
+      {
+        "text": "Collections",
+        "color": "white"
+      },
+      {
+        "text": " |--"
+      }
+    ],
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Only a few collections have been implemented so far; more will be added as development continues. Currently, the following are working:\n - Log Collection\n - Stone Collection\n",
+        "color": "gray",
+        "italic": true
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sa:main_menue"
+    }
+  },
+  "columns": 1,
+  "dialogs": [
+    "sa:menue/collections/logging",
+    "sa:menue/collections/mining",
+    "sa:menue/collections/farming",
+    "sa:menue/collections/fishing",
+    "sa:menue/collections/combat"
+  ]
+}

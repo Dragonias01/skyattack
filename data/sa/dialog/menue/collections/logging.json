@@ -165,8 +165,8 @@
   "exit_action": {
     "label": "Back",
     "action": {
-      "type": "minecraft:run_command",
-      "command": "trigger menue set 2"
+      "type": "show_dialog",
+      "dialog": "sa:menue/collections/collections"
     }
   },
   "columns": 5,
