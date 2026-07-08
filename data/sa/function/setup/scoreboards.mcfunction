@@ -295,11 +295,18 @@ scoreboard objectives add d2_tmp_seconds dummy
 
 # ── Collections ─────────────────────────────────────────────────────────────
     scoreboard objectives add oak_collected minecraft.mined:minecraft.oak_log
+    scoreboard objectives add oak_collection_progress dummy
     scoreboard objectives add stone_collected minecraft.mined:minecraft.stone
     scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
-    scoreboard objectives add overall_stone_collected minecraft.mined:minecraft.stone
-
-scoreboard objectives add potato_collected minecraft.mined:potatoes
+    scoreboard objectives add overall_stone_collected dummy
+    scoreboard objectives add stone_collection_progress dummy
+    scoreboard objectives add potato_collected minecraft.mined:potatoes
+    scoreboard objectives add potato_collection_progress dummy
+    scoreboard objectives add logging_collection_collect trigger
+    scoreboard objectives add mining_collection_collect trigger
+    scoreboard objectives add farming_collection_collect trigger
+    scoreboard objectives add combat_collection_collect trigger
+    scoreboard objectives add fishing_collection_collect trigger
 
 
 
