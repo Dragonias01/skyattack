@@ -14,6 +14,7 @@
     execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 2.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 1 if score @s oak_collected matches 100.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For Oak Collection - Level 2","color":"green"}]
     execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 1 if score @s oak_collected matches 100.. run experience add @s 20 levels
+    execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 1 if score @s oak_collected matches 100.. run function sa:item/libary/foraging_fruit
     execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 1 if score @s oak_collected matches 100.. run scoreboard players set @s oak_collection_progress 2
     execute as @s[scores={logging_collection_collect=2}] if score @s oak_collection_progress matches 1 if score @s oak_collected matches 100.. run return 0
 
@@ -30,6 +31,7 @@
     execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 4.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 3 if score @s oak_collected matches 500.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For Oak Collection - Level 4","color":"green"}]
     execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 3 if score @s oak_collected matches 500.. run experience add @s 100 levels
+    execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 3 if score @s oak_collected matches 500.. run function sa:item/libary/compressed/compressed_logs {"count":5}
     execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 3 if score @s oak_collected matches 500.. run scoreboard players set @s oak_collection_progress 4
     execute as @s[scores={logging_collection_collect=4}] if score @s oak_collection_progress matches 3 if score @s oak_collected matches 500.. run return 0
 
@@ -38,6 +40,10 @@
     execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 5.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For Oak Collection - Level 5","color":"green"}]
     execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run experience add @s 200 levels
+    execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_helmet
+    execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_chestplate
+    execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_leggings
+    execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_boots
     execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run scoreboard players set @s oak_collection_progress 5
     execute as @s[scores={logging_collection_collect=5}] if score @s oak_collection_progress matches 4 if score @s oak_collected matches 1000.. run return 0
 

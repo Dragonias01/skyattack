@@ -1,0 +1,1 @@
+$give @s minecraft:basalt[minecraft:custom_name={"text":"Compressed Log","color":"green","bold":true,"italic":false},minecraft:lore=[{"text":"Compressed Log","color":"gray","bold":false,"italic":false},"",{"text":"Uncommon","color":"green","bold":true,"italic":false}],minecraft:item_name={"text":"compressed_log","italic":false}] $(count)
