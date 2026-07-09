@@ -69,7 +69,37 @@ scoreboard players operation @s combat_xp_boost += server eventboost_combat
     execute store result storage sa:stats v.combat_drop int 1 run scoreboard players get @s Combat_Dropchance_Percent
     execute store result storage sa:stats v.combat_boost int 1 run scoreboard players get @s combat_xp_boost
 
-# Nachdem alle Werte geladen sind, Dialog mit den Werten anzeigen
-    function sa:menue/skills/show_dialog with storage sa:stats v
+# --- Player Stats ---
+    execute store result storage sa:stats v.island int 1 run scoreboard players get @s island
+    # Health
+        execute store result score @s temp_base run attribute @s minecraft:max_health base get
+        execute store result score @s temp_bonus run attribute @s minecraft:max_health get
+        scoreboard players operation @s temp_bonus -= @s temp_base
+        execute store result storage sa:stats v.max_health int 1 run scoreboard players get @s temp_bonus
+        execute store result storage sa:stats v.max_health_base int 1 run scoreboard players get @s temp_base
 
-scoreboard players reset @s menue
+    # Armor
+        execute store result score @s temp_base run attribute @s minecraft:armor base get
+        execute store result score @s temp_bonus run attribute @s minecraft:armor get
+        scoreboard players operation @s temp_bonus -= @s temp_base
+        execute store result storage sa:stats v.armor_base int 1 run scoreboard players get @s temp_bonus
+        execute store result storage sa:stats v.armor int 1 run scoreboard players get @s temp_base
+
+    # Attack Damage
+        execute store result score @s temp_base run attribute @s minecraft:attack_damage base get
+        execute store result score @s temp_bonus run attribute @s minecraft:attack_damage get
+        scoreboard players operation @s temp_bonus -= @s temp_base
+        execute store result storage sa:stats v.attack_damage_base int 1 run scoreboard players get @s temp_base
+        execute store result storage sa:stats v.attack_damage int 1 run scoreboard players get @s temp_bonus
+
+    # Attack Speed
+        execute store result score @s temp_base run attribute @s minecraft:attack_speed base get
+        execute store result score @s temp_bonus run attribute @s minecraft:attack_speed get
+        scoreboard players operation @s temp_bonus -= @s temp_base
+        execute store result storage sa:stats v.attack_speed_base int 1 run scoreboard players get @s temp_base
+        execute store result storage sa:stats v.attack_speed int 1 run scoreboard players get @s temp_bonus
+
+    # Nachdem alle Werte geladen sind, Dialog mit den Werten anzeigen
+        function sa:menue/skills/show_dialog with storage sa:stats v
+
+    scoreboard players reset @s menue

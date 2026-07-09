@@ -18,6 +18,8 @@
     scoreboard objectives add ten dummy
     scoreboard players set server ten 10
     scoreboard objectives add config_initialized dummy
+    scoreboard objectives add temp_base dummy
+    scoreboard objectives add temp_bonus dummy
 
 # ── Setup Tracking ────────────────────────────────────────────────────────
     scoreboard objectives add setup1 dummy

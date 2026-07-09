@@ -4,6 +4,7 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:item_name":"oak_drop"}
 scoreboard players operation @s logging_drop_menge = @s logging_lvl
 
 scoreboard players operation @s logging_drop_menge += @s l_axe_gain
+execute as @s if predicate sa:items/lumbers_armor run scoreboard players add @s logging_drop_menge 20
 
 #Recipe learning
 execute store result score @s logging_drops run random value 1..40

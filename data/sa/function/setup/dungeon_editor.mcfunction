@@ -118,6 +118,11 @@ place template sa:hub/fishing_room 75 72 215
 # Floor 2
 # ============================================================================
 
+#Start
+place template sa:dungeon/floor2/rooms/start -142 61 23
+setblock -143 60 22 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:13, showboundingbox:1b,ignoreEntities:false}
+
+
 #Rooms
 place template sa:dungeon/floor2/rooms/blackmarket -171 61 7
 place template sa:dungeon/floor2/rooms/room1 -175 61 34
