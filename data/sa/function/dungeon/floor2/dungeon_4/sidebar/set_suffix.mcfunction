@@ -1,1 +1,1 @@
-$team modify dg_d2_timer suffix " $(min):$(sec)"
+$team modify dg_d4_timer suffix " $(min):$(sec)"

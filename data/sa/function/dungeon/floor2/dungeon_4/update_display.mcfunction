@@ -6,9 +6,9 @@
 # ============================================================================
 
 # --- INAKTIV ---
-    execute if score server dg2_state matches 0 run data modify entity @e[type=text_display,tag=d2_display_players,limit=1] text set value {"text":"Player: ---","color":"gray","italic":false}
-    execute if score server dg2_state matches 0 run data modify entity @e[type=text_display,tag=d2_display_timer,limit=1] text set value {"text":"Inactive","color":"red","italic":false}
+    execute if score server dg4_state matches 0 run data modify entity @e[type=text_display,tag=d4_display_players,limit=1] text set value {"text":"Player: ---","color":"gray","italic":false}
+    execute if score server dg4_state matches 0 run data modify entity @e[type=text_display,tag=d4_display_timer,limit=1] text set value {"text":"Inactive","color":"red","italic":false}
 
 # --- AKTIV ---
-    execute if score server dg2_state matches 1..4 run function sa:dungeon/floor1/dungeon_2/display/update_players
-    execute if score server dg2_state matches 1..4 run function sa:dungeon/floor1/dungeon_2/display/calc_time
+    execute if score server dg4_state matches 1..4 run function sa:dungeon/floor2/dungeon_4/display/update_players
+    execute if score server dg4_state matches 1..4 run function sa:dungeon/floor2/dungeon_4/display/calc_time

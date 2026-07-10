@@ -52,28 +52,28 @@ place template sa:dungeon_2 19 0 -9
 
 
 # ── Dungeon 3 ───────────────────────────────────────────────
-    summon interaction -3 3 16.4 {width:3.0f,height:3.0f,Tags:["portal","dungeon3"]}
+    summon interaction 4 3 -7.4 {width:3.0f,height:3.0f,Tags:["portal","dungeon3"]}
     # ── Dungeon 2 Statusanzeige ───────────────────────────────────────────────
     # Zeile 1: Dungeon-Name (statisch)
-        summon minecraft:text_display -3 7 13 {text:{"text":"☠ Dungeon III ☠","color":"dark_red","bold":true,"italic":false},billboard:"center",see_through:false,Tags:["d3_display_name"]}
+        summon minecraft:text_display 4 7 -5 {text:{"text":"☠ Dungeon III ☠","color":"dark_red","bold":true,"italic":false},billboard:"center",see_through:false,Tags:["d3_display_name"]}
 
     # Zeile 2: Spieler im Dungeon
-        summon minecraft:text_display -3 6 13 {text:{"text":"Player: ---","color":"gray","italic":false},billboard:"center",see_through:false,Tags:["d3_display_players"]}
+        summon minecraft:text_display 4 6 -5 {text:{"text":"Player: ---","color":"gray","italic":false},billboard:"center",see_through:false,Tags:["d3_display_players"]}
 
     # Zeile 3: Timer / Status
-        summon minecraft:text_display -3 5 13 {text:{"text":"Inactive","color":"red","italic":false},billboard:"center",see_through:false,Tags:["d3_display_timer"]}
+        summon minecraft:text_display 4 5 -5 {text:{"text":"Inactive","color":"red","italic":false},billboard:"center",see_through:false,Tags:["d3_display_timer"]}
 
 
 
 
 # ── Dungeon 4 ───────────────────────────────────────────────
-    summon interaction -3 3 16.4 {width:3.0f,height:3.0f,Tags:["portal","dungeon4"]}
+    summon interaction 4 3 16.4 {width:3.0f,height:3.0f,Tags:["portal","dungeon4"]}
     # ── Dungeon 2 Statusanzeige ───────────────────────────────────────────────
     # Zeile 1: Dungeon-Name (statisch)
-        summon minecraft:text_display -3 7 13 {text:{"text":"☠ Dungeon IV ☠","color":"dark_red","bold":true,"italic":false},billboard:"center",see_through:false,Tags:["d4_display_name"]}
+        summon minecraft:text_display 4 7 13 {text:{"text":"☠ Dungeon IV ☠","color":"dark_red","bold":true,"italic":false},billboard:"center",see_through:false,Tags:["d4_display_name"]}
 
     # Zeile 2: Spieler im Dungeon
-        summon minecraft:text_display -3 6 13 {text:{"text":"Player: ---","color":"gray","italic":false},billboard:"center",see_through:false,Tags:["d4_display_players"]}
+        summon minecraft:text_display 4 6 13 {text:{"text":"Player: ---","color":"gray","italic":false},billboard:"center",see_through:false,Tags:["d4_display_players"]}
 
     # Zeile 3: Timer / Status
-        summon minecraft:text_display -3 5 13 {text:{"text":"Inactive","color":"red","italic":false},billboard:"center",see_through:false,Tags:["d4_display_timer"]}
+        summon minecraft:text_display 4 5 13 {text:{"text":"Inactive","color":"red","italic":false},billboard:"center",see_through:false,Tags:["d4_display_timer"]}

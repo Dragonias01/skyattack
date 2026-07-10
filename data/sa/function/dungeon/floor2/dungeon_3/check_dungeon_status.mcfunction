@@ -8,12 +8,12 @@
 
 # bei status 0 = Check ob item in inventory -> open -> status 1
     execute store result score @s temp run clear @s minecraft:trial_key[item_name={text:"dungeon_key",italic:0b}] 0
-    execute as @s if score server dg1_state matches 0 if score @s temp matches 1.. run function sa:dungeon/floor1/dungeon_1/open
-    execute as @s if score server dg1_state matches 0 unless score @s temp matches 1.. run tellraw @s {"text":"You need a Dungeon Key to enter!","color":"red"}
+    execute as @s if score server dg3_state matches 0 if score @s temp matches 1.. run function sa:dungeon/floor2/dungeon_3/open
+    execute as @s if score server dg3_state matches 0 unless score @s temp matches 1.. run tellraw @s {"text":"You need a Dungeon Key to enter!","color":"red"}
     scoreboard players reset @s temp
 
 # bei status 1-4 = join function
-    execute if score server dg1_state matches 1.. run function sa:dungeon/floor1/dungeon_1/join
+    execute if score server dg3_state matches 1.. run function sa:dungeon/floor2/dungeon_3/join
 
 
     

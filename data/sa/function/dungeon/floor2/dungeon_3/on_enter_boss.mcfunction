@@ -3,10 +3,10 @@
 # Wird im Tick aufgerufen, darf aber nur beim Eintritt triggern
 # ============================================================================
 
-execute if entity @s[tag=dg1_in_boss] run return 1
+execute if entity @s[tag=dg3_in_boss] run return 1
 tag @s remove transfer_to_dungeon1_arena 
 
 gamemode adventure @s
 
-execute if score server f1_boss_state matches 1 run scoreboard players set server dg1_state 3
-execute if score server f1_boss_state matches 2 run scoreboard players set server dg1_state 4
+execute if score server f1_boss_state matches 1 run scoreboard players set server dg3_state 3
+execute if score server f1_boss_state matches 2 run scoreboard players set server dg3_state 4

@@ -249,34 +249,63 @@
 
 # general
     scoreboard objectives add f1_boss_state dummy
-    #Floor 1
-    scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
-    scoreboard objectives add dungeon_1_timer dummy
-    scoreboard objectives add dungeon_1_players dummy
-    scoreboard objectives add dungeon_1_status dummy
-    scoreboard objectives add dungeon_1_key dummy
-    scoreboard objectives add dg1_state dummy
-    scoreboard objectives add dg1_timer dummy
-    scoreboard objectives add dg1_players_dungeon dummy
-    scoreboard objectives add dg1_players_boss dummy
-    scoreboard objectives add dg1_generated dummy
-    scoreboard objectives add dg1_loot_generated dummy
-    scoreboard objectives add d1_tmp_minutes dummy
-    scoreboard objectives add d1_tmp_seconds dummy
+    # Floor1
+    # dungeon 1
+        scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
+        scoreboard objectives add dungeon_1_timer dummy
+        scoreboard objectives add dungeon_1_players dummy
+        scoreboard objectives add dungeon_1_status dummy
+        scoreboard objectives add dungeon_1_key dummy
+        scoreboard objectives add dg1_state dummy
+        scoreboard objectives add dg1_timer dummy
+        scoreboard objectives add dg1_players_dungeon dummy
+        scoreboard objectives add dg1_players_boss dummy
+        scoreboard objectives add dg1_generated dummy
+        scoreboard objectives add dg1_loot_generated dummy
+        scoreboard objectives add d1_tmp_minutes dummy
+        scoreboard objectives add d1_tmp_seconds dummy
+        #dungeon 2
+        scoreboard objectives add dungeon_2_timer dummy
+        scoreboard objectives add dungeon_2_players dummy
+        scoreboard objectives add dungeon_2_status dummy
+        scoreboard objectives add dungeon_2_key dummy
+        scoreboard objectives add dg2_state dummy
+        scoreboard objectives add dg2_timer dummy
+        scoreboard objectives add dg2_players_dungeon dummy
+        scoreboard objectives add dg2_players_boss dummy
+        scoreboard objectives add dg2_generated dummy
+        scoreboard objectives add dg2_loot_generated dummy
+        scoreboard objectives add d2_tmp_minutes dummy
+        scoreboard objectives add d2_tmp_seconds dummy
 
-    #Floor 2
-scoreboard objectives add dungeon_2_timer dummy
-scoreboard objectives add dungeon_2_players dummy
-scoreboard objectives add dungeon_2_status dummy
-scoreboard objectives add dungeon_2_key dummy
-scoreboard objectives add dg2_state dummy
-scoreboard objectives add dg2_timer dummy
-scoreboard objectives add dg2_players_dungeon dummy
-scoreboard objectives add dg2_players_boss dummy
-scoreboard objectives add dg2_generated dummy
-scoreboard objectives add dg2_loot_generated dummy
-scoreboard objectives add d2_tmp_minutes dummy
-scoreboard objectives add d2_tmp_seconds dummy
+    # Floor2
+    # dungeon 3
+        scoreboard objectives add dungeon_3_timer dummy
+        scoreboard objectives add dungeon_3_players dummy
+        scoreboard objectives add dungeon_3_status dummy
+        scoreboard objectives add dungeon_3_key dummy
+        scoreboard objectives add dg3_state dummy
+        scoreboard objectives add dg3_timer dummy
+        scoreboard objectives add dg3_players_dungeon dummy
+        scoreboard objectives add dg3_players_boss dummy
+        scoreboard objectives add dg3_generated dummy
+        scoreboard objectives add dg3_loot_generated dummy
+        scoreboard objectives add d3_tmp_minutes dummy
+        scoreboard objectives add d3_tmp_seconds dummy
+        #dungeon 4
+        scoreboard objectives add dungeon_4_timer dummy
+        scoreboard objectives add dungeon_4_players dummy
+        scoreboard objectives add dungeon_4_status dummy
+        scoreboard objectives add dungeon_4_key dummy
+        scoreboard objectives add dg4_state dummy
+        scoreboard objectives add dg4_timer dummy
+        scoreboard objectives add dg4_players_dungeon dummy
+        scoreboard objectives add dg4_players_boss dummy
+        scoreboard objectives add dg4_generated dummy
+        scoreboard objectives add dg4_loot_generated dummy
+        scoreboard objectives add d4_tmp_minutes dummy
+        scoreboard objectives add d4_tmp_seconds dummy
+
 
 # ── Gambling ──────────────────────────────────────────────────────────────
     scoreboard objectives add gambling_trigger trigger
