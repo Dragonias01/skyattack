@@ -13,7 +13,7 @@
     scoreboard objectives add d3_tmp_minutes dummy
     scoreboard objectives add d3_tmp_seconds dummy
     scoreboard objectives add d3_const_60 dummy
-    scoreboard objectives add bossbar_boss1_init dummy
+    scoreboard objectives add bossbar_boss2_init dummy
 
 # Konstanten (immer setzen – ändern sich nie)
     scoreboard players set server d3_const_60 60

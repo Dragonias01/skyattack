@@ -10,8 +10,8 @@ tellraw @a {"text":"Dungeon 4 has closed!","color":"red"}
     execute in sa:dungeon4 as @a[tag=dg4_in_dungeon] run execute in sa:hub run tp @s 0 100 0
 
 # teleport players out of boss dimension
-    execute in sa:dungeon_arena_1 as @a[tag=dg4_in_dungeon] run tp @s[tag=dg4_in_dungeon] 0 100 0
-    execute in sa:dungeon_arena_1 as @a[tag=dg4_in_dungeon] run execute in sa:hub run tp @s[tag=dg4_in_dungeon] 0 100 0
+    execute in sa:dungeon_arena_2 as @a[tag=dg4_in_dungeon] run tp @s[tag=dg4_in_dungeon] 0 100 0
+    execute in sa:dungeon_arena_2 as @a[tag=dg4_in_dungeon] run execute in sa:hub run tp @s[tag=dg4_in_dungeon] 0 100 0
 
 function sa:dungeon/floor2/dungeon_4/cleanup
 

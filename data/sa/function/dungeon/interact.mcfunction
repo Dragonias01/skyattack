@@ -8,3 +8,4 @@ execute as @s if entity @e[type=interaction,tag=dungeon2,distance=..5,limit=1] r
 #Floor 2
 execute as @s if entity @e[type=interaction,tag=dungeon3,distance=..5,limit=1] run function sa:dungeon/floor2/dungeon_3/check_dungeon_status
 execute as @s if entity @e[type=interaction,tag=dungeon4,distance=..5,limit=1] run function sa:dungeon/floor2/dungeon_4/check_dungeon_status
+

@@ -4,7 +4,7 @@
 # ============================================================================
 
 execute if entity @s[tag=dg3_in_boss] run return 1
-tag @s remove transfer_to_dungeon1_arena 
+tag @s remove transfer_to_dungeon3_arena 
 
 gamemode adventure @s
 

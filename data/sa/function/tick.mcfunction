@@ -7,7 +7,6 @@ scoreboard players enable @a gambling_trigger
 execute as @a[scores={gambling_trigger=1..}] run function sa:system/lotterie/check_levels
 
 function sa:actionbar/actionbar
-function sa:protection/compiler
 
 # ============================================================================
 # SKILL UPDATES

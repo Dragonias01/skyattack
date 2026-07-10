@@ -41,6 +41,8 @@
     # ── Phase 9: Dungeon System (immer – Funktion selbst ist idempotent) ───────
         function sa:dungeon/floor1/dungeon_1/load
         function sa:dungeon/floor1/dungeon_2/load
+        function sa:dungeon/floor2/dungeon_3/load
+        function sa:dungeon/floor2/dungeon_4/load
 
     # ── Phase 11: Tool-Learn Scores für neue Spieler initialisieren ───────────
         scoreboard players add @a ERod_learn 0

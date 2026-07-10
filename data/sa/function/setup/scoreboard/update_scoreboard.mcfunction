@@ -53,11 +53,23 @@ function sa:setup/scoreboard/calculate/calc_event_time
 # Dungeon 1: Zeile nur sichtbar wenn aktiv (Status=1)
 # Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
     scoreboard players reset D1_Zeit skyattack
-    execute if score server dg1_state matches 1.. run scoreboard players set D1_Zeit skyattack 4
+    execute if score server dg1_state matches 1.. run scoreboard players set D1_Zeit skyattack 6
     team join dg_d1_timer D1_Zeit
     # Dungeon 2: Zeile nur sichtbar wenn aktiv (Status=1)
     # Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
         scoreboard players reset D2_Zeit skyattack
-        execute if score server dg2_state matches 1.. run scoreboard players set D2_Zeit skyattack 3
+        execute if score server dg2_state matches 1.. run scoreboard players set D2_Zeit skyattack 5
         team join dg_d2_timer D2_Zeit
+
+    # Dungeon 3: Zeile nur sichtbar wenn aktiv (Status=1)
+    # Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
+        scoreboard players reset D3_Zeit skyattack
+        execute if score server dg3_state matches 1.. run scoreboard players set D3_Zeit skyattack 4
+        team join dg_d3_timer D3_Zeit
+
+    # Dungeon 4: Zeile nur sichtbar wenn aktiv (Status=1)
+    # Pseudo-Spieler-Name = Leerzeichen-Zeichen damit er eindeutig ist
+        scoreboard players reset D4_Zeit skyattack
+        execute if score server dg4_state matches 1.. run scoreboard players set D4_Zeit skyattack 3
+        team join dg_d4_timer D4_Zeit
 
