@@ -122,34 +122,51 @@ place template sa:hub/fishing_room 75 72 215
 place template sa:dungeon/floor2/rooms/start -142 61 23
 setblock -143 60 22 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/start",posX:1,posY:1,posZ:1,sizeX:9,sizeY:9,sizeZ:13, showboundingbox:1b,ignoreEntities:false}
 
-
-#Rooms
-place template sa:dungeon/floor2/rooms/blackmarket -171 61 7
-place template sa:dungeon/floor2/rooms/room1 -175 61 34
-place template sa:dungeon/floor2/rooms/room2 -175 61 65
-place template sa:dungeon/floor2/rooms/room3 -184 61 105
-place template sa:dungeon/floor2/rooms/room4 -184 61 144
-
-setblock -172 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/blackmarket",posX:1,posY:1,posZ:1,sizeX:23,sizeY:18,sizeZ:24,showboundingbox:1b,ignoreEntities:false}
-setblock -176 60 33 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room1",posX:1,posY:1,posZ:1,sizeX:27,sizeY:15,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
-setblock -176 60 64 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room2",posX:1,posY:1,posZ:1,sizeX:27,sizeY:15,sizeZ:36,showboundingbox:1b,ignoreEntities:false}
-setblock -185 60 104 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room3",posX:1,posY:1,posZ:1,sizeX:36,sizeY:17,sizeZ:37,showboundingbox:1b,ignoreEntities:false}
-setblock -185 60 143 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/room4",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
-
 #Boss Arena
-place template sa:dungeon/floor2/arena/boss_arena_1 -265 61 7
-setblock -266 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/arena/boss_arena_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:26,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+place template sa:dungeon/floor2/arena/boss_arena_1 -135 61 61
+setblock -136 60 60 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/arena/boss_arena_1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:26,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
 
-#Hallways
-place template sa:dungeon/floor2/hallways/hallway1 -215 61 7
-place template sa:dungeon/floor2/hallways/hallway5 -215 61 38
-place template sa:dungeon/floor2/hallways/hallway2 -215 61 69
-place template sa:dungeon/floor2/hallways/hallway3 -223 61 106
-place template sa:dungeon/floor2/hallways/hallway4 -215 61 142
+# Type 1 Rooms
+    place template sa:dungeon/floor2/rooms/type_1/1 -197 61 6
+    place template sa:dungeon/floor2/rooms/type_1/2 -254 61 6
+    place template sa:dungeon/floor2/rooms/type_1/3 -311 61 6
+    #structure blocks
+    setblock -198 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_1/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -255 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_1/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -312 60 5 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_1/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
 
-setblock -216 60 6 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway1",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
-setblock -216 60 37 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway5",posX:1,posY:1,posZ:1,sizeX:25,sizeY:17,sizeZ:27,showboundingbox:1b,ignoreEntities:false}
-setblock -216 60 68 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway2",posX:1,posY:1,posZ:1,sizeX:22,sizeY:11,sizeZ:33,showboundingbox:1b,ignoreEntities:false}
-setblock -224 60 105 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway3",posX:1,posY:1,posZ:1,sizeX:33,sizeY:7,sizeZ:33,showboundingbox:1b,ignoreEntities:false}
-setblock -219 60 141 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/hallways/hallway4",posX:1,posY:1,posZ:1,sizeX:25,sizeY:7,sizeZ:26,showboundingbox:1b,ignoreEntities:false}
- 
+# Type 2 Rooms
+    place template sa:dungeon/floor2/rooms/type_2/1 -197 61 57
+    place template sa:dungeon/floor2/rooms/type_2/2 -254 61 57
+    place template sa:dungeon/floor2/rooms/type_2/3 -311 61 57
+    #structure blocks
+    setblock -198 60 56 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_2/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -255 60 56 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_2/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -312 60 56 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_2/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+# Type 3 Rooms
+    place template sa:dungeon/floor2/rooms/type_3/1 -197 61 108
+    place template sa:dungeon/floor2/rooms/type_3/2 -254 61 108
+    place template sa:dungeon/floor2/rooms/type_3/3 -311 61 108
+    #structure blocks
+    setblock -198 60 107 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_3/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -255 60 107 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_3/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -312 60 107 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_3/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+# Type 4 Rooms
+    place template sa:dungeon/floor2/rooms/type_4/1 -197 61 158
+    place template sa:dungeon/floor2/rooms/type_4/2 -254 61 158
+    place template sa:dungeon/floor2/rooms/type_4/3 -311 61 158
+    #structure blocks
+    setblock -198 60 157 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_4/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -255 60 157 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_4/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -312 60 157 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_4/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+# Type 5 Rooms
+    place template sa:dungeon/floor2/rooms/type_5/1 -197 61 209
+    place template sa:dungeon/floor2/rooms/type_5/2 -254 61 209
+    place template sa:dungeon/floor2/rooms/type_5/3 -311 61 209
+    #structure blocks
+    setblock -198 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -255 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+    setblock -312 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}

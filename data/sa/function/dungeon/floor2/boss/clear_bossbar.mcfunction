@@ -1,0 +1,2 @@
+bossbar set minecraft:boss_1 visible false
+

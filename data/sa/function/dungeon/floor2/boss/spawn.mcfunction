@@ -1,0 +1,16 @@
+execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=spawn_boss1]
+execute in sa:dungeon_arena_1 run kill @e[type=text_display,tag=spawn_boss1]
+execute in sa:dungeon_arena_1 run kill @e[type=item_display,tag=spawn_boss1]
+execute in sa:dungeon_arena_1 run kill @e[type=interaction,tag=indungeon]
+
+execute in sa:dungeon_arena_1 run summon zombie 0 102 -28 \
+{CustomName:[{text:"[",color:gray},{text:"Zombie Boss",color:red},{text:"]",color:gray}],\
+CustomNameVisible:1b,Health:100,Tags:["boss1"],attributes:[{id:scale,base:2f},{id:armor,base:5f},{id:knockback_resistance,base:1f},{id:attack_damage,base:10f},{id:max_health,base:200f},{id:"entity_interaction_range",base:6.0f}]}
+
+
+
+
+bossbar set minecraft:boss_1 max 100
+scoreboard players reset @s dungeon_key
+scoreboard players set server f1_boss_state 1
+tellraw @a {"text":"The Boss has spawned!","color":"dark_red"}
