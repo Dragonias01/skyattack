@@ -21,3 +21,4 @@
 # Normal
     $execute if score server d$(nr)_tmp_seconds matches 10..59 run function sa:dungeon/internal/sidebar/set_suffix with storage sa:config dungeon.floor$(floor).dungeon$(nr)
 
+

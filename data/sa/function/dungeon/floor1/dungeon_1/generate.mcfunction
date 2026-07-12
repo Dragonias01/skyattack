@@ -18,7 +18,7 @@ function sa:dungeon/internal/tp_random with storage sa:config dungeon.floor1.dun
     execute in sa:dungeon1 run function sa:dungeon/internal/clear_dimension with storage sa:config dungeon.floor1.dungeon1
 
 # Dungeon generation scheduled (genau wie früher)
-    schedule function sa:dungeon/floor1/dungeon_1/start_generation 10t
+    schedule function sa:dungeon/floor1/dungeon_1/start_generation 5t
 
 # Flags setzen
     scoreboard players set server dg1_generated 1

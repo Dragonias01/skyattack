@@ -18,3 +18,5 @@
 # Player tags entfernen
     $tag @a remove dg$(nr)_player
     $tag @a remove dg$(nr)_in_dungeon
+
+$function sa:dungeon/internal/dsp_updates with storage sa:config dungeon.floor$(floor).dungeon$(nr)

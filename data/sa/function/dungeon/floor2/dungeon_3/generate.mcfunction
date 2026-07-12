@@ -9,14 +9,16 @@ execute if score server dg3_generated matches 1 run return 1
     execute store result score #x temp run random value -10000..10000
     execute store result score #z temp run random value -10000..10000
 
-execute store result storage sa:dungeon_3_coords x int 1 run scoreboard players get #x temp
-execute store result storage sa:dungeon_3_coords z int 1 run scoreboard players get #z temp
+execute store result storage sa:config dungeon.floor2.dungeon3.x int 1 run scoreboard players get #x temp
+execute store result storage sa:config dungeon.floor2.dungeon3.z int 1 run scoreboard players get #z temp
+#TP
+function sa:dungeon/internal/tp_random with storage sa:config dungeon.floor2.dungeon3
 
 # Dimension vorbereiten
-    execute in sa:dungeon3 run function sa:dungeon/floor2/dungeon_3/clear_dimension
+    execute in sa:dungeon3 run function sa:dungeon/internal/clear_dimension with storage sa:config dungeon.floor2.dungeon3
 
 # Dungeon generation scheduled (genau wie früher)
-    schedule function sa:dungeon/floor2/dungeon_3/generate_dungeon 5t
+    schedule function sa:dungeon/floor2/dungeon_3/start_generation 5t
 
 # Flags setzen
     scoreboard players set server dg3_generated 1
