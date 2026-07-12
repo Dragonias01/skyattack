@@ -1,5 +1,5 @@
 { 
-"goals": { 
+    "goals": { 
 "ship_goal":{ 
 "initial_cost": 25, 
 "cost_per_player": 25, 
@@ -198,5 +198,59 @@
 "dependency_value": 0, 
 "dependency_name": "" 
 } 
-} 
+    },
+    "dungeon": {
+        "floor1" : {
+            "dungeon1":{
+                "nr": "1",
+                "floor": "1",
+                "dimension": "sa:dungeon1",
+                "arena_dimension": "sa:dungeon_arena_1",
+                "structure_pool": "sa:start_1",
+                "boss_tag": "boss1",
+                "display_players_tag": "d1_display_players",
+                "display_timer_tag": "d1_display_timer",
+                "sidebar_team": "dg_d1_timer",
+                "advancement":"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"
+            },
+            "dungeon2":{
+                "nr": "2",
+                "floor": "1",
+                "dimension": "sa:dungeon2",
+                "arena_dimension": "sa:dungeon_arena_1",
+                "structure_pool": "sa:start_1",
+                "boss_tag": "boss1",
+                "display_players_tag": "d2_display_players",
+                "display_timer_tag": "d2_display_timer",
+                "sidebar_team": "dg_d2_timer",
+                "advancement":"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"
+            }
+        },
+        "floor2" : {
+            "dungeon3":{
+                "nr": "3",
+                "floor": "2",
+                "dimension": "sa:dungeon3",
+                "arena_dimension": "sa:dungeon_arena_2",
+                "structure_pool": "sa:start_2",
+                "boss_tag": "boss1",
+                "display_players_tag": "d3_display_players",
+                "display_timer_tag": "d3_display_timer",
+                "sidebar_team": "dg_d3_timer",
+                "advancement":"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"
+            },
+            "dungeon4":{
+                "nr": "4",
+                "floor": "2",
+                "dimension": "sa:dungeon4",
+                "arena_dimension": "sa:dungeon_arena_2",
+                "structure_pool": "sa:start_2",
+                "boss_tag": "boss1",
+                "display_players_tag": "d4_display_players",
+                "display_timer_tag": "d4_display_timer",
+                "sidebar_team": "dg_d4_timer",
+                "advancement":"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"
+            }
+        }
+    } 
 }

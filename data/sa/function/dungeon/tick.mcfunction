@@ -8,13 +8,7 @@
         execute if score server dg1_state matches 1..4 if score server dg1_timer matches ..0 run function sa:dungeon/floor1/dungeon_1/close
 
     # Player counts updaten
-        execute if score server dg1_state matches 1..4 run function sa:dungeon/floor1/dungeon_1/update_counts
-
-    # Portal Displays updaten
-        function sa:dungeon/floor1/dungeon_1/update_display
-
-    # Dungeon Eintritt nur wenn Spieler noch NICHT getaggt ist
-        execute if score server dg1_state matches 1..4 as @a[tag=!dg1_in_dungeon,tag=transfer_to_dungeon1] in sa:dungeon1 run function sa:dungeon/floor1/dungeon_1/on_enter_dungeon
+        execute if score server dg1_state matches 1..4 run function sa:dungeon/internal/dsp_updates with storage sa:config dungeon/floor1/dungeon1
 
     # Boss Eintritt nur wenn Spieler noch NICHT getaggt ist
         execute if score server dg1_state matches 2..4 as @a[tag=!dg1_in_boss,tag=transfer_to_dungeon1_arena] in sa:dungeon_arena_1 run function sa:dungeon/floor1/dungeon_1/on_enter_boss
