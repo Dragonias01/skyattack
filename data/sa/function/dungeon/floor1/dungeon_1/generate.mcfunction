@@ -11,7 +11,8 @@ execute if score server dg1_generated matches 1 run return 1
 
 execute store result storage sa:config dungeon.floor1.dungeon1.x int 1 run scoreboard players get #x temp
 execute store result storage sa:config dungeon.floor1.dungeon1.z int 1 run scoreboard players get #z temp
-execute in sa:dungeon1 run function sa:dungeon/internal/tp_random with storage sa:config dungeon.floor1.dungeon1
+#TP
+function sa:dungeon/internal/tp_random with storage sa:config dungeon.floor1.dungeon1
 
 # Dimension vorbereiten
     execute in sa:dungeon1 run function sa:dungeon/internal/clear_dimension with storage sa:config dungeon.floor1.dungeon1

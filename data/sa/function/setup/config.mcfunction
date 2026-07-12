@@ -43,3 +43,5 @@ data modify storage sa:config dungeon.floor1.dungeon2 set value {nr:"2",floor:"1
 
 data modify storage sa:config dungeon.floor2.dungeon3 set value {nr:"3",floor:"2",dimension:"sa:dungeon3",arena_dimension:"sa:dungeon_arena_2",structure_pool:"sa:start_2",boss_tag:"boss1",display_players_tag:"d3_display_players",display_timer_tag:"d3_display_timer",sidebar_team:"dg_d3_timer",advancement:"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"}
 data modify storage sa:config dungeon.floor2.dungeon4 set value {nr:"4",floor:"2",dimension:"sa:dungeon4",arena_dimension:"sa:dungeon_arena_2",structure_pool:"sa:start_2",boss_tag:"boss1",display_players_tag:"d4_display_players",display_timer_tag:"d4_display_timer",sidebar_team:"dg_d4_timer",advancement:"sa:skyattack/the_other_world/ultimate_trading/the_catacombs/the_crypt/the_crypt"}
+
+scoreboard players set server config_initialized 1

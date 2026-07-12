@@ -13,7 +13,8 @@
     scoreboard players reset @s temp
 
 # bei status 1-4 = join function
-    execute if score server dg1_state matches 1.. run function sa:dungeon/internal/join_dungeon with storage sa:config dungeon.floor1.dungeon1
+
+execute if score server dg1_state matches 1.. run function sa:dungeon/internal/join_dungeon with storage sa:config dungeon.floor1.dungeon1
 
 
     
