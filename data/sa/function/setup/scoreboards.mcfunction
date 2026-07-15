@@ -325,7 +325,7 @@
     scoreboard objectives add bossbar_boss1_init dummy
 
 # ── Collections ─────────────────────────────────────────────────────────────
-    scoreboard objectives add oak_collected minecraft.mined:minecraft.oak_log
+    scoreboard objectives add oak_collected dummy
     scoreboard objectives add oak_collection_progress dummy
     scoreboard objectives add stone_collected minecraft.mined:minecraft.stone
     scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
