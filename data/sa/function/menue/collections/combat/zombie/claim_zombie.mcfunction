@@ -40,10 +40,10 @@
     execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 5.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For potato Collection - Level 5","color":"green"}]
     execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run experience add @s 200 levels
-    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_helmet
-    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_chestplate
-    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_leggings
-    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_boots
+    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/zombie_set/zombie_helmet
+    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/zombie_set/zombie_chestplate
+    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/zombie_set/zombie_leggings
+    execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run recipe give @s armor/zombie_set/zombie_boots
     execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run scoreboard players set @s potato_collection_progress 5
     execute as @s[scores={farming_collection_collect=5}] if score @s potato_collection_progress matches 4 if score @s potato_collected matches 1000.. run return 0
 

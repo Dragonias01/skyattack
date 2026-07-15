@@ -4,26 +4,27 @@
   "category": "equipment",
   "pattern": [
     "x x",
-    "x x"
+    "xxx",
+    "xxx"
   ],
   "key": {
-    "x": "minecraft:basalt"
+    "x": "minecraft:frogspawn"
   },
   "result": {
-    "id": "minecraft:leather_boots",
+    "id": "minecraft:leather_chestplate",
     "components": {
       "minecraft:custom_name": {
-        "text": "Lumber's Boots",
+        "text": "Fisherman's Chestplate",
         "color": "green",
         "italic": false
       },
       "minecraft:item_name": {
-        "text": "lumbers_boots",
+        "text": "fishermans_chestplate",
         "italic": false
       },
       "minecraft:lore": [
         {
-          "text": "+1 Armor",
+          "text": "+4 Armor",
           "color": "blue",
           "italic": false
         },
@@ -33,18 +34,8 @@
           "italic": false
         },
         {
-          "text": "+",
-          "extra": [
-            {
-              "text": "100",
-              "color": "green"
-            },
-            {
-              "text": "% Log Gain",
-              "color": "gray"
-            }
-          ],
-          "color": "gray",
+          "text": "+2 Attack Damage While under Water",
+          "color": "blue",
           "italic": false
         },
         {
@@ -57,8 +48,8 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:lumbers_boots",
-          "amount": 1,
+          "id": "minecraft:fishermans_chestplate",
+          "amount": 4,
           "operation": "add_value",
           "slot": "head",
           "display": {
@@ -67,7 +58,7 @@
         }
       ],
       "minecraft:unbreakable": {},
-      "minecraft:dyed_color": 3715095
+      "minecraft:dyed_color": 13352838
     },
     "count": 1
   }

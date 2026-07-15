@@ -5,9 +5,10 @@
   "pattern": [
     "x x",
     "x x"
+  
   ],
   "key": {
-    "x": "minecraft:basalt"
+    "x": "minecraft:green_dye"
   },
   "result": {
     "id": "minecraft:leather_boots",
@@ -18,7 +19,7 @@
         "italic": false
       },
       "minecraft:item_name": {
-        "text": "lumbers_boots",
+        "text": "vaccination_boots",
         "italic": false
       },
       "minecraft:lore": [
@@ -33,18 +34,8 @@
           "italic": false
         },
         {
-          "text": "+",
-          "extra": [
-            {
-              "text": "100",
-              "color": "green"
-            },
-            {
-              "text": "% Log Gain",
-              "color": "gray"
-            }
-          ],
-          "color": "gray",
+          "text": "Poison Immunity",
+          "color": "blue",
           "italic": false
         },
         {
@@ -57,7 +48,7 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:lumbers_boots",
+          "id": "minecraft:vaccination_boots",
           "amount": 1,
           "operation": "add_value",
           "slot": "head",
@@ -67,7 +58,7 @@
         }
       ],
       "minecraft:unbreakable": {},
-      "minecraft:dyed_color": 3715095
+      "minecraft:dyed_color": 1607682
     },
     "count": 1
   }

@@ -3,6 +3,7 @@
   "show_notification": true,
   "category": "equipment",
   "pattern": [
+    "xxx",
     "x x",
     "x x"
   ],
@@ -10,20 +11,20 @@
     "x": "minecraft:basalt"
   },
   "result": {
-    "id": "minecraft:leather_boots",
+    "id": "minecraft:leather_leggings",
     "components": {
       "minecraft:custom_name": {
-        "text": "Lumber's Boots",
+        "text": "Spelunker's leggings",
         "color": "green",
         "italic": false
       },
       "minecraft:item_name": {
-        "text": "lumbers_boots",
+        "text": "spelunkers_leggings",
         "italic": false
       },
       "minecraft:lore": [
         {
-          "text": "+1 Armor",
+          "text": "+3 Armor",
           "color": "blue",
           "italic": false
         },
@@ -40,7 +41,7 @@
               "color": "green"
             },
             {
-              "text": "% Log Gain",
+              "text": "% Stone Gain",
               "color": "gray"
             }
           ],
@@ -57,8 +58,8 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:lumbers_boots",
-          "amount": 1,
+          "id": "minecraft:spelunkers_leggings",
+          "amount": 3,
           "operation": "add_value",
           "slot": "head",
           "display": {
@@ -67,7 +68,7 @@
         }
       ],
       "minecraft:unbreakable": {},
-      "minecraft:dyed_color": 3715095
+      "minecraft:dyed_color": 7368816
     },
     "count": 1
   }

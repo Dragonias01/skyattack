@@ -4,10 +4,11 @@
   "category": "equipment",
   "pattern": [
     "x x",
-    "x x"
+    "y y"
   ],
   "key": {
-    "x": "minecraft:basalt"
+    "x": "minecraft:rotten_flesh",
+    "y": "minecraft:popped_chorus_fruit"
   },
   "result": {
     "id": "minecraft:leather_boots",
@@ -33,18 +34,8 @@
           "italic": false
         },
         {
-          "text": "+",
-          "extra": [
-            {
-              "text": "100",
-              "color": "green"
-            },
-            {
-              "text": "% Log Gain",
-              "color": "gray"
-            }
-          ],
-          "color": "gray",
+          "text": "+2 Attack Damage While Underground",
+          "color": "blue",
           "italic": false
         },
         {
@@ -67,7 +58,7 @@
         }
       ],
       "minecraft:unbreakable": {},
-      "minecraft:dyed_color": 3715095
+      "minecraft:dyed_color": 4336128
     },
     "count": 1
   }

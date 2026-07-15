@@ -40,10 +40,10 @@
     execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 5.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For Zombie Collection - Level 5","color":"green"}]
     execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run experience add @s 200 levels
-    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_helmet
-    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_chestplate
-    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_leggings
-    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/lumbers_set/lumbers_boots
+    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/vaccination_set/vaccination_helmet
+    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/vaccination_set/vaccination_chestplate
+    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/vaccination_set/vaccination_leggings
+    execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run recipe give @s armor/vaccination_set/vaccination_boots
     execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run scoreboard players set @s zombie_collection_progress 5
     execute as @s[scores={combat_collection_collect=5}] if score @s zombie_collection_progress matches 4 if score @s zombie_collected matches 1000.. run return 0
 

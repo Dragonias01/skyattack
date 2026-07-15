@@ -38,6 +38,10 @@
     execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 5.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" You Already Claimed This Reward!","color":"red"}]
     execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run tellraw @s [{"text":"[Server]","color":"yellow"},{"text":" Claimed reward For Stone Collection - Level 5","color":"green"}]
     execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run experience add @s 200 levels
+    execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run recipe give @s armor/spelunkers_set/spelunkers_helmet 
+    execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run recipe give @s armor/spelunkers_set/spelunkers_chestplate
+    execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run recipe give @s armor/spelunkers_set/spelunkers_leggings
+    execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run recipe give @s armor/spelunkers_set/spelunkers_boots
     execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run scoreboard players set @s stone_collection_progress 5
     execute as @s[scores={mining_collection_collect=5}] if score @s stone_collection_progress matches 4 if score @s overall_stone_collected matches 1000.. run return 0
 

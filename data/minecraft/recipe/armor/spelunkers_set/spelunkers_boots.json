@@ -7,13 +7,13 @@
     "x x"
   ],
   "key": {
-    "x": "minecraft:basalt"
+    "x": "minecraft:tuff"
   },
   "result": {
     "id": "minecraft:leather_boots",
     "components": {
       "minecraft:custom_name": {
-        "text": "Lumber's Boots",
+        "text": "spelunker's Boots",
         "color": "green",
         "italic": false
       },
@@ -40,7 +40,7 @@
               "color": "green"
             },
             {
-              "text": "% Log Gain",
+              "text": "% Stone Gain",
               "color": "gray"
             }
           ],
@@ -67,7 +67,7 @@
         }
       ],
       "minecraft:unbreakable": {},
-      "minecraft:dyed_color": 3715095
+      "minecraft:dyed_color": 7368816
     },
     "count": 1
   }
