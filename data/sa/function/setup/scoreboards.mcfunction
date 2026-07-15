@@ -331,13 +331,19 @@
     scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
     scoreboard objectives add overall_stone_collected dummy
     scoreboard objectives add stone_collection_progress dummy
-    scoreboard objectives add potato_collected minecraft.mined:potatoes
+    scoreboard objectives add potato_collected dummy
     scoreboard objectives add potato_collection_progress dummy
-    scoreboard objectives add logging_collection_collect trigger
-    scoreboard objectives add mining_collection_collect trigger
-    scoreboard objectives add farming_collection_collect trigger
-    scoreboard objectives add combat_collection_collect trigger
-    scoreboard objectives add fishing_collection_collect trigger
+    scoreboard objectives add fishes_collected dummy
+    scoreboard objectives add fishes_collection_progress dummy
+    #Todo: Auf Advancement ändern
+    scoreboard objectives add zombie_collected minecraft.killed:minecraft.zombie
+    scoreboard objectives add zombie_collection_progress dummy
+
+scoreboard objectives add logging_collection_collect trigger
+scoreboard objectives add mining_collection_collect trigger
+scoreboard objectives add farming_collection_collect trigger
+scoreboard objectives add combat_collection_collect trigger
+scoreboard objectives add fishing_collection_collect trigger
 
 
 

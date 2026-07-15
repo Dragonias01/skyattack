@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:fishes"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sa:skill/fishing/add_collection"
+  }
+}
