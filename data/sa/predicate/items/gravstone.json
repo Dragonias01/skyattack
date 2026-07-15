@@ -9,7 +9,7 @@
           "weapon.mainhand": {
             "components": {
               "minecraft:item_name": {
-                "text": "uncommon_grav_stone",
+                "text": "epic_grav_stone",
                 "italic": false
               }
             }
@@ -25,7 +25,7 @@
           "weapon.offhand": {
             "components": {
               "minecraft:item_name": {
-                "text": "uncommon_grav_stone",
+                "text": "epic_grav_stone",
                 "italic": false
               }
             }
