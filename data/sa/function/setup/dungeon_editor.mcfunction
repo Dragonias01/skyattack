@@ -170,3 +170,17 @@ setblock -136 60 60 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor
     setblock -198 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/1",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
     setblock -255 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/2",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
     setblock -312 60 208 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/rooms/type_5/3",posX:1,posY:1,posZ:1,sizeX:47,sizeY:47,sizeZ:47,showboundingbox:1b,ignoreEntities:false}
+
+# mobspawner
+    place template sa:dungeon/floor2/spawner/mob1 -143 61 40
+    place template sa:dungeon/floor2/spawner/mob2 -143 61 44
+    place template sa:dungeon/floor2/spawner/mob3 -143 61 48
+    place template sa:dungeon/floor2/spawner/mob4 -143 61 53
+    place template sa:dungeon/floor2/spawner/mob5 -143 61 59
+
+    #structure blocks
+setblock -144 60 39 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/spawner/mob1",posX:1,posY:1,posZ:1,sizeX:1,sizeY:2,sizeZ:1,showboundingbox:1b,ignoreEntities:false}
+setblock -144 60 43 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/spawner/mob2",posX:1,posY:1,posZ:1,sizeX:1,sizeY:2,sizeZ:1,showboundingbox:1b,ignoreEntities:false}
+setblock -144 60 47 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/spawner/mob3",posX:1,posY:1,posZ:1,sizeX:1,sizeY:2,sizeZ:1,showboundingbox:1b,ignoreEntities:false}
+setblock -144 60 52 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/spawner/mob4",posX:1,posY:1,posZ:1,sizeX:1,sizeY:2,sizeZ:1,showboundingbox:1b,ignoreEntities:false}
+setblock -144 60 58 minecraft:structure_block{mode:"SAVE",name:"sa:dungeon/floor2/spawner/mob5",posX:1,posY:1,posZ:1,sizeX:1,sizeY:2,sizeZ:1,showboundingbox:1b,ignoreEntities:false}

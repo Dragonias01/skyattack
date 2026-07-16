@@ -1,6 +1,6 @@
 give @p silverfish_spawn_egg[entity_data={\
 id:silverfish,\
-CustomName:[{text:"Rock mite",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"5",color:red},{text:"]",color:gray}],\
+CustomName:[{text:"Rock mite",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"5",color:red},{text:"]",color:gray}],Tags:[dungeon_mob],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:2f},{id:attack_damage,base:3f},{id:max_health,base:15f}],\
 DeathLootTable:"sa:dungeon/mobs/rock_mite"\
@@ -10,7 +10,7 @@ give @p trial_spawner[minecraft:block_entity_data=\
 {id:trial_spawner,\
 spawn_data:\
 {entity:\
-{id:silverfish,\
+{id:silverfish,Tags:[dungeon_mob],\
 CustomName:[{text:"Rock mite",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"5",color:red},{text:"]",color:gray}],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:2f},\

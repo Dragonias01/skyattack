@@ -1,0 +1,179 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "common_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 70
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "uncommon_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "rare_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": "epic_drop"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_components",
+                        "components": {
+                          "minecraft:custom_name": {
+                            "text": "Aspect of the End",
+                            "color": "gold",
+                            "bold": true,
+                            "italic": false
+                          },
+                          "minecraft:lore": [
+                            {
+                              "text": "+ 10 Attack Damage",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "+ 1.8 Attack Speed",
+                              "color": "blue",
+                              "italic": false
+                            },
+                            {
+                              "text": "Legendary",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            }
+                          ],
+                          "minecraft:attribute_modifiers": [
+                            {
+                              "type": "minecraft:attack_damage",
+                              "id": "minecraft:",
+                              "amount": 10,
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "display": {
+                                "type": "hidden"
+                              }
+                            },
+                            {
+                              "type": "minecraft:attack_speed",
+                              "id": "minecraft:",
+                              "amount": 1.8,
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "display": {
+                                "type": "hidden"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

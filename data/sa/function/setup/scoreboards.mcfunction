@@ -335,8 +335,7 @@
     scoreboard objectives add potato_collection_progress dummy
     scoreboard objectives add fishes_collected dummy
     scoreboard objectives add fishes_collection_progress dummy
-    #Todo: Auf Advancement ändern
-    scoreboard objectives add zombie_collected minecraft.killed:minecraft.zombie
+    scoreboard objectives add zombie_collected dummy
     scoreboard objectives add zombie_collection_progress dummy
 
 scoreboard objectives add logging_collection_collect trigger

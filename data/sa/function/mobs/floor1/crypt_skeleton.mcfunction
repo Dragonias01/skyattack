@@ -1,6 +1,6 @@
 give @p skeleton_spawn_egg[entity_data={\
 id:skeleton,\
-CustomName:[{text:"Crypt skeleton",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],\
+CustomName:[{text:"Crypt skeleton",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],Tags:[dungeon_mob],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:0.8f},{id:attack_damage,base:2.5f}],\
 DeathLootTable:"sa:dungeon/mobs/crypt_skeleton"\
@@ -9,7 +9,7 @@ DeathLootTable:"sa:dungeon/mobs/crypt_skeleton"\
 give @p trial_spawner[minecraft:block_entity_data=\
 {id:trial_spawner,spawn_data:\
 {entity:\
-{id:skeleton,\
+{id:skeleton,Tags:[dungeon_mob],\
 CustomName:[{text:"Crypt skeleton ",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:0.8f},\

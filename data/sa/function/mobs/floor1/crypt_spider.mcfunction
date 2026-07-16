@@ -1,6 +1,6 @@
 give @p spider_spawn_egg[entity_data={\
 id:spider,\
-CustomName:[{text:"Crypt spider",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],\
+CustomName:[{text:"Crypt spider",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],Tags:[dungeon_mob],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:1.5f},{id:attack_damage,base:3f},{id:"max_health",base:40.0f}], equipment:{mainhand:{id:bow}},\
 DeathLootTable:"sa:dungeon/mobs/crypt_spider"\
@@ -9,7 +9,7 @@ DeathLootTable:"sa:dungeon/mobs/crypt_spider"\
 give @p trial_spawner[minecraft:block_entity_data=\
 {id:trial_spawner,spawn_data:\
 {entity:\
-{id:spider,\
+{id:spider,Tags:[dungeon_mob],\
 CustomName:[{text:"Crypt spider ",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:1.5f},\

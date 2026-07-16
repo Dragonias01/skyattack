@@ -1,5 +1,5 @@
 scoreboard players operation @s combat_drop_menge = @s combat_lvl
-scoreboard players set @s c_sword_gain 0
+
 
 scoreboard players operation @s combat_drop_menge += @s c_sword_gain
 
