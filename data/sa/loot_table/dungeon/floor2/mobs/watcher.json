@@ -1,0 +1,433 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Watchers Eye",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "minecraft:ender_eye"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:multishot": 1
+                },
+                "minecraft:custom_name": {
+                  "text": "Watchers Ray",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:watchers_scale_helmet",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:watchers_scale_helmet",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:watchers_scale_helmet",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Watcher's Scale Helmet",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "watchers_scale_helmet",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+3 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:watchers_scale_chestplate",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:watchers_scale_chestplate",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:watchers_scale_chestplate",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Watcher's Scale Chestplate",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "watchers_scale_chestplate",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+8 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:watchers_scale_leggings",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:watchers_scale_leggings",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:watchers_scale_leggings",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Watcher's Scale Leggings",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "watchers_scale_leggings",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+6 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:watchers_scale_boots",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:watchers_scale_boots",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:watchers_scale_boots",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Watcher's Scale Boots",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "watchers_scale_boots",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+3 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

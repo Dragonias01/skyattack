@@ -1,0 +1,479 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Phantom Essence",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Common",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Phantom Dagger",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+7 Attack Damage",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+2 Attack Speed",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Right Click",
+                    "extra": [
+                      {
+                        "text": "- TBD",
+                        "color": "gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 0,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:assasins_helmet",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:assasins_helmet",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:assasins_helmet",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Assasins Helmet",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "assasins_helmet",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+3 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:rib"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 0,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:assasins_chestplate",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:assasins_chestplate",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:assasins_chestplate",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Assasin's Chestplate",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "assasins_chestplate",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+8 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:rib"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 0,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:assasins_leggings",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:assasins_leggings",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:assasins_leggings",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Assasin's Leggings",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "assasins_leggings",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+6 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:rib"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 0,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:assasins_boots",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "minecraft:assasins_boots",
+                    "amount": 0.75,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "minecraft:assasins_boots",
+                    "amount": 0.025,
+                    "operation": "add_value",
+                    "slot": "feet",
+                    "display": {
+                      "type": "hidden"
+                    }
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Assasin's Boots",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:item_name": {
+                  "text": "assasins_boots",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "+3 Armor",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.75 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "+0.025 Knockback Resistance",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full Set Bonus:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "??? (TBD)",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:rib"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

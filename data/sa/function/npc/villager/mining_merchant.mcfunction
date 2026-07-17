@@ -18,35 +18,35 @@ PersistenceRequired:1b,\
 Silent:1b,\
 Offers:{Recipes:[\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:tuff",count:9,components:{item_name:[{text:"compressed_stone",italic:false}]}},\
+buy:{id:"minecraft:tuff",count:9,components:{item_name:[{text:"compressed_stone",italic:false}],custom_name:{italic:0b,text:"Compressed Stone",bold:1b,color:"green"},lore:[{italic:0b,text:"Compressed Stone",bold:0b,color:"gray"},"",{italic:0b,text:"Uncommon",bold:1b,color:"green"}]}},\
 sell:{id:"minecraft:deepslate",count:1,components:{\
 custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],\
 lore:[[{text:"Double Compressed Stone",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
 item_name:[{text:"double_compressed_stone",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:deepslate",count:25,components:{item_name:[{text:"double_compressed_stone",italic:false}]}},\
-buyB:{id:"minecraft:wooden_pickaxe",count:1,components:{item_name:[{text:"element_pickaxe_common",italic:false}]}},\
+buy:{id:"minecraft:deepslate",count:25,components:{custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],lore:[[{text:"Double Compressed Stone",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_stone",italic:false}]}},\
+buyB:{id:"minecraft:wooden_pickaxe",count:1,components:{item_name:[{text:"element_pickaxe_common",italic:false}],custom_name:{italic:0b,text:"Element Pickaxe",bold:1b,color:"white"},lore:[{"text":" "},{italic:0b,extra:[{color:"green",extra:[{color:"gray",text:"% Block Gain "}],text:"50"}],text:"+",color:"gray"},{text:"common",italic:0b,underlined:0b,obfuscated:0b,strikethrough:0b,bold:1b,color:"white"}],unbreakable:{}}},\
 sell:{id:"minecraft:stone_pickaxe",count:1,components:{\
 custom_name:[{text:"Element Pickaxe",bold:true,italic:false,color:green}],\
 lore:[{text:" "},{text:"+",extra:[{text:"100",extra:[{text:"% Mining Drops ",color:gray}],color:green}],color:gray,italic:false},{text:Uncommon,bold:true,italic:false,color:green,underlined:false,strikethrough:false,obfuscated:false}],\
 item_name:[{text:"element_pickaxe_uncommon",italic:false}],\
 unbreakable:{}}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:tuff",count:32,components:{item_name:[{text:"compressed_stone",italic:false}]}},\
+buy:{id:"minecraft:tuff",count:32,components:{item_name:[{text:"compressed_stone",italic:false}],custom_name:{italic:0b,text:"Compressed Stone",bold:1b,color:"green"},lore:[{italic:0b,text:"Compressed Stone",bold:0b,color:"gray"},"",{italic:0b,text:"Uncommon",bold:1b,color:"green"}]}},\
 sell:{id:"minecraft:potion",count:1,components:{\
 potion_contents:{custom_effects:[{id:"minecraft:night_vision",amplifier:0,duration:72000}]},\
 custom_name:[{text:"Night Vision Potion",italic:false,color:blue}],\
 lore:[[{text:"Grants Night Vision for one hour",italic:false,color:gray}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
 item_name:[{text:"night_vision_potion",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:deepslate",count:5,components:{item_name:[{text:"double_compressed_stone",italic:false}]}},\
+buy:{id:"minecraft:deepslate",count:5,components:{custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],lore:[[{text:"Double Compressed Stone",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_stone",italic:false}]}},\
 sell:{id:"minecraft:potion",count:1,components:{\
 potion_contents:{custom_effects:[{id:"minecraft:haste",amplifier:1,duration:72000}]},\
 custom_name:[{text:"Haste Potion II",italic:false,color:blue}],\
 lore:[[{text:"Grants Haste II for one hour",italic:false,color:gray}],"",[{text:Rare,bold:true,italic:false,color:blue}]],\
 item_name:[{text:"haste_2_potion",italic:false}]}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:deepslate",count:2,components:{item_name:[{text:"double_compressed_stone",italic:false}]}},\
+buy:{id:"minecraft:deepslate",count:2,components:{custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],lore:[[{text:"Double Compressed Stone",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_stone",italic:false}]}},\
 sell:{id:"minecraft:glow_berries",count:1,components:{\
 custom_name:[{text:"Mining Fruit",italic:false,color:green}],\
 lore:[[{text:"Grants increased mining XP for one hour",italic:false,color:gray}],"",[{text:Uncommon,bold:true,italic:false,color:green}]],\
@@ -54,11 +54,10 @@ item_name:[{text:"mining_fruit",italic:false}],\
 food:{nutrition:0,saturation:0,can_always_eat:1b},\
 consumable:{consume_seconds:99999,animation:none,has_consume_particles:0b}}}},\
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:deepslate",count:10,components:{item_name:[{text:"double_compressed_stone",italic:false}]}},\
+buy:{id:"minecraft:deepslate",count:10,components:{custom_name:[{text:"Double Compressed Stone",italic:false,color:blue}],lore:[[{text:"Double Compressed Stone",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_stone",italic:false}]}},\
 sell:{id:"minecraft:trial_key",count:1,components:{\
 custom_name:[{text:"Dungeon Key",italic:false,color:gold}],\
 lore:[[{text:"Opens the First Dungeon",italic:false,color:gray}],"",[{text:Legendary,bold:true,italic:false,color:gold}]],\
 item_name:[{text:"dungeon_key",italic:false}]}}}\
 ]}\
 }
-
