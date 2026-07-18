@@ -51,3 +51,7 @@
         scoreboard players add @a EPickaxe_learn 0
         scoreboard players add @a EHoe_learn 0
         forceload add -7 -257 7 -243
+
+    # Temp:
+        scoreboard objectives add enable_f2 dummy
+        execute unless score server enable_f2 matches 0.. run scoreboard players set server enable_f2 0

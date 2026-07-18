@@ -33,6 +33,27 @@
       "contents": {
         "text": "Sky Attack is currently in active development. The core systems — five skills (Mining, Logging, Farming, Combat, Fishing), the Hub goal system, custom items, leaderboards, and the dungeon system — are implemented and playable. However, many systems are not yet fully complete. Dungeon 1 including the boss arena, the fishing pond biome, XP fruits, and several wiki entries are still marked as WIP. Merchants, recipes, and loot tables are mostly in place but will continue to be adjusted. The goal is to make the datapack progressively more stable and content-rich with each update."
       }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Version 0.3.7 - [Current Version]",
+        "color": "yellow",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This update introduces new armor sets, gameplay improvements, dialog updates, and many technical changes behind the scenes. The Dungeon Hub has been upgraded, the Skill Page now displays your native Drop Chance bonus correctly, and the foundation for the upcoming quest system has been added. A lot of work has also gone into preparing the next major content update.\n  Dungeon Floor 2 is now in active development and can only be enabled for testing by running: \" scoreboard players set server enable_f2 1 \" ⚠ Warning: Floor 2 is not finished. The current version contains many bugs, unfinished rooms, placeholder content, and missing features. The dungeon is highly unstable and is intended for testing only.",
+        "extra": [
+          {
+            "text": "\n \n Please Focus on the new Content that is Described in the new Changelog on Modrinth",
+            "color": "red"
+          }
+        ]
+      }
     }
   ],
   "can_close_with_escape": true,

@@ -40,7 +40,11 @@
         "text": "Quest",
         "color": "aqua"
       },
-      "width": 100
+      "width": 100,
+      "action": {
+        "type": "show_dialog",
+        "dialog": "sa:chat/wip"
+      }
     },
     {
       "label": "Close",

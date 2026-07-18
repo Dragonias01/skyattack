@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "player": {
+      "name": "Dragonias01"
+    },
+    "extra": [
+      {
+        "text": " [WIP]",
+        "color": "red"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "WIP!",
+        "color": "red"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If You see This screen The Dialog you want to open or is Planned at this point is still in Development this can occour multiple times in the Development Vesion of Sky Attack."
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "action": {
+    "label": {
+      "text": "Close",
+      "type": "text",
+      "color": "red"
+    }
+  }
+}
