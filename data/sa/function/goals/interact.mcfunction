@@ -14,3 +14,4 @@ advancement revoke @s only goal_interact
     execute as @s if entity @e[type=interaction,tag=goal_combat,distance=..5] run function sa:goals/combatgoal/check
     execute as @s if entity @e[type=interaction,tag=goal_schmied,distance=..5] run function sa:goals/schmied_goal/check
     execute as @s if entity @e[type=interaction,tag=goal_techniker,distance=..5] run function sa:goals/techniker_goal/check
+
