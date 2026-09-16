@@ -1,9 +1,9 @@
+
 # ── Core ──────────────────────────────────────────────────────────────────
     scoreboard objectives add temp dummy
     scoreboard objectives add calc_temp dummy
     scoreboard objectives add tick_counter dummy
     scoreboard objectives add player_initialized dummy
-    scoreboard objectives add score_timer dummy
     scoreboard objectives add timer minecraft.custom:minecraft.play_time
     scoreboard objectives add deathcount_system deathCount
     scoreboard objectives add ten dummy
@@ -40,14 +40,10 @@
 
 # ── Menu System ───────────────────────────────────────────────────────────
     scoreboard objectives add menue trigger
-    scoreboard objectives add menue_open dummy
-    scoreboard objectives add menue_fix dummy
 
 # ── Skill System - Allgemein ──────────────────────────────────────────────
     scoreboard objectives add xp_cat dummy
-    scoreboard objectives add goal1 dummy
     scoreboard objectives add temp_half_lvl dummy
-    scoreboard objectives add dungeon_key dummy
 
 # ── Skill Dropchance ──────────────────────────────────────────────────────
     scoreboard objectives add Mining_Dropchance_Percent dummy
@@ -67,10 +63,7 @@
     scoreboard objectives add fishing_xp dummy "Fishing XP"
     scoreboard objectives add fishing_lvl dummy "Fishing Level"
     scoreboard objectives add fishing_goal dummy "Fishing Goal"
-    scoreboard objectives add fishing_drop dummy
-    scoreboard objectives add fishing_drop_base dummy
     scoreboard objectives add fishing_drop_pending dummy
-    scoreboard objectives add fishing_goal_start dummy
     scoreboard objectives add fishing_initialized dummy
     scoreboard objectives add fishing_xp_gain dummy
     scoreboard objectives add fishing_drop_menge dummy
@@ -86,12 +79,10 @@
     scoreboard objectives add mining_xp dummy "Mining XP"
     scoreboard objectives add mining_lvl dummy "Mining Level"
     scoreboard objectives add mining_goal dummy "Mining Goal"
-    scoreboard objectives add mining_drop dummy
     scoreboard objectives add m_xp_gain dummy
     scoreboard objectives add m_Drops dummy
     scoreboard objectives add m_drop_menge dummy
     scoreboard objectives add m_pickaxe_gain dummy
-    scoreboard objectives add mining_goal_start dummy
     scoreboard objectives add mining_initialized dummy
     scoreboard objectives add mining_max_player_level dummy
     scoreboard objectives add mining_xp_boost_gain dummy
@@ -106,8 +97,6 @@
     scoreboard objectives add farming_drop_menge dummy
     scoreboard objectives add f_hoe_gain dummy
     scoreboard objectives add farming_drops dummy
-    scoreboard objectives add farming_multiplier_num dummy
-    scoreboard objectives add farming_multiplier_den dummy
     scoreboard objectives add farming_initialized dummy
     scoreboard objectives add farming_max_player_level dummy
     scoreboard objectives add farming_xp_boost_gain dummy
@@ -141,8 +130,6 @@
     scoreboard objectives add combat_drop_menge dummy
     scoreboard objectives add c_sword_gain dummy
     scoreboard objectives add combat_drops dummy
-    scoreboard objectives add combat_multiplier_num dummy
-    scoreboard objectives add combat_multiplier_den dummy
     scoreboard objectives add Combat_initialized dummy
     scoreboard objectives add combat_max_player_level dummy
     scoreboard objectives add combat_xp_boost_gain dummy
@@ -158,62 +145,19 @@
 # ── Goal System ───────────────────────────────────────────────────────────
     scoreboard objectives add goal_temp dummy
     scoreboard objectives add goal_math dummy
-    #ggf alles andere useless
     scoreboard objectives add goals_initialized dummy
     scoreboard objectives add hub_goals_initialized dummy
-    scoreboard objectives add goal_ship_remaining dummy
-    scoreboard objectives add temp_goal_ship_check dummy
 
-# ── Hub Goals ─────────────────────────────────────────────────────────────
-    scoreboard objectives add hub_levelbaum dummy "Levelbaum Abgabe"
-    scoreboard objectives add hub_levelbaum_cost dummy
-    scoreboard objectives add hub_levelbaum_rem dummy
-    scoreboard objectives add temp_hub_levelbaum dummy
+# ── Hub Goals (nur noch die aktiv genutzten "done"-Flags) ──────────────────
     scoreboard objectives add hub_levelbaum_done dummy
-    scoreboard objectives add hub_dungeon dummy "Dungeon Abgabe"
-    scoreboard objectives add hub_dungeon_cost dummy
-    scoreboard objectives add hub_dungeon_rem dummy
-    scoreboard objectives add temp_hub_dungeon dummy
     scoreboard objectives add hub_dungeon_done dummy
-    scoreboard objectives add hub_skillrooms dummy "Skill Rooms Abgabe"
-    scoreboard objectives add hub_skillrooms_cost dummy
-    scoreboard objectives add hub_skillrooms_rem dummy
-    scoreboard objectives add temp_hub_skillrooms dummy
     scoreboard objectives add hub_skillrooms_done dummy
-    scoreboard objectives add hub_mining dummy "Mining Raum Abgabe"
-    scoreboard objectives add hub_mining_cost dummy
-    scoreboard objectives add hub_mining_rem dummy
-    scoreboard objectives add temp_hub_mining dummy
     scoreboard objectives add hub_mining_done dummy
-    scoreboard objectives add hub_farming dummy "Farming Raum Abgabe"
-    scoreboard objectives add hub_farming_cost dummy
-    scoreboard objectives add hub_farming_rem dummy
-    scoreboard objectives add temp_hub_farming dummy
     scoreboard objectives add hub_farming_done dummy
-    scoreboard objectives add hub_fishing dummy "Fishing Raum Abgabe"
-    scoreboard objectives add hub_fishing_cost dummy
-    scoreboard objectives add hub_fishing_rem dummy
-    scoreboard objectives add temp_hub_fishing dummy
     scoreboard objectives add hub_fishing_done dummy
-    scoreboard objectives add hub_fishpond dummy "Fishing Pond Abgabe"
-    scoreboard objectives add hub_fishpond_cost dummy
-    scoreboard objectives add hub_fishpond_rem dummy
-    scoreboard objectives add temp_hub_fishpond dummy
     scoreboard objectives add hub_fishpond_done dummy
-    scoreboard objectives add hub_combat dummy "Combat Raum Abgabe"
-    scoreboard objectives add hub_combat_cost dummy
-    scoreboard objectives add hub_combat_rem dummy
-    scoreboard objectives add temp_hub_combat dummy
     scoreboard objectives add hub_combat_done dummy
-    scoreboard objectives add hub_schmied dummy "Schmied Abgabe"
-    scoreboard objectives add hub_schmied_cost dummy
-    scoreboard objectives add hub_schmied_rem dummy
-    scoreboard objectives add temp_hub_schmied dummy
     scoreboard objectives add hub_schmied_done dummy
-    scoreboard objectives add hub_techniker dummy "Techniker Abgabe"
-    scoreboard objectives add hub_techniker_cost dummy
-    scoreboard objectives add hub_techniker_rem dummy
-    scoreboard objectives add temp_hub_techniker dummy
     scoreboard objectives add hub_techniker_done dummy
 
 # ── Leaderboard ───────────────────────────────────────────────────────────
@@ -222,7 +166,6 @@
     scoreboard objectives add lb_log_score dummy
     scoreboard objectives add lb_log_name dummy
     scoreboard objectives add lb_log_slot dummy
-    scoreboard objectives add lb_insert_idx dummy
     scoreboard objectives add lb_min_score dummy
     scoreboard objectives add lb_min_name dummy
     scoreboard objectives add lb_min_slot dummy
@@ -240,26 +183,18 @@
 
 # general
     scoreboard objectives add f1_boss_state dummy
-    # Floor1
-    # dungeon 1
-        scoreboard objectives add dungeon_hud dummy "- §4Dungeon -"
-        scoreboard objectives add dungeon_1_timer dummy
-        scoreboard objectives add dungeon_1_players dummy
-        scoreboard objectives add dungeon_1_status dummy
-        scoreboard objectives add dungeon_1_key dummy
-        scoreboard objectives add dg1_state dummy
-        scoreboard objectives add dg1_timer dummy
-        scoreboard objectives add dg1_players_dungeon dummy
-        scoreboard objectives add dg1_players_boss dummy
-        scoreboard objectives add dg1_generated dummy
-        scoreboard objectives add dg1_loot_generated dummy
-        scoreboard objectives add d1_tmp_minutes dummy
-        scoreboard objectives add d1_tmp_seconds dummy
-        #dungeon 2
-        scoreboard objectives add dungeon_2_timer dummy
-        scoreboard objectives add dungeon_2_players dummy
-        scoreboard objectives add dungeon_2_status dummy
-        scoreboard objectives add dungeon_2_key dummy
+
+# Floor1
+# dungeon 1
+    scoreboard objectives add dg1_state dummy
+    scoreboard objectives add dg1_timer dummy
+    scoreboard objectives add dg1_players_dungeon dummy
+    scoreboard objectives add dg1_players_boss dummy
+    scoreboard objectives add dg1_generated dummy
+    scoreboard objectives add dg1_loot_generated dummy
+    scoreboard objectives add d1_tmp_minutes dummy
+    scoreboard objectives add d1_tmp_seconds dummy
+    # dungeon 2
         scoreboard objectives add dg2_state dummy
         scoreboard objectives add dg2_timer dummy
         scoreboard objectives add dg2_players_dungeon dummy
@@ -271,10 +206,6 @@
 
     # Floor2
     # dungeon 3
-        scoreboard objectives add dungeon_3_timer dummy
-        scoreboard objectives add dungeon_3_players dummy
-        scoreboard objectives add dungeon_3_status dummy
-        scoreboard objectives add dungeon_3_key dummy
         scoreboard objectives add dg3_state dummy
         scoreboard objectives add dg3_timer dummy
         scoreboard objectives add dg3_players_dungeon dummy
@@ -283,58 +214,51 @@
         scoreboard objectives add dg3_loot_generated dummy
         scoreboard objectives add d3_tmp_minutes dummy
         scoreboard objectives add d3_tmp_seconds dummy
-        #dungeon 4
-        scoreboard objectives add dungeon_4_timer dummy
-        scoreboard objectives add dungeon_4_players dummy
-        scoreboard objectives add dungeon_4_status dummy
-        scoreboard objectives add dungeon_4_key dummy
-        scoreboard objectives add dg4_state dummy
-        scoreboard objectives add dg4_timer dummy
-        scoreboard objectives add dg4_players_dungeon dummy
-        scoreboard objectives add dg4_players_boss dummy
-        scoreboard objectives add dg4_generated dummy
-        scoreboard objectives add dg4_loot_generated dummy
-        scoreboard objectives add d4_tmp_minutes dummy
-        scoreboard objectives add d4_tmp_seconds dummy
+        # dungeon 4
+            scoreboard objectives add dg4_state dummy
+            scoreboard objectives add dg4_timer dummy
+            scoreboard objectives add dg4_players_dungeon dummy
+            scoreboard objectives add dg4_players_boss dummy
+            scoreboard objectives add dg4_generated dummy
+            scoreboard objectives add dg4_loot_generated dummy
+            scoreboard objectives add d4_tmp_minutes dummy
+            scoreboard objectives add d4_tmp_seconds dummy
 
+        # ── Gambling ──────────────────────────────────────────────────────────────
+            scoreboard objectives add gambling_trigger trigger
+            scoreboard objectives add temp_gambling dummy
 
-# ── Gambling ──────────────────────────────────────────────────────────────
-    scoreboard objectives add gambling_trigger trigger
-    scoreboard objectives add temp_gambling dummy
+        # ── XP Fruits ─────────────────────────────────────────────────────────────
+            scoreboard objectives add Logging_fruit_timer minecraft.custom:minecraft.play_time
+            scoreboard objectives add Logging_fruit_gain dummy
+            scoreboard objectives add Mining_fruit_timer minecraft.custom:minecraft.play_time
+            scoreboard objectives add m_xp_fruit_gain dummy
+            scoreboard objectives add Farming_fruit_timer minecraft.custom:minecraft.play_time
+            scoreboard objectives add farming_xp_fruit_gain dummy
+            scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
+            scoreboard objectives add combat_xp_fruit_gain dummy
 
-# ── XP Fruits ─────────────────────────────────────────────────────────────
-    scoreboard objectives add Logging_fruit_timer minecraft.custom:minecraft.play_time
-    scoreboard objectives add Logging_fruit_gain dummy
-    scoreboard objectives add Mining_fruit_timer minecraft.custom:minecraft.play_time
-    scoreboard objectives add m_xp_fruit_gain dummy
-    scoreboard objectives add Farming_fruit_timer minecraft.custom:minecraft.play_time
-    scoreboard objectives add farming_xp_fruit_gain dummy
-    scoreboard objectives add Combat_fruit_timer minecraft.custom:minecraft.play_time
-    scoreboard objectives add combat_xp_fruit_gain dummy
+        # ──────────────────────────────────────────────────────────────────────────
+            scoreboard objectives add bossbar_boss1_init dummy
 
-# ──────────────────────────────────────────────────────────────────────────────
-    scoreboard objectives add bossbar_boss1_init dummy
+        # ── Collections ───────────────────────────────────────────────────────────
+            scoreboard objectives add oak_collected dummy
+            scoreboard objectives add oak_collection_progress dummy
+            scoreboard objectives add stone_collected minecraft.mined:minecraft.stone
+            scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
+            scoreboard objectives add overall_stone_collected dummy
+            scoreboard objectives add stone_collection_progress dummy
+            scoreboard objectives add potato_collected dummy
+            scoreboard objectives add potato_collection_progress dummy
+            scoreboard objectives add fishes_collected dummy
+            scoreboard objectives add fishes_collection_progress dummy
+            scoreboard objectives add zombie_collected dummy
+            scoreboard objectives add zombie_collection_progress dummy
 
-# ── Collections ─────────────────────────────────────────────────────────────
-    scoreboard objectives add oak_collected dummy
-    scoreboard objectives add oak_collection_progress dummy
-    scoreboard objectives add stone_collected minecraft.mined:minecraft.stone
-    scoreboard objectives add cstone_collected minecraft.mined:minecraft.cobblestone
-    scoreboard objectives add overall_stone_collected dummy
-    scoreboard objectives add stone_collection_progress dummy
-    scoreboard objectives add potato_collected dummy
-    scoreboard objectives add potato_collection_progress dummy
-    scoreboard objectives add fishes_collected dummy
-    scoreboard objectives add fishes_collection_progress dummy
-    scoreboard objectives add zombie_collected dummy
-    scoreboard objectives add zombie_collection_progress dummy
+        scoreboard objectives add logging_collection_collect trigger
+        scoreboard objectives add mining_collection_collect trigger
+        scoreboard objectives add farming_collection_collect trigger
+        scoreboard objectives add combat_collection_collect trigger
+        scoreboard objectives add fishing_collection_collect trigger
 
-scoreboard objectives add logging_collection_collect trigger
-scoreboard objectives add mining_collection_collect trigger
-scoreboard objectives add farming_collection_collect trigger
-scoreboard objectives add combat_collection_collect trigger
-scoreboard objectives add fishing_collection_collect trigger
-
-
-
-function sa:setup/stats
+    function sa:setup/stats
