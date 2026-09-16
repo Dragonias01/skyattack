@@ -1,9 +1,3 @@
-# ============================================================================
-# GOAL: Levelbaum - Reward
-# Datei: sa:goals/levelbaum_goal/reward
-# Version: 1.21.11
-# ============================================================================
-
 # ── Entities entfernen ────────────────────────────────────────────────────
     kill @e[type=interaction,tag=goal_levelbaum]
     kill @e[type=text_display,tag=display_levelbaum]

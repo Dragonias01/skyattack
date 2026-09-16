@@ -1,22 +1,3 @@
-# ============================================================================
-# ISLAND CREATE - Weist dem Spieler eine freie Insel zu
-# Datei: sa:island/create
-# Version: 1.21.11
-# ============================================================================
-# Insel-Positionen: Kreisförmig, Radius 250, gleichmäßig 45° versetzt
-#
-#  Insel 1:  X=   0  Z=-250  (Nord)
-#  Insel 2:  X= 177  Z=-177  (Nord-Ost)
-#  Insel 3:  X= 250  Z=   0  (Ost)
-#  Insel 4:  X= 177  Z= 177  (Süd-Ost)
-#  Insel 5:  X=   0  Z= 250  (Süd)
-#  Insel 6:  X=-177  Z= 177  (Süd-West)
-#  Insel 7:  X=-250  Z=   0  (West)
-#  Insel 8:  X=-177  Z=-177  (Nord-West)
-#
-# Benachbarte Inseln sind ~191 Blöcke voneinander entfernt → gut sichtbar.
-# ============================================================================
-
 scoreboard players set @s itrigger 0
 scoreboard players set server current 1
 

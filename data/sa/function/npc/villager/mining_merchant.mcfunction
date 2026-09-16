@@ -1,9 +1,3 @@
-# ============================================================================
-# NPC: Mining Merchant
-# Datei: sa:npc/villager/mining_merchant
-# Version: 1.21.11
-# ============================================================================
-
 kill @e[type=villager,tag=mining_merchant]
 
 summon villager 17 99 -35 {\

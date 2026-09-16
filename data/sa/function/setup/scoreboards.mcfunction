@@ -1,12 +1,3 @@
-# ============================================================================
-# SCOREBOARD REGISTRIERUNG
-# Datei: sa:setup/scoreboards
-# Version: 1.21.11
-# Wird von load.mcfunction als zweite Funktion aufgerufen (immer, kein Guard).
-# Enthält NUR scoreboard objectives add - kein set, kein if, kein execute.
-# Idempotent: bestehende Objectives und Scores bleiben erhalten.
-# ============================================================================
-
 # ── Core ──────────────────────────────────────────────────────────────────
     scoreboard objectives add temp dummy
     scoreboard objectives add calc_temp dummy

@@ -1,7 +1,3 @@
-# XP-Variante (z.B. Fishing Pond): Waehrung sind XP-Level statt Items.
-# Entspricht 1:1 deinem alten "experience query @s levels" / "temp_hub_fishpond"-Code,
-# nur generisch fuer beliebige XP-Goals.
-
 execute store result score @s goal_temp run experience query @s levels
 
 execute if score @s goal_temp matches ..0 run tellraw @s [{"text":"✗ you have not enough levels!","color":"red"}]

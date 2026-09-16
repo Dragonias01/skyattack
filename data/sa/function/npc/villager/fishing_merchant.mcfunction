@@ -1,9 +1,3 @@
-# ============================================================================
-# NPC: Fishing Merchant
-# Datei: sa:npc/villager/fishing_merchant
-# Version: 1.21.11
-# ============================================================================
-
 kill @e[type=villager,tag=fishing_merchant]
 
 summon villager 17 99 -47 {\

@@ -1,8 +1,3 @@
-# ============================================================================
-# PLAYER INIT - Wird beim ersten Join eines Spielers ausgeführt
-# Datei: sa:setup/player_init
-# Version: 1.21.11
-# ============================================================================
 # --- FISHING ---
     scoreboard players add @s fishing_xp 0
     scoreboard players add @s fishing_lvl 0

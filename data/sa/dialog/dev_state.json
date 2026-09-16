@@ -37,7 +37,23 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Version 0.3.7 - [Current Version]",
+        "text": "Version 0.3.7.1 Hotfix - [Current Version]",
+        "color": "yellow",
+        "bold": true,
+        "italic": false
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This hotfix addresses a Critical bug that caused all Goals to be disabled, the goal System is now fully functional again and more stable for future additions."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Version 0.3.7",
         "color": "yellow",
         "bold": true,
         "italic": false

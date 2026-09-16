@@ -1,6 +1,3 @@
-# /function sa:goals/reset
-# Setzt ALLE Goals auf ihren initial_cost zurueck (z.B. fuer einen neuen Reset/Season-Start).
-# Neuen Goal hinzugefuegt? Hier eine Zeile ergaenzen.
 
 function sa:goals/_lib/reset_goal {goal:"ship_goal"}
 function sa:goals/_lib/reset_goal {goal:"skillroom_goal"}

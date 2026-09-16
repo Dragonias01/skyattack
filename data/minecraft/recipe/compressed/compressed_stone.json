@@ -17,20 +17,14 @@
         "text": "Compressed Stone",
         "color": "green",
         "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false
+        "italic": false
       },
       "minecraft:lore": [
         {
           "text": "Compressed Stone",
           "color": "gray",
           "bold": false,
-          "italic": false,
-          "underlined": false,
-          "strikethrough": false,
-          "obfuscated": false
+          "italic": false
         },
         {
           "text": ""
@@ -39,13 +33,13 @@
           "text": "Uncommon",
           "color": "green",
           "bold": true,
-          "italic": false,
-          "underlined": false,
-          "strikethrough": false,
-          "obfuscated": false
+          "italic": false
         }
       ],
-      "minecraft:item_name": "compressed_stone"
+      "minecraft:item_name": {
+          "text": "compressed_stone",
+          "italic": false
+        }
     },
     "count": 1
   }

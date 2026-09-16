@@ -1,12 +1,3 @@
-# ============================================================================
-# LOAD FUNCTION - Datapack Initialisierung
-# Datei: sa:load
-# Version: 1.21.11
-# ============================================================================
-# Diese Datei orchestriert NUR den Startablauf.
-# Keine Scoreboard-Logik, keine Spieler-Befehle.
-# ============================================================================
-
 # ── Phase 0: Konstanten (immer, kein Guard) ───────────────────────────────
     function sa:setup/constants
 

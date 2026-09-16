@@ -1,7 +1,3 @@
-# LEADERBOARD UPDATE: Mining
-# Datei: sa:leaderboard/mining/update
-# Version: 1.21.11
-
 function sa:leaderboard/mining/sort
 
 execute in sa:hub if entity @a[scores={lb_min_name=1}] run data modify entity @e[type=text_display,tag=lb_min_r1,limit=1] text set value [{"text":"#1 ","color":"gold","bold":true},{"selector":"@a[scores={lb_min_name=1},limit=1]","color":"yellow"},{"text":" Lv.","color":"dark_gray"},{"score":{"name":"lb_min_s1","objective":"lb_min_score"},"color":"green"}]

@@ -1,9 +1,3 @@
-# ============================================================================
-# GOAL: Skill Rooms - Reward
-# Datei: sa:goals/skillrooms_goal/reward
-# Version: 1.21.11
-# ============================================================================
-
 # ── Entities entfernen ────────────────────────────────────────────────────
     kill @e[type=interaction,tag=goal_skillrooms]
     kill @e[type=text_display,tag=display_skillrooms]

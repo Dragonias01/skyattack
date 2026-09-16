@@ -1,9 +1,3 @@
-# ============================================================================
-# NPC: Farming Merchant
-# Datei: sa:npc/villager/farming_merchant
-# Version: 1.21.11
-# ============================================================================
-
 kill @e[type=villager,tag=farming_merchant]
 
 summon villager -17 99 -47 {\

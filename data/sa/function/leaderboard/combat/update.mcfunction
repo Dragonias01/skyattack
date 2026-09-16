@@ -1,7 +1,3 @@
-# LEADERBOARD UPDATE: Combat
-# Datei: sa:leaderboard/combat/update
-# Version: 1.21.11
-
 function sa:leaderboard/combat/sort
 
 execute in sa:hub if entity @a[scores={lb_com_name=1}] run data modify entity @e[type=text_display,tag=lb_com_r1,limit=1] text set value [{"text":"#1 ","color":"gold","bold":true},{"selector":"@a[scores={lb_com_name=1},limit=1]","color":"yellow"},{"text":" Lv.","color":"dark_gray"},{"score":{"name":"lb_com_s1","objective":"lb_com_score"},"color":"green"}]

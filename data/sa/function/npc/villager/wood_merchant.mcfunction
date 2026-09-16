@@ -1,9 +1,3 @@
-# ============================================================================
-# NPC: Wood Merchant (Logging Merchant)
-# Datei: sa:npc/villager/wood_merchant
-# Version: 1.21.11
-# ============================================================================
-
 kill @e[type=villager,tag=wood_merchant]
 
 summon villager 0 99 -64 {\

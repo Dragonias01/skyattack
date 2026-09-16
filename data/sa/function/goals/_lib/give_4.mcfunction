@@ -1,7 +1,3 @@
-# Gemeinsamer Abschluss fuer Item- und XP-Goals: Fortschritt in die Config
-# schreiben, Chat-Bestaetigung, Text-Display aktualisieren, Completion pruefen.
-# "total"/"progress" Scores kommen noch aus give_2_item/give_2_xp.
-
 scoreboard players operation progress goal_math += @s goal_temp
 $execute store result storage sa:config goals.$(goal).goal_progress int 1 run scoreboard players get progress goal_math
 

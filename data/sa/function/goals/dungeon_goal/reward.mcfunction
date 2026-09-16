@@ -1,9 +1,3 @@
-# ============================================================================
-# GOAL: Dungeon - Reward
-# Datei: sa:goals/dungeon_goal/reward
-# Version: 1.21.11
-# ============================================================================
-
 # ── Entities entfernen ────────────────────────────────────────────────────
     kill @e[type=interaction,tag=goal_dungeon]
     kill @e[type=text_display,tag=display_dungeon]

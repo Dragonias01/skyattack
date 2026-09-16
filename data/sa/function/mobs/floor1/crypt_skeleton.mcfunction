@@ -3,7 +3,7 @@ id:skeleton,\
 CustomName:[{text:"Crypt skeleton",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],Tags:[dungeon_mob],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:0.8f},{id:attack_damage,base:2.5f}],\
-DeathLootTable:"sa:dungeon/mobs/crypt_skeleton"\
+DeathLootTable:"sa:dungeon/floor1/mobs/crypt_skeleton"\
 }] 1
 
 give @p trial_spawner[minecraft:block_entity_data=\
@@ -14,7 +14,7 @@ CustomName:[{text:"Crypt skeleton ",color:red},{text:"[",color:gray},{text:"LVL:
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:0.8f},\
 {id:attack_damage,base:2.5f}],\
-DeathLootTable:"sa:dungeon/mobs/crypt_skeleton"}},\
+DeathLootTable:"sa:dungeon/floor1/mobs/crypt_skeleton"}},\
 normal_config:\
 {spawn_range:4,\
 total_mobs:4.0f,\

@@ -1,7 +1,3 @@
-# LEADERBOARD SORT: Farming
-# Datei: sa:leaderboard/farming/sort
-# Version: 1.21.11
-
 scoreboard players reset @a lb_far_name
 
 execute as @a unless score @s lb_far_slot matches 1..5 run function sa:leaderboard/farming/assign_slot

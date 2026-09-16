@@ -1,10 +1,3 @@
-# ============================================================================
-# SERVER KONSTANTEN
-# Datei: sa:setup/constants
-# Version: 1.21.11
-# Wird von load.mcfunction als ERSTE Funktion aufgerufen (immer, kein Guard).
-# Enthält alle server-seitigen Konstanten an einer einzigen Stelle.
-# ============================================================================
 
 # ── Allgemeine Zahlen ─────────────────────────────────────────────────────
     scoreboard objectives add one dummy

@@ -1,7 +1,3 @@
-# LEADERBOARD: Swap (Macro) für Farming
-# Datei: sa:leaderboard/farming/do_swap
-# Version: 1.21.11
-
 $scoreboard players operation lb_far_swap_tmp lb_far_score = $(a) lb_far_score
 $scoreboard players operation $(a) lb_far_score = $(b) lb_far_score
 $scoreboard players operation $(b) lb_far_score = lb_far_swap_tmp lb_far_score

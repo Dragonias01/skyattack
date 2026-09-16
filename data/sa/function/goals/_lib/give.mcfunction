@@ -1,10 +1,3 @@
-# Aufruf aus check.mcfunction:
-#   data modify storage sa:goals_ctx call set value {"goal":"ship_goal"}
-#   function sa:goals/_lib/give with storage sa:goals_ctx call
-#
-# Laedt alle Config-Werte des Goals in einen Kontext und prueft, ob das Goal
-# schon abgeschlossen ist.
-
 $data modify storage sa:goals_ctx ctx set value {"goal":"$(goal)"}
 $data modify storage sa:goals_ctx ctx.item set from storage sa:config goals.$(goal).item
 $data modify storage sa:goals_ctx ctx.item_name set from storage sa:config goals.$(goal).item_name

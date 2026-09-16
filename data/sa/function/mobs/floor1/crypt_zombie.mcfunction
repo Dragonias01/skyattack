@@ -3,7 +3,7 @@ id:zombie,\
 CustomName:[{text:"Crypt Zombie",color:red},{text:"[",color:gray},{text:"LVL: ",color:gray},{text:"10",color:red},{text:"]",color:gray}],Tags:[dungeon_mob],\
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:1.1f},{id:attack_damage,base:3f}],\
-DeathLootTable:"sa:dungeon/mobs/crypt_zombie"\
+DeathLootTable:"sa:dungeon/floor1/mobs/crypt_zombie"\
 }] 1
 
 give @p trial_spawner[minecraft:block_entity_data=\
@@ -16,7 +16,7 @@ CustomName:[{text:"Crypt Zombie ",color:red},{text:"[",color:gray},{text:"LVL: "
 CustomNameVisible:1b,\
 attributes:[{id:scale,base:1.1f},\
 {id:attack_damage,base:3f}],\
-DeathLootTable:"sa:dungeon/mobs/crypt_zombie"}},\
+DeathLootTable:"sa:dungeon/floor1/mobs/crypt_zombie"}},\
 normal_config:\
 {spawn_range:4,\
 total_mobs:6.0f,\

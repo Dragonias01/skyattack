@@ -1,8 +1,3 @@
-# Wird 1x pro Spieler-Join aus setup/player_init.mcfunction aufgerufen.
-# Ersetzt die alten Zeilen wie:
-#   scoreboard players add server hub_dungeon_cost 50
-# Neuen Goal hinzufuegen? -> hier einfach eine Zeile ergaenzen.
-
 function sa:goals/_lib/add_player_cost {goal:"ship_goal"}
 function sa:goals/_lib/add_player_cost {goal:"skillroom_goal"}
 function sa:goals/_lib/add_player_cost {goal:"dungeon_goal"}

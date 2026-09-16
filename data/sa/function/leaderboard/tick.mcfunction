@@ -1,7 +1,3 @@
-# LEADERBOARD TICK
-# Datei: sa:leaderboard/tick
-# Version: 1.21.11
-
 scoreboard players add server lb_tick 1
 
 execute if score server lb_tick matches 20 run function sa:leaderboard/logging/update

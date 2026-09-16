@@ -1,7 +1,3 @@
-# LEADERBOARD SORT: Mining
-# Datei: sa:leaderboard/mining/sort
-# Version: 1.21.11
-
 scoreboard players reset @a lb_min_name
 
 execute as @a unless score @s lb_min_slot matches 1..5 run function sa:leaderboard/mining/assign_slot

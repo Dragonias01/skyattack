@@ -1,20 +1,3 @@
-# ============================================================================
-# ISLAND JOIN - Teleportiert Spieler zu ihrer Insel
-# Datei: sa:island/join
-# Version: 1.21.11
-# ============================================================================
-# Insel-Positionen: Kreisförmig, Radius 250, gleichmäßig 45° versetzt
-#
-#  Insel 1:  X=   0  Z=-250  (Nord)
-#  Insel 2:  X= 177  Z=-177  (Nord-Ost)
-#  Insel 3:  X= 250  Z=   0  (Ost)
-#  Insel 4:  X= 177  Z= 177  (Süd-Ost)
-#  Insel 5:  X=   0  Z= 250  (Süd)
-#  Insel 6:  X=-177  Z= 177  (Süd-West)
-#  Insel 7:  X=-250  Z=   0  (West)
-#  Insel 8:  X=-177  Z=-177  (Nord-West)
-# ============================================================================
-
 #island 1 │ Nord  (0 / -250)
 execute as @a[scores={itrigger=21}] unless score @s island matches 0 run tellraw @s [{"text":"[Server] ","color":"yellow"},{"text":"You are already on an island!","color":"red"}]
 execute as @a[scores={itrigger=21}] if score @s island matches 0 if score server i1 matches 0 run tellraw @s [{"text":"[Server] ","color":"yellow"},{"text":"The island has not been created yet!","color":"red"}]

@@ -1,7 +1,3 @@
-# LEADERBOARD SORT: Combat
-# Datei: sa:leaderboard/combat/sort
-# Version: 1.21.11
-
 scoreboard players reset @a lb_com_name
 
 execute as @a unless score @s lb_com_slot matches 1..5 run function sa:leaderboard/combat/assign_slot

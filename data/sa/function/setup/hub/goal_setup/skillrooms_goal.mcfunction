@@ -1,9 +1,3 @@
-# ============================================================================
-# GOAL SETUP: Skill Rooms
-# Datei: sa:setup/hub/goal_setup/skillrooms_goal  |  Version: 1.21.11
-# Kontext: Wird aufgerufen mit "execute in sa:hub run function sa:setup/hub/goal_setup/skillrooms_goal"
-# ============================================================================
-
 # ── Bestehende Entities entfernen (Re-Setup Sicherheit) ───────────────────
     kill @e[type=interaction,tag=goal_skillrooms]
     kill @e[type=text_display,tag=display_skillrooms]

@@ -1,7 +1,3 @@
-# LEADERBOARD: Swap (Macro) für Combat
-# Datei: sa:leaderboard/combat/do_swap
-# Version: 1.21.11
-
 $scoreboard players operation lb_com_swap_tmp lb_com_score = $(a) lb_com_score
 $scoreboard players operation $(a) lb_com_score = $(b) lb_com_score
 $scoreboard players operation $(b) lb_com_score = lb_com_swap_tmp lb_com_score

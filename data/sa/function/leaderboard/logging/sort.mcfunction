@@ -1,7 +1,3 @@
-# LEADERBOARD SORT: Logging
-# Datei: sa:leaderboard/logging/sort
-# Version: 1.21.11
-
 scoreboard players reset @a lb_log_name
 
 execute as @a unless score @s lb_log_slot matches 1..5 run function sa:leaderboard/logging/assign_slot

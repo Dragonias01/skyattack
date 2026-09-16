@@ -1,7 +1,3 @@
-# LEADERBOARD: Swap (Macro) für Logging
-# Datei: sa:leaderboard/logging/do_swap
-# Version: 1.21.11
-
 $scoreboard players operation lb_log_swap_tmp lb_log_score = $(a) lb_log_score
 $scoreboard players operation $(a) lb_log_score = $(b) lb_log_score
 $scoreboard players operation $(b) lb_log_score = lb_log_swap_tmp lb_log_score

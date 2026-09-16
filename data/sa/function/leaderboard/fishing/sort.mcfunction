@@ -1,7 +1,3 @@
-# LEADERBOARD SORT: Fishing
-# Datei: sa:leaderboard/fishing/sort
-# Version: 1.21.11
-
 scoreboard players reset @a lb_fsh_name
 
 execute as @a unless score @s lb_fsh_slot matches 1..5 run function sa:leaderboard/fishing/assign_slot
