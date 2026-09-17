@@ -27,9 +27,5 @@ sell:{id:"minecraft:sweet_berries",count:1,components:{custom_name:[{text:"Forag
 {maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
 buy:{id:"minecraft:oak_wood",count:45,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
 sell:{id:"minecraft:gray_dye",count:1,components:{"minecraft:item_model":"minecraft:nether_star",custom_name:[{text:"XP Catalyst",italic:false,color:dark_purple}],lore:[[{text:"Extracts Experience Points from blocks when held in inventory.",italic:false,color:gray}],"",[{text:Epic,bold:true,italic:false,color:dark_purple}]],item_name:[{text:"xp_katalysator",italic:false}]}}},\
-{maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0,\
-buy:{id:"minecraft:oak_wood",count:10,components:{custom_name:[{text:"Double Compressed Log",italic:false,color:blue}],lore:[[{text:"Double Compressed Log",italic:false,color:dark_aqua}],"",[{text:Rare,bold:true,italic:false,color:blue}]],item_name:[{text:"double_compressed_log",italic:false}]}},\
-sell:{id:"minecraft:trial_key",count:1,components:{custom_name:[{text:"Dungeon Key",italic:false,color:gold}],lore:[[{text:"Opens the First Dungeon",italic:false,color:gray}],"",[{text:Legendary,bold:true,italic:false,color:gold}]],item_name:[{text:"dungeon_key",italic:false}]}}}\
-]}\
-}
+{maxUses:99999,rewardExp:0b,priceMultiplier:0,demand:0,specialPrice:0}]}}
 
